@@ -16,5 +16,14 @@
     "url": "https://viniciusofsilva00-code.github.io/oficina_ia/",
     "status": "online",
     "ordem": 2
+  },
+  {
+    "id": "caramelo_jogo",
+    "nome": "caramelo_jogo",
+    "glifo": "CA",
+    "descricao": "Jogo de plataforma 8-bit com um vira-lata caramelo.",
+    "url": "https://viniciusofsilva00-code.github.io/aventura-do-caramelo/",
+    "status": "online",
+    "ordem": 3
   }
 ]
