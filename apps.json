@@ -1,0 +1,20 @@
+[
+  {
+    "id": "portal_ia",
+    "nome": "portal_ia",
+    "glifo": "IA",
+    "descricao": "Notícias de IA, atualizado todo dia às 08:00 BRT.",
+    "url": null,
+    "status": "em construção",
+    "ordem": 1
+  },
+  {
+    "id": "oficina_ia",
+    "nome": "oficina_ia",
+    "glifo": "OF",
+    "descricao": "Projetos de marcenaria a partir de fotos.",
+    "url": "https://viniciusofsilva00-code.github.io/oficina_ia/",
+    "status": "online",
+    "ordem": 2
+  }
+]

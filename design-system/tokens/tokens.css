@@ -1,0 +1,147 @@
+/* vini_lab · design tokens · v1.0 · 2026-10-24
+   Fonte da verdade: tokens herdados do CSS do portal_ia (24/10/2026), usados 1:1.
+   Tokens novos estão marcados com  [novo]. Qualquer desvio está em manual.html#decisoes.
+   Fontes (Google Fonts): Inter 400/500/600, Space Grotesk 500/600/700, JetBrains Mono 500/700. */
+
+:root,
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  /* ---- cor · herdado 1:1 do portal ---- */
+  --bg: #fafafa;
+  --surface: #fff;
+  --fg: #0a0a0a;
+  --muted: #5c5c66;
+  --line: #e7e7ec;
+  --grid: #0a0a0a0b;
+  --neon: #ff2bd6;
+  --neon-strong: #e6007e;
+  --neon-soft: #ff2bd61a;
+  --neon-halo: #ff2bd640;   /* [novo] halo radial do card destaque */
+  --glow: 0 0 0 1px #ff2bd659, 0 8px 30px -10px #ff2bd68c;
+
+  /* ---- cor · superfície invertida (card destaque) · herdado ---- */
+  --inverse-bg: #0a0a0a;
+  --inverse-fg: #f4f4f5;
+  --inverse-muted: #c9c9d1;
+
+  /* ---- cor · papéis semânticos [novo, apontam para tokens herdados] ---- */
+  --text: var(--fg);
+  --text-muted: var(--muted);
+  --accent: var(--neon);               /* ornamento, ícone, texto >= 24px */
+  --accent-text: var(--neon-strong);   /* texto grande; texto corrido só sobre --surface */
+  --on-accent: #0a0a0a;                /* texto sobre --neon (6,19:1) [novo] */
+  --selection-bg: var(--neon);
+  --selection-fg: #0a0a0a;             /* [evolução] portal usa #fff (3,2:1) */
+  --chip-bg: var(--fg);
+  --chip-glyph: var(--neon);
+  --chip-ring: transparent;
+  --focus: var(--neon-strong);
+
+  /* ---- layout · herdado ---- */
+  --max: 72rem;
+  --texto: 42rem;
+
+  /* ---- tipografia · herdado ---- */
+  --sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --display: "Space Grotesk", var(--sans);
+  --mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+
+  /* ---- tipografia · escala [novo · razão 1.25, base 16px] ---- */
+  --fs-xs: .72rem;    /* tag (herdado) */
+  --fs-sm: .875rem;
+  --fs-status: .75rem; /* status (herdado) */
+  --fs-base: 1rem;
+  --fs-md: 1.25rem;
+  --fs-lg: 1.563rem;
+  --fs-xl: 1.953rem;
+  --fs-2xl: 2.441rem;
+  --fs-3xl: clamp(2.2rem, 5vw + 1rem, 3.815rem);
+  --lh-tight: 1.1;
+  --lh-snug: 1.3;
+  --lh-body: 1.6;
+  --track-mark: -0.02em; /* herdado: marca em mono 700 */
+  --track-display: -0.025em;
+
+  /* ---- espaço [novo · base 4px; 8 = 1/4 do grid de 32] ---- */
+  --s-1: 4px;  --s-2: 8px;  --s-3: 12px; --s-4: 16px;
+  --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 64px; --s-9: 96px;
+
+  /* ---- grid de fundo · herdado ---- */
+  --grid-size: 32px;
+  --grid-bg:
+    linear-gradient(var(--grid) 1px, transparent 1px) 0 0 / var(--grid-size) var(--grid-size),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px) 0 0 / var(--grid-size) var(--grid-size),
+    var(--bg);
+
+  /* ---- raios · herdado ---- */
+  --r-tag: 6px;
+  --r-chip: 8px;
+  --r-card: 14px;
+  --r-btn: 10px;   /* [novo] entre tag e card */
+
+  /* ---- sombra · herdado + [novo] ---- */
+  --chip-shadow: 0 0 18px -4px var(--neon);
+  --shadow-1: 0 1px 2px #0a0a0a0f;   /* [novo] repouso */
+
+  /* ---- marcadores · herdado ---- */
+  --card-bar: 36px 3px;              /* barra neon no topo do card */
+  --header-line: linear-gradient(90deg, transparent, var(--neon), transparent);
+  --header-line-opacity: .6;
+  --highlight: linear-gradient(transparent 62%, #ff2bd659 62%); /* neon 35% nos 38% inferiores */
+
+  /* ---- motion · herdado + [novo] ---- */
+  --cursor-blink: 1.1s step-end infinite;
+  --lift: -3px;
+  --dur-1: 120ms;
+  --dur-2: 200ms;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+}
+
+/* ---- tema escuro [novo] · derivado do card destaque ---- */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0a0a0a;
+  --surface: #141417;
+  --fg: #f4f4f5;
+  --muted: #c9c9d1;
+  --line: #2e2e35;
+  --grid: #ffffff0b;
+  --neon: #ff2bd6;
+  --neon-strong: #ff5ce0;   /* #e6007e cai p/ 4,4:1 no escuro; #ff5ce0 = 7,41:1 */
+  --neon-soft: #ff2bd61f;
+  --glow: 0 0 0 1px #ff2bd666, 0 8px 30px -10px #ff2bd6a6;
+  --inverse-bg: #1c0b19;    /* destaque no escuro: preto tingido de neon */
+  --inverse-fg: #f4f4f5;
+  --inverse-muted: #c9c9d1;
+  --chip-bg: #141417;
+  --chip-ring: #ff2bd659;
+  --shadow-1: 0 1px 2px #0000004d;
+  --highlight: linear-gradient(transparent 62%, #ff2bd673 62%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0a0a0a;
+    --surface: #141417;
+    --fg: #f4f4f5;
+    --muted: #c9c9d1;
+    --line: #2e2e35;
+    --grid: #ffffff0b;
+    --neon-strong: #ff5ce0;
+    --neon-soft: #ff2bd61f;
+    --glow: 0 0 0 1px #ff2bd666, 0 8px 30px -10px #ff2bd6a6;
+    --inverse-bg: #1c0b19;    /* destaque no escuro: preto tingido de neon */
+    --inverse-fg: #f4f4f5;
+    --inverse-muted: #c9c9d1;
+    --chip-bg: #141417;
+    --chip-ring: #ff2bd659;
+    --shadow-1: 0 1px 2px #0000004d;
+    --highlight: linear-gradient(transparent 62%, #ff2bd673 62%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --cursor-blink: none; --lift: 0px; --dur-1: 0ms; --dur-2: 0ms; }
+}

@@ -1,0 +1,148 @@
+/* vini_lab · componentes base · v1.0
+   Requer ../tokens/tokens.css. Só usa tokens: nenhuma cor, raio ou fonte solta. */
+
+/* ---------- base ---------- */
+.vl-body {
+  margin: 0;
+  background: var(--grid-bg);
+  background-attachment: fixed;
+  color: var(--text);
+  font: 400 var(--fs-base)/var(--lh-body) var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+.vl-body ::selection { background: var(--selection-bg); color: var(--selection-fg); }
+.vl-body :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: var(--r-tag); }
+
+/* ---------- marca (chip + nome + cursor) ---------- */
+.vl-mark {
+  display: inline-flex; align-items: center; gap: var(--s-3);
+  font: 700 var(--fs-md)/1 var(--mono); letter-spacing: var(--track-mark);
+  color: var(--text); text-decoration: none;
+}
+.vl-chip {
+  width: 30px; height: 30px; flex: none; display: grid; place-items: center;
+  border-radius: var(--r-chip); background: var(--chip-bg); color: var(--chip-glyph);
+  box-shadow: inset 0 0 0 1px var(--chip-ring), var(--chip-shadow);
+}
+.vl-chip svg { width: 100%; height: 100%; display: block; }
+.vl-cursor {
+  display: inline-block; width: .5em; height: .74em; margin-left: .12em;
+  background: var(--neon); transform: translateY(.04em);
+  animation: vl-blink var(--cursor-blink);
+}
+@keyframes vl-blink { 50% { opacity: 0; } }
+
+/* ---------- header ---------- */
+.vl-header {
+  position: sticky; top: 0; z-index: 10;
+  background: color-mix(in srgb, var(--bg) 86%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.vl-header::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 1px;
+  background: var(--header-line); opacity: var(--header-line-opacity);
+}
+.vl-header__in {
+  max-width: var(--max); margin: 0 auto; padding: var(--s-3) var(--s-4);
+  display: flex; align-items: center; justify-content: space-between; gap: var(--s-4);
+}
+.vl-nav { display: flex; gap: var(--s-4); font: 500 var(--fs-sm) var(--mono); }
+.vl-nav a { color: var(--muted); text-decoration: none; }
+.vl-nav a:hover, .vl-nav a[aria-current] { color: var(--text); }
+
+/* ---------- card ---------- */
+.vl-card {
+  position: relative; display: block;
+  background: var(--surface); color: var(--text);
+  border: 1px solid var(--line); border-radius: var(--r-card);
+  padding: var(--s-5); box-shadow: var(--shadow-1);
+  text-decoration: none;
+  transition: transform var(--dur-2) var(--ease), box-shadow var(--dur-2) var(--ease);
+}
+.vl-card::before {
+  content: ""; position: absolute; top: -1px; left: var(--s-5);
+  width: 36px; height: 3px; background: var(--neon); border-radius: 0 0 2px 2px;
+}
+a.vl-card:hover, .vl-card.is-hover { box-shadow: var(--glow); transform: translateY(var(--lift)); }
+.vl-card__title { font: 600 var(--fs-md)/var(--lh-snug) var(--display); letter-spacing: var(--track-display); margin: var(--s-2) 0; }
+.vl-card__meta { font: 500 var(--fs-status) var(--mono); color: var(--muted); }
+.vl-card p { color: var(--muted); margin: 0; }
+
+/* ---------- card destaque ---------- */
+.vl-card--feature {
+  background: var(--inverse-bg); color: var(--inverse-fg); border-color: transparent; overflow: hidden;
+}
+.vl-card--feature::after {
+  content: ""; position: absolute; right: -30%; top: -60%; width: 80%; aspect-ratio: 1;
+  background: radial-gradient(closest-side, var(--neon-soft), transparent), radial-gradient(closest-side, var(--neon-halo), transparent 70%);
+  pointer-events: none;
+}
+.vl-card--feature p, .vl-card--feature .vl-card__meta { color: var(--inverse-muted); }
+.vl-card--feature > * { position: relative; z-index: 1; }
+
+/* ---------- tag ---------- */
+.vl-tag {
+  display: inline-flex; align-items: center; gap: var(--s-1);
+  font: 500 var(--fs-xs)/1 var(--mono); color: var(--muted);
+  padding: 5px 8px; border: 1px solid var(--line); border-radius: var(--r-tag);
+  background: var(--surface);
+}
+.vl-tag--accent { border-color: var(--neon); color: var(--text); background: var(--neon-soft); }
+
+/* ---------- status ---------- */
+.vl-status {
+  display: inline-flex; align-items: center; gap: var(--s-2);
+  font: 500 var(--fs-status)/1 var(--mono); color: var(--text);
+  padding: var(--s-2) var(--s-3); border: 1px solid var(--line); border-radius: var(--r-tag);
+  background: var(--surface);
+}
+.vl-status::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--neon); box-shadow: 0 0 8px var(--neon); }
+.vl-status--off::before { background: var(--muted); box-shadow: none; }
+
+/* ---------- botões ---------- */
+.vl-btn {
+  display: inline-flex; align-items: center; gap: var(--s-2); cursor: pointer;
+  font: 600 var(--fs-sm)/1 var(--mono); letter-spacing: -0.01em;
+  padding: 12px 18px; border-radius: var(--r-btn); border: 1px solid transparent;
+  text-decoration: none;
+  transition: box-shadow var(--dur-1) var(--ease), transform var(--dur-1) var(--ease), border-color var(--dur-1);
+}
+.vl-btn--primary { background: var(--neon); color: var(--on-accent); }
+.vl-btn--primary:hover { box-shadow: var(--glow); transform: translateY(-1px); }
+.vl-btn--secondary { background: var(--surface); color: var(--text); border-color: var(--line); }
+.vl-btn--secondary:hover { border-color: var(--neon); }
+
+/* ---------- link ---------- */
+.vl-link {
+  color: var(--text); text-decoration: underline; text-decoration-color: var(--neon-strong);
+  text-decoration-thickness: 2px; text-underline-offset: 3px;
+}
+.vl-link:hover { background: var(--neon-soft); text-decoration-color: var(--neon); }
+
+/* ---------- h1 com marca-texto ---------- */
+.vl-h1 { font: 700 var(--fs-3xl)/var(--lh-tight) var(--display); letter-spacing: var(--track-display); margin: 0; }
+.vl-mark-text { background: var(--highlight); padding: 0 .06em; }
+
+/* ---------- citação ---------- */
+.vl-quote {
+  margin: 0; padding: var(--s-2) 0 var(--s-2) var(--s-5);
+  border-left: 3px solid var(--neon);
+  font: 500 var(--fs-lg)/var(--lh-snug) var(--display); letter-spacing: var(--track-display); color: var(--text);
+}
+.vl-quote cite { display: block; margin-top: var(--s-3); font: 500 var(--fs-status) var(--mono); font-style: normal; color: var(--muted); }
+
+/* ---------- bloco de código ---------- */
+.vl-code {
+  margin: 0; padding: var(--s-4) var(--s-5); overflow-x: auto;
+  background: var(--inverse-bg); color: var(--inverse-fg);
+  border-radius: var(--r-card); border: 1px solid var(--line);
+  font: 500 var(--fs-sm)/1.7 var(--mono);
+}
+.vl-code .c { color: var(--inverse-muted); }
+.vl-code .k { color: var(--neon); }
+
+@media (prefers-reduced-motion: reduce) {
+  .vl-cursor { animation: none; }
+  .vl-card, .vl-btn { transition: none; }
+}

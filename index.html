@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>vini_lab · central</title>
+<meta name="description" content="Central de aplicações da vini_lab.">
+<link rel="icon" href="design-system/logo/favicon/favicon-16-light.svg" sizes="16x16" type="image/svg+xml">
+<link rel="icon" href="design-system/logo/icon/vini_lab-icon-light.svg" sizes="any" type="image/svg+xml" media="(prefers-color-scheme: light)">
+<link rel="icon" href="design-system/logo/icon/vini_lab-icon-dark.svg" sizes="any" type="image/svg+xml" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="design-system/tokens/tokens.css">
+<link rel="stylesheet" href="design-system/components/components.css">
+<link rel="stylesheet" href="central.css">
+</head>
+<body class="vl-body">
+<header class="vl-header">
+  <div class="vl-header__in">
+    <a class="vl-mark" href="./"><span class="vl-chip" aria-hidden="true"><svg viewBox="0 0 32 32"><path fill="currentColor" d="M5 9 L9 9 L12 18.6 L15 9 L19 9 L14.2 23 L9.8 23 Z M21 19.5 L27 19.5 L27 23 L21 23 Z"/></svg></span>vini_lab<span class="vl-cursor" aria-hidden="true"></span></a>
+    <span class="vl-card__meta">/central</span>
+  </div>
+</header>
+<main class="central">
+  <section class="vl-card vl-card--feature" aria-labelledby="intro-titulo">
+    <span class="vl-card__meta">central · aplicações</span>
+    <h1 class="vl-card__title" id="intro-titulo">O que eu construí e uso, num lugar só.</h1>
+    <p>Cada chip abre uma ferramenta do lab. Status mostra o que já roda e o que ainda está em teste.</p>
+  </section>
+  <section aria-labelledby="apps-titulo">
+    <h2 class="central__h2" id="apps-titulo">// aplicações</h2>
+    <ul class="apps" id="apps" aria-live="polite"></ul>
+    <div id="apps-msg" hidden></div>
+  </section>
+</main>
+<script src="central.js"></script>
+</body>
+</html>
