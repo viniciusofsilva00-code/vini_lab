@@ -25,5 +25,14 @@
     "url": "https://viniciusofsilva00-code.github.io/aventura-do-caramelo/",
     "status": "online",
     "ordem": 3
+  },
+  {
+    "id": "triagem_cv",
+    "nome": "triagem_cv",
+    "glifo": "CV",
+    "descricao": "Triagem de currículos e painel de entrevistas, pelo meu plano Claude ou por API.",
+    "url": "https://viniciusofsilva00-code.github.io/analise-de-curriculo/",
+    "status": "em teste",
+    "ordem": 4
   }
 ]
