@@ -34,5 +34,14 @@
     "url": "https://viniciusofsilva00-code.github.io/analise-de-curriculo/",
     "status": "online",
     "ordem": 4
+  },
+  {
+    "id": "nfs_wiki",
+    "nome": "nfs_wiki",
+    "glifo": "NF",
+    "descricao": "Wiki de fã de Need for Speed, jogo a jogo, com fonte em cada ficha.",
+    "url": "https://viniciusofsilva00-code.github.io/vini_lab/nfs_wiki/",
+    "status": "online",
+    "ordem": 5
   }
 ]
