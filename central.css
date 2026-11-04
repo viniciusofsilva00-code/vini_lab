@@ -68,3 +68,7 @@ a.app:focus-visible .app__chip { transform: translateY(var(--lift)); box-shadow:
 @media (prefers-reduced-motion: reduce) {
   .app__chip { transition: none; }
 }
+
+/* ---------- cabeçalho: meta + botão de tema ---------- */
+.central__acoes { display: flex; align-items: center; gap: var(--s-3); }
+.tema-btn { font: 500 var(--fs-status) var(--mono); padding: var(--s-1) var(--s-3); }

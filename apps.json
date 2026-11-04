@@ -43,5 +43,23 @@
     "url": "https://viniciusofsilva00-code.github.io/vini_lab/nfs_wiki/",
     "status": "online",
     "ordem": 5
+  },
+  {
+    "id": "crm_apae",
+    "nome": "crm_apae",
+    "glifo": "AP",
+    "descricao": "CRM comercial do APAE Digital: funil, propostas e contratos das APAEs.",
+    "url": "https://crm-apae-digital.vercel.app/",
+    "status": "online",
+    "ordem": 6
+  },
+  {
+    "id": "gestao_anchor",
+    "nome": "gestao_anchor",
+    "glifo": "GA",
+    "descricao": "Tráfego pago e estratégia da Anchor: clientes, verbas e prioridades do dia.",
+    "url": "https://gestao-anchor.vercel.app/",
+    "status": "online",
+    "ordem": 7
   }
 ]
