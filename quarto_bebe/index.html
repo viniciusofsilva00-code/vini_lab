@@ -1617,10 +1617,29 @@ function wallFrame(p, x, y, z, ry, w, h, col) {
   const a = new THREE.Mesh(new THREE.PlaneGeometry(w * 0.82, h * 0.82), mat(0xffffff, { map: art })); a.position.set(0, 0, 0.027); g.add(a);
   return g;
 }
-const LUZ = { warm: [], cold: [], ind: [], strips: [], discs: [], btns: [] };
-const stripOn = new THREE.MeshBasicMaterial({ color: 0xffdcaa }), stripOff = new THREE.MeshBasicMaterial({ color: 0xd8d0c4 });
+const LUZ = { warm: [], cold: [], ind: [], strips: [], discs: [], btns: [], glows: [] };
+const stripOn = new THREE.MeshBasicMaterial({ color: 0xffe6bf, toneMapped: false }), stripOff = new THREE.MeshBasicMaterial({ color: 0xd8d0c4 });
+const STRIP_ON = new THREE.Color(0xffe6bf), STRIP_DIM = new THREE.Color(0xb9a68c);
 function ledStrip(p, w, h, d, x, y, z) { const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), stripOn); m.position.set(x, y, z); p.add(m); LUZ.strips.push(m); return m; }
-function indLight(p, x, y, z, i = 0.35, dist = 1.6) { const l = new THREE.PointLight(0xffd29a, i, dist, 2); l.position.set(x, y, z); p.add(l); LUZ.ind.push(l); return l; }
+function indLight(p, x, y, z, i = 0.35, dist = 1.6) { const l = new THREE.PointLight(0xffcf94, i, dist, 2); l.userData.base = i; l.position.set(x, y, z); p.add(l); LUZ.ind.push(l); return l; }
+// "lavado" de luz que a fita de LED projeta na parede: degradê aditivo que some com a distância
+const glowTex = canvasTex(64, 256, (c, w, h) => {
+  const v = c.createLinearGradient(0, 0, 0, h);
+  v.addColorStop(0, 'rgba(255,214,160,1)'); v.addColorStop(0.12, 'rgba(255,206,150,.6)'); v.addColorStop(0.45, 'rgba(255,200,140,.2)'); v.addColorStop(1, 'rgba(255,200,140,0)');
+  c.fillStyle = v; c.fillRect(0, 0, w, h);
+  c.globalCompositeOperation = 'destination-in';
+  const s = c.createLinearGradient(0, 0, w, 0); s.addColorStop(0, 'rgba(0,0,0,0)'); s.addColorStop(0.08, 'rgba(0,0,0,1)'); s.addColorStop(0.92, 'rgba(0,0,0,1)'); s.addColorStop(1, 'rgba(0,0,0,0)');
+  c.fillStyle = s; c.fillRect(0, 0, w, h);
+});
+function ledGlow(p, w, h, x, y, z, op = 0.5, up = false) { // y = borda da fita; desce (ou sobe, se up) h metros
+  const m = new THREE.Mesh(new THREE.PlaneGeometry(w, h), new THREE.MeshBasicMaterial({ map: glowTex, transparent: true, opacity: op, blending: THREE.AdditiveBlending, depthWrite: false, toneMapped: false }));
+  m.position.set(x, up ? y + h / 2 : y - h / 2, z); if (up) m.rotation.z = Math.PI; m.userData.base = op; m.renderOrder = 2; p.add(m); LUZ.glows.push(m); return m;
+}
+// as luzes saem dos grupos de parede/teto (que somem no corte da câmera) para continuarem iluminando
+function fixaLuzes(root) {
+  world.updateMatrixWorld(true);
+  [...LUZ.warm, ...LUZ.cold, ...LUZ.ind].forEach(l => { if (!l.userData.fixa) { root.attach(l); l.userData.fixa = true; } });
+}
 const WALLI = [], CEIL = [];
 // berço tradicional (colchão 130 x 70 cm; externo ~136 x 76 x 95 cm)
 function cribStd(x, z, ry) {
@@ -1654,18 +1673,21 @@ sideTable(opt.tabX, 0.45);
   disc.rotation.x = Math.PI / 2; disc.position.y = -0.052; g.add(disc); LUZ.discs.push(disc);
   const w = new THREE.PointLight(0xffc98a, 1.1, 7, 2); w.position.y = -0.3; g.add(w); LUZ.warm.push(w);
   const c = new THREE.PointLight(0xdbe7ff, 1.1, 7, 2); c.position.y = -0.3; g.add(c); LUZ.cold.push(c);
+  [w, c].forEach(l => { l.shadow.mapSize.set(512, 512); l.shadow.bias = -0.003; l.shadow.radius = 3; l.shadow.camera.near = 0.05; l.shadow.camera.far = 7; });
 })();
 (function () { // LED indireto no cortineiro (sanca da cortina)
   const g = grp(0, 0, 0); WALLI.push([g, 0]); g.__wall = 0; CEIL.push(g);
   box(W, 0.12, 0.3, M.white, W / 2, H - 0.06, 0.15, g).castShadow = false;
   ledStrip(g, W - 0.1, 0.012, 0.02, W / 2, H - 0.125, 0.29);
-  [0.18, 0.5, 0.82].forEach(f => indLight(g, W * f, H - 0.3, 0.25, 0.3, 1.8));
+  [0.12, 0.37, 0.63, 0.88].forEach(f => indLight(g, W * f, H - 0.32, 0.3, 0.55, 2.6));
+  ledGlow(g, W - 0.1, 1.15, W / 2, H - 0.125, 0.17, 0.55);
 })();
 wardrobe(0.29, 1.0, Math.PI / 2, 1.6);
 (function () { // 2 prateleiras + LED embaixo de cada uma
   const len = 1.2, cx = W - 0.06 - 0.65;
   const g = grp(cx, 0, D - 0.12, Math.PI); WALLI.push([g, 3]);
-  [1.55, 1.88].forEach(y => { box(len, 0.03, 0.24, M.white, 0, y, 0, g); ledStrip(g, len - 0.06, 0.008, 0.015, 0, y - 0.02, 0.07); indLight(g, 0, y - 0.12, 0.14, 0.3, 1.2); });
+  [1.55, 1.88].forEach(y => { box(len, 0.03, 0.24, M.white, 0, y, 0, g); ledStrip(g, len - 0.06, 0.008, 0.015, 0, y - 0.02, 0.07); indLight(g, -0.35, y - 0.1, 0.1, 0.4, 1.5); indLight(g, 0.35, y - 0.1, 0.1, 0.4, 1.5);
+    ledGlow(g, len - 0.02, y > 1.7 ? 0.31 : 0.55, 0, y - 0.016, -0.115, 0.5); });
   const a = 1.565, b = 1.895;
   diapers(g, 0.32, a, 0); organizer(g, -0.05, a, 0, 0, 0.85); plant(g, -0.42, a, 0, 0.85);
   bear(g, 0.38, b, 0, 0, 0.9); books(g, 0.05, b, 0, 0, 4); vase(g, -0.38, b, 0);
@@ -1690,7 +1712,8 @@ wardrobe(0.29, 1.0, Math.PI / 2, 1.6);
   for (let z = 0.03; z < D - 0.02; z += 0.06) box(0.035, hR, 0.022, slat, z, hR / 2, 0.023, gR).castShadow = false;
   box(D, 0.03, 0.11, M.oak, D / 2, hR + 0.015, 0.055, gR);
   ledStrip(gR, D - 0.05, 0.01, 0.012, D / 2, hR + 0.036, 0.012);
-  [0.5, 1.4, 2.3].forEach(z => indLight(gR, z, hR + 0.18, 0.08, 0.25, 1.2));
+  [0.35, 1.05, 1.75, 2.45].forEach(z => indLight(gR, z, hR + 0.2, 0.12, 0.4, 1.6));
+  ledGlow(gR, D - 0.04, 0.75, D / 2, hR + 0.03, 0.008, 0.45, true);
   const wp = canvasTex(256, 256, (c, w, h) => {
     c.fillStyle = '#f5ede6'; c.fillRect(0, 0, w, h);
     const cols = ['#e2b9b0', '#c9d3c1', '#e8d3bf'];
@@ -1707,9 +1730,9 @@ wardrobe(0.29, 1.0, Math.PI / 2, 1.6);
 })();
 }
 const pai2G = new THREE.Group(); world.add(pai2G); scene = pai2G;
-buildPai2({ crib: 'cobed', armX: 2.6, tabX: 1.8, frames: [1.5, 1.88, 2.15] });
+buildPai2({ crib: 'cobed', armX: 2.6, tabX: 1.8, frames: [1.5, 1.88, 2.15] }); fixaLuzes(pai2G);
 const pai3G = new THREE.Group(); world.add(pai3G); scene = pai3G;
-buildPai2({ crib: 'std', armX: 2.32, tabX: 1.52, frames: [1.85, 2.15, 2.42], bin: false });
+buildPai2({ crib: 'std', armX: 2.32, tabX: 1.52, frames: [1.85, 2.15, 2.42], bin: false }); fixaLuzes(pai3G);
 const LS = { warm: true, cold: false, ind: true, dim: 100, periodo: P.get('noite') === '1' ? 'noite' : 'dia' };
 const PERIODOS = {
   dia: { hemi: 0.38, amb: 0.12, sun: 0.95, sunC: 0xfff1e0, fill: 0.35, win: 0xfff8ea },
@@ -1718,9 +1741,13 @@ const PERIODOS = {
 };
 function applyLuz() {
   const k = LS.dim / 100;
-  LUZ.warm.forEach(l => l.intensity = LS.warm ? 1.1 * k : 0); LUZ.cold.forEach(l => l.intensity = LS.cold ? 1.1 : 0);
-  LUZ.ind.forEach(l => l.intensity = LS.ind ? 0.3 : 0); LUZ.strips.forEach(m => m.material = LS.ind ? stripOn : stripOff);
-  LUZ.discs.forEach(dd => { const d = dd.material; d.emissiveIntensity = LS.cold ? 1.1 : LS.warm ? 0.25 + 0.85 * k : 0; d.emissive.setHex(LS.warm && LS.cold ? 0xfff0dc : LS.warm ? 0xffc982 : 0xdce8ff); });
+  // o dimmer vale para os três circuitos; só uma luz de teto projeta sombra (estão no mesmo ponto)
+  LUZ.warm.forEach(l => { l.intensity = LS.warm ? 1.1 * k : 0; l.castShadow = LS.warm; });
+  LUZ.cold.forEach(l => { l.intensity = LS.cold ? 1.1 * k : 0; l.castShadow = LS.cold && !LS.warm; });
+  LUZ.ind.forEach(l => l.intensity = LS.ind ? l.userData.base * k : 0);
+  stripOn.color.copy(STRIP_DIM).lerp(STRIP_ON, k); LUZ.strips.forEach(m => m.material = LS.ind ? stripOn : stripOff);
+  LUZ.glows.forEach(m => { m.visible = LS.ind; m.material.opacity = m.userData.base * k; });
+  LUZ.discs.forEach(dd => { const d = dd.material; d.emissiveIntensity = LS.warm || LS.cold ? 0.25 + 0.85 * k : 0; d.emissive.setHex(LS.warm && LS.cold ? 0xfff0dc : LS.warm ? 0xffc982 : 0xdce8ff); });
   LUZ.btns.forEach(b => b.dot.material.color.setHex(LS[b.k] ? b.c : 0x9a958e));
   if (window.__env) { const e = window.__env, p = PERIODOS[LS.periodo]; e.hemi.intensity = p.hemi; e.amb.intensity = p.amb; e.sun.intensity = p.sun; e.sun.color.setHex(p.sunC); e.fill.intensity = p.fill; win.material.color.setHex(p.win); }
   if (window.syncUI) window.syncUI();
@@ -1974,14 +2001,15 @@ function syncUI() {
   document.querySelectorAll('#vbar-list .vchip').forEach(b => { const on = b.dataset.k === curView; b.classList.toggle('on', on); if (on && b.scrollIntoView) b.scrollIntoView({ block: 'nearest', inline: 'center' }); });
   $('btn-side').setAttribute('aria-expanded', document.body.classList.contains('side-open'));
   [['sw-warm', 'warm'], ['sw-cold', 'cold'], ['sw-ind', 'ind']].forEach(([id, k]) => { const b = $(id); b.classList.toggle('on', LS[k]); b.setAttribute('aria-pressed', LS[k]); });
-  $('dim').value = LS.dim; $('dim-v').textContent = LS.dim + '%'; $('dim').disabled = !LS.warm;
+  $('dim').value = LS.dim; $('dim-v').textContent = LS.dim + '%'; $('dim').disabled = !(LS.warm || LS.cold || LS.ind);
   seg('periodo', [['dia', 'Dia'], ['entardecer', 'Entardecer'], ['noite', 'Noite']], LS.periodo, k => { LS.periodo = k; applyLuz(); });
   seg('tema', [['auto', 'Auto'], ['light', 'Claro'], ['dark', 'Escuro']], document.documentElement.dataset.theme || 'auto', k => { if (k === 'auto') { delete document.documentElement.dataset.theme; try { localStorage.removeItem('vl_tema'); } catch (e) {} } else { document.documentElement.dataset.theme = k; try { localStorage.setItem('vl_tema', k); } catch (e) {} } applyTheme(); });
   [['op-labels', 'labels'], ['op-dims', 'dims'], ['op-cut', 'cut'], ['op-spin', 'spin']].forEach(([id, k]) => { $(id).checked = OPT[k]; });
   document.body.classList.toggle('dims', OPT.dims);
   document.body.classList.toggle('is-planta', camera === ortho);
   if ($('z-val')) $('z-val').textContent = camera === ortho ? Math.round(ortho.zoom * 100) + '%' : '3D';
-  const luzOn = [LS.warm && 'quente' + (LS.dim < 100 ? ' ' + LS.dim + '%' : ''), LS.cold && 'fria', LS.ind && 'indiretas'].filter(Boolean);
+  const luzOn = [LS.warm && 'quente', LS.cold && 'fria', LS.ind && 'indiretas'].filter(Boolean);
+  if (luzOn.length && LS.dim < 100) luzOn[luzOn.length - 1] += ' ' + LS.dim + '%';
   $('st-luz').textContent = document.body.classList.contains('no-luz') ? 'natural · ' + LS.periodo : (luzOn.length ? luzOn.join(' + ') : 'apagadas');
 }
 const ICON = {
@@ -2063,7 +2091,7 @@ function tick() {
   window.__curtain.visible = topWall.visible; window.__shelfR.visible = walls[2].g.visible; window.__shelfB.visible = walls[3].g.visible;
   window.__shelfB3.visible = walls[3].g.visible; window.__frames3.visible = walls[1].g.visible;
   WALLI.forEach(([g, i]) => g.visible = walls[i].g.visible);
-  CEIL.forEach(g => g.visible = (g.__wall === undefined || walls[g.__wall].g.visible) && camera !== ortho && cp.y < H);
+  CEIL.forEach(g => g.visible = (g.__wall === undefined || walls[g.__wall].g.visible) && camera !== ortho && cp.y < H); // só a peça some; as luzes ficam (fixaLuzes)
   const vis3 = { shelfB: window.__shelfB.visible, shelfR: window.__shelfR.visible, shelfB3: window.__shelfB3.visible, curtain: window.__curtain.visible, p2shelf: walls[3].g.visible, p2framesB: walls[3].g.visible, p2framesR: walls[2].g.visible };
   renderer.render(world, camera);
   const { w, h } = SZ(), now = performance.now();
