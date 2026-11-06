@@ -61,5 +61,14 @@
     "url": "https://gestao-anchor.vercel.app/",
     "status": "online",
     "ordem": 7
+  },
+  {
+    "id": "quarto_bebe",
+    "nome": "quarto_bebe",
+    "glifo": "QB",
+    "descricao": "Quarto da bebê em 3D: layout, luzes e medidas, vista a vista.",
+    "url": "https://viniciusofsilva00-code.github.io/vini_lab/quarto_bebe/",
+    "status": "em teste",
+    "ordem": 8
   }
 ]
