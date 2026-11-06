@@ -1772,7 +1772,7 @@ const CASA = {
   cozFrac: 0.5,     // fração da profundidade do bloco que é cozinha (o resto é sala)
   quarto: 3.05,     // largura do quarto principal (à direita do bebê)
   extTopo: 0.9,     // faixa externa em cima (lavanderia coberta + área sem cobertura)
-  lavAte: 1.2,      // x onde termina a cobertura da lavanderia
+  lavAte: 3.1,      // x onde termina a cobertura da lavanderia
   extDir: 1.3,      // faixa externa à direita do quarto principal
   corredor: 0.8,    // largura do corredor (embaixo)
   muro: 1.8,        // altura do muro da área externa
@@ -1782,19 +1782,19 @@ const X = (() => {
   const xB1 = -T, xB0 = xB1 - CASA.banho, xK1 = xB0 - T, xK0 = xK1 - CASA.cozSala;
   const xQ0 = W + T, xQ1 = xQ0 + CASA.quarto, xE0 = xQ1 + T, xE1 = xE0 + CASA.extDir;
   const zE1 = -T, zE0 = zE1 - CASA.extTopo, zC0 = D + T, zC1 = zC0 + CASA.corredor;
-  const zM = zE0 + (zC1 - zE0) * CASA.cozFrac, xCe = xQ0 + 0.9; // fim do corredor: logo depois da porta do quarto principal
+  const zM = zE0 + (zC1 - zE0) * CASA.cozFrac, xCe = W; // corredor termina na porta do quarto principal (o quarto desce até o fundo do corredor)
   return { xB0, xB1, xK0, xK1, xQ0, xQ1, xE0, xE1, zE0, zE1, zC0, zC1, zM, xCe };
 })();
 // cômodos: rects [x0, x1, z0, z1]; vista = de dentro, na altura dos olhos
 const ROOMS = [
   { k: 'bebe', name: 'Quarto da bebê', rects: [[0, W, 0, D]] },
-  { k: 'quarto', name: 'Quarto principal', rects: [[X.xQ0, X.xQ1, 0, D]], piso: 'madeira' },
+  { k: 'quarto', name: 'Quarto principal', rects: [[X.xQ0, X.xQ1, 0, X.zC1]], piso: 'madeira' },
   { k: 'banho', name: 'Banheiro', rects: [[X.xB0, X.xB1, 0, D]], piso: 'ladrilho' },
   { k: 'corredor', name: 'Corredor', rects: [[X.xK1, X.xCe, X.zC0, X.zC1]], piso: 'madeira' },
   { k: 'sala', name: 'Sala', rects: [[X.xK0, X.xK1, X.zM, X.zC1]], piso: 'madeira' },
   { k: 'cozinha', name: 'Cozinha', rects: [[X.xK0, X.xK1, X.zE0, X.zM]], piso: 'ladrilho' },
   { k: 'lavanderia', name: 'Lavanderia', sub: 'área coberta', rects: [[X.xB0, CASA.lavAte, X.zE0, X.zE1]], piso: 'ladrilho' },
-  { k: 'externo', name: 'Quintal', sub: 'descoberto, com muro', rects: [[CASA.lavAte, X.xE1, X.zE0, X.zE1], [X.xE0, X.xE1, X.zE1, X.zC1], [X.xCe + T, X.xE0, X.zC0, X.zC1]], piso: 'cimento' },
+  { k: 'externo', name: 'Quintal', sub: 'descoberto, com muro', rects: [[CASA.lavAte, X.xE1, X.zE0, X.zE1], [X.xE0, X.xE1, X.zE1, X.zC1]], piso: 'cimento' },
 ];
 const ROOM = Object.fromEntries(ROOMS.map(r => [r.k, r]));
 const HC = []; // forros dos cômodos novos (somem quando a câmera sobe acima do pé-direito)
@@ -1843,15 +1843,15 @@ const jan = (u, w, y0 = 0.95, y1 = 2.15) => [u - w / 2, u + w / 2, y0, y1, 'jane
 const porta = (u0, w) => [u0, u0 + w, 0, 2.1, 'porta'];
 // cozinha + sala
 cwall('z', X.xK0 - T / 2, X.zE0 - T, X.zM, null, 'cozinha', [jan((X.zE0 + X.zM) / 2, 1.2)]);
-cwall('z', X.xK0 - T / 2, X.zM, X.zC1 + T, null, 'sala', [jan((X.zM + X.zC1) / 2, 1.2)]);
+cwall('z', X.xK0 - T / 2, X.zM, X.zC1 + T, null, 'sala', [jan((X.zM + X.zC1 - 1) / 2, 1.2), porta(X.zC1 - 0.95, 0.9)]); // porta de entrada no canto de baixo
 cwall('x', X.zE0 - T / 2, X.xK0 - T, X.xK1 + T, null, 'cozinha');
 cwall('z', X.xK1 + T / 2, X.zE0, X.zE1, 'cozinha', 'lavanderia', [porta(X.zE0 + 0.1, 0.7)]);
 cwall('z', X.xK1 + T / 2, X.zE1, X.zM, 'cozinha', 'banho');
 cwall('z', X.xK1 + T / 2, X.zM, X.zC0, 'sala', 'banho');
-cwall('x', X.zC1 + T / 2, X.xK0 - T, X.xK1, 'sala', null, [porta(X.xK0 + 0.15, 0.9)]); // porta de entrada
+cwall('x', X.zC1 + T / 2, X.xK0 - T, X.xK1, 'sala', null);
 // corredor
 cwall('x', X.zC1 + T / 2, X.xK1, X.xCe + T, 'corredor', null);
-cwall('z', X.xCe + T / 2, X.zC0, X.zC1, 'corredor', 'externo');
+cwall('z', X.xCe + T / 2, X.zC0, X.zC1, 'corredor', 'quarto', [porta(X.zC0 + 0.05, 0.7)]); // porta do quarto principal
 // banheiro
 cwall('x', -T / 2, X.xB0, X.xB1, 'lavanderia', 'banho', [jan((X.xB0 + X.xB1) / 2, 0.6, 1.5, 2.1)]);
 cwall('x', D + T / 2, X.xB0, X.xB1, 'banho', 'corredor', [porta(X.xB0 + 0.15, 0.7)]);
@@ -1862,13 +1862,12 @@ cwall('x', -T / 2, -T, W + T, ['lavanderia', 'externo'], 'bebe', [], { semBebe: 
 cwall('x', D + T / 2, -T, W + T, 'bebe', 'corredor', [[doorX0, doorX1, 0, doorH, 'porta']], { semBebe: true });
 // quarto principal
 cwall('x', -T / 2, W + T, X.xQ1 + T, 'externo', 'quarto', [jan((X.xQ0 + X.xQ1) / 2, 1.5)]);
-cwall('z', X.xQ1 + T / 2, -T, D + T, 'quarto', 'externo');
-cwall('x', D + T / 2, W + T, X.xCe + T, 'quarto', 'corredor', [porta(X.xQ0 + 0.06, 0.7)]);
-cwall('x', D + T / 2, X.xCe + T, X.xQ1 + T, 'quarto', 'externo');
+cwall('z', X.xQ1 + T / 2, -T, X.zC1 + T, 'quarto', 'externo');
+cwall('x', X.zC1 + T / 2, W + T, X.xQ1 + T, 'quarto', null);
 // muro da área externa
 cwall('x', X.zE0 - T / 2, X.xK1 + T, X.xE1 + T, null, ['lavanderia', 'externo'], [], { h: CASA.muro, muro: true });
 cwall('z', X.xE1 + T / 2, X.zE0 - T, X.zC1 + T, 'externo', null, [], { h: CASA.muro, muro: true });
-cwall('x', X.zC1 + T / 2, X.xCe + T, X.xE1 + T, 'externo', null, [], { h: CASA.muro, muro: true }); // muro de baixo do quintal
+cwall('x', X.zC1 + T / 2, X.xQ1 + T, X.xE1 + T, 'externo', null, [], { h: CASA.muro, muro: true }); // muro de baixo do quintal
 
 const ROOMON = Object.fromEntries(ROOMS.map(r => [r.k, true]));
 function bounds() {
