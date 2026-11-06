@@ -89,6 +89,8 @@ input[type=range]:disabled{opacity:.4}
 .tog input::after{content:"";position:absolute;top:2px;left:2px;width:16px;height:16px;border-radius:50%;background:var(--surface);box-shadow:0 1px 2px #0003;transition:transform .12s}
 .tog input:checked{background:var(--neon)}
 .tog input:checked::after{transform:translateX(16px)}
+.rbtns{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}.rbtns .hbtn{height:32px;padding:0 10px}
+.rrow{display:flex;align-items:center;gap:10px}.rrow .tog{flex:1;min-width:0}.rrow .ir{height:30px;padding:0 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);cursor:pointer;font:500 .72rem/1 var(--mono);flex:none}.rrow .ir:hover{border-color:var(--neon)}
 .icat{font:500 .7rem/1 var(--mono);color:var(--muted);margin:14px 0 6px}
 .icat:first-child{margin-top:0}
 .irow{display:flex;justify-content:space-between;align-items:baseline;gap:10px;width:100%;text-align:left;padding:8px 10px;border:0;border-radius:10px;background:transparent;cursor:pointer}
@@ -161,6 +163,12 @@ body.bare #stage,body.bare #labels{top:0;left:0}
   <section class="sec">
     <p class="eyebrow"><span>versões</span><button id="btn-close" aria-label="Fechar controles"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button></p>
     <div class="vgrid" id="vers-s"></div>
+  </section>
+  <section class="sec">
+    <p class="eyebrow"><span>cômodos · ligar e ir</span></p>
+    <div class="rbtns"><button class="hbtn" id="rm-all">todos</button><button class="hbtn" id="rm-bebe">só o bebê</button><button class="hbtn" id="rm-casa">ver casa toda</button></div>
+    <div id="comodos"></div>
+    <p class="note">Cômodos novos vazios, medidas estimadas pelo esboço. «ir» leva a câmera para dentro do cômodo.</p>
   </section>
   <section class="sec">
     <p class="eyebrow"><span>vistas</span></p>
@@ -1268,6 +1276,7 @@ const startView = P.get('view') || 'iso';
 
 const world = new THREE.Scene();
 let scene = world;
+const bebeG = new THREE.Group(); world.add(bebeG); scene = bebeG; // tudo do quarto da bebê (liga/desliga no menu de cômodos)
 world.background = new THREE.Color(0xf2eee8);
 const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
@@ -1319,7 +1328,7 @@ const floor = new THREE.Mesh(new THREE.PlaneGeometry(W, D), mat(0xffffff, { map:
 floor.rotation.x = -Math.PI / 2; floor.position.set(W / 2, 0, D / 2); floor.receiveShadow = true; scene.add(floor);
 // ground around
 const ground = new THREE.Mesh(new THREE.PlaneGeometry(40, 40), mat(0xe9e4dc, { roughness: 1 }));
-ground.rotation.x = -Math.PI / 2; ground.position.set(W / 2, -0.01, D / 2); ground.receiveShadow = true; scene.add(ground);
+ground.rotation.x = -Math.PI / 2; ground.position.set(W / 2, -0.01, D / 2); ground.receiveShadow = true; world.add(ground);
 
 // ---------- walls (cutaway) ----------
 const walls = [];
@@ -1566,7 +1575,7 @@ function wardrobe(x, z, ry, len = 1.5, dep = 0.55, ht = 2.2) {
 }
 
 // ================= VERSÃO DO PAI =================
-const paiG = new THREE.Group(); world.add(paiG); scene = paiG;
+const paiG = new THREE.Group(); bebeG.add(paiG); scene = paiG;
 rug(2.6, 1.35, 2.35, 1.35);
 crib(W - 0.78, 0.52, 0);
 commode(W - 0.06 - 2.2 / 2, 2.2);
@@ -1576,7 +1585,7 @@ sideTable(1.55, 0.46);
 floorLamp(0.27, 1.55);
 
 // ================= VERSÃO DA MÃE =================
-const maeG = new THREE.Group(); world.add(maeG); scene = maeG;
+const maeG = new THREE.Group(); bebeG.add(maeG); scene = maeG;
 rug(2.3, 1.1, 2.2, 1.5);
 crib(0.4, 0.92, -Math.PI / 2);
 armchair(1.18, 0.65, 0);
@@ -1586,7 +1595,7 @@ commode(2.11, 1.5);
 wardrobe(W - 0.29, 1.85, -Math.PI / 2);
 
 // ================= VERSÃO FINAL (combinada) =================
-const finalG = new THREE.Group(); world.add(finalG); scene = finalG;
+const finalG = new THREE.Group(); bebeG.add(finalG); scene = finalG;
 rug(2.0, 1.3, 2.45, 1.35);
 floorLamp(0.3, 0.36);
 armchair(1.02, 0.8, Math.PI / 4);
@@ -1730,9 +1739,9 @@ wardrobe(0.29, 1.0, Math.PI / 2, 1.6);
   const fz = opt.frames; frame(gR, fz[0], hR + 0.03, 0.06, 0, 0.34, 0.44, 0xe7c6c0); frame(gR, fz[1], hR + 0.03, 0.06, 0, 0.24, 0.32, 0xa8b89f); frame(gR, fz[2], hR + 0.03, 0.06, 0, 0.2, 0.26, 0xb9c8d4);
 })();
 }
-const pai2G = new THREE.Group(); world.add(pai2G); scene = pai2G;
+const pai2G = new THREE.Group(); bebeG.add(pai2G); scene = pai2G;
 buildPai2({ crib: 'cobed', armX: 2.6, tabX: 1.8, frames: [1.5, 1.88, 2.15] }); fixaLuzes(pai2G);
-const pai3G = new THREE.Group(); world.add(pai3G); scene = pai3G;
+const pai3G = new THREE.Group(); bebeG.add(pai3G); scene = pai3G;
 buildPai2({ crib: 'std', armX: 2.32, tabX: 1.52, frames: [1.85, 2.15, 2.42], bin: false }); fixaLuzes(pai3G);
 const LS = { warm: true, cold: false, ind: true, dim: 100, periodo: P.get('noite') === '1' ? 'noite' : 'dia' };
 const PERIODOS = {
@@ -1754,6 +1763,140 @@ function applyLuz() {
   if (window.syncUI) window.syncUI();
 }
 scene = world;
+
+// ================= CASA (cômodos em volta do quarto da bebê, vazios por enquanto) =================
+// Medidas estimadas pelo esboço: ajuste aqui. Origem = canto do quarto da bebê na parede da cortina (z = 0); x cresce para a direita, z para a porta.
+const CASA = {
+  banho: 1.25,      // largura do banheiro (à esquerda do bebê)
+  cozSala: 2.45,    // largura do bloco cozinha + sala (mais à esquerda)
+  cozFrac: 0.5,     // fração da profundidade do bloco que é cozinha (o resto é sala)
+  quarto: 3.05,     // largura do quarto principal (à direita do bebê)
+  extTopo: 0.9,     // faixa externa em cima (lavanderia coberta + área sem cobertura)
+  lavAte: 1.2,      // x onde termina a cobertura da lavanderia
+  extDir: 1.3,      // faixa externa à direita do quarto principal
+  corredor: 0.8,    // largura do corredor (embaixo)
+  muro: 1.8,        // altura do muro da área externa
+};
+const casaG = new THREE.Group(); world.add(casaG);
+const X = (() => {
+  const xB1 = -T, xB0 = xB1 - CASA.banho, xK1 = xB0 - T, xK0 = xK1 - CASA.cozSala;
+  const xQ0 = W + T, xQ1 = xQ0 + CASA.quarto, xE0 = xQ1 + T, xE1 = xE0 + CASA.extDir;
+  const zE1 = -T, zE0 = zE1 - CASA.extTopo, zC0 = D + T, zC1 = zC0 + CASA.corredor;
+  const zM = zE0 + (zC1 - zE0) * CASA.cozFrac, xCe = xQ0 + 0.9; // fim do corredor: logo depois da porta do quarto principal
+  return { xB0, xB1, xK0, xK1, xQ0, xQ1, xE0, xE1, zE0, zE1, zC0, zC1, zM, xCe };
+})();
+// cômodos: rects [x0, x1, z0, z1]; vista = de dentro, na altura dos olhos
+const ROOMS = [
+  { k: 'bebe', name: 'Quarto da bebê', rects: [[0, W, 0, D]] },
+  { k: 'quarto', name: 'Quarto principal', rects: [[X.xQ0, X.xQ1, 0, D]], piso: 'madeira' },
+  { k: 'banho', name: 'Banheiro', rects: [[X.xB0, X.xB1, 0, D]], piso: 'ladrilho' },
+  { k: 'corredor', name: 'Corredor', rects: [[X.xK1, X.xCe, X.zC0, X.zC1]], piso: 'madeira' },
+  { k: 'sala', name: 'Sala', rects: [[X.xK0, X.xK1, X.zM, X.zC1]], piso: 'madeira' },
+  { k: 'cozinha', name: 'Cozinha', rects: [[X.xK0, X.xK1, X.zE0, X.zM]], piso: 'ladrilho' },
+  { k: 'lavanderia', name: 'Lavanderia', sub: 'área coberta', rects: [[X.xB0, CASA.lavAte, X.zE0, X.zE1]], piso: 'ladrilho' },
+  { k: 'externo', name: 'Quintal', sub: 'descoberto, com muro', rects: [[CASA.lavAte, X.xE1, X.zE0, X.zE1], [X.xE0, X.xE1, X.zE1, X.zC1], [X.xCe + T, X.xE0, X.zC0, X.zC1]], piso: 'cimento' },
+];
+const ROOM = Object.fromEntries(ROOMS.map(r => [r.k, r]));
+const HC = []; // forros dos cômodos novos (somem quando a câmera sobe acima do pé-direito)
+const PISO = { madeira: ['#d9c3a3', 0], ladrilho: ['#dcdad5', 0.3], cimento: ['#c7c2b8', 0] };
+ROOMS.forEach(r => {
+  r.g = new THREE.Group(); (r.k === 'bebe' ? world : casaG).add(r.g);
+  if (r.k === 'bebe') { r.g.add(bebeG); return; }
+  const [cor, lad] = PISO[r.piso];
+  r.rects.forEach(([x0, x1, z0, z1], i) => {
+    const w = x1 - x0, d = z1 - z0, ppm = 128;
+    const tex = canvasTex(Math.round(w * ppm), Math.round(d * ppm), (g, cw, ch) => {
+      g.fillStyle = cor; g.fillRect(0, 0, cw, ch);
+      if (lad) { g.strokeStyle = 'rgba(0,0,0,.08)'; g.lineWidth = 2; for (let x = 0; x < cw; x += lad * ppm) { g.beginPath(); g.moveTo(x, 0); g.lineTo(x, ch); g.stroke(); } for (let y = 0; y < ch; y += lad * ppm) { g.beginPath(); g.moveTo(0, y); g.lineTo(cw, y); g.stroke(); } }
+      if (i) return; // nome só no primeiro trecho
+      const f = Math.min(34, cw / (r.name.length * 0.62)); g.fillStyle = 'rgba(60,50,40,.55)'; g.textAlign = 'center'; g.textBaseline = 'middle';
+      g.font = `600 ${f}px Inter, system-ui, sans-serif`; g.fillText(r.name, cw / 2, ch / 2 - (r.sub ? f * 0.4 : 0));
+      if (r.sub) { g.font = `500 ${f * 0.6}px "JetBrains Mono", monospace`; g.fillText(r.sub, cw / 2, ch / 2 + f * 0.6); }
+    });
+    const m = new THREE.Mesh(new THREE.PlaneGeometry(w, d), mat(0xffffff, { map: tex, roughness: r.piso === 'ladrilho' ? 0.5 : 0.8 }));
+    m.rotation.x = -Math.PI / 2; m.position.set(x0 + w / 2, 0.001, z0 + d / 2); m.receiveShadow = true; r.g.add(m);
+    if (r.piso !== 'cimento' && r.k !== 'lavanderia') { const f = new THREE.Mesh(new THREE.PlaneGeometry(w + 2 * T, d + 2 * T), M.white); f.rotation.x = Math.PI / 2; f.position.set(x0 + w / 2, H, z0 + d / 2); r.g.add(f); HC.push(f); }
+  });
+});
+// cobertura da lavanderia (translúcida, para enxergar por cima)
+box(CASA.lavAte - X.xK1, 0.08, CASA.extTopo + 2 * T, mat(0xbfb6a8, { transparent: true, opacity: 0.35, depthWrite: false }), (X.xK1 + CASA.lavAte) / 2, H + 0.04, (X.zE0 - T + X.zE1 + T) / 2, ROOM.lavanderia.g).castShadow = false;
+
+// paredes: corre em x (normal z) ou em z (normal x); a = cômodo(s) do lado negativo, b = do lado positivo.
+// Visível se algum lado estiver ligado. `semBebe`: parede do próprio quarto da bebê, desenhada aqui só quando ele está desligado.
+// ops = vãos [ini, fim, y0, y1, 'janela'|'porta']
+const CW = [], mWall = mat(C.wall), mMuro = mat(0xd6cfc4), mVidro = new THREE.MeshBasicMaterial({ color: 0xfff8ea, side: THREE.DoubleSide });
+function cwall(ax, c, from, to, a, b, ops = [], o = {}) {
+  const h = o.h || H, g = new THREE.Group(), mm = o.muro ? mMuro : mWall, L = to - from;
+  const piece = (u0, u1, y0, y1) => {
+    if (u1 - u0 < 0.001 || y1 - y0 < 0.001) return;
+    const u = (u0 + u1) / 2, y = (y0 + y1) / 2, ww = u1 - u0, hh = y1 - y0;
+    const m = ax === 'x' ? box(ww, hh, T, mm, u, y, c, g) : box(T, hh, ww, mm, c, y, u, g); m.castShadow = false;
+  };
+  let u = from; [...ops].sort((p, q) => p[0] - q[0]).forEach(([o0, o1, y0, y1, tipo]) => {
+    piece(u, o0, 0, h); piece(o0, o1, 0, y0); piece(o0, o1, y1, h); u = o1;
+    if (tipo === 'janela') { const v = new THREE.Mesh(new THREE.PlaneGeometry(o1 - o0, y1 - y0), mVidro); v.position.set(ax === 'x' ? (o0 + o1) / 2 : c, (y0 + y1) / 2, ax === 'x' ? c : (o0 + o1) / 2); if (ax === 'z') v.rotation.y = Math.PI / 2; g.add(v); }
+  });
+  piece(u, to, 0, h);
+  casaG.add(g); CW.push({ g, ax, c, mid: from + L / 2, a: [].concat(a || []), b: [].concat(b || []), semBebe: !!o.semBebe });
+}
+const jan = (u, w, y0 = 0.95, y1 = 2.15) => [u - w / 2, u + w / 2, y0, y1, 'janela'];
+const porta = (u0, w) => [u0, u0 + w, 0, 2.1, 'porta'];
+// cozinha + sala
+cwall('z', X.xK0 - T / 2, X.zE0 - T, X.zM, null, 'cozinha', [jan((X.zE0 + X.zM) / 2, 1.2)]);
+cwall('z', X.xK0 - T / 2, X.zM, X.zC1 + T, null, 'sala', [jan((X.zM + X.zC1) / 2, 1.2)]);
+cwall('x', X.zE0 - T / 2, X.xK0 - T, X.xK1 + T, null, 'cozinha');
+cwall('z', X.xK1 + T / 2, X.zE0, X.zE1, 'cozinha', 'lavanderia', [porta(X.zE0 + 0.1, 0.7)]);
+cwall('z', X.xK1 + T / 2, X.zE1, X.zM, 'cozinha', 'banho');
+cwall('z', X.xK1 + T / 2, X.zM, X.zC0, 'sala', 'banho');
+cwall('x', X.zC1 + T / 2, X.xK0 - T, X.xK1, 'sala', null, [porta(X.xK0 + 0.15, 0.9)]); // porta de entrada
+// corredor
+cwall('x', X.zC1 + T / 2, X.xK1, X.xCe + T, 'corredor', null);
+cwall('z', X.xCe + T / 2, X.zC0, X.zC1, 'corredor', 'externo');
+// banheiro
+cwall('x', -T / 2, X.xB0, X.xB1, 'lavanderia', 'banho', [jan((X.xB0 + X.xB1) / 2, 0.6, 1.5, 2.1)]);
+cwall('x', D + T / 2, X.xB0, X.xB1, 'banho', 'corredor', [porta(X.xB0 + 0.15, 0.7)]);
+// paredes do quarto da bebê (só quando ele está desligado)
+cwall('z', -T / 2, -T, D + T, 'banho', 'bebe', [], { semBebe: true });
+cwall('z', W + T / 2, -T, D + T, 'bebe', 'quarto', [], { semBebe: true });
+cwall('x', -T / 2, -T, W + T, ['lavanderia', 'externo'], 'bebe', [], { semBebe: true });
+cwall('x', D + T / 2, -T, W + T, 'bebe', 'corredor', [[doorX0, doorX1, 0, doorH, 'porta']], { semBebe: true });
+// quarto principal
+cwall('x', -T / 2, W + T, X.xQ1 + T, 'externo', 'quarto', [jan((X.xQ0 + X.xQ1) / 2, 1.5)]);
+cwall('z', X.xQ1 + T / 2, -T, D + T, 'quarto', 'externo');
+cwall('x', D + T / 2, W + T, X.xCe + T, 'quarto', 'corredor', [porta(X.xQ0 + 0.06, 0.7)]);
+cwall('x', D + T / 2, X.xCe + T, X.xQ1 + T, 'quarto', 'externo');
+// muro da área externa
+cwall('x', X.zE0 - T / 2, X.xK1 + T, X.xE1 + T, null, ['lavanderia', 'externo'], [], { h: CASA.muro, muro: true });
+cwall('z', X.xE1 + T / 2, X.zE0 - T, X.zC1 + T, 'externo', null, [], { h: CASA.muro, muro: true });
+cwall('x', X.zC1 + T / 2, X.xCe + T, X.xE1 + T, 'externo', null, [], { h: CASA.muro, muro: true }); // muro de baixo do quintal
+
+const ROOMON = Object.fromEntries(ROOMS.map(r => [r.k, true]));
+function bounds() {
+  let x0 = Infinity, x1 = -Infinity, z0 = Infinity, z1 = -Infinity;
+  ROOMS.filter(r => ROOMON[r.k]).forEach(r => r.rects.forEach(([a, b, c, d]) => { x0 = Math.min(x0, a - T); x1 = Math.max(x1, b + T); z0 = Math.min(z0, c - T); z1 = Math.max(z1, d + T); }));
+  if (x0 === Infinity) return { x0: 0, x1: W, z0: 0, z1: D, cx: W / 2, cz: D / 2, w: W, d: D };
+  return { x0, x1, z0, z1, cx: (x0 + x1) / 2, cz: (z0 + z1) / 2, w: x1 - x0, d: z1 - z0 };
+}
+// em qual cômodo ligado a câmera está (só na altura de dentro da casa)
+function camRoom(cp) {
+  if (cp.y >= H) return null;
+  const r = ROOMS.find(r => ROOMON[r.k] && r.rects.some(([a, b, c, d]) => cp.x > a && cp.x < b && cp.z > c && cp.z < d));
+  return r ? r.k : null;
+}
+function applyRooms(salvar = true) {
+  ROOMS.forEach(r => r.g.visible = ROOMON[r.k]);
+  if (salvar) store('quarto_bebe_comodos_v1', ROOMS.filter(r => ROOMON[r.k]).map(r => r.k));
+}
+function roomView(k) {
+  if (k === 'casa') { const b = bounds(); return { name: 'Casa toda', pos: [b.cx - 1, Math.max(6, b.w * 1.05), b.z1 + b.d * 1.1], tgt: [b.cx, 0, b.cz], fov: 50 }; }
+  const r = ROOM[k], [x0, x1, z0, z1] = r.rects[0];
+  if (k === 'bebe') return Object.assign({}, getView('porta'), { name: r.name });
+  return { name: r.name, pos: [x0 + 0.25, 1.6, z1 - 0.25], tgt: [x1 - 0.3, 1.0, z0 + 0.3], fov: 72 };
+}
+function goRoom(k) {
+  if (k !== 'casa' && !ROOMON[k]) { ROOMON[k] = true; applyRooms(); buildRooms(); }
+  const v = roomView(k); curView = null; flyTo(v.pos, v.tgt, v.fov); $('st-vista').textContent = v.name; syncUI();
+}
 
 // ---------- lights ----------
 const hemi = new THREE.HemisphereLight(0xfff8ef, 0xbfae98, 0.38); scene.add(hemi);
@@ -1901,8 +2044,8 @@ function zoomBy(f) {
   else { anim = null; const d = persp.position.clone().sub(controls.target); const L = Math.min(controls.maxDistance, Math.max(controls.minDistance, d.length() / f)); persp.position.copy(controls.target).add(d.setLength(L)); }
   syncUI();
 }
-function zoomFit() { if (camera === ortho) { ortho.zoom = 1; ctlO.target.set(W / 2, 0, D / 2); ortho.position.set(W / 2, 10, D / 2); ortho.updateProjectionMatrix(); ctlO.update(); syncUI(); } else setView(curView || 'iso3'); }
-controls.enableDamping = true; controls.autoRotateSpeed = 0.7; controls.maxPolarAngle = Math.PI * 0.495; controls.minDistance = 0.3; controls.maxDistance = 14;
+function zoomFit() { if (camera === ortho) { const b = bounds(); fitOrtho(); ortho.zoom = 1; ctlO.target.set(b.cx, 0, b.cz); ortho.position.set(b.cx, 10, b.cz); ortho.updateProjectionMatrix(); ctlO.update(); syncUI(); } else setView(curView || 'iso3'); }
+controls.enableDamping = true; controls.autoRotateSpeed = 0.7; controls.maxPolarAngle = Math.PI * 0.495; controls.minDistance = 0.3; controls.maxDistance = 20;
 const VIEWS = {
   planta: { name: 'Planta', sub: 'de cima, em escala', ortho: true },
   iso3: { name: '3D · porta', sub: 'vista aérea', pos: [-1.5, 3.9, D + 2.6], tgt: [W / 2, 0.6, D / 2], fov: 45 },
@@ -1913,7 +2056,7 @@ const VIEWS = {
   berco: { name: 'Do berço', sub: 'olhando o guarda-roupa', pos: [W - 0.3, 1.7, 1.65], tgt: [0.3, 0.9, 1.0], fov: 72 },
   ripado: { name: 'Parede do berço', sub: 'ripado e papel', pos: [1.0, 1.5, 1.5], tgt: [W, 1.1, 1.3], fov: 70 },
 };
-function fitOrtho() { const { w, h } = SZ(), a = w / h; let hh = D / 2 + 0.35, hw = hh * a; if (hw < W / 2 + 0.3) { hw = W / 2 + 0.3; hh = hw / a; } Object.assign(ortho, { left: -hw, right: hw, top: hh, bottom: -hh }); ortho.updateProjectionMatrix(); }
+function fitOrtho() { const { w, h } = SZ(), a = w / h, b = bounds(); let hh = b.d / 2 + 0.35, hw = hh * a; if (hw < b.w / 2 + 0.3) { hw = b.w / 2 + 0.3; hh = hw / a; } Object.assign(ortho, { left: -hw, right: hw, top: hh, bottom: -hh }); ortho.updateProjectionMatrix(); }
 let curView = null, anim = null;
 const ease = t => 1 - Math.pow(1 - t, 3);
 function flyTo(pos, tgt, fov, instant) {
@@ -1923,7 +2066,7 @@ function flyTo(pos, tgt, fov, instant) {
 }
 function setView(k, instant) {
   const v = getView(k); curView = k;
-  if (v.ortho) { camera = ortho; fitOrtho(); ortho.zoom = 1; ortho.position.set(W / 2, 10, D / 2); ortho.up.set(0, 0, -1); ctlO.target.set(W / 2, 0, D / 2); ortho.lookAt(W / 2, 0, D / 2); ortho.updateProjectionMatrix(); ctlO.update(); controls.enabled = false; ctlO.enabled = true; anim = null; }
+  if (v.ortho) { camera = ortho; fitOrtho(); ortho.zoom = 1; const b = bounds(); ortho.position.set(b.cx, 10, b.cz); ortho.up.set(0, 0, -1); ctlO.target.set(b.cx, 0, b.cz); ortho.lookAt(b.cx, 0, b.cz); ortho.updateProjectionMatrix(); ctlO.update(); controls.enabled = false; ctlO.enabled = true; anim = null; }
   else flyTo(v.pos, v.tgt, v.fov, instant);
   $('st-vista').textContent = v.name;
   syncUI();
@@ -1989,6 +2132,17 @@ function buildViews() {
     row.append(go, del); s.appendChild(row);
   });
 }
+function buildRooms() {
+  const el = $('comodos'); el.innerHTML = '';
+  ROOMS.forEach(r => {
+    const row = document.createElement('div'); row.className = 'rrow';
+    row.innerHTML = `<label class="tog"><span>${r.name}${r.sub ? `<small>${r.sub}</small>` : ''}</span><input type="checkbox"${ROOMON[r.k] ? ' checked' : ''}></label><button class="ir" title="Levar a câmera para ${r.name}">ir</button>`;
+    row.querySelector('input').onchange = e => { ROOMON[r.k] = e.target.checked; applyRooms(); if (camera === ortho) setView('planta', true); };
+    row.querySelector('.ir').onclick = () => { goRoom(r.k); if (innerWidth < 860) document.body.classList.remove('side-open'); };
+    el.appendChild(row);
+  });
+}
+function setRooms(keys) { ROOMS.forEach(r => ROOMON[r.k] = keys.includes(r.k)); applyRooms(); buildRooms(); if (camera === ortho) setView('planta', true); }
 function buildItems() {
   const box = $('itens'); box.innerHTML = '';
   [...new Set(curItems().map(i => i.cat))].forEach(cat => {
@@ -2033,6 +2187,9 @@ function initUI() {
     store('quarto_bebe_vistas_v1', saved); inp.value = ''; buildViews();
   };
   $('btn-reset').onclick = () => setView('iso3');
+  $('rm-all').onclick = () => setRooms(ROOMS.map(r => r.k));
+  $('rm-bebe').onclick = () => setRooms(['bebe']);
+  $('rm-casa').onclick = () => goRoom('casa');
   $('btn-png').onclick = exportPNG;
   $('btn-full').onclick = () => { const d = document; if (d.fullscreenElement) d.exitFullscreen?.(); else d.documentElement.requestFullscreen?.(); };
   $('btn-side').onclick = () => { document.body.classList.toggle('side-open'); syncUI(); };
@@ -2088,7 +2245,15 @@ function tick() {
   }
   if (camera === persp) controls.update(); else { ctlO.update(); const zv = $('z-val'), zt = Math.round(ortho.zoom * 100) + '%'; if (zv && zv.textContent !== zt) zv.textContent = zt; }
   const cp = camera.position;
-  walls.forEach(w => { w.g.visible = !OPT.cut || !((cp.x - w.cx) * w.nx + (cp.z - w.cz) * w.nz > 0.01); });
+  const cr = camera === persp ? camRoom(cp) : null; // dentro de outro cômodo, as paredes do bebê não são cortadas
+  walls.forEach(w => { w.g.visible = !OPT.cut || (cr && cr !== 'bebe') || !((cp.x - w.cx) * w.nx + (cp.z - w.cz) * w.nz > 0.01); });
+  CW.forEach(w => {
+    const on = l => l.some(k => ROOMON[k]);
+    let vis = (on(w.a) || on(w.b)) && !(w.semBebe && ROOMON.bebe);
+    if (vis && OPT.cut && !cr && camera !== ortho) { const d = (w.ax === 'x' ? cp.z : cp.x) - w.c; if ((d > 0.01 && !on(w.b)) || (d < -0.01 && !on(w.a))) vis = false; }
+    w.g.visible = vis;
+  });
+  HC.forEach(f => f.visible = camera !== ortho && cp.y < H);
   window.__curtain.visible = topWall.visible; window.__shelfR.visible = walls[2].g.visible; window.__shelfB.visible = walls[3].g.visible;
   window.__shelfB3.visible = walls[3].g.visible; window.__frames3.visible = walls[1].g.visible;
   WALLI.forEach(([g, i]) => g.visible = walls[i].g.visible);
@@ -2098,7 +2263,7 @@ function tick() {
   const { w, h } = SZ(), now = performance.now();
   curItems().forEach(it => {
     v3.set(...it.p).project(camera);
-    const vis = OPT.labels && (!it.dep || vis3[it.dep]) && camera.position.distanceTo(tmp.set(...it.p)) > 0.7 && v3.z < 1 && Math.abs(v3.x) < 1.02 && Math.abs(v3.y) < 1.02;
+    const vis = ROOMON.bebe && !(cr && cr !== 'bebe') && OPT.labels && (!it.dep || vis3[it.dep]) && camera.position.distanceTo(tmp.set(...it.p)) > 0.7 && v3.z < 1 && Math.abs(v3.x) < 1.02 && Math.abs(v3.y) < 1.02;
     it.el.style.display = vis ? 'block' : 'none';
     if (vis) it.el.style.transform = `translate(-50%,-50%) translate(${((v3.x + 1) / 2 * w).toFixed(1)}px, ${((1 - v3.y) / 2 * h).toFixed(1)}px)`;
     it.el.classList.toggle('hi', it === hiItem && now < hiUntil);
@@ -2110,6 +2275,8 @@ function tick() {
 // ================= INÍCIO =================
 if (!P.get('versao')) { const sv = store('quarto_bebe_versao'); if (sv && GROUPS[sv]) versao = sv; }
 window.syncUI = syncUI;
+{ const q = P.get('comodos'), sv = q ? q.split(',') : store('quarto_bebe_comodos_v1'); if (Array.isArray(sv) && sv.some(k => ROOM[k])) ROOMS.forEach(r => ROOMON[r.k] = sv.includes(r.k)); }
+applyRooms(false); buildRooms();
 initUI(); applyTheme(); resize(); applyLuz();
 setVersao(versao);
 setView(VIEWS[P.get('view')] ? P.get('view') : 'iso3', true);
