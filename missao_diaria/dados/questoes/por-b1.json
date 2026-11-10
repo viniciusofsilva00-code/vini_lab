@@ -40,7 +40,7 @@
       "É proibido entrada de pessoas estranhas ao serviço.",
       "É proibida entrada de visitantes após as 22 horas.",
       "Seguem anexo as cópias dos documentos.",
-      "Elas mesmo organizaram a escala de serviço.",
+      "Elas mesmos organizaram a escala de serviço.",
       "As policiais ficaram meias cansadas após o plantão."
     ],
     "correta": 0,
@@ -53,7 +53,7 @@
       "porQueErradas": {
         "1": "Sem artigo antes do substantivo, a expressão fica invariável: “É proibido entrada”.",
         "2": "Anexo é adjetivo e concorda com o substantivo: “Seguem anexas as cópias”.",
-        "3": "Mesmo, com valor de próprio, concorda com o pronome: “Elas mesmas”.",
+        "3": "Mesmo, com valor de “próprio”, concorda em gênero e número com o pronome: “Elas mesmas”.",
         "4": "Meio, com sentido de “um pouco”, é advérbio e não varia: “meio cansadas”."
       },
       "pegadinha": "A presença ou a ausência do artigo muda a concordância: “É proibido entrada” e “É proibida a entrada” estão corretas; “É proibida entrada”, não.",
@@ -134,7 +134,7 @@
       "Ela ficou “meia” preocupada com a notícia.",
       "Os documentos estão “em anexos”.",
       "Os relatórios seguem “anexos” ao processo.",
-      "As testemunhas “mesmo” confirmaram a versão."
+      "As testemunhas “mesmos” confirmaram a versão."
     ],
     "correta": 3,
     "explicacao": {
@@ -147,7 +147,7 @@
         "0": "Bastante, antes de substantivo, é pronome indefinido e concorda com ele: “bastantes policiais”.",
         "1": "Meio, com sentido de “um pouco”, é advérbio e invariável: “meio preocupada”.",
         "2": "A locução “em anexo” é invariável.",
-        "4": "Mesmo, equivalente a “próprias”, concorda: “As testemunhas mesmas”."
+        "4": "Mesmo, equivalente a “próprias”, concorda em gênero e número com o substantivo: “As testemunhas mesmas”."
       },
       "pegadinha": "A banca mistura palavras que variam (anexo, bastante, mesmo) com as que não variam (meio advérbio, a locução “em anexo”).",
       "fonte": "Concordância nominal: anexo, bastante, meio, mesmo."
@@ -350,20 +350,20 @@
       "Era duas horas da tarde quando a viatura chegou.",
       "Dez reais são pouco para esse serviço.",
       "Daqui até o quartel são três quilômetros.",
-      "Já é meio-dia e meio.",
+      "Já são meio-dia e meia.",
       "Hoje são dia 20 de abril."
     ],
     "correta": 2,
     "explicacao": {
       "passos": [
-        "Indicando distância e horas, o verbo ser concorda com o numeral: “são três quilômetros”.",
+        "Indicando distância e horas, o verbo ser concorda com o numeral: “são três quilômetros”, “eram duas horas”, mas “é meio-dia”, “é uma hora”.",
         "Com quantidade + pouco/muito, ser fica no singular.",
         "Com “dia” explícito, o verbo fica no singular."
       ],
       "porQueErradas": {
         "0": "Indicando horas, o verbo ser concorda com o numeral: “Eram duas horas”.",
         "1": "Com expressões de quantidade seguidas de “pouco”, “muito”, “suficiente”, o verbo ser fica no singular: “Dez reais é pouco”.",
-        "3": "Meia se refere a “hora”: “meio-dia e meia”.",
+        "3": "O verbo ser concorda com “meio-dia”, que é singular: “Já é meio-dia e meia”.",
         "4": "Com a palavra “dia” expressa, o verbo concorda com ela: “Hoje é dia 20”."
       },
       "pegadinha": "O verbo ser é exceção: pode concordar com o predicativo, e não com o sujeito. Por isso, decore os casos de horas, datas, distâncias e quantidades.",

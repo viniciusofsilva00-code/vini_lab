@@ -71,7 +71,7 @@
       "O plantão começa as 19 horas e termina às 7 horas.",
       "O expediente funciona desde às 8 horas.",
       "O plantão começa às 19 horas e termina às 7 horas.",
-      "A viatura chegou a uma hora da madrugada.",
+      "A viatura chegou exatamente a uma hora da madrugada.",
       "A equipe estará lá daqui à duas horas."
     ],
     "correta": 2,
@@ -387,7 +387,7 @@
     "correta": 1,
     "explicacao": {
       "passos": [
-        "Pronomes que não aceitam artigo (cada, uma, Vossa Excelência) não levam crase.",
+        "Palavras que não aceitam o artigo “a” (cada, uma, Vossa Excelência) não levam crase.",
         "Palavras repetidas (cara a cara) também não.",
         "Logo, “A cada dia” está correto."
       ],

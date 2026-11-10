@@ -24,7 +24,7 @@
         "2": "Não tem relação com o sentido de irredutível.",
         "3": "Não tem relação com o sentido de irredutível."
       },
-      "pegadinha": "\"Tolerante\" e \"indeciso\" aparecem por serem do mesmo campo (atitude), mas com sentido oposto.",
+      "pegadinha": "\"Tolerante\" e \"indeciso\" também descrevem atitudes, mas não equivalem a irredutível: quem é irredutível não cede (não é tolerante) nem hesita (não é indeciso).",
       "fonte": "Semântica: sinonímia e antonímia"
     },
     "origem": "gerada"
@@ -427,7 +427,7 @@
     "materia": "portugues",
     "assunto": "Sentido próprio e figurado",
     "dificuldade": 1,
-    "enunciado": "A expressão destacada em \"Aquele vizinho barulhento virou uma pedra no meu sapato\" significa",
+    "enunciado": "Na frase \"Aquele vizinho barulhento virou uma pedra no meu sapato\", a expressão \"uma pedra no meu sapato\" significa",
     "alternativas": [
       "um objeto perdido.",
       "uma ajuda inesperada.",

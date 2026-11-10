@@ -17,7 +17,7 @@
       "passos": [
         "Verifique a preposição exigida por cada verbo.",
         "Assistir (ver), aspirar (desejar) e obedecer exigem a preposição “a”.",
-        "Só a primeira alternativa traz a preposição exigida."
+        "Só a alternativa correta traz a preposição exigida: “assistiram ao filme”."
       ],
       "porQueErradas": {
         "0": "Assistir, no sentido de ver, é transitivo indireto: “assistiram ao filme”.",
@@ -72,23 +72,23 @@
       "O atraso na entrega dos documentos implicará na eliminação do candidato.",
       "Esqueci do horário da prova.",
       "Simpatizei-me com o novo colega de turma.",
-      "Ela namora com um policial militar."
+      "Os moradores assistiram o desfile da janela."
     ],
     "correta": 0,
     "explicacao": {
       "passos": [
         "Implicar (acarretar) dispensa preposição.",
         "Esquecer/lembrar só levam “de” quando pronominais.",
-        "Simpatizar não aceita pronome; namorar dispensa “com”."
+        "Simpatizar não aceita pronome; assistir (ver) exige a preposição “a”."
       ],
       "porQueErradas": {
         "1": "Implicar, no sentido de acarretar, é transitivo direto: “implicará a eliminação”.",
         "2": "Esquecer sem pronome é transitivo direto: “Esqueci o horário” ou “Esqueci-me do horário”.",
         "3": "Simpatizar não é pronominal: “Simpatizei com o novo colega”.",
-        "4": "Namorar é transitivo direto: “namora um policial”."
+        "4": "Assistir, no sentido de ver, é transitivo indireto: “assistiram ao desfile”."
       },
       "pegadinha": "“Implicar em” é muito comum na fala e em textos jornalísticos, por isso parece correto.",
-      "fonte": "Regência verbal: implicar, esquecer, simpatizar, namorar."
+      "fonte": "Regência verbal: implicar, esquecer, simpatizar, assistir."
     },
     "origem": "gerada"
   },
@@ -100,7 +100,7 @@
     "enunciado": "Assinale a alternativa em que a regência nominal está de acordo com a norma-padrão.",
     "alternativas": [
       "O sargento tem aversão com barulho no alojamento.",
-      "A decisão do juiz foi favorável para o réu.",
+      "A decisão do juiz foi favorável com o réu.",
       "O soldado mostrou-se apto ao serviço operacional.",
       "O cidadão ficou alheio com a discussão.",
       "O comandante é contrário com a nova medida."
@@ -118,7 +118,7 @@
         "3": "Alheio rege “a”: “alheio à discussão”.",
         "4": "Contrário rege “a”: “contrário à nova medida”."
       },
-      "pegadinha": "A banca troca a preposição por “com” ou “para”, que soam naturais na fala.",
+      "pegadinha": "A banca troca a preposição exigida pelo nome por “com”, que soa natural na fala.",
       "fonte": "Regência nominal: apto, aversão, favorável, alheio, contrário."
     },
     "origem": "gerada"
@@ -381,24 +381,24 @@
       "Prefiro pizza do que lanche.",
       "Assisti o jogo ontem à noite.",
       "Cheguei no trabalho atrasado.",
-      "Lucas namora com Ana há dois anos.",
+      "Lucas obedece o regulamento do quartel há dois anos.",
       "Lucas namora Ana há dois anos."
     ],
     "correta": 4,
     "explicacao": {
       "passos": [
-        "Namorar é transitivo direto: dispensa a preposição “com”.",
-        "Preferir, assistir (ver) e chegar exigem a preposição “a”.",
+        "Namorar, na regência tradicional cobrada em prova, é transitivo direto: namorar alguém.",
+        "Preferir, assistir (ver), chegar e obedecer exigem a preposição “a”.",
         "Apenas “Lucas namora Ana” segue a norma-padrão."
       ],
       "porQueErradas": {
         "0": "Preferir rege “a”: “Prefiro pizza a lanche”.",
         "1": "Assistir (ver) é transitivo indireto: “Assisti ao jogo”.",
         "2": "Chegar (destino) rege “a”: “Cheguei ao trabalho”.",
-        "3": "Namorar é transitivo direto: “namora Ana”."
+        "3": "Obedecer é transitivo indireto: “obedece ao regulamento”."
       },
       "pegadinha": "As formas erradas são as mais usadas no dia a dia, por isso parecem naturais.",
-      "fonte": "Regência verbal: namorar, preferir, assistir, chegar."
+      "fonte": "Regência verbal: namorar, preferir, assistir, chegar, obedecer."
     },
     "origem": "gerada"
   },
@@ -502,27 +502,27 @@
     "dificuldade": 1,
     "enunciado": "Assinale a alternativa em que a regência está de acordo com a norma-padrão.",
     "alternativas": [
-      "O soldado reside à Rua das Flores, no centro.",
-      "O imóvel está situado à Avenida Brasil.",
+      "O soldado chegou na Rua das Flores às sete horas.",
+      "O sargento foi no quartel buscar os documentos.",
       "O soldado reside na Rua das Flores, no centro.",
-      "Ela é residente à Praça da Sé.",
-      "O sargento mora à rua do quartel."
+      "A moradora obedece o regulamento do condomínio.",
+      "O cabo prefere morar no centro do que no bairro."
     ],
     "correta": 2,
     "explicacao": {
       "passos": [
-        "Verbos e nomes que indicam situação ou residência (morar, residir, situado, residente) regem “em”.",
-        "Logo, “reside na Rua das Flores”.",
-        "O uso de “à” nesses casos é comum em endereços, mas contraria a norma-padrão."
+        "Verbos que indicam situação ou residência (morar, residir) regem “em”: “reside na Rua das Flores”.",
+        "Verbos de movimento (chegar, ir) regem “a”, e não “em”.",
+        "Obedecer exige “a”; preferir pede “a” no segundo termo, nunca “do que”."
       ],
       "porQueErradas": {
-        "0": "Residir rege “em”: “reside na Rua das Flores”.",
-        "1": "Situado rege “em”: “situado na Avenida Brasil”.",
-        "3": "Residente rege “em”: “residente na Praça da Sé”.",
-        "4": "Morar rege “em”: “mora na rua do quartel”."
+        "0": "Chegar (destino) rege “a”: “chegou à Rua das Flores”.",
+        "1": "Ir rege “a”: “foi ao quartel”.",
+        "3": "Obedecer é transitivo indireto: “obedece ao regulamento”.",
+        "4": "Preferir rege “a”: “prefere morar no centro a morar no bairro”."
       },
-      "pegadinha": "O “à” de endereços em formulários induz ao erro; a regência de morar e residir é “em”.",
-      "fonte": "Regência verbal e nominal: morar, residir, residente, situado."
+      "pegadinha": "Morar e residir pedem “em”, mas chegar e ir pedem “a”: a banca troca as preposições entre verbos de permanência e de movimento.",
+      "fonte": "Regência verbal: residir/morar (em), chegar e ir (a), obedecer (a), preferir (a)."
     },
     "origem": "gerada"
   },

@@ -166,16 +166,16 @@
     "explicacao": {
       "passos": [
         "No Chrome: Ctrl + Shift + N abre a janela anônima.",
-        "No Edge e no Firefox, a janela privada usa Ctrl + Shift + P."
+        "O Microsoft Edge atual usa o mesmo atalho para a janela InPrivate; no Firefox, a janela privativa abre com Ctrl + Shift + P."
       ],
       "porQueErradas": {
-        "0": "Ctrl + Shift + P abre janela privada no Firefox e InPrivate no Edge.",
+        "0": "Ctrl + Shift + P abre a janela privativa do Firefox (e a InPrivate do antigo Internet Explorer), não a janela anônima do Chrome.",
         "1": "Ctrl + N abre uma nova janela comum.",
         "3": "Ctrl + Shift + Delete abre a limpeza de dados de navegação.",
         "4": "Ctrl + Shift + T reabre a última guia fechada."
       },
-      "pegadinha": "A banca troca os navegadores: N no Chrome, P no Edge e no Firefox.",
-      "fonte": "Atalhos de teclado do Google Chrome."
+      "pegadinha": "A banca troca os navegadores: N no Chrome e no Edge atual, P no Firefox. Sem o Shift, Ctrl + N abre uma janela comum.",
+      "fonte": "Atalhos de teclado do Google Chrome (Ajuda do Google Chrome)."
     },
     "origem": "gerada"
   },
