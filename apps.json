@@ -70,5 +70,14 @@
     "url": "https://viniciusofsilva00-code.github.io/vini_lab/quarto_bebe/",
     "status": "em teste",
     "ordem": 8
+  },
+  {
+    "id": "missao_diaria",
+    "nome": "missao_diaria",
+    "glifo": "MD",
+    "descricao": "Missão diária de questões para a prova de Soldado PM-SP, no seu ritmo.",
+    "url": "https://viniciusofsilva00-code.github.io/vini_lab/missao_diaria/",
+    "status": "em construção",
+    "ordem": 9
   }
 ]

@@ -1,0 +1,104 @@
+{
+  "concurso": "PM-SP · Soldado PM de 2ª Classe",
+  "banca": "Fundação VUNESP",
+  "fonte": "Edital DP-2/321/25 (DOE-SP, 02/09/2025), Cap. V item 1 e Anexo B. Edital 2026 (DP-3/321/26) mantém a mesma distribuição segundo a imprensa; conferir no PDF oficial ao publicar.",
+  "prova": {
+    "questoes": 60,
+    "alternativas": 5,
+    "duracaoMinutosComRedacao": 300,
+    "notaMinima": 30,
+    "simuladoPadrao": { "questoes": 60, "minutos": 180 }
+  },
+  "materias": [
+    {
+      "id": "portugues",
+      "nome": "Língua Portuguesa",
+      "questoesNaProva": 20,
+      "assuntos": [
+        "Leitura e interpretação de textos",
+        "Sinônimos e antônimos",
+        "Sentido próprio e figurado",
+        "Pontuação",
+        "Classes de palavras",
+        "Concordância verbal e nominal",
+        "Regência verbal e nominal",
+        "Colocação pronominal",
+        "Crase"
+      ]
+    },
+    {
+      "id": "matematica",
+      "nome": "Matemática",
+      "questoesNaProva": 15,
+      "assuntos": [
+        "Números inteiros",
+        "Números racionais (frações e decimais)",
+        "Mínimo múltiplo comum",
+        "Razão e proporção",
+        "Porcentagem",
+        "Regra de três simples",
+        "Média aritmética simples",
+        "Equação do 1º grau",
+        "Sistema de equações do 1º grau",
+        "Sistema métrico (tempo, comprimento, superfície, capacidade)",
+        "Tabelas e gráficos",
+        "Geometria (perímetro, área, volume, Pitágoras)",
+        "Raciocínio lógico",
+        "Situações-problema"
+      ]
+    },
+    {
+      "id": "conhecimentos_gerais",
+      "nome": "Conhecimentos Gerais",
+      "questoesNaProva": 15,
+      "assuntos": [
+        "História Geral: Primeira Guerra Mundial",
+        "História Geral: Nazifascismo e Segunda Guerra",
+        "História Geral: Guerra Fria",
+        "História Geral: Globalização e neoliberalismo",
+        "História do Brasil: Revolução de 1930 e Era Vargas",
+        "História do Brasil: Constituições Republicanas",
+        "História do Brasil: Período militar",
+        "História do Brasil: Abertura e redemocratização",
+        "Geografia Geral: Nova ordem mundial e globalização",
+        "Geografia Geral: Problemas ambientais",
+        "Geografia do Brasil: Natureza (relevo, hidrografia, clima, vegetação)",
+        "Geografia do Brasil: População",
+        "Geografia do Brasil: Atividades econômicas e energia",
+        "Geografia do Brasil: Impactos ambientais",
+        "Atualidades"
+      ]
+    },
+    {
+      "id": "informatica",
+      "nome": "Noções Básicas de Informática",
+      "questoesNaProva": 5,
+      "assuntos": [
+        "Windows 10",
+        "Word 2016",
+        "Excel 2016",
+        "PowerPoint 2016",
+        "Correio eletrônico",
+        "Internet",
+        "Google Workspace e Microsoft Teams"
+      ]
+    },
+    {
+      "id": "administracao_publica",
+      "nome": "Noções de Administração Pública",
+      "questoesNaProva": 5,
+      "assuntos": [
+        "CF: Direitos e deveres individuais e coletivos (art. 5º)",
+        "CF: Direitos políticos (arts. 14 a 16)",
+        "CF: Administração Pública, disposições gerais (arts. 37 e 38)",
+        "CF: Militares dos Estados (art. 42)",
+        "CF: Segurança Pública (art. 144)",
+        "CE-SP: Poder Executivo",
+        "CE-SP: Justiça Militar do Estado",
+        "CE-SP: Administração Pública e servidores",
+        "CE-SP: Segurança Pública e Polícia Militar",
+        "Lei 12.527/11 (Acesso à Informação) e Decreto 68.155/23"
+      ]
+    }
+  ]
+}

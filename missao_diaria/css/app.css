@@ -1,0 +1,26 @@
+/* Missão Diária · layout mobile-first */
+.tela {
+  max-width: var(--texto); margin: 0 auto;
+  padding: var(--s-5) var(--s-4) calc(72px + var(--s-6) + env(safe-area-inset-bottom));
+}
+.tela:focus { outline: none; }
+.tela__titulo { font-size: var(--fs-xl); }
+.tela__texto { font-size: var(--fs-base); color: var(--text-muted); margin: var(--s-3) 0 0; }
+
+.nav {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  padding-bottom: env(safe-area-inset-bottom);
+  background: var(--surface); border-top: 1px solid var(--line);
+}
+.nav a {
+  display: flex; align-items: center; justify-content: center;
+  min-height: 56px; min-width: 44px; padding: var(--s-2) 2px;
+  font: 500 1rem/1.2 var(--sans); color: var(--text-muted); text-decoration: none;
+  border-top: 3px solid transparent;
+}
+.nav a[aria-current="page"] { color: var(--text); font-weight: 600; border-top-color: var(--accent); background: var(--neon-soft); }
+.nav a:focus-visible { outline: 2px solid var(--focus); outline-offset: -4px; }
+
+@media (max-width: 380px) { .nav a { font-size: 1rem; letter-spacing: -0.02em; } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }

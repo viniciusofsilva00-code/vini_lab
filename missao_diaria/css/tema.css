@@ -1,0 +1,88 @@
+/* Missão Diária · tema militar. Carregar DEPOIS de tokens.css.
+   Sobrescreve toda a cor rosa/neon do design system por oliva/cáqui/areia.
+   Contrastes (WCAG): claro texto/fundo 12,8:1, muted 6,4:1, on-accent 5,8:1;
+   escuro texto/fundo 15,7:1, muted 9,3:1, on-accent 6,2:1. */
+
+:root,
+:root[data-theme="light"] {
+  --bg: #ece6d3;            /* areia */
+  --surface: #f6f2e4;
+  --fg: #1f2410;
+  --muted: #4d5438;
+  --line: #cfc7aa;
+  --grid: #3a42200d;
+  --neon: #56642a;          /* oliva */
+  --neon-strong: #46531f;
+  --neon-soft: #56642a22;
+  --neon-halo: #56642a40;
+  --glow: 0 0 0 1px #56642a59, 0 8px 30px -10px #56642a8c;
+  --inverse-bg: #232a14;    /* verde-escuro */
+  --inverse-fg: #f1eedd;
+  --inverse-muted: #cfd0b6;
+  --on-accent: #f6f2e4;
+  --selection-bg: #b9a46a;  /* cáqui */
+  --selection-fg: #1f2410;
+  --chip-bg: #232a14;
+  --chip-glyph: #c9b57a;
+  --chip-ring: transparent;
+  --focus: #46531f;
+  --shadow-1: 0 1px 2px #1f24100f;
+  --header-line: linear-gradient(90deg, transparent, #8a7a45, transparent);
+  --highlight: linear-gradient(transparent 62%, #b9a46a73 62%);
+}
+
+:root[data-theme="dark"] {
+  --bg: #0d110a;
+  --surface: #161c10;
+  --fg: #ecead8;
+  --muted: #bdbfa6;
+  --line: #2c3520;
+  --grid: #ffffff0a;
+  --neon: #8a9a45;
+  --neon-strong: #b5c46a;
+  --neon-soft: #8a9a4526;
+  --neon-halo: #8a9a4540;
+  --glow: 0 0 0 1px #8a9a4566, 0 8px 30px -10px #8a9a45a6;
+  --inverse-bg: #1b2412;
+  --inverse-fg: #ecead8;
+  --inverse-muted: #bdbfa6;
+  --on-accent: #0d110a;
+  --selection-bg: #c9b57a;
+  --selection-fg: #0d110a;
+  --chip-bg: #161c10;
+  --chip-glyph: #c9b57a;
+  --chip-ring: #8a9a4566;
+  --focus: #c9b57a;
+  --shadow-1: 0 1px 2px #0000004d;
+  --header-line: linear-gradient(90deg, transparent, #c9b57a, transparent);
+  --highlight: linear-gradient(transparent 62%, #c9b57a40 62%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d110a;
+    --surface: #161c10;
+    --fg: #ecead8;
+    --muted: #bdbfa6;
+    --line: #2c3520;
+    --grid: #ffffff0a;
+    --neon: #8a9a45;
+    --neon-strong: #b5c46a;
+    --neon-soft: #8a9a4526;
+    --neon-halo: #8a9a4540;
+    --glow: 0 0 0 1px #8a9a4566, 0 8px 30px -10px #8a9a45a6;
+    --inverse-bg: #1b2412;
+    --inverse-fg: #ecead8;
+    --inverse-muted: #bdbfa6;
+    --on-accent: #0d110a;
+    --selection-bg: #c9b57a;
+    --selection-fg: #0d110a;
+    --chip-bg: #161c10;
+    --chip-glyph: #c9b57a;
+    --chip-ring: #8a9a4566;
+    --focus: #c9b57a;
+    --shadow-1: 0 1px 2px #0000004d;
+    --header-line: linear-gradient(90deg, transparent, #c9b57a, transparent);
+    --highlight: linear-gradient(transparent 62%, #c9b57a40 62%);
+  }
+}
