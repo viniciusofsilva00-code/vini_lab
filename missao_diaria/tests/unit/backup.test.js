@@ -91,3 +91,58 @@ describe('backup: aviso na tela Hoje', () => {
     expect(avisoBackup(e, '2026-11-17')).toBe('nunca');
   });
 });
+
+describe('backup: validação profunda', () => {
+  const ler = (mut) => {
+    const e = comRespostas(1);
+    mut(e);
+    return lerBackup(JSON.stringify(criarBackup(e, AGORA)));
+  };
+  const cartao = { caixa: 2, proxima: '2026-11-12', ultimaErrou: false };
+
+  it('aceita cartões válidos', () => {
+    expect(ler((e) => { e.cartoes.q0 = cartao; }).ok).toBe(true);
+  });
+  it.each([
+    ['caixa 0', { ...cartao, caixa: 0 }],
+    ['caixa 6', { ...cartao, caixa: 6 }],
+    ['caixa fracionária', { ...cartao, caixa: 1.5 }],
+    ['caixa texto', { ...cartao, caixa: '2' }],
+    ['proxima mal formada', { ...cartao, proxima: '12/11/2026' }],
+    ['proxima ausente', { caixa: 2 }],
+    ['cartão não objeto', 'x'],
+  ])('rejeita cartão com %s', (_, c) => {
+    const r = ler((e) => { e.cartoes.q0 = c; });
+    expect(r.ok).toBe(false);
+    expect(r.erro).toMatch(/estrutura inválida/);
+  });
+  it.each([
+    ['tipo desconhecido', { tipo: 'horas', valor: 10 }],
+    ['valor texto', { tipo: 'minutos', valor: '10' }],
+    ['valor NaN', { tipo: 'questoes', valor: null }],
+    ['meta ausente', undefined],
+  ])('rejeita perfil.meta com %s', (_, meta) => {
+    expect(ler((e) => { e.perfil.meta = meta; }).ok).toBe(false);
+  });
+  it('simuladoAtual inválido é descartado, o resto é importado', () => {
+    const r = ler((e) => { e.simuladoAtual = { ids: 'q1', inicio: 1 }; });
+    expect(r.ok).toBe(true);
+    expect(r.estado.simuladoAtual).toBeUndefined();
+    expect(r.estado.respostas).toHaveLength(1);
+  });
+  it('simuladoAtual válido é mantido', () => {
+    const sim = { inicio: 1, marca: 2, minutos: 30, ids: ['a', 'b'], atual: 0, respostas: { a: 1 }, tempos: { a: 3 } };
+    expect(ler((e) => { e.simuladoAtual = sim; }).estado.simuladoAtual).toEqual(sim);
+  });
+  it.each([
+    ['ids com número', { ids: ['a', 1] }],
+    ['atual fora', { atual: 5 }],
+    ['minutos 0', { minutos: 0 }],
+    ['respostas array', { respostas: [] }],
+    ['resposta não inteira', { respostas: { a: 'x' } }],
+    ['tempos negativo', { tempos: { a: -1 } }],
+  ])('descarta simuladoAtual com %s', (_, parte) => {
+    const sim = { inicio: 1, marca: 2, minutos: 30, ids: ['a', 'b'], atual: 0, respostas: {}, tempos: {}, ...parte };
+    expect(ler((e) => { e.simuladoAtual = sim; }).estado.simuladoAtual).toBeUndefined();
+  });
+});

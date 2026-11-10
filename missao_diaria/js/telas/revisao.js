@@ -1,24 +1,27 @@
 import { carregarBanco } from '../lib/questoes.js';
-import { carregar, salvar } from '../lib/armazenamento.js';
+import { carregar } from '../lib/armazenamento.js';
 import { hoje as hojeStr } from '../lib/datas.js';
 import { aplicarResposta, vencidas, emRevisao } from '../lib/revisao.js';
 import { resumo } from '../lib/notas.js';
 import { el } from './componentes/dom.js';
+import { salvarComAviso as salvar } from './componentes/salvar.js';
 import { montarQuestao } from './componentes/questao.js';
 
 const titulo = () => el('h1', { class: 'vl-h1 tela__titulo' }, 'Revisão');
 const MODOS = [['vencidas', 'Revisar vencidas'], ['erradas', 'Só erradas'], ['acertadas', 'Só acertadas']];
 
-export async function render(raiz) {
+export async function render(raiz, ativo = () => true) {
   raiz.replaceChildren(titulo(), el('p', { class: 'tela__texto', role: 'status' }, 'Carregando…'));
   let banco;
   try {
     banco = await carregarBanco();
   } catch {
+    if (!ativo()) return;
     raiz.replaceChildren(titulo(), el('p', { class: 'aviso', role: 'alert' },
       'Não consegui carregar as questões. Confira a conexão e recarregue a página.'));
     return;
   }
+  if (!ativo()) return;
   const { questoes, edital } = banco;
   const porId = new Map(questoes.map((q) => [q.id, q]));
   const nomeMateria = new Map(edital.materias.map((m) => [m.id, m.nome]));
@@ -81,7 +84,7 @@ export async function render(raiz) {
         materiaNome: nomeMateria.get(q.materia),
         rotuloProxima: i + 1 === ids.length ? 'Ver resumo' : 'Próxima',
         aoResponder: ({ escolhida, acertou, tempo }) => {
-          aplicarResposta(estado, { questao: q.id, escolhida, acertou, tempo, contexto: 'revisao', data });
+          aplicarResposta(estado, { questao: q.id, escolhida, acertou, tempo, contexto: 'revisao', data: hojeStr() });
           feitas.push(estado.respostas.at(-1));
           salvar(estado);
         },

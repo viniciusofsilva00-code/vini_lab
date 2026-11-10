@@ -1,26 +1,29 @@
 import { carregarBanco } from '../lib/questoes.js';
-import { carregar, salvar } from '../lib/armazenamento.js';
+import { carregar } from '../lib/armazenamento.js';
 import { hoje as hojeStr, somarDias } from '../lib/datas.js';
 import { gerarMissao, gerarExtras } from '../lib/missao.js';
 import { aplicarResposta, vencidas } from '../lib/revisao.js';
 import { resumo } from '../lib/notas.js';
 import { avisoBackup, dispensarAviso } from '../lib/backup.js';
 import { el } from './componentes/dom.js';
+import { salvarComAviso as salvar } from './componentes/salvar.js';
 import { montarQuestao } from './componentes/questao.js';
 
 const EXTRA = 5;
 const titulo = () => el('h1', { class: 'vl-h1 tela__titulo' }, 'Hoje');
 
-export async function render(raiz) {
+export async function render(raiz, ativo = () => true) {
   raiz.replaceChildren(titulo(), el('p', { class: 'tela__texto', role: 'status' }, 'Carregando a missão…'));
   let banco;
   try {
     banco = await carregarBanco();
   } catch {
+    if (!ativo()) return;
     raiz.replaceChildren(titulo(), el('p', { class: 'aviso', role: 'alert' },
       'Não consegui carregar as questões. Confira a conexão e recarregue a página.'));
     return;
   }
+  if (!ativo()) return;
   const { questoes, edital } = banco;
   if (!questoes.length) {
     raiz.replaceChildren(titulo(), el('p', { class: 'tela__texto' }, 'O banco de questões ainda está vazio.'));
@@ -33,7 +36,7 @@ export async function render(raiz) {
   const missao = gerarMissao({ questoes, edital, estado, data });
   salvar(estado);
 
-  const feitasHoje = () => new Set(estado.respostas.filter((r) => r.data === data && r.contexto === 'missao').map((r) => r.questao));
+  const feitasHoje = () => new Set(estado.respostas.filter((r) => r.data >= data && r.contexto === 'missao').map((r) => r.questao));
   const proximaDe = (ids) => ids.find((id) => !feitasHoje().has(id));
 
   function cabecalho(feitas, total, rotulo = 'Missão do dia') {
@@ -59,7 +62,7 @@ export async function render(raiz) {
       materiaNome: nomeMateria.get(q.materia),
       rotuloProxima: feitas + 1 === ids.length ? 'Ver resumo' : 'Próxima',
       aoResponder: ({ escolhida, acertou, tempo }) => {
-        aplicarResposta(estado, { questao: q.id, escolhida, acertou, tempo, contexto: 'missao', data });
+        aplicarResposta(estado, { questao: q.id, escolhida, acertou, tempo, contexto: 'missao', data: hojeStr() });
         if (!proximaDe(missao.ids)) missao.concluida = true;
         salvar(estado);
       },
@@ -68,7 +71,7 @@ export async function render(raiz) {
   }
 
   function resumoDia(rotulo, ids) {
-    const respostas = estado.respostas.filter((r) => r.data === data && r.contexto === 'missao' && ids.includes(r.questao));
+    const respostas = estado.respostas.filter((r) => r.data >= data && r.contexto === 'missao' && ids.includes(r.questao));
     const r = resumo(respostas, (id) => porId.get(id)?.materia);
     const amanha = vencidas(estado.cartoes, somarDias(data, 1), { incluirAcertos: estado.perfil.incluirAcertosRevisao }).length;
     return el('section', { class: 'resumo' },
@@ -90,15 +93,17 @@ export async function render(raiz) {
   }
 
   function iniciarExtra() {
-    if (!missao.extras?.length || !proximaDe(missao.extras)) {
-      missao.extras = [...(missao.extras ?? []), ...gerarExtras({ questoes, edital, estado, data, n: EXTRA })];
+    if (!missao.extras?.length || !proximaDe(missao.loteExtra ?? missao.extras)) {
+      const lote = gerarExtras({ questoes, edital, estado, data, n: EXTRA });
+      missao.extras = [...(missao.extras ?? []), ...lote];
+      missao.loteExtra = lote;
       salvar(estado);
     }
-    mostrarQuestao(missao.extras.slice(-EXTRA), 'Treino extra');
+    mostrarQuestao(missao.loteExtra ?? missao.extras.slice(-EXTRA), 'Treino extra');
   }
 
   function fimExtra() {
-    const ids = missao.extras.slice(-EXTRA);
+    const ids = missao.loteExtra ?? missao.extras.slice(-EXTRA);
     raiz.replaceChildren(titulo(), resumoDia('Resumo do treino extra', ids),
       el('button', { type: 'button', class: 'btn', onclick: fimMissao }, 'Voltar'));
   }
@@ -121,7 +126,7 @@ export async function render(raiz) {
 
   if (!proximaDe(missao.ids)) {
     missao.concluida = true;
-    if (missao.extras?.length && proximaDe(missao.extras.slice(-EXTRA))) iniciarExtra();
+    if (missao.extras?.length && proximaDe(missao.loteExtra ?? missao.extras.slice(-EXTRA))) iniciarExtra();
     else fimMissao();
   } else mostrarQuestao(missao.ids, 'Missão do dia');
   raiz.querySelector('h1')?.after(avisoDeBackup() ?? '');

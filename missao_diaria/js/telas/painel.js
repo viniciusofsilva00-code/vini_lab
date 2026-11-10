@@ -63,16 +63,18 @@ function porMateria(comparativo, nomes) {
     el('p', { class: 'materia__nota' }, `${x.total} respostas`))));
 }
 
-export async function render(raiz) {
+export async function render(raiz, ativo = () => true) {
   raiz.replaceChildren(titulo(), el('p', { class: 'tela__texto', role: 'status' }, 'Carregando o painel…'));
   let banco;
   try {
     banco = await carregarBanco();
   } catch {
+    if (!ativo()) return;
     raiz.replaceChildren(titulo(), el('p', { class: 'aviso', role: 'alert' },
       'Não consegui carregar as questões. Confira a conexão e recarregue a página.'));
     return;
   }
+  if (!ativo()) return;
   const estado = carregar();
   const materiaDe = new Map(banco.questoes.map((q) => [q.id, q.materia]));
   const nomes = Object.fromEntries(banco.edital.materias.map((m) => [m.id, m.nome]));

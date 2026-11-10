@@ -1,10 +1,11 @@
 import { carregarBanco } from '../lib/questoes.js';
-import { carregar, salvar } from '../lib/armazenamento.js';
+import { carregar } from '../lib/armazenamento.js';
 import { hoje as hojeStr, formatarData } from '../lib/datas.js';
 import {
   LIMITES, NOTA_MINIMA, validarConfig, montarSimulado, restanteSegundos, acumularTempo, finalizar, notaSobre60,
 } from '../lib/simulado.js';
 import { el } from './componentes/dom.js';
+import { salvarComAviso as salvar } from './componentes/salvar.js';
 import { explicacao, LETRAS } from './componentes/questao.js';
 
 const titulo = () => el('h1', { class: 'vl-h1 tela__titulo' }, 'Simulado');
@@ -19,16 +20,18 @@ function formatarTempo(seg) {
 
 const duracao = (seg) => (seg >= 60 ? `${Math.floor(seg / 60)} min ${seg % 60} s` : `${seg} s`);
 
-export async function render(raiz) {
+export async function render(raiz, ativo = () => true) {
   raiz.replaceChildren(titulo(), el('p', { class: 'tela__texto', role: 'status' }, 'Carregando…'));
   let banco;
   try {
     banco = await carregarBanco();
   } catch {
+    if (!ativo()) return;
     raiz.replaceChildren(titulo(), el('p', { class: 'aviso', role: 'alert' },
       'Não consegui carregar as questões. Confira a conexão e recarregue a página.'));
     return;
   }
+  if (!ativo()) return;
   const { questoes, edital } = banco;
   const porId = new Map(questoes.map((q) => [q.id, q]));
   const nomeMateria = new Map(edital.materias.map((m) => [m.id, m.nome]));
@@ -205,6 +208,9 @@ export async function render(raiz) {
       const r = finalizar({ estado, andamento: and, porId, agora: Date.now(), data: hojeStr() });
       salvar(estado);
       resultado(r, true);
-    } else prova();
+    } else {
+      and.marca = Date.now(); // o tempo fora da tela não conta para a questão atual
+      prova();
+    }
   } else configuracao();
 }

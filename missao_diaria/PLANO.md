@@ -58,9 +58,9 @@ Questões de provas anteriores · ranking entre amigos · sincronização entre 
 - [x] 4. **Tela da missão:** responder, correção imediata, explicação e resumo do dia. Pronto: e2e de uma missão completa.
 - [x] 5. **Revisão espaçada** (TDD) e tela de revisão (erradas, acertadas opcional, filtro por matéria). Pronto: testes das caixas e e2e.
 - [ ] 6. **Banco lote 1:** ~100 questões em todas as matérias. Pronto: validador verde e amostra revisada.
-- [ ] 7. **Painel de evolução.** Pronto: estatísticas testadas e o painel mostra a melhora com dados de exemplo.
-- [ ] 8. **Backup** exportar/importar (TDD) e aviso de backup. Pronto: exporta, importa em outro navegador e o progresso continua igual.
-- [ ] 9. **Simulado cronometrado.** Pronto: e2e com tempo curto, correção no fim e resultado no painel.
+- [x] 7. **Painel de evolução.** Pronto: estatísticas testadas e o painel mostra a melhora com dados de exemplo.
+- [x] 8. **Backup** exportar/importar (TDD) e aviso de backup. Pronto: exporta, importa em outro navegador e o progresso continua igual.
+- [x] 9. **Simulado cronometrado.** Pronto: e2e com tempo curto, correção no fim e resultado no painel.
 - [ ] 10. **PWA e publicação:** instalável e offline, merge na main, `apps.json` como "online" e teste com o amigo. Pronto: ele usa pelo link no celular.
 - [ ] 11. **Banco lotes 2 a 5** (100 por lote, até ~500), ajustados pelo uso dele.
 

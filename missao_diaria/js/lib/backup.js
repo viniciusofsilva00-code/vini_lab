@@ -25,6 +25,27 @@ function respostaValida(r) {
   return objeto(r) && typeof r.questao === 'string' && typeof r.data === 'string' && typeof r.acertou === 'boolean';
 }
 
+const DATA_ISO = /^\d{4}-\d{2}-\d{2}$/;
+const inteiroNaoNeg = (n) => Number.isInteger(n) && n >= 0;
+
+function cartaoValido(c) {
+  return objeto(c) && Number.isInteger(c.caixa) && c.caixa >= 1 && c.caixa <= 5
+    && typeof c.proxima === 'string' && DATA_ISO.test(c.proxima);
+}
+
+function metaValida(m) {
+  return objeto(m) && (m.tipo === 'questoes' || m.tipo === 'minutos') && typeof m.valor === 'number' && Number.isFinite(m.valor);
+}
+
+function simuladoAtualValido(s) {
+  return objeto(s) && Number.isFinite(s.inicio) && Number.isFinite(s.marca)
+    && Number.isFinite(s.minutos) && s.minutos > 0
+    && Array.isArray(s.ids) && s.ids.length > 0 && s.ids.every((id) => typeof id === 'string')
+    && Number.isInteger(s.atual) && s.atual >= 0 && s.atual < s.ids.length
+    && objeto(s.respostas) && Object.values(s.respostas).every(inteiroNaoNeg)
+    && objeto(s.tempos) && Object.values(s.tempos).every((t) => Number.isFinite(t) && t >= 0);
+}
+
 export function lerBackup(texto) {
   let b;
   try { b = JSON.parse(texto); } catch { return { ok: false, erro: 'O arquivo não é um JSON válido.' }; }
@@ -33,8 +54,10 @@ export function lerBackup(texto) {
   if (b.versao > VERSAO_BACKUP) return { ok: false, erro: 'Este backup é de uma versão mais nova do app. Atualize o app e tente de novo.' };
   const e = b.estado;
   const valido = objeto(e) && objeto(e.perfil) && Array.isArray(e.respostas) && e.respostas.every(respostaValida)
-    && objeto(e.cartoes) && objeto(e.missoes) && Array.isArray(e.simulados);
+    && metaValida(e.perfil.meta)
+    && objeto(e.cartoes) && Object.values(e.cartoes).every(cartaoValido) && objeto(e.missoes) && Array.isArray(e.simulados);
   if (!valido) return { ok: false, erro: ESTRUTURA };
+  if (e.simuladoAtual !== undefined && e.simuladoAtual !== null && !simuladoAtualValido(e.simuladoAtual)) delete e.simuladoAtual;
   return { ok: true, estado: e, exportadoEm: b.exportadoEm };
 }
 

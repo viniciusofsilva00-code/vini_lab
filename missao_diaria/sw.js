@@ -1,6 +1,6 @@
 // Service worker: app offline. A lista e a versão entre os marcadores são geradas por scripts/sw.mjs.
 /* GERADO:INICIO */
-const VERSAO = 'missao-diaria-398368eb86';
+const VERSAO = 'missao-diaria-c67942066b';
 const ARQUIVOS = [
   "../design-system/components/components.css",
   "../design-system/tokens/tokens.css",
@@ -28,11 +28,15 @@ const ARQUIVOS = [
   "js/telas/ajustes.js",
   "js/telas/componentes/dom.js",
   "js/telas/componentes/questao.js",
+  "js/telas/componentes/salvar.js",
   "js/telas/hoje.js",
   "js/telas/painel.js",
   "js/telas/revisao.js",
   "js/telas/simulado.js",
   "manifest.webmanifest",
+  "dados/questoes/adm-1.json",
+  "dados/questoes/adm-2.json",
+  "dados/questoes/adm-3.json",
   "dados/questoes/cge-g1.json",
   "dados/questoes/cge-g2.json",
   "dados/questoes/cge-g3.json",
@@ -64,7 +68,7 @@ const base = self.registration.scope;
 const url = (a) => new URL(a, base).href;
 
 self.addEventListener('install', (ev) => {
-  ev.waitUntil(caches.open(VERSAO).then((c) => c.addAll(ARQUIVOS.map(url))).then(() => self.skipWaiting()));
+  ev.waitUntil(caches.open(VERSAO).then((c) => c.addAll(ARQUIVOS.map((a) => new Request(url(a), { cache: 'reload' })))).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', (ev) => {

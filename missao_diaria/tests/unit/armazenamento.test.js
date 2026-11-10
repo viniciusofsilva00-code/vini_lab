@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { carregar, salvar, resetar, estadoPadrao, migrar, CHAVE } from '../../js/lib/armazenamento.js';
+import { carregar, salvar, resetar, estadoPadrao, migrar, CHAVE, CORROMPIDO } from '../../js/lib/armazenamento.js';
 
 function falso() {
   const d = {};
@@ -26,6 +26,18 @@ describe('armazenamento', () => {
   it('JSON corrompido volta ao padrão', () => {
     s.setItem(CHAVE, '{quebrado');
     expect(carregar(s).versao).toBe(1);
+  });
+  it('JSON corrompido guarda o texto bruto em CORROMPIDO', () => {
+    s.setItem(CHAVE, '{quebrado');
+    carregar(s);
+    expect(CORROMPIDO).toBe('missao_diaria:v1:corrompido');
+    expect(s.d[CORROMPIDO]).toBe('{quebrado');
+  });
+  it('salvar devolve true no armazenamento e false ao cair para memória', () => {
+    expect(salvar(carregar(s), s)).toBe(true);
+    const cheio = { getItem: () => null, setItem: () => { throw new Error('quota'); }, removeItem: () => {} };
+    expect(salvar(carregar(s), cheio)).toBe(false);
+    resetar(cheio);
   });
   it('resetar apaga tudo', () => {
     salvar({ ...estadoPadrao(), respostas: [{ a: 1 }] }, s);

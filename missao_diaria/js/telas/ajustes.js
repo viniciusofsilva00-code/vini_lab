@@ -1,8 +1,9 @@
-import { carregar, salvar, migrar } from '../lib/armazenamento.js';
+import { carregar, migrar } from '../lib/armazenamento.js';
 import { formatarData } from '../lib/datas.js';
 import { criarBackup, nomeArquivo, registrarBackup, lerBackup, resumoBackup } from '../lib/backup.js';
 import { validarMeta, metaEfetiva } from '../lib/perfil.js';
 import { el } from './componentes/dom.js';
+import { salvarComAviso as salvar } from './componentes/salvar.js';
 
 export function render(raiz) {
   const estado = carregar();
