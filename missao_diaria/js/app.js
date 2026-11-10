@@ -19,3 +19,7 @@ async function mostrar() {
 if (!TELAS.includes(location.hash.slice(1))) history.replaceState(null, '', '#hoje');
 window.addEventListener('hashchange', mostrar);
 mostrar();
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+}

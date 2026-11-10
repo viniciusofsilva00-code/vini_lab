@@ -95,3 +95,51 @@
 .campo { width: 100%; min-height: 48px; padding: var(--s-2) var(--s-3); font: 400 1rem var(--sans); color: var(--fg); background: var(--surface); border: 2px solid var(--line); border-radius: var(--r-btn); }
 .campo[aria-invalid="true"] { border-color: var(--erro); }
 .bloco { margin-top: var(--s-6); }
+
+/* ---- Painel ---- */
+.contadores--4 { grid-template-columns: repeat(2, 1fr); }
+.grafico { width: 100%; height: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-card); margin-top: var(--s-3); }
+.grafico__grade { stroke: var(--line); stroke-width: 1; }
+.grafico__linha { stroke: var(--neon-strong); stroke-width: 3; }
+.grafico__ponto { fill: var(--surface); stroke: var(--neon-strong); stroke-width: 3; }
+.grafico__rotulo { fill: var(--muted); font: 400 13px var(--sans); }
+.grafico__valor { fill: var(--fg); font: 700 13px var(--sans); }
+.tabela-alt { margin-top: var(--s-3); }
+.tabela-alt summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-weight: 600; }
+.tabela-alt summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.tabela { width: 100%; border-collapse: collapse; font-size: var(--fs-base); }
+.tabela th, .tabela td { text-align: left; padding: var(--s-2); border-bottom: 1px solid var(--line); }
+.materias, .lista-simulados { list-style: none; padding: 0; margin: var(--s-3) 0 0; display: flex; flex-direction: column; gap: var(--s-3); }
+.materia { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-card); padding: var(--s-3) var(--s-4); }
+.materia h3 { margin: 0 0 var(--s-2); }
+.materia__delta { font-weight: 700; color: var(--neon-strong); }
+.materia__nota { margin: var(--s-2) 0 0; color: var(--muted); font-size: 1rem; }
+.barra { display: grid; grid-template-columns: 4.5rem 1fr 3.2rem; align-items: center; gap: var(--s-2); margin: var(--s-1) 0; font-size: 1rem; }
+.barra__trilho { height: 16px; background: var(--bg); border: 1px solid var(--muted); border-radius: 8px; overflow: hidden; display: block; }
+.barra__preench { display: block; height: 100%; }
+.barra--agora .barra__preench { background: var(--neon-strong); }
+.barra--inicio .barra__preench { background: repeating-linear-gradient(45deg, var(--muted) 0 4px, var(--surface) 4px 8px); }
+.barra__valor { font-weight: 700; text-align: right; }
+.lista-simulados li { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-card); padding: var(--s-3) var(--s-4); font-size: var(--fs-base); }
+
+/* ---- Simulado ---- */
+.barra-prova { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: var(--s-2) 0; border-bottom: 1px solid var(--line); }
+.cronometro { margin: 0; font-size: var(--fs-lg); font-weight: 700; font-variant-numeric: tabular-nums; }
+.palco-prova { margin-top: var(--s-3); }
+.palco-prova:focus { outline: none; }
+.alt--radio { position: relative; cursor: pointer; }
+.alt--radio input { width: 22px; height: 22px; flex: none; accent-color: var(--neon); align-self: center; }
+.alt--radio:has(input:checked) { border-color: var(--neon-strong); background: var(--neon-soft); }
+.alt--radio:focus-within { outline: 3px solid var(--focus); outline-offset: 2px; }
+.acoes { display: flex; gap: var(--s-3); flex-wrap: wrap; }
+.numeros { list-style: none; display: flex; flex-wrap: wrap; gap: var(--s-2); padding: 0; margin: var(--s-4) 0 0; }
+.numero { min-width: 44px; min-height: 44px; font: 600 1rem var(--sans); color: var(--fg); background: var(--surface); border: 2px solid var(--line); border-radius: var(--r-btn); cursor: pointer; }
+.numero--feita { background: var(--neon-soft); border-color: var(--neon-strong); }
+.numero--feita::after { content: '✔'; font-size: .75em; margin-left: 2px; }
+.numero[aria-current="true"] { border-width: 4px; border-color: var(--fg); }
+.numero:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.revisao-q { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-card); padding: var(--s-2) var(--s-4); margin: var(--s-2) 0; }
+.revisao-q summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-weight: 600; }
+.revisao-q summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.alt { box-sizing: border-box; }
+html { scroll-padding-bottom: 96px; }

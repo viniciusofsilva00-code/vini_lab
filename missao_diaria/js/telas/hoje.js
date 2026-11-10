@@ -4,6 +4,7 @@ import { hoje as hojeStr, somarDias } from '../lib/datas.js';
 import { gerarMissao, gerarExtras } from '../lib/missao.js';
 import { aplicarResposta, vencidas } from '../lib/revisao.js';
 import { resumo } from '../lib/notas.js';
+import { avisoBackup, dispensarAviso } from '../lib/backup.js';
 import { el } from './componentes/dom.js';
 import { montarQuestao } from './componentes/questao.js';
 
@@ -102,9 +103,26 @@ export async function render(raiz) {
       el('button', { type: 'button', class: 'btn', onclick: fimMissao }, 'Voltar'));
   }
 
+  function avisoDeBackup() {
+    const tipo = avisoBackup(estado, data);
+    if (!tipo) return null;
+    const aviso = el('div', { class: 'aviso aviso--backup', role: 'region', 'aria-label': 'Aviso de backup' },
+      el('p', {}, tipo === 'nunca'
+        ? 'Você ainda não fez backup do seu progresso. '
+        : 'Faz mais de 7 dias desde o seu último backup. ',
+      el('a', { href: '#ajustes' }, 'Fazer backup agora')),
+      el('button', { type: 'button', class: 'btn', 'data-acao': 'dispensar-backup', onclick: () => {
+        dispensarAviso(estado, data);
+        salvar(estado);
+        aviso.remove();
+      } }, 'Dispensar'));
+    return aviso;
+  }
+
   if (!proximaDe(missao.ids)) {
     missao.concluida = true;
     if (missao.extras?.length && proximaDe(missao.extras.slice(-EXTRA))) iniciarExtra();
     else fimMissao();
   } else mostrarQuestao(missao.ids, 'Missão do dia');
+  raiz.querySelector('h1')?.after(avisoDeBackup() ?? '');
 }

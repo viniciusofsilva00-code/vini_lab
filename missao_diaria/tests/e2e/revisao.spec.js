@@ -27,6 +27,7 @@ test('errar de propósito leva a questão para "Só erradas"', async ({ page }) 
   await expect(page.getByRole('heading', { name: 'Revisão concluída' })).toBeVisible();
 
   await page.getByRole('button', { name: 'Voltar à revisão' }).click();
-  await expect(page.locator('[data-contador="erradas"]')).toHaveText('0');
-  await expect(page.locator('[data-contador="acertadas"]')).toHaveText('1');
+  // questão já errada continua na revisão (caixa 2) até ser acertada na caixa 5
+  await expect(page.locator('[data-contador="erradas"]')).toHaveText('1');
+  await expect(page.locator('[data-contador="acertadas"]')).toHaveText('0');
 });

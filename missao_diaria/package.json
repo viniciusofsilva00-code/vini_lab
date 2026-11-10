@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "test": "vitest run tests/unit",
     "test:e2e": "playwright test",
-    "indice": "node scripts/indice.mjs",
+    "indice": "node scripts/indice.mjs && node scripts/sw.mjs",
     "pretest": "npm run indice",
     "pretest:e2e": "npm run indice"
   },

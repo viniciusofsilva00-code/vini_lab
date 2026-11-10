@@ -28,6 +28,11 @@ describe('perfil', () => {
     expect(metaEfetiva({ meta: { tipo: 'minutos', valor: 30 }, modoLeve: false })).toBe(15);
     expect(metaEfetiva({ meta: { tipo: 'questoes', valor: 10 }, modoLeve: false })).toBe(10);
   });
+  it('metaEfetiva em minutos é limitada a 40 questões', () => {
+    expect(metaEfetiva({ meta: { tipo: 'minutos', valor: 120 }, modoLeve: false })).toBe(40);
+    expect(metaEfetiva({ meta: { tipo: 'minutos', valor: 80 }, modoLeve: false })).toBe(40);
+    expect(metaEfetiva({ meta: { tipo: 'minutos', valor: 78 }, modoLeve: false })).toBe(39);
+  });
   it('modo leve é metade com mínimo de 3', () => {
     expect(metaEfetiva({ meta: { tipo: 'questoes', valor: 20 }, modoLeve: true })).toBe(10);
     expect(metaEfetiva({ meta: { tipo: 'questoes', valor: 5 }, modoLeve: true })).toBe(3);

@@ -1,5 +1,6 @@
 // Perfil e meta diária. Funções puras.
 export const MIN_POR_QUESTAO = 2;
+export const MAX_QUESTOES = 40;
 const LIMITES = { questoes: [5, 40], minutos: [10, 120] };
 
 export function perfilPadrao(inicio) {
@@ -19,6 +20,6 @@ export function validarMeta(tipo, valor) {
 
 export function metaEfetiva(perfil) {
   const { tipo, valor } = perfil.meta;
-  const n = tipo === 'minutos' ? Math.round(valor / MIN_POR_QUESTAO) : valor;
+  const n = tipo === 'minutos' ? Math.min(MAX_QUESTOES, Math.round(valor / MIN_POR_QUESTAO)) : valor;
   return perfil.modoLeve ? Math.max(3, Math.ceil(n / 2)) : n;
 }

@@ -1,4 +1,6 @@
-import { carregar, salvar } from '../lib/armazenamento.js';
+import { carregar, salvar, migrar } from '../lib/armazenamento.js';
+import { formatarData } from '../lib/datas.js';
+import { criarBackup, nomeArquivo, registrarBackup, lerBackup, resumoBackup } from '../lib/backup.js';
 import { validarMeta, metaEfetiva } from '../lib/perfil.js';
 import { el } from './componentes/dom.js';
 
@@ -50,7 +52,60 @@ export function render(raiz) {
       el('label', { class: 'opcao' }, acertos, ' Incluir acertos na revisão (voltam em intervalos longos)'),
       el('button', { type: 'submit', class: 'btn btn--primario' }, 'Salvar'),
       status),
-    el('section', { class: 'bloco' }, el('h2', {}, 'Backup'),
-      el('p', { class: 'tela__texto' }, 'Em breve: exportar e importar seu progresso.')));
+    secaoBackup());
   atualizarDica();
+
+  function secaoBackup() {
+    const msg = el('p', { class: 'tela__texto', role: 'status', id: 'status-backup' });
+    const erroImp = el('p', { class: 'erro', role: 'alert', id: 'erro-backup' });
+    const confirmacao = el('div', { id: 'confirma-import' });
+    const ultimo = el('p', { class: 'tela__texto', id: 'ultimo-backup' },
+      estado.ultimoBackup ? `Último backup: ${formatarData(estado.ultimoBackup)}.` : 'Você ainda não fez backup.');
+
+    function exportar() {
+      erroImp.textContent = '';
+      registrarBackup(estado);
+      salvar(estado);
+      const blob = new Blob([JSON.stringify(criarBackup(estado), null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = el('a', { href: url, download: nomeArquivo() });
+      document.body.append(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      ultimo.textContent = `Último backup: ${formatarData(estado.ultimoBackup)}.`;
+      msg.textContent = `Backup salvo no arquivo ${nomeArquivo()}.`;
+    }
+
+    async function escolher(ev) {
+      const arquivo = ev.target.files[0];
+      msg.textContent = '';
+      erroImp.textContent = '';
+      confirmacao.replaceChildren();
+      if (!arquivo) return;
+      const r = lerBackup(await arquivo.text());
+      ev.target.value = '';
+      if (!r.ok) { erroImp.textContent = r.erro; return; }
+      const res = resumoBackup(r.estado);
+      confirmacao.replaceChildren(el('div', { class: 'aviso', role: 'group', 'aria-labelledby': 'confirma-titulo' },
+        el('p', { id: 'confirma-titulo' }, el('strong', {}, 'Substituir seu progresso atual por este backup?')),
+        el('p', {}, `O backup tem ${res.respostas} ${res.respostas === 1 ? 'resposta' : 'respostas'} e ${res.simulados} ${res.simulados === 1 ? 'simulado' : 'simulados'}, desde ${formatarData(res.desde)}. `
+          + `Seu progresso atual (${estado.respostas.length} respostas) será apagado.`),
+        el('button', { type: 'button', class: 'btn btn--primario', 'data-acao': 'confirmar-import', onclick: () => {
+          salvar(migrar(r.estado));
+          render(raiz);
+          raiz.querySelector('#status-backup').textContent = `Progresso restaurado: ${res.respostas} respostas.`;
+        } }, 'Substituir progresso'),
+        el('button', { type: 'button', class: 'btn', onclick: () => { confirmacao.replaceChildren(); msg.textContent = 'Importação cancelada.'; } }, 'Cancelar')));
+      confirmacao.querySelector('button').focus();
+    }
+
+    return el('section', { class: 'bloco', 'aria-labelledby': 'h-backup' }, el('h2', { id: 'h-backup' }, 'Backup'),
+      el('p', { class: 'tela__texto' }, 'Seu progresso fica só neste aparelho. Exporte um arquivo para guardar ou levar para outro aparelho.'),
+      ultimo,
+      el('button', { type: 'button', class: 'btn btn--primario', 'data-acao': 'exportar', onclick: exportar }, 'Exportar backup'),
+      el('label', { for: 'arquivo-backup', class: 'rotulo' }, 'Importar backup (arquivo .json)'),
+      el('input', { id: 'arquivo-backup', class: 'campo', type: 'file', accept: 'application/json,.json', onchange: escolher, 'aria-describedby': 'erro-backup' }),
+      erroImp, confirmacao, msg);
+  }
 }

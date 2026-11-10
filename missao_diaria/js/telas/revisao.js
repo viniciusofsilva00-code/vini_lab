@@ -1,7 +1,7 @@
 import { carregarBanco } from '../lib/questoes.js';
 import { carregar, salvar } from '../lib/armazenamento.js';
 import { hoje as hojeStr } from '../lib/datas.js';
-import { aplicarResposta, vencidas } from '../lib/revisao.js';
+import { aplicarResposta, vencidas, emRevisao } from '../lib/revisao.js';
 import { resumo } from '../lib/notas.js';
 import { el } from './componentes/dom.js';
 import { montarQuestao } from './componentes/questao.js';
@@ -34,7 +34,7 @@ export async function render(raiz) {
     if (modo === 'vencidas') ids = vencidas(estado.cartoes, data, { incluirAcertos: estado.perfil.incluirAcertosRevisao }).map((c) => c.id);
     else {
       const quer = modo === 'erradas';
-      ids = cartoes().filter(([, c]) => c.ultimaErrou === quer)
+      ids = cartoes().filter(([, c]) => emRevisao(c) === quer)
         .sort((a, b) => a[1].proxima.localeCompare(b[1].proxima) || a[0].localeCompare(b[0])).map(([id]) => id);
     }
     return dasMaterias(ids.filter((id) => porId.has(id)));
@@ -42,7 +42,7 @@ export async function render(raiz) {
 
   function inicio() {
     const venc = vencidas(estado.cartoes, data, { incluirAcertos: estado.perfil.incluirAcertosRevisao }).filter((c) => porId.has(c.id)).length;
-    const erradas = cartoes().filter(([, c]) => c.ultimaErrou).length;
+    const erradas = cartoes().filter(([, c]) => emRevisao(c)).length;
     const acertadas = cartoes().length - erradas;
     const ids = selecionar();
     const botoesModo = MODOS.map(([id, rotulo]) => el('button', {

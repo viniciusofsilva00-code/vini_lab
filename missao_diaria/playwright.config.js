@@ -6,6 +6,7 @@ export default defineConfig({
     baseURL: 'http://localhost:8010/missao_diaria/',
     locale: 'pt-BR',
     timezoneId: 'America/Sao_Paulo',
+    serviceWorkers: 'block',
   },
   projects: [{ name: 'chromium', use: { ...devices['Pixel 7'] } }],
   webServer: {

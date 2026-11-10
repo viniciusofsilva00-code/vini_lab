@@ -17,3 +17,9 @@ export function somarDias(data, n) {
 export function diferencaDias(a, b) {
   return Math.round((utc(b) - utc(a)) / DIA_MS);
 }
+
+// 'AAAA-MM-DD' → 'DD/MM/AAAA'
+export function formatarData(data) {
+  const [a, m, d] = data.split('-');
+  return `${d}/${m}/${a}`;
+}

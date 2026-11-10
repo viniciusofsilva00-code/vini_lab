@@ -1,9 +1,9 @@
 // Componente de questão: enunciado, alternativas A–E, correção imediata e explicação.
 import { el } from './dom.js';
 
-const LETRAS = ['A', 'B', 'C', 'D', 'E'];
+export const LETRAS = ['A', 'B', 'C', 'D', 'E'];
 
-function explicacao(q, escolhida) {
+export function explicacao(q, escolhida) {
   const ex = q.explicacao;
   const acertou = escolhida === q.correta;
   return el('div', { class: 'explicacao' },

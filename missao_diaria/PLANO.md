@@ -54,9 +54,9 @@ Questões de provas anteriores · ranking entre amigos · sincronização entre 
 ## Etapas
 - [x] 1. **Esqueleto e tema militar:** pasta, `index.html`, tema oliva sobre o design system, navegação (Hoje · Revisão · Simulado · Painel · Ajustes), ferramentas de dev e entrada em `apps.json` como "em construção". Pronto: abre local e o axe passa limpo.
 - [x] 2. **Edital e formato da questão:** matérias e pesos conferidos no edital PM-SP mais recente, formato do JSON, validador do banco e lote piloto de 20 questões. Pronto: validador verde e você aprova o estilo das questões.
-- [ ] 3. **Motor local:** armazenamento versionado, perfil/meta e sorteio da missão (TDD). Pronto: testes de sorteio cobrindo meta, modo leve e pesos.
-- [ ] 4. **Tela da missão:** responder, correção imediata, explicação e resumo do dia. Pronto: e2e de uma missão completa.
-- [ ] 5. **Revisão espaçada** (TDD) e tela de revisão (erradas, acertadas opcional, filtro por matéria). Pronto: testes das caixas e e2e.
+- [x] 3. **Motor local:** armazenamento versionado, perfil/meta e sorteio da missão (TDD). Pronto: testes de sorteio cobrindo meta, modo leve e pesos.
+- [x] 4. **Tela da missão:** responder, correção imediata, explicação e resumo do dia. Pronto: e2e de uma missão completa.
+- [x] 5. **Revisão espaçada** (TDD) e tela de revisão (erradas, acertadas opcional, filtro por matéria). Pronto: testes das caixas e e2e.
 - [ ] 6. **Banco lote 1:** ~100 questões em todas as matérias. Pronto: validador verde e amostra revisada.
 - [ ] 7. **Painel de evolução.** Pronto: estatísticas testadas e o painel mostra a melhora com dados de exemplo.
 - [ ] 8. **Backup** exportar/importar (TDD) e aviso de backup. Pronto: exporta, importa em outro navegador e o progresso continua igual.

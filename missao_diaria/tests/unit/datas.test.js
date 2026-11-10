@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { hoje, somarDias, diferencaDias } from '../../js/lib/datas.js';
+import { hoje, somarDias, diferencaDias, formatarData } from '../../js/lib/datas.js';
 
 describe('datas', () => {
   it('hoje usa o fuso de São Paulo (UTC-3)', () => {
@@ -16,4 +16,8 @@ describe('datas', () => {
     expect(diferencaDias('2026-03-08', '2026-03-01')).toBe(-7);
     expect(diferencaDias('2026-12-31', '2027-01-01')).toBe(1);
   });
+});
+
+describe('formatarData', () => {
+  it('dd/mm/aaaa', () => expect(formatarData('2026-11-09')).toBe('09/11/2026'));
 });
