@@ -5,7 +5,7 @@ import { gerarMissao, gerarExtras } from '../lib/missao.js';
 import { aplicarResposta, vencidas } from '../lib/revisao.js';
 import { resumo } from '../lib/notas.js';
 import { avisoBackup, dispensarAviso } from '../lib/backup.js';
-import { el } from './componentes/dom.js';
+import { el, trocar } from './componentes/dom.js';
 import { salvarComAviso as salvar } from './componentes/salvar.js';
 import { montarQuestao } from './componentes/questao.js';
 
@@ -13,20 +13,20 @@ const EXTRA = 5;
 const titulo = () => el('h1', { class: 'vl-h1 tela__titulo' }, 'Hoje');
 
 export async function render(raiz, ativo = () => true) {
-  raiz.replaceChildren(titulo(), el('p', { class: 'tela__texto', role: 'status' }, 'Carregando a missão…'));
+  trocar(raiz, titulo(), el('p', { class: 'tela__texto', role: 'status' }, 'Carregando a missão…'));
   let banco;
   try {
     banco = await carregarBanco();
   } catch {
     if (!ativo()) return;
-    raiz.replaceChildren(titulo(), el('p', { class: 'aviso', role: 'alert' },
+    trocar(raiz, titulo(), el('p', { class: 'aviso', role: 'alert' },
       'Não consegui carregar as questões. Confira a conexão e recarregue a página.'));
     return;
   }
   if (!ativo()) return;
   const { questoes, edital } = banco;
   if (!questoes.length) {
-    raiz.replaceChildren(titulo(), el('p', { class: 'tela__texto' }, 'O banco de questões ainda está vazio.'));
+    trocar(raiz, titulo(), el('p', { class: 'tela__texto' }, 'O banco de questões ainda está vazio.'));
     return;
   }
   const porId = new Map(questoes.map((q) => [q.id, q]));
@@ -53,7 +53,7 @@ export async function render(raiz, ativo = () => true) {
     const q = porId.get(id);
     const feitas = ids.filter((x) => feitasHoje().has(x)).length;
     const palco = el('div');
-    raiz.replaceChildren(...cabecalho(feitas, ids.length, rotulo), palco);
+    trocar(raiz, ...cabecalho(feitas, ids.length, rotulo), palco);
     if (feitas === 0 && !estado.respostas.length) {
       palco.before(el('p', { class: 'aviso' }, 'Primeira missão! A meta padrão é de 10 questões por dia. ',
         el('a', { href: '#ajustes' }, 'Definir minha meta')));
@@ -87,7 +87,7 @@ export async function render(raiz, ativo = () => true) {
 
   function fimMissao() {
     const novas = gerarExtras({ questoes, edital, estado, data, n: 1 });
-    raiz.replaceChildren(titulo(), el('p', { class: 'veredito veredito--certa', role: 'status' }, '✔ Missão cumprida!'),
+    trocar(raiz, titulo(), el('p', { class: 'veredito veredito--certa', role: 'status' }, '✔ Missão cumprida!'),
       resumoDia('Resumo do dia', missao.ids),
       novas.length ? el('button', { type: 'button', class: 'btn', 'data-acao': 'extra', onclick: iniciarExtra }, `Treino extra (${EXTRA} questões)`) : null);
   }
@@ -104,7 +104,7 @@ export async function render(raiz, ativo = () => true) {
 
   function fimExtra() {
     const ids = missao.loteExtra ?? missao.extras.slice(-EXTRA);
-    raiz.replaceChildren(titulo(), resumoDia('Resumo do treino extra', ids),
+    trocar(raiz, titulo(), resumoDia('Resumo do treino extra', ids),
       el('button', { type: 'button', class: 'btn', onclick: fimMissao }, 'Voltar'));
   }
 

@@ -1,5 +1,5 @@
 // Componente de questão: enunciado, alternativas A–E, correção imediata e explicação.
-import { el } from './dom.js';
+import { el, trocar } from './dom.js';
 
 export const LETRAS = ['A', 'B', 'C', 'D', 'E'];
 
@@ -56,7 +56,7 @@ export function montarQuestao(raiz, q, { materiaNome = '', rotuloProxima = 'Pró
     feedback.querySelector('.veredito').scrollIntoView({ block: 'nearest' });
   }
 
-  raiz.replaceChildren(el('section', { class: 'questao', 'aria-labelledby': idEnun },
+  trocar(raiz, el('section', { class: 'questao', 'aria-labelledby': idEnun },
     materiaNome && el('p', { class: 'questao__meta' }, `${materiaNome} · ${q.assunto}`),
     q.texto && el('blockquote', { class: 'questao__texto' }, q.texto),
     el('p', { id: idEnun, class: 'questao__enunciado' }, q.enunciado),

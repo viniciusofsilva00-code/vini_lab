@@ -4,7 +4,7 @@ import { hoje as hojeStr, formatarData } from '../lib/datas.js';
 import {
   LIMITES, NOTA_MINIMA, validarConfig, montarSimulado, restanteSegundos, acumularTempo, finalizar, notaSobre60,
 } from '../lib/simulado.js';
-import { el } from './componentes/dom.js';
+import { el, trocar } from './componentes/dom.js';
 import { salvarComAviso as salvar } from './componentes/salvar.js';
 import { explicacao, LETRAS } from './componentes/questao.js';
 
@@ -21,13 +21,13 @@ function formatarTempo(seg) {
 const duracao = (seg) => (seg >= 60 ? `${Math.floor(seg / 60)} min ${seg % 60} s` : `${seg} s`);
 
 export async function render(raiz, ativo = () => true) {
-  raiz.replaceChildren(titulo(), el('p', { class: 'tela__texto', role: 'status' }, 'Carregando…'));
+  trocar(raiz, titulo(), el('p', { class: 'tela__texto', role: 'status' }, 'Carregando…'));
   let banco;
   try {
     banco = await carregarBanco();
   } catch {
     if (!ativo()) return;
-    raiz.replaceChildren(titulo(), el('p', { class: 'aviso', role: 'alert' },
+    trocar(raiz, titulo(), el('p', { class: 'aviso', role: 'alert' },
       'Não consegui carregar as questões. Confira a conexão e recarregue a página.'));
     return;
   }
@@ -44,7 +44,7 @@ export async function render(raiz, ativo = () => true) {
     const qtd = el('input', { id: 'sim-questoes', class: 'campo', type: 'number', inputmode: 'numeric', value: String(Math.min(padrao.questoes, questoes.length)), 'aria-describedby': 'erro-sim dica-sim-q' });
     const min = el('input', { id: 'sim-minutos', class: 'campo', type: 'number', inputmode: 'numeric', value: String(padrao.minutos), 'aria-describedby': 'erro-sim dica-sim-m' });
     const ultimo = estado.simulados.at(-1);
-    raiz.replaceChildren(titulo(),
+    trocar(raiz, titulo(),
       el('p', { class: 'tela__texto' }, `O padrão é o da prova real: ${padrao.questoes} questões em ${padrao.minutos} minutos. A correção aparece só no fim, como na prova.`),
       el('form', { class: 'form', novalidate: true, onsubmit: (ev) => {
         ev.preventDefault();
@@ -101,7 +101,7 @@ export async function render(raiz, ativo = () => true) {
     }
 
     function desenharNav() {
-      navegacao.replaceChildren(el('ul', { class: 'numeros' }, and.ids.map((id, i) => el('li', {}, el('button', {
+      trocar(navegacao, el('ul', { class: 'numeros' }, and.ids.map((id, i) => el('li', {}, el('button', {
         type: 'button', class: `numero${and.respostas[id] !== undefined ? ' numero--feita' : ''}`,
         'aria-label': `Questão ${i + 1}, ${and.respostas[id] !== undefined ? 'respondida' : 'em branco'}`,
         'aria-current': i === and.atual ? 'true' : false,
@@ -123,7 +123,7 @@ export async function render(raiz, ativo = () => true) {
       const n = and.ids.length;
       const idEnun = `enun-${q.id}`;
       const marcada = and.respostas[q.id];
-      palco.replaceChildren(el('div', { class: 'questao' },
+      trocar(palco, el('div', { class: 'questao' },
         el('p', { class: 'questao__meta' }, `Questão ${and.atual + 1} de ${n} · ${nomeMateria.get(q.materia)}`),
         q.texto && el('blockquote', { class: 'questao__texto' }, q.texto),
         el('p', { id: idEnun, class: 'questao__enunciado' }, q.enunciado),
@@ -145,7 +145,7 @@ export async function render(raiz, ativo = () => true) {
     function pedirEntrega() {
       const feitas = Object.keys(and.respostas).length;
       const em = and.ids.length - feitas;
-      confirmacao.replaceChildren(el('div', { class: 'aviso', role: 'group', 'aria-labelledby': 'entrega-titulo' },
+      trocar(confirmacao, el('div', { class: 'aviso', role: 'group', 'aria-labelledby': 'entrega-titulo' },
         el('p', { id: 'entrega-titulo' }, el('strong', {}, 'Entregar o simulado?')),
         el('p', {}, `Você respondeu ${feitas} de ${and.ids.length} questões${em ? ` (${em} em branco)` : ''}. Depois de entregar não dá para mudar.`),
         el('button', { type: 'button', class: 'btn btn--primario', 'data-acao': 'confirmar-entrega', onclick: () => entregar(false) }, 'Entregar agora'),
@@ -153,7 +153,7 @@ export async function render(raiz, ativo = () => true) {
       confirmacao.querySelector('button').focus();
     }
 
-    raiz.replaceChildren(titulo(),
+    trocar(raiz, titulo(),
       el('div', { class: 'barra-prova' }, cron, aviso),
       palco,
       el('button', { type: 'button', class: 'btn btn--primario', 'data-acao': 'entregar', onclick: pedirEntrega }, 'Entregar simulado'),
@@ -182,7 +182,7 @@ export async function render(raiz, ativo = () => true) {
         esc === undefined ? el('p', {}, 'Você deixou esta questão em branco.') : el('p', {}, `Sua resposta: ${LETRAS[esc]}) ${q.alternativas[esc]}`),
         explicacao(q, esc));
     });
-    raiz.replaceChildren(titulo(),
+    trocar(raiz, titulo(),
       esgotou ? el('p', { class: 'aviso', role: 'status' }, 'Tempo esgotado: o simulado foi entregue automaticamente.') : null,
       el('section', { class: 'resumo', 'aria-labelledby': 'h-resultado' },
         el('h2', { id: 'h-resultado', tabindex: '-1' }, `Resultado do simulado de ${formatarData(r.data)}`),

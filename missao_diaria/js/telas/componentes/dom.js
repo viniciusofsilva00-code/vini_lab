@@ -18,3 +18,8 @@ export function svg(tag, attrs = {}, ...filhos) {
   for (const f of filhos.flat()) if (f != null && f !== false) e.append(f);
   return e;
 }
+
+// replaceChildren sem escrever "null"/"false" na tela quando um filho é opcional.
+export function trocar(no, ...filhos) {
+  no.replaceChildren(...filhos.flat().filter((f) => f != null && f !== false));
+}

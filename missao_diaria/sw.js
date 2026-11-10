@@ -1,6 +1,6 @@
 // Service worker: app offline. A lista e a versão entre os marcadores são geradas por scripts/sw.mjs.
 /* GERADO:INICIO */
-const VERSAO = 'missao-diaria-c67942066b';
+const VERSAO = 'missao-diaria-6f55b4de97';
 const ARQUIVOS = [
   "../design-system/components/components.css",
   "../design-system/tokens/tokens.css",

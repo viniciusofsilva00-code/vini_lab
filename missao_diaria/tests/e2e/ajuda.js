@@ -2,6 +2,8 @@ import AxeBuilder from '@axe-core/playwright';
 import { expect } from '@playwright/test';
 
 export async function semViolacoes(page) {
+  // espera a tela pintar (o h1 vem do módulo carregado sob demanda) antes de rodar o axe
+  await expect(page.locator("main h1")).toBeVisible();
   const { violations } = await new AxeBuilder({ page }).analyze();
   expect(violations, JSON.stringify(violations, null, 2)).toEqual([]);
 }

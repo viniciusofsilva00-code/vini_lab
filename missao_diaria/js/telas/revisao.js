@@ -3,7 +3,7 @@ import { carregar } from '../lib/armazenamento.js';
 import { hoje as hojeStr } from '../lib/datas.js';
 import { aplicarResposta, vencidas, emRevisao } from '../lib/revisao.js';
 import { resumo } from '../lib/notas.js';
-import { el } from './componentes/dom.js';
+import { el, trocar } from './componentes/dom.js';
 import { salvarComAviso as salvar } from './componentes/salvar.js';
 import { montarQuestao } from './componentes/questao.js';
 
@@ -11,13 +11,13 @@ const titulo = () => el('h1', { class: 'vl-h1 tela__titulo' }, 'Revisão');
 const MODOS = [['vencidas', 'Revisar vencidas'], ['erradas', 'Só erradas'], ['acertadas', 'Só acertadas']];
 
 export async function render(raiz, ativo = () => true) {
-  raiz.replaceChildren(titulo(), el('p', { class: 'tela__texto', role: 'status' }, 'Carregando…'));
+  trocar(raiz, titulo(), el('p', { class: 'tela__texto', role: 'status' }, 'Carregando…'));
   let banco;
   try {
     banco = await carregarBanco();
   } catch {
     if (!ativo()) return;
-    raiz.replaceChildren(titulo(), el('p', { class: 'aviso', role: 'alert' },
+    trocar(raiz, titulo(), el('p', { class: 'aviso', role: 'alert' },
       'Não consegui carregar as questões. Confira a conexão e recarregue a página.'));
     return;
   }
@@ -57,7 +57,7 @@ export async function render(raiz, ativo = () => true) {
       onchange: (e) => { materia = e.target.value; inicio(); raiz.querySelector('#filtro-materia').focus(); },
     }, el('option', { value: '' }, 'Todas as matérias'),
     edital.materias.map((m) => el('option', { value: m.id, selected: m.id === materia }, m.nome)));
-    raiz.replaceChildren(titulo(),
+    trocar(raiz, titulo(),
       el('ul', { class: 'contadores' },
         el('li', {}, el('strong', { 'data-contador': 'vencidas' }, String(venc)), ' vencidas hoje'),
         el('li', {}, el('strong', { 'data-contador': 'erradas' }, String(erradas)), ' erradas'),
@@ -75,7 +75,7 @@ export async function render(raiz, ativo = () => true) {
       if (i >= ids.length) return fim(feitas);
       const q = porId.get(ids[i]);
       const palco = el('div');
-      raiz.replaceChildren(titulo(),
+      trocar(raiz, titulo(),
         el('p', { class: 'progresso' }, `Revisão: ${i + 1}/${ids.length}`,
           el('progress', { max: String(ids.length), value: String(i), 'aria-label': `Revisão: ${i} de ${ids.length} respondidas` })),
         palco,
@@ -96,7 +96,7 @@ export async function render(raiz, ativo = () => true) {
 
   function fim(feitas) {
     const r = resumo(feitas, (id) => porId.get(id)?.materia);
-    raiz.replaceChildren(titulo(), el('section', { class: 'resumo' },
+    trocar(raiz, titulo(), el('section', { class: 'resumo' },
       el('h2', {}, 'Revisão concluída'),
       el('p', { class: 'resumo__nota' }, `Nota: ${r.percentual}% (${r.acertos} de ${r.total})`),
       el('ul', {}, Object.entries(r.porMateria).map(([m, x]) =>

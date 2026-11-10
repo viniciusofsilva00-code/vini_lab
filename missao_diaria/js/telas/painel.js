@@ -5,7 +5,7 @@ import {
   percentualPorSemana, inicioVsAgora, sequencia, totalDominadas, fraseMelhora, MIN_RESPOSTAS,
 } from '../lib/estatisticas.js';
 import { notaSobre60 } from '../lib/simulado.js';
-import { el, svg } from './componentes/dom.js';
+import { el, svg, trocar } from './componentes/dom.js';
 
 const titulo = () => el('h1', { class: 'vl-h1 tela__titulo' }, 'Painel');
 const curta = (data) => formatarData(data).slice(0, 5);
@@ -64,13 +64,13 @@ function porMateria(comparativo, nomes) {
 }
 
 export async function render(raiz, ativo = () => true) {
-  raiz.replaceChildren(titulo(), el('p', { class: 'tela__texto', role: 'status' }, 'Carregando o painel…'));
+  trocar(raiz, titulo(), el('p', { class: 'tela__texto', role: 'status' }, 'Carregando o painel…'));
   let banco;
   try {
     banco = await carregarBanco();
   } catch {
     if (!ativo()) return;
-    raiz.replaceChildren(titulo(), el('p', { class: 'aviso', role: 'alert' },
+    trocar(raiz, titulo(), el('p', { class: 'aviso', role: 'alert' },
       'Não consegui carregar as questões. Confira a conexão e recarregue a página.'));
     return;
   }
@@ -85,7 +85,7 @@ export async function render(raiz, ativo = () => true) {
   const simulados = [...estado.simulados].reverse();
   const numero = (rotulo, valor, id) => el('li', {}, el('strong', { 'data-numero': id }, String(valor)), ` ${rotulo}`);
 
-  raiz.replaceChildren(titulo(),
+  trocar(raiz, titulo(),
     el('p', { class: 'aviso', 'data-frase': 'melhora', role: 'status' }, fraseMelhora(comparativo, nomes)),
     el('ul', { class: 'contadores contadores--4' },
       numero(seq.atual === 1 ? 'dia seguido' : 'dias seguidos', seq.atual, 'sequencia'),

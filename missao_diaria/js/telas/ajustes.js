@@ -2,7 +2,7 @@ import { carregar, migrar } from '../lib/armazenamento.js';
 import { formatarData } from '../lib/datas.js';
 import { criarBackup, nomeArquivo, registrarBackup, lerBackup, resumoBackup } from '../lib/backup.js';
 import { validarMeta, metaEfetiva } from '../lib/perfil.js';
-import { el } from './componentes/dom.js';
+import { el, trocar } from './componentes/dom.js';
 import { salvarComAviso as salvar } from './componentes/salvar.js';
 
 export function render(raiz) {
@@ -88,7 +88,7 @@ export function render(raiz) {
       ev.target.value = '';
       if (!r.ok) { erroImp.textContent = r.erro; return; }
       const res = resumoBackup(r.estado);
-      confirmacao.replaceChildren(el('div', { class: 'aviso', role: 'group', 'aria-labelledby': 'confirma-titulo' },
+      trocar(confirmacao, el('div', { class: 'aviso', role: 'group', 'aria-labelledby': 'confirma-titulo' },
         el('p', { id: 'confirma-titulo' }, el('strong', {}, 'Substituir seu progresso atual por este backup?')),
         el('p', {}, `O backup tem ${res.respostas} ${res.respostas === 1 ? 'resposta' : 'respostas'} e ${res.simulados} ${res.simulados === 1 ? 'simulado' : 'simulados'}, desde ${formatarData(res.desde)}. `
           + `Seu progresso atual (${estado.respostas.length} respostas) será apagado.`),
