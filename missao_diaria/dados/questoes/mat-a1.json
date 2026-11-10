@@ -178,8 +178,8 @@
       ],
       "porQueErradas": {
         "0": "Erra a regra de sinais: há 4 fatores negativos (quantidade par), logo o produto é positivo.",
-        "2": "Esquece o fator (−5).",
-        "3": "Esquece o fator (−5) e erra o sinal.",
+        "2": "Esquece o fator (−5) e ainda erra o sinal: (−2)·(−3)·(−1)·4 = −24.",
+        "3": "Esquece o fator (−5): (−2)·(−3)·(−1)·4 = −24.",
         "4": "Erra a multiplicação dos módulos: 2·3·1·4·5 = 120."
       },
       "pegadinha": "Na multiplicação, o sinal depende da quantidade de fatores negativos: par dá positivo, ímpar dá negativo.",

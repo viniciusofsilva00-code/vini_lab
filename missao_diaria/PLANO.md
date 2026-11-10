@@ -61,8 +61,8 @@ Questões de provas anteriores · ranking entre amigos · sincronização entre 
 - [x] 7. **Painel de evolução.** Pronto: estatísticas testadas e o painel mostra a melhora com dados de exemplo.
 - [x] 8. **Backup** exportar/importar (TDD) e aviso de backup. Pronto: exporta, importa em outro navegador e o progresso continua igual.
 - [x] 9. **Simulado cronometrado.** Pronto: e2e com tempo curto, correção no fim e resultado no painel.
-- [ ] 10. **PWA e publicação:** instalável e offline, merge na main, `apps.json` como "online" e teste com o amigo. Pronto: ele usa pelo link no celular.
-- [ ] 11. **Banco lotes 2 a 5** (100 por lote, até ~500), ajustados pelo uso dele.
+- [x] 10. **PWA e publicação:** instalável e offline, merge na main, `apps.json` como "online" e teste com o amigo. Pronto: ele usa pelo link no celular.
+- [x] 11. **Banco lotes 2 a 5** (100 por lote, até ~500), ajustados pelo uso dele.
 
 ## Decisões tomadas
 - App estático, sem login: o público é pequeno e o custo é zero. Login fica para quando houver sincronização.
