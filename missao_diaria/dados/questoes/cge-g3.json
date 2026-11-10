@@ -1,0 +1,622 @@
+[
+  {
+    "id": "cge-0101",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Atividades econômicas e energia",
+    "dificuldade": 1,
+    "enunciado": "A principal fonte de geração de energia elétrica no Brasil, que torna a matriz elétrica do país predominantemente renovável, é",
+    "alternativas": [
+      "a hidrelétrica.",
+      "a nuclear.",
+      "o carvão mineral.",
+      "o petróleo.",
+      "a geotérmica."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O Brasil tem muitos rios de planalto com quedas d'água.",
+        "Isso favorece usinas hidrelétricas, como Itaipu e Belo Monte.",
+        "A hidreletricidade é a maior fonte de eletricidade do país."
+      ],
+      "porQueErradas": {
+        "1": "As usinas nucleares (Angra) têm pequena participação na matriz elétrica.",
+        "2": "O carvão tem participação pequena na geração elétrica brasileira.",
+        "3": "O petróleo é mais usado em transportes do que na geração elétrica.",
+        "4": "Não há geração geotérmica relevante no Brasil."
+      },
+      "pegadinha": "Matriz elétrica (só eletricidade) é diferente de matriz energética (toda a energia, incluindo transportes).",
+      "fonte": "Empresa de Pesquisa Energética (EPE): Balanço Energético Nacional."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0102",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Atividades econômicas e energia",
+    "dificuldade": 2,
+    "enunciado": "O petróleo do pré-sal brasileiro é encontrado",
+    "alternativas": [
+      "em reservatórios em águas ultraprofundas, abaixo de uma espessa camada de sal, principalmente nas bacias de Santos e de Campos.",
+      "em jazidas terrestres rasas no interior da Amazônia.",
+      "em minas a céu aberto no Quadrilátero Ferrífero.",
+      "em lagoas salgadas do litoral nordestino.",
+      "acima da camada de sal, próximo da superfície do mar."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "'Pré-sal' refere-se a rochas formadas antes da camada de sal.",
+        "Os reservatórios ficam a grande profundidade no oceano.",
+        "As principais áreas estão no litoral do Sudeste (bacias de Santos e Campos)."
+      ],
+      "porQueErradas": {
+        "1": "O pré-sal é marítimo e profundo.",
+        "2": "O Quadrilátero Ferrífero é área de minério de ferro.",
+        "3": "O pré-sal está no subsolo marinho, a grande profundidade.",
+        "4": "Como o nome diz, está abaixo da camada de sal."
+      },
+      "pegadinha": "'Pré' indica idade geológica (anterior), por isso a rocha fica abaixo do sal.",
+      "fonte": "Petrobras/ANP: província do pré-sal."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0103",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Atividades econômicas e energia",
+    "dificuldade": 2,
+    "enunciado": "O Programa Nacional do Álcool (Proálcool), lançado em 1975, teve como principal motivação",
+    "alternativas": [
+      "aumentar a exportação de petróleo brasileiro.",
+      "substituir as hidrelétricas por usinas a álcool.",
+      "proibir o cultivo de cana-de-açúcar no Sudeste.",
+      "incentivar o uso de carvão vegetal nas siderúrgicas.",
+      "reduzir a dependência do petróleo importado após a crise do petróleo de 1973, incentivando o etanol de cana-de-açúcar."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Em 1973 o preço do petróleo disparou (choque do petróleo).",
+        "O Brasil importava grande parte do petróleo que consumia.",
+        "O Proálcool estimulou o etanol de cana como alternativa à gasolina."
+      ],
+      "porQueErradas": {
+        "0": "O Brasil era importador de petróleo na época.",
+        "1": "O programa visava combustível para veículos, não eletricidade.",
+        "2": "Ao contrário, estimulou o cultivo de cana.",
+        "3": "O foco era o etanol como combustível automotivo."
+      },
+      "pegadinha": "O Proálcool é de 1975, mas sua causa é a crise de 1973; a banca pode trocar as datas.",
+      "fonte": "Política energética: Proálcool (Decreto 76.593/1975)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0104",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Atividades econômicas e energia",
+    "dificuldade": 1,
+    "enunciado": "A Usina Hidrelétrica de Itaipu, uma das maiores do mundo em geração de energia, é um empreendimento binacional construído no rio",
+    "alternativas": [
+      "São Francisco, em parceria entre Brasil e Argentina.",
+      "Xingu, em parceria entre Brasil e Bolívia.",
+      "Amazonas, em parceria entre Brasil e Peru.",
+      "Uruguai, em parceria entre Brasil e Uruguai.",
+      "Paraná, em parceria entre Brasil e Paraguai."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Itaipu fica na fronteira entre Brasil e Paraguai.",
+        "Está no rio Paraná, na Bacia do Paraná.",
+        "A energia é dividida entre os dois países."
+      ],
+      "porQueErradas": {
+        "0": "Itaipu não fica no São Francisco nem é com a Argentina.",
+        "1": "No Xingu está Belo Monte, usina apenas brasileira.",
+        "2": "Itaipu não está na Bacia Amazônica.",
+        "3": "Itaipu não está no rio Uruguai."
+      },
+      "pegadinha": "Belo Monte (rio Xingu, Pará) é o distrator mais comum; não confunda as duas usinas.",
+      "fonte": "Tratado de Itaipu (1973), Brasil-Paraguai."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0105",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Atividades econômicas e energia",
+    "dificuldade": 2,
+    "enunciado": "A partir da década de 1970, a expansão da fronteira agrícola no Brasil esteve fortemente associada",
+    "alternativas": [
+      "ao abandono da agricultura no Centro-Oeste.",
+      "à substituição da soja pelo café no Cerrado.",
+      "à retração da produção agrícola por falta de tecnologia.",
+      "ao avanço do cultivo de grãos, especialmente a soja, sobre o Cerrado do Centro-Oeste e, depois, sobre áreas do Norte e do Nordeste.",
+      "à ocupação exclusiva das áreas litorâneas."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Pesquisas agropecuárias permitiram corrigir a acidez dos solos do Cerrado.",
+        "A soja se expandiu pelo Centro-Oeste.",
+        "A fronteira depois avançou para áreas como o Matopiba (MA, TO, PI e BA) e o sul da Amazônia."
+      ],
+      "porQueErradas": {
+        "0": "O Centro-Oeste tornou-se grande produtor de grãos.",
+        "1": "O café não foi o motor dessa expansão.",
+        "2": "A expansão foi apoiada em tecnologia, como a correção da acidez do solo.",
+        "4": "A fronteira avançou para o interior do país."
+      },
+      "pegadinha": "O solo do Cerrado é naturalmente ácido; a correção com calcário é que permitiu a expansão, não a fertilidade natural.",
+      "fonte": "Geografia agrária: expansão da fronteira agrícola e Embrapa."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0106",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Atividades econômicas e energia",
+    "dificuldade": 3,
+    "enunciado": "Nas últimas décadas, o Brasil observou um processo de desconcentração industrial. Assinale a alternativa que o explica corretamente.",
+    "alternativas": [
+      "Todas as indústrias deixaram o Sudeste e se transferiram para o Norte.",
+      "As indústrias passaram a se concentrar ainda mais no centro da capital paulista.",
+      "O governo proibiu a instalação de indústrias no estado de São Paulo.",
+      "Indústrias passaram a se instalar fora da Região Metropolitana de São Paulo, em busca de incentivos fiscais, mão de obra mais barata e menores custos, embora o Sudeste continue sendo a região mais industrializada.",
+      "A industrialização brasileira deixou de existir com a globalização."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Na metrópole paulista, os custos subiram (terrenos, salários, trânsito, sindicatos fortes).",
+        "Estados e municípios ofereceram isenções fiscais (a chamada 'guerra fiscal').",
+        "Fábricas foram para o interior paulista e outras regiões, mas o Sudeste segue com a maior participação."
+      ],
+      "porQueErradas": {
+        "0": "A desconcentração é relativa; o Sudeste segue como principal polo.",
+        "1": "O movimento é de saída, não de concentração.",
+        "2": "Não houve tal proibição.",
+        "4": "A indústria continua presente, apenas redistribuída."
+      },
+      "pegadinha": "A palavra 'desconcentração' não significa que o Sudeste perdeu a liderança; desconfie de 'todas'.",
+      "fonte": "Geografia industrial do Brasil: desconcentração e guerra fiscal."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0107",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Atividades econômicas e energia",
+    "dificuldade": 2,
+    "enunciado": "Nos últimos anos, a geração de energia eólica cresceu de forma acentuada no Brasil. A região que se destaca nessa produção, graças a ventos constantes e intensos, é a",
+    "alternativas": [
+      "Nordeste.",
+      "Norte.",
+      "Centro-Oeste.",
+      "Sudeste.",
+      "Sul."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "A energia eólica aproveita a força dos ventos.",
+        "O litoral e o interior do Nordeste têm ventos regulares e fortes.",
+        "Por isso a maior parte dos parques eólicos do país está no Nordeste."
+      ],
+      "porQueErradas": {
+        "1": "A Amazônia tem ventos fracos para geração em larga escala.",
+        "2": "O Centro-Oeste não é o principal polo eólico.",
+        "3": "O Sudeste tem participação pequena na geração eólica.",
+        "4": "O Sul possui parques eólicos, mas o grande destaque nacional é o Nordeste."
+      },
+      "pegadinha": "O Rio Grande do Sul também tem parques eólicos, mas a liderança regional é do Nordeste.",
+      "fonte": "EPE/ONS: geração eólica por região."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0108",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Atividades econômicas e energia",
+    "dificuldade": 2,
+    "enunciado": "A Usina Hidrelétrica de Belo Monte, construída no rio Xingu, no Pará, gerou intenso debate porque",
+    "alternativas": [
+      "foi construída em área desértica, sem população.",
+      "utiliza carvão mineral como combustível.",
+      "afetou comunidades indígenas e ribeirinhas e alterou a vazão do rio em um trecho conhecido como Volta Grande do Xingu.",
+      "fica na fronteira com o Paraguai.",
+      "é uma usina nuclear sem controle ambiental."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Belo Monte fica no rio Xingu, na Amazônia paraense.",
+        "A obra desviou parte da água do rio para gerar energia.",
+        "A Volta Grande do Xingu teve redução de vazão, afetando pesca e modos de vida."
+      ],
+      "porQueErradas": {
+        "0": "A região tem povos indígenas e ribeirinhos.",
+        "1": "É uma hidrelétrica, não uma termelétrica.",
+        "3": "Essa é a localização de Itaipu.",
+        "4": "Belo Monte é hidrelétrica."
+      },
+      "pegadinha": "Hidrelétricas são renováveis, mas não isentas de impacto socioambiental.",
+      "fonte": "Geografia da energia: UHE Belo Monte (rio Xingu, PA)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0109",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Atividades econômicas e energia",
+    "dificuldade": 1,
+    "enunciado": "Duas das mais importantes áreas de extração de minério de ferro do Brasil são",
+    "alternativas": [
+      "o Quadrilátero Ferrífero, em Minas Gerais, e a Serra dos Carajás, no Pará.",
+      "a Bacia de Campos, no Rio de Janeiro, e a Bacia de Santos, em São Paulo.",
+      "o Pantanal, em Mato Grosso do Sul, e o Pampa, no Rio Grande do Sul.",
+      "a Chapada dos Veadeiros, em Goiás, e Fernando de Noronha, em Pernambuco.",
+      "a Zona Franca de Manaus e o Polo de Camaçari."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O Quadrilátero Ferrífero (MG) é explorado há muito tempo.",
+        "Carajás (PA) é uma das maiores províncias minerais do mundo.",
+        "O minério de ferro é um dos principais produtos de exportação do país."
+      ],
+      "porQueErradas": {
+        "1": "São bacias petrolíferas.",
+        "2": "São biomas, não grandes províncias de ferro.",
+        "3": "São áreas de preservação conhecidas, não polos de ferro.",
+        "4": "São polos industriais."
+      },
+      "pegadinha": "Não confunda bacias petrolíferas (Campos e Santos) com áreas de mineração de ferro.",
+      "fonte": "Geografia econômica: recursos minerais do Brasil."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0110",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Atividades econômicas e energia",
+    "dificuldade": 2,
+    "enunciado": "No Brasil, o principal modal de transporte de cargas é o rodoviário. Uma consequência dessa opção é",
+    "alternativas": [
+      "o menor custo possível para transportar grandes volumes a longas distâncias.",
+      "a eliminação total do uso de derivados de petróleo.",
+      "a ausência de congestionamentos e acidentes nas estradas.",
+      "o custo de frete elevado para longas distâncias, maior consumo de combustível e dependência da conservação das estradas.",
+      "o abandono da indústria automobilística no país."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "A partir dos anos 1950 (governo JK), priorizaram-se rodovias e a indústria automobilística.",
+        "Ferrovias e hidrovias receberam menos investimentos.",
+        "Caminhões são mais caros por tonelada transportada em longas distâncias."
+      ],
+      "porQueErradas": {
+        "0": "Para longas distâncias e grandes volumes, ferrovias e hidrovias são mais baratas.",
+        "1": "O modal rodoviário depende fortemente do diesel.",
+        "2": "O excesso de caminhões contribui para congestionamentos e acidentes.",
+        "4": "A opção rodoviária foi ligada justamente à instalação da indústria automobilística."
+      },
+      "pegadinha": "O modal rodoviário é flexível em curtas distâncias, mas caro em longas; não generalize sua vantagem.",
+      "fonte": "Geografia dos transportes no Brasil."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0111",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Impactos ambientais",
+    "dificuldade": 2,
+    "enunciado": "A faixa da Amazônia Legal onde se concentra a maior parte do desmatamento, abrangendo áreas do sul e do leste da floresta, é conhecida como",
+    "alternativas": [
+      "Quadrilátero Ferrífero.",
+      "Polígono das Secas.",
+      "arco do desmatamento.",
+      "Zona da Mata.",
+      "Cinturão Verde."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O desmatamento avança das bordas para o interior da floresta.",
+        "As áreas mais atingidas formam um arco do Maranhão e Pará até Rondônia e Acre, passando por Mato Grosso.",
+        "A pecuária, a soja, a extração de madeira e a grilagem estão entre as causas."
+      ],
+      "porQueErradas": {
+        "0": "É área de mineração em Minas Gerais.",
+        "1": "Refere-se à área do semiárido nordestino sujeita a secas.",
+        "3": "É sub-região do litoral nordestino.",
+        "4": "Refere-se às áreas produtoras de hortaliças no entorno das metrópoles."
+      },
+      "pegadinha": "Polígono das Secas também é uma expressão geográfica regional, mas se refere ao semiárido.",
+      "fonte": "INPE (PRODES): monitoramento do desmatamento na Amazônia Legal."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0112",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Impactos ambientais",
+    "dificuldade": 1,
+    "enunciado": "Em 2015, o rompimento de uma barragem de rejeitos de mineração em Mariana (MG) provocou um dos maiores desastres ambientais do Brasil. O rio mais afetado pela lama foi o",
+    "alternativas": [
+      "rio Doce.",
+      "rio Tietê.",
+      "rio Amazonas.",
+      "rio Paraná.",
+      "rio Xingu."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "A barragem de Fundão, em Mariana, rompeu em novembro de 2015.",
+        "A lama atingiu o rio Doce e seguiu até o litoral do Espírito Santo.",
+        "Houve mortes, destruição de distritos e graves danos à fauna e à pesca."
+      ],
+      "porQueErradas": {
+        "1": "O Tietê fica em São Paulo e não foi atingido.",
+        "2": "O desastre ocorreu em Minas Gerais, longe da Amazônia.",
+        "3": "O rio Paraná não recebeu a lama de Mariana.",
+        "4": "O Xingu fica no Pará e em Mato Grosso."
+      },
+      "pegadinha": "Não confunda com Brumadinho (2019), que atingiu o rio Paraopeba.",
+      "fonte": "Desastre de Mariana (MG), rompimento da barragem de Fundão (2015)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0113",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Impactos ambientais",
+    "dificuldade": 3,
+    "enunciado": "No sudoeste do Rio Grande do Sul, em municípios como Alegrete, formam-se manchas de areia expostas, processo agravado pelo uso inadequado do solo. Esse fenômeno é chamado de arenização e se diferencia da desertificação porque",
+    "alternativas": [
+      "ocorre em área de clima úmido, sobre solos arenosos frágeis, e não em clima árido ou semiárido.",
+      "ocorre somente em desertos verdadeiros, como o Saara.",
+      "é causado exclusivamente pela falta de chuvas.",
+      "não tem nenhuma relação com atividades humanas.",
+      "ocorre apenas no Sertão nordestino."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "A desertificação ocorre em clima árido, semiárido ou subúmido seco.",
+        "No sudoeste gaúcho o clima é úmido, mas os solos são muito arenosos.",
+        "A retirada da cobertura vegetal expõe a areia, formando os areais."
+      ],
+      "porQueErradas": {
+        "1": "A arenização no RS ocorre em área úmida, longe de desertos.",
+        "2": "Ocorre justamente em região com chuvas regulares; o problema é o solo frágil.",
+        "3": "Pecuária intensiva e agricultura inadequada agravam o processo.",
+        "4": "O Sertão é área de desertificação; a arenização típica citada é a do RS."
+      },
+      "pegadinha": "Os areais parecem desertos, mas a região é úmida; por isso o termo técnico é arenização.",
+      "fonte": "Geomorfologia: arenização no sudoeste do Rio Grande do Sul."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0114",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Impactos ambientais",
+    "dificuldade": 2,
+    "enunciado": "A retirada da mata ciliar nas margens dos rios favorece um processo que aumenta o depósito de sedimentos no leito, reduz a profundidade e pode prejudicar a navegação e agravar enchentes. Esse processo é o",
+    "alternativas": [
+      "eutrofização.",
+      "assoreamento.",
+      "inversão térmica.",
+      "efeito estufa.",
+      "intemperismo químico."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "A mata ciliar protege as margens contra a erosão.",
+        "Sem ela, a chuva arrasta terra para o rio.",
+        "Os sedimentos se acumulam no leito: é o assoreamento."
+      ],
+      "porQueErradas": {
+        "0": "Eutrofização é o excesso de nutrientes na água.",
+        "2": "Inversão térmica é um fenômeno atmosférico.",
+        "3": "O efeito estufa está ligado à retenção de calor na atmosfera.",
+        "4": "Intemperismo é a decomposição das rochas, não o acúmulo de sedimentos no rio."
+      },
+      "pegadinha": "Eutrofização e assoreamento afetam rios, mas um é excesso de nutrientes e o outro é excesso de sedimentos.",
+      "fonte": "Lei 12.651/2012 (Código Florestal), art. 4º, I (faixas marginais como APP)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0115",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Impactos ambientais",
+    "dificuldade": 2,
+    "enunciado": "De acordo com o Código Florestal brasileiro (Lei nº 12.651/2012), as faixas de vegetação nas margens de cursos d'água naturais, como a mata ciliar, são consideradas",
+    "alternativas": [
+      "Áreas de Preservação Permanente (APP).",
+      "áreas urbanas consolidadas.",
+      "áreas de livre desmatamento para agricultura.",
+      "Terras Indígenas.",
+      "áreas de mineração prioritária."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O art. 4º da Lei 12.651/2012 lista as Áreas de Preservação Permanente.",
+        "Entre elas estão as faixas marginais de cursos d'água naturais.",
+        "Essas áreas protegem os recursos hídricos, o solo e a biodiversidade."
+      ],
+      "porQueErradas": {
+        "1": "Esse termo designa áreas urbanas já ocupadas, não proteção de margens de rios.",
+        "2": "A lei protege essas faixas justamente contra o desmatamento.",
+        "3": "Terras Indígenas têm regime próprio, previsto na Constituição.",
+        "4": "Não existe essa classificação para matas ciliares no Código Florestal."
+      },
+      "pegadinha": "APP e Reserva Legal são institutos distintos: APP protege locais sensíveis (margens, topos de morro); Reserva Legal é percentual da propriedade rural.",
+      "fonte": "Lei 12.651/2012 (Código Florestal), art. 4º, I."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0116",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Impactos ambientais",
+    "dificuldade": 3,
+    "enunciado": "A Lei nº 9.985/2000, que instituiu o Sistema Nacional de Unidades de Conservação (SNUC), divide as unidades em dois grupos. Assinale a alternativa que apresenta corretamente um exemplo de cada grupo.",
+    "alternativas": [
+      "Parque Nacional é unidade de Uso Sustentável; APA é unidade de Proteção Integral.",
+      "Reserva Extrativista é unidade de Proteção Integral; Estação Ecológica é de Uso Sustentável.",
+      "Todas as unidades de conservação pertencem ao grupo de Proteção Integral.",
+      "Parque Nacional é unidade de Proteção Integral; Área de Proteção Ambiental (APA) é unidade de Uso Sustentável.",
+      "APA e Parque Nacional pertencem ao mesmo grupo, pois ambos permitem moradia de população."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O art. 7º da Lei 9.985/2000 cria os grupos de Proteção Integral e de Uso Sustentável.",
+        "Proteção Integral (art. 8º) inclui Estação Ecológica, Reserva Biológica e Parque Nacional, entre outras.",
+        "Uso Sustentável (art. 14) inclui APA, Floresta Nacional e Reserva Extrativista, entre outras."
+      ],
+      "porQueErradas": {
+        "0": "A classificação está invertida.",
+        "1": "Também invertida: Reserva Extrativista é Uso Sustentável e Estação Ecológica é Proteção Integral.",
+        "2": "A lei prevê dois grupos.",
+        "4": "Pertencem a grupos diferentes; Parque Nacional não admite moradores."
+      },
+      "pegadinha": "Parque Nacional permite visitação, mas isso não o torna de uso sustentável: o uso é apenas indireto.",
+      "fonte": "Lei 9.985/2000 (SNUC), arts. 7º, 8º e 14."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0117",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Impactos ambientais",
+    "dificuldade": 2,
+    "enunciado": "Na década de 1980, o município de Cubatão, na Baixada Santista, ficou conhecido como 'Vale da Morte'. Esse apelido se deveu",
+    "alternativas": [
+      "ao rompimento de barragens de mineração de ferro.",
+      "à intensa poluição atmosférica provocada pelo polo industrial instalado entre a Serra do Mar e o litoral.",
+      "às secas prolongadas típicas do semiárido.",
+      "ao desmatamento provocado pela expansão da soja.",
+      "a um acidente em usina nuclear."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Cubatão abriga um grande polo petroquímico e siderúrgico.",
+        "O relevo da Serra do Mar dificultava a dispersão dos poluentes.",
+        "Houve danos à saúde da população e à vegetação; depois, medidas de controle reduziram a poluição."
+      ],
+      "porQueErradas": {
+        "0": "Esses desastres ocorreram em Minas Gerais, décadas depois.",
+        "2": "Cubatão fica em área úmida, no litoral paulista.",
+        "3": "A soja não é a atividade de Cubatão.",
+        "4": "Não há usina nuclear em Cubatão."
+      },
+      "pegadinha": "O relevo é parte da explicação: a serra funciona como barreira que retém os poluentes.",
+      "fonte": "Geografia de São Paulo: poluição industrial em Cubatão (CETESB)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0118",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Impactos ambientais",
+    "dificuldade": 1,
+    "enunciado": "O principal fator da poluição do rio Tietê no trecho que atravessa a Região Metropolitana de São Paulo é",
+    "alternativas": [
+      "a contaminação por rejeitos de usinas nucleares.",
+      "o lançamento de esgoto doméstico e de efluentes industriais sem tratamento adequado.",
+      "a lama de barragens de mineração rompidas.",
+      "o excesso de florestas nativas em suas margens.",
+      "a água salgada vinda do oceano Atlântico."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "A Grande São Paulo tem enorme população e muitas indústrias.",
+        "Parte do esgoto ainda chega ao rio sem tratamento suficiente.",
+        "A matéria orgânica reduz o oxigênio da água e mata a vida aquática."
+      ],
+      "porQueErradas": {
+        "0": "Não há usinas nucleares às margens do Tietê.",
+        "2": "Isso se refere a desastres em Minas Gerais.",
+        "3": "A falta de vegetação, e não o excesso, é que prejudica o rio.",
+        "4": "O Tietê corre para o interior, longe da influência do mar."
+      },
+      "pegadinha": "O Tietê corre do litoral para o interior; a banca pode sugerir influência do mar, o que não ocorre.",
+      "fonte": "Saneamento ambiental: poluição do rio Tietê na Região Metropolitana de São Paulo."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0119",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Impactos ambientais",
+    "dificuldade": 2,
+    "enunciado": "A Política Nacional de Resíduos Sólidos (Lei nº 12.305/2010) estabelece, entre seus instrumentos, a logística reversa. Esse instrumento consiste em",
+    "alternativas": [
+      "autorizar a queima de lixo a céu aberto nas cidades.",
+      "transferir todo o lixo brasileiro para outros países.",
+      "proibir a reciclagem de embalagens plásticas.",
+      "permitir o retorno de produtos e embalagens após o consumo ao setor empresarial, para reaproveitamento ou destinação ambientalmente adequada.",
+      "ampliar o número de lixões em áreas de mananciais."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "A logística reversa é definida no art. 3º, XII, da Lei 12.305/2010.",
+        "Fabricantes, importadores, distribuidores e comerciantes participam do retorno.",
+        "Exemplos: pilhas, baterias, pneus, embalagens de agrotóxicos e eletroeletrônicos."
+      ],
+      "porQueErradas": {
+        "0": "A lei não autoriza essa prática como forma de destinação.",
+        "1": "Não é isso que a logística reversa prevê.",
+        "2": "A lei incentiva a reciclagem.",
+        "4": "A lei busca eliminar lixões, não ampliá-los."
+      },
+      "pegadinha": "Logística reversa envolve responsabilidade das empresas, não apenas do poder público.",
+      "fonte": "Lei 12.305/2010 (Política Nacional de Resíduos Sólidos), art. 3º, XII, e art. 33."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0120",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Impactos ambientais",
+    "dificuldade": 3,
+    "enunciado": "O Projeto de Integração do rio São Francisco, conhecido como transposição, tem como objetivo principal",
+    "alternativas": [
+      "levar água do rio Amazonas para abastecer a cidade de São Paulo.",
+      "interromper o curso do São Francisco para criar um lago no Sertão.",
+      "transferir água do semiárido para o litoral de Minas Gerais.",
+      "substituir a Usina de Itaipu na geração de energia do país.",
+      "levar água do rio São Francisco, por meio de canais, para bacias do semiárido do Nordeste Setentrional, ampliando o abastecimento da população."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "O semiárido sofre com escassez de água.",
+        "A obra capta água do São Francisco e a conduz por eixos de canais (Norte e Leste).",
+        "Destina-se a estados como Ceará, Paraíba, Pernambuco e Rio Grande do Norte, com debates sobre impactos e custos."
+      ],
+      "porQueErradas": {
+        "0": "A obra não envolve o Amazonas nem São Paulo.",
+        "1": "O rio continua seu curso; parte da água é desviada por canais.",
+        "2": "Minas Gerais não tem litoral e o sentido é para o semiárido.",
+        "3": "O objetivo é hídrico, não de geração em substituição a Itaipu."
+      },
+      "pegadinha": "A transposição desvia uma parte da vazão; ela não interrompe nem seca o rio por si só.",
+      "fonte": "Ministério da Integração: Projeto de Integração do rio São Francisco (PISF)."
+    },
+    "origem": "gerada"
+  }
+]

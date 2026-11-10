@@ -1,0 +1,615 @@
+[
+  {
+    "id": "cge-0041",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Constituições Republicanas",
+    "dificuldade": 2,
+    "enunciado": "A Constituição de 1934, promulgada após a Revolução Constitucionalista, trouxe como novidade",
+    "alternativas": [
+      "a extinção dos partidos e a criação do bipartidarismo.",
+      "a eleição indireta do presidente por um colégio eleitoral formado por militares.",
+      "o fim do federalismo, com nomeação de governadores pelo imperador.",
+      "o voto secreto e o voto feminino no texto constitucional, além da previsão da Justiça do Trabalho.",
+      "o voto facultativo para jovens de 16 e 17 anos."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O Código Eleitoral de 1932 já havia criado o voto secreto, o feminino e a Justiça Eleitoral.",
+        "A Constituição de 1934 incorporou essas conquistas e direitos trabalhistas, inspirada na Constituição alemã de Weimar.",
+        "Teve vida curta: foi substituída em 1937."
+      ],
+      "porQueErradas": {
+        "0": "O bipartidarismo foi imposto pelo AI-2, em 1965.",
+        "1": "Não havia colégio de militares em 1934.",
+        "2": "Em 1934 o Brasil era república, sem imperador.",
+        "4": "Essa regra é da Constituição de 1988."
+      },
+      "pegadinha": "O voto feminino surgiu no Código Eleitoral de 1932; a Constituição de 1934 o confirmou.",
+      "fonte": "Constituição de 16/07/1934; Código Eleitoral de 1932."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0042",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Constituições Republicanas",
+    "dificuldade": 1,
+    "enunciado": "A Constituição de 1937, outorgada por Getúlio Vargas no início do Estado Novo, ficou conhecida como",
+    "alternativas": [
+      "“Polaca”, por ter se inspirado na Constituição autoritária da Polônia.",
+      "“Cidadã”, pela ampla garantia de direitos.",
+      "“Constituição da Mandioca”, por exigir renda em mandioca dos eleitores.",
+      "“Carta Liberal”, por restabelecer as eleições diretas.",
+      "“Constituição do Povo”, por ter sido aprovada em plebiscito."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Em 10/11/1937 Vargas fechou o Congresso e outorgou nova Constituição, redigida por Francisco Campos.",
+        "Concentrava poderes no Executivo e permitia governar por decretos-leis."
+      ],
+      "porQueErradas": {
+        "1": "“Cidadã” é o apelido da Constituição de 1988.",
+        "2": "Esse é o apelido do projeto constitucional de 1823, no Império.",
+        "3": "A Carta de 1937 era autoritária e suspendeu as eleições.",
+        "4": "Previa-se um plebiscito, que nunca foi realizado."
+      },
+      "pegadinha": "Outorgada = imposta pelo governante; promulgada = votada por representantes eleitos.",
+      "fonte": "Constituição de 10/11/1937."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0043",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Constituições Republicanas",
+    "dificuldade": 2,
+    "enunciado": "A Constituição de 1946 está associada",
+    "alternativas": [
+      "ao início do regime militar, como base legal dos atos institucionais.",
+      "à proclamação da República e ao fim do Poder Moderador.",
+      "à redemocratização após o fim do Estado Novo, tendo sido promulgada por uma Assembleia Constituinte.",
+      "ao Estado Novo, tendo sido outorgada por Vargas.",
+      "ao fim do regime militar, sendo chamada de Constituição Cidadã."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Vargas foi deposto em outubro de 1945, e Eurico Gaspar Dutra foi eleito.",
+        "A Assembleia Constituinte promulgou a nova Constituição em 18/09/1946, restabelecendo liberdades e eleições diretas."
+      ],
+      "porQueErradas": {
+        "0": "Os atos institucionais surgiram a partir de 1964.",
+        "1": "Isso corresponde à Constituição de 1891.",
+        "3": "A Constituição outorgada por Vargas é a de 1937.",
+        "4": "A Constituição Cidadã é a de 1988."
+      },
+      "pegadinha": "Há duas redemocratizações: 1945–1946 (fim do Estado Novo) e 1985–1988 (fim do regime militar).",
+      "fonte": "Constituição de 18/09/1946."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0044",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Constituições Republicanas",
+    "dificuldade": 3,
+    "enunciado": "A Constituição de 1967, elaborada durante o regime militar,",
+    "alternativas": [
+      "foi aprovada por um Congresso Nacional sob pressão do governo e concentrou poderes no Executivo, mantendo eleições indiretas para presidente.",
+      "restabeleceu as eleições diretas para presidente, suspensas desde 1960.",
+      "foi promulgada por uma Assembleia Constituinte eleita livremente.",
+      "aboliu os atos institucionais e garantiu o habeas corpus irrestrito.",
+      "instituiu o parlamentarismo, que vigorou até 1988."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O AI-4 (1966) convocou o Congresso para votar o projeto do governo Castelo Branco.",
+        "A Carta de 1967 institucionalizou o regime: fortaleceu o Executivo e manteve a eleição indireta do presidente.",
+        "Em 1969, a Emenda Constitucional nº 1 alterou profundamente o texto, endurecendo-o."
+      ],
+      "porQueErradas": {
+        "1": "As eleições diretas só voltaram em 1989.",
+        "2": "O Congresso, já depurado por cassações, foi convocado pelo AI-4 para votá-la.",
+        "3": "O AI-5, de 1968, veio depois e suspendeu o habeas corpus para crimes políticos.",
+        "4": "O parlamentarismo vigorou de 1961 a 1963 e foi rejeitado em plebiscito."
+      },
+      "pegadinha": "Houve votação no Congresso, mas sob pressão e sem liberdade: não foi uma Constituinte.",
+      "fonte": "Constituição de 24/01/1967; AI-4 (1966)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0045",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Constituições Republicanas",
+    "dificuldade": 1,
+    "enunciado": "A Constituição Federal de 1988, chamada por Ulysses Guimarães de “Constituição Cidadã”, foi promulgada em",
+    "alternativas": [
+      "15 de novembro de 1889.",
+      "7 de setembro de 1988.",
+      "31 de março de 1964.",
+      "5 de outubro de 1988.",
+      "15 de março de 1985."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "A Assembleia Nacional Constituinte trabalhou entre 1987 e 1988, presidida por Ulysses Guimarães.",
+        "A Constituição foi promulgada em 5 de outubro de 1988 e segue em vigor."
+      ],
+      "porQueErradas": {
+        "0": "Essa é a data da Proclamação da República.",
+        "1": "7 de setembro é a data da Independência, não da promulgação.",
+        "2": "Essa data está ligada ao golpe de 1964.",
+        "4": "Nessa data José Sarney tomou posse na Presidência."
+      },
+      "pegadinha": "Não confunda a posse de Sarney (1985), início da Nova República, com a promulgação da Constituição (1988).",
+      "fonte": "CF/88, promulgada em 05/10/1988."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0046",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Constituições Republicanas",
+    "dificuldade": 2,
+    "enunciado": "De acordo com a Constituição Federal de 1988, o voto é facultativo para",
+    "alternativas": [
+      "todos os brasileiros maiores de dezoito anos.",
+      "apenas os militares em serviço ativo.",
+      "os maiores de sessenta anos e os servidores públicos.",
+      "os analfabetos, os maiores de setenta anos e os maiores de dezesseis e menores de dezoito anos.",
+      "os analfabetos, que não podem votar."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O art. 14, § 1º, I, torna obrigatório o voto dos maiores de dezoito anos.",
+        "O inciso II torna facultativo o voto dos analfabetos, dos maiores de setenta e dos que têm entre dezesseis e dezoito anos."
+      ],
+      "porQueErradas": {
+        "0": "Para eles, o alistamento e o voto são obrigatórios.",
+        "1": "Os conscritos, durante o serviço militar obrigatório, não podem se alistar; não se trata de voto facultativo.",
+        "2": "O limite é setenta anos, e servidores votam obrigatoriamente.",
+        "4": "Os analfabetos podem votar; apenas são inelegíveis."
+      },
+      "pegadinha": "A banca troca 70 por 60 anos e confunde “facultativo” com “proibido”.",
+      "fonte": "CF/88, art. 14, § 1º, II."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0047",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Constituições Republicanas",
+    "dificuldade": 3,
+    "enunciado": "A Constituição de 1988 ampliou os direitos e garantias individuais. Conforme o seu art. 5º, a prática do racismo constitui crime",
+    "alternativas": [
+      "inafiançável e imprescritível, sujeito à pena de reclusão.",
+      "afiançável e prescritível, punido apenas com multa.",
+      "inafiançável, mas prescritível em cinco anos.",
+      "imprescritível, mas passível de fiança.",
+      "de menor potencial ofensivo, julgado em juizado especial."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O art. 5º, XLII, diz que a prática do racismo é crime inafiançável e imprescritível, sujeito à pena de reclusão.",
+        "A ação de grupos armados contra a ordem constitucional e o Estado democrático (inciso XLIV) também é inafiançável e imprescritível.",
+        "Tortura, tráfico, terrorismo e crimes hediondos (inciso XLIII) são inafiançáveis, mas não imprescritíveis."
+      ],
+      "porQueErradas": {
+        "1": "O texto constitucional proíbe a fiança e prevê reclusão.",
+        "2": "O racismo é imprescritível: o Estado pode punir a qualquer tempo.",
+        "3": "Além de imprescritível, o racismo é inafiançável.",
+        "4": "A Constituição deu ao racismo tratamento rigoroso, com reclusão."
+      },
+      "pegadinha": "Imprescritíveis na CF/88 são só o racismo e a ação de grupos armados; a banca estende a regra à tortura e aos hediondos.",
+      "fonte": "CF/88, art. 5º, XLII."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0048",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Período militar",
+    "dificuldade": 1,
+    "enunciado": "O golpe civil-militar de 1964 depôs o presidente",
+    "alternativas": [
+      "Jânio Quadros.",
+      "Juscelino Kubitschek.",
+      "Getúlio Vargas.",
+      "Castelo Branco.",
+      "João Goulart."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "João Goulart, vice de Jânio, assumiu após a renúncia deste em 1961.",
+        "Defendia as reformas de base, que assustaram setores conservadores.",
+        "Em 31 de março e 1º de abril de 1964 foi deposto, e Castelo Branco assumiu."
+      ],
+      "porQueErradas": {
+        "0": "Jânio renunciou em agosto de 1961.",
+        "1": "JK concluiu o mandato em janeiro de 1961.",
+        "2": "Vargas morreu em 1954.",
+        "3": "Castelo Branco foi o primeiro presidente do regime militar."
+      },
+      "pegadinha": "Jânio renunciou; quem foi deposto foi Jango.",
+      "fonte": "Golpe de 31/03–01/04/1964."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0049",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Período militar",
+    "dificuldade": 2,
+    "enunciado": "O Ato Institucional nº 5 (AI-5), decretado em dezembro de 1968 no governo Costa e Silva, permitiu, entre outras medidas,",
+    "alternativas": [
+      "a convocação de eleições diretas para presidente.",
+      "o fechamento do Congresso Nacional e a suspensão do habeas corpus para crimes políticos.",
+      "a anistia aos presos políticos e o retorno dos exilados.",
+      "a extinção do bipartidarismo e a criação de novos partidos.",
+      "a criação da Petrobras."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Em 13/12/1968, diante de protestos e da recusa do Congresso em autorizar o processo contra o deputado Márcio Moreira Alves, o governo baixou o AI-5.",
+        "O presidente podia decretar o recesso do Congresso, cassar mandatos e suspender direitos políticos; o habeas corpus foi suspenso nos crimes políticos.",
+        "Iniciaram-se os “anos de chumbo”; o AI-5 só foi revogado a partir de 1979."
+      ],
+      "porQueErradas": {
+        "0": "O AI-5 endureceu o regime; eleições diretas só em 1989.",
+        "2": "A anistia veio em 1979.",
+        "3": "O fim do bipartidarismo ocorreu em 1979.",
+        "4": "A Petrobras foi criada em 1953."
+      },
+      "pegadinha": "O AI-5 é o ato mais duro do regime; não confunda com medidas da abertura.",
+      "fonte": "Ato Institucional nº 5, de 13/12/1968."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0050",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Período militar",
+    "dificuldade": 2,
+    "enunciado": "Após o Ato Institucional nº 2 (1965), que extinguiu os partidos existentes, o regime militar implantou o bipartidarismo, com",
+    "alternativas": [
+      "o PT e o PSDB.",
+      "a UDN e o PSD.",
+      "a ARENA, de apoio ao governo, e o MDB, de oposição consentida.",
+      "a ANL e a AIB.",
+      "o PDS e o PMDB, ambos governistas."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O AI-2, de outubro de 1965, extinguiu os partidos e tornou indireta a eleição presidencial.",
+        "Em seguida, o Ato Complementar nº 4 permitiu a criação de apenas duas organizações: ARENA (governo) e MDB (oposição)."
+      ],
+      "porQueErradas": {
+        "0": "O PT surgiu em 1980 e o PSDB em 1988.",
+        "1": "UDN e PSD foram extintos pelo AI-2.",
+        "3": "ANL e AIB são organizações dos anos 1930.",
+        "4": "PDS e PMDB surgiram em 1979–1980, e o PMDB era de oposição."
+      },
+      "pegadinha": "O MDB era uma oposição tolerada pelo regime, dentro de limites estreitos.",
+      "fonte": "AI-2, de 27/10/1965; Ato Complementar nº 4, de 1965."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0051",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Período militar",
+    "dificuldade": 2,
+    "enunciado": "O período conhecido como “milagre econômico” (1968–1973), sobretudo no governo Médici, caracterizou-se por",
+    "alternativas": [
+      "hiperinflação e queda contínua do PIB.",
+      "distribuição de renda e redução da dívida externa.",
+      "estatização de todas as empresas estrangeiras.",
+      "altas taxas de crescimento do PIB, acompanhadas de concentração de renda e aumento da dívida externa.",
+      "fim da censura e ampla liberdade de imprensa."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O PIB cresceu em média cerca de 10% ao ano, com empréstimos externos e grandes obras.",
+        "A política salarial conteve os salários, e a renda se concentrou.",
+        "O milagre conviveu com forte repressão política."
+      ],
+      "porQueErradas": {
+        "0": "Esse quadro corresponde à crise dos anos 1980.",
+        "1": "A renda se concentrou e a dívida aumentou.",
+        "2": "O capital estrangeiro foi atraído, não expulso.",
+        "4": "O período coincidiu com os “anos de chumbo”, de forte censura."
+      },
+      "pegadinha": "Crescimento econômico não significou melhora na distribuição de renda: “fazer o bolo crescer para depois dividir”.",
+      "fonte": "“Milagre econômico”, 1968–1973."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0052",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Período militar",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa que apresenta, na ordem cronológica correta, os generais que presidiram o Brasil durante o regime militar.",
+    "alternativas": [
+      "Castelo Branco, Costa e Silva, Médici, Geisel e Figueiredo.",
+      "Costa e Silva, Castelo Branco, Geisel, Médici e Figueiredo.",
+      "Castelo Branco, Médici, Costa e Silva, Figueiredo e Geisel.",
+      "Figueiredo, Geisel, Médici, Costa e Silva e Castelo Branco.",
+      "Castelo Branco, Costa e Silva, Geisel, Médici e Figueiredo."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Castelo Branco (1964–1967), Costa e Silva (1967–1969), Médici (1969–1974), Geisel (1974–1979) e Figueiredo (1979–1985).",
+        "Entre Costa e Silva e Médici, uma junta militar governou por cerca de dois meses em 1969."
+      ],
+      "porQueErradas": {
+        "1": "Castelo Branco veio antes de Costa e Silva, e Médici antes de Geisel.",
+        "2": "Costa e Silva antecedeu Médici, e Geisel antecedeu Figueiredo.",
+        "3": "A sequência está em ordem inversa.",
+        "4": "Médici (1969–1974) governou antes de Geisel (1974–1979)."
+      },
+      "pegadinha": "Ordem dos “anos de chumbo” (Costa e Silva e Médici) antes da abertura (Geisel e Figueiredo).",
+      "fonte": "Presidentes do regime militar, 1964–1985."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0053",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Período militar",
+    "dificuldade": 3,
+    "enunciado": "O fim do “milagre econômico” brasileiro esteve associado, no plano externo,",
+    "alternativas": [
+      "à quebra da Bolsa de Nova York, que interrompeu as exportações de café.",
+      "à queda do Muro de Berlim, que reduziu os investimentos externos.",
+      "à criação do Mercosul, que abriu o mercado brasileiro.",
+      "ao fim da Segunda Guerra, que reduziu a demanda por borracha.",
+      "ao primeiro choque do petróleo, em 1973, que elevou bruscamente o preço do barril e encareceu as importações do país."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Em 1973, países da OPEP elevaram fortemente o preço do petróleo.",
+        "O Brasil importava a maior parte do petróleo que consumia, e a conta externa piorou.",
+        "Geisel reagiu com o II PND (1974), financiado com mais empréstimos, o que aumentou a dívida externa."
+      ],
+      "porQueErradas": {
+        "0": "A quebra da Bolsa ocorreu em 1929.",
+        "1": "O Muro caiu em 1989.",
+        "2": "O Mercosul é de 1991.",
+        "3": "O fim da Segunda Guerra é de 1945."
+      },
+      "pegadinha": "O milagre dependia de crédito e petróleo baratos; o choque de 1973 encerrou esse cenário.",
+      "fonte": "Primeiro choque do petróleo, 1973; II PND, 1974."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0054",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Período militar",
+    "dificuldade": 3,
+    "enunciado": "Em 13 de março de 1964, no Comício da Central do Brasil, no Rio de Janeiro, o presidente João Goulart",
+    "alternativas": [
+      "defendeu as reformas de base, como a reforma agrária, o que aumentou a reação de setores conservadores e militares.",
+      "anunciou sua renúncia, alegando pressão de “forças terríveis”.",
+      "decretou o AI-1 e cassou os direitos políticos de opositores.",
+      "lançou a campanha das Diretas Já.",
+      "assinou a Lei da Anistia."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Diante de grande público, Jango anunciou decretos de desapropriação de terras e de encampação de refinarias.",
+        "Em reação, ocorreu em São Paulo, em 19 de março, a Marcha da Família com Deus pela Liberdade.",
+        "Menos de três semanas depois, veio o golpe de 31 de março–1º de abril."
+      ],
+      "porQueErradas": {
+        "1": "A renúncia com menção a “forças terríveis” é de Jânio Quadros, em 1961.",
+        "2": "O AI-1 foi editado pelos militares após o golpe.",
+        "3": "As Diretas Já ocorreram em 1983–1984.",
+        "4": "A Lei da Anistia é de 1979, no governo Figueiredo."
+      },
+      "pegadinha": "O comício é um antecedente imediato do golpe, não uma medida do regime militar.",
+      "fonte": "Comício da Central do Brasil, 13/03/1964."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0055",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Abertura e redemocratização",
+    "dificuldade": 1,
+    "enunciado": "O processo de abertura política iniciado no governo Ernesto Geisel (1974–1979) foi definido pelo próprio governo como",
+    "alternativas": [
+      "“amplo, geral e irrestrito”.",
+      "“cinquenta anos em cinco”.",
+      "“Brasil: ame-o ou deixe-o”.",
+      "“lento, gradual e seguro”.",
+      "“o petróleo é nosso”."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Geisel iniciou uma distensão controlada pelos próprios militares.",
+        "A abertura continuou com Figueiredo e terminou em 1985, com a posse de um civil."
+      ],
+      "porQueErradas": {
+        "0": "A expressão “anistia ampla, geral e irrestrita” era a bandeira da campanha pela anistia.",
+        "1": "Esse era o lema do governo Juscelino Kubitschek.",
+        "2": "Esse era um slogan ufanista da época do governo Médici.",
+        "4": "Esse lema é da campanha pela Petrobras, nos anos 1950."
+      },
+      "pegadinha": "A abertura foi controlada “de cima”, mas também pressionada pela sociedade e pela crise econômica.",
+      "fonte": "Governo Geisel (1974–1979)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0056",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Abertura e redemocratização",
+    "dificuldade": 2,
+    "enunciado": "A Lei da Anistia, de 1979, sancionada no governo Figueiredo,",
+    "alternativas": [
+      "puniu os militares responsáveis por torturas, com prisão imediata.",
+      "permitiu o retorno de exilados políticos e beneficiou também agentes do Estado acusados de crimes como tortura.",
+      "foi aprovada pela Assembleia Constituinte de 1988.",
+      "restabeleceu as eleições diretas para presidente.",
+      "anistiou apenas os militares, mantendo os exilados fora do país."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "A Lei nº 6.683/1979 concedeu anistia a crimes políticos e “conexos” cometidos entre 1961 e 1979.",
+        "A expressão “crimes conexos” foi interpretada como cobertura aos agentes da repressão.",
+        "Condenados por terrorismo, assalto, sequestro e atentado pessoal ficaram excluídos."
+      ],
+      "porQueErradas": {
+        "0": "A lei não puniu os agentes do Estado; acabou por beneficiá-los.",
+        "2": "A lei é de 1979, quase dez anos antes da Constituinte.",
+        "3": "As eleições diretas para presidente só ocorreram em 1989.",
+        "4": "Exilados como Leonel Brizola e Miguel Arraes voltaram ao Brasil."
+      },
+      "pegadinha": "A campanha pedia anistia “ampla, geral e irrestrita”, mas a lei aprovada foi parcial e recíproca.",
+      "fonte": "Lei nº 6.683, de 28/08/1979."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0057",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Abertura e redemocratização",
+    "dificuldade": 2,
+    "enunciado": "Em 1979, a reforma partidária extinguiu o bipartidarismo. Entre os partidos que surgiram ou se reorganizaram a partir de então estão",
+    "alternativas": [
+      "ARENA e MDB.",
+      "UDN, PSD e PTB, fundados naquele ano.",
+      "ANL e AIB.",
+      "apenas a ARENA, que passou a ser partido único.",
+      "PDS, PMDB, PT e PDT."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "A Lei nº 6.767/1979 extinguiu ARENA e MDB.",
+        "A ARENA deu origem ao PDS; o MDB virou PMDB; surgiram também PT, PDT e o novo PTB.",
+        "O governo esperava dividir a oposição."
+      ],
+      "porQueErradas": {
+        "0": "Esses eram justamente os partidos do bipartidarismo, extintos em 1979.",
+        "1": "UDN, PSD e PTB foram fundados em 1945.",
+        "2": "ANL e AIB são dos anos 1930.",
+        "3": "A reforma criou o pluripartidarismo, não um partido único."
+      },
+      "pegadinha": "O pluripartidarismo foi também uma estratégia do governo para fragmentar a oposição.",
+      "fonte": "Lei nº 6.767, de 20/12/1979."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0058",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Abertura e redemocratização",
+    "dificuldade": 2,
+    "enunciado": "A campanha das Diretas Já (1983–1984) mobilizou multidões em defesa",
+    "alternativas": [
+      "da Emenda Dante de Oliveira, aprovada em 1984, que permitiu a eleição direta de Tancredo Neves.",
+      "da convocação de um plebiscito sobre monarquia ou república.",
+      "do impeachment do presidente Fernando Collor.",
+      "da manutenção do Colégio Eleitoral como forma de escolha do presidente.",
+      "da Emenda Dante de Oliveira, que restabelecia as eleições diretas para presidente, mas foi rejeitada em 1984."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Comícios reuniram centenas de milhares de pessoas em São Paulo e no Rio de Janeiro.",
+        "Em 25/04/1984, a emenda teve maioria na Câmara, mas faltaram 22 votos para os dois terços exigidos.",
+        "A escolha de 1985 continuou indireta, pelo Colégio Eleitoral."
+      ],
+      "porQueErradas": {
+        "0": "A emenda não foi aprovada, e Tancredo foi eleito indiretamente.",
+        "1": "O plebiscito sobre forma e sistema de governo ocorreu em 1993.",
+        "2": "O movimento dos “caras-pintadas” pelo impeachment é de 1992.",
+        "3": "A campanha queria justamente substituir o Colégio Eleitoral pelo voto direto."
+      },
+      "pegadinha": "A campanha foi derrotada no Congresso, apesar do enorme apoio popular.",
+      "fonte": "Votação da Emenda Dante de Oliveira, 25/04/1984."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0059",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Abertura e redemocratização",
+    "dificuldade": 1,
+    "enunciado": "Em janeiro de 1985, o Colégio Eleitoral elegeu Tancredo Neves presidente. Com a doença e a morte de Tancredo, assumiu a Presidência",
+    "alternativas": [
+      "Paulo Maluf, candidato derrotado.",
+      "Ulysses Guimarães, presidente da Câmara.",
+      "José Sarney, vice na chapa vencedora.",
+      "João Figueiredo, que prorrogou o mandato.",
+      "Fernando Collor, eleito diretamente."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Tancredo (PMDB) derrotou Maluf (PDS) no Colégio Eleitoral em 15/01/1985.",
+        "Internado na véspera da posse, Tancredo não assumiu; Sarney tomou posse em 15/03/1985.",
+        "Tancredo morreu em 21/04/1985, e Sarney governou até 1990."
+      ],
+      "porQueErradas": {
+        "0": "Maluf perdeu a eleição no Colégio Eleitoral.",
+        "1": "Ulysses presidiu a Câmara e depois a Constituinte, mas não assumiu a Presidência.",
+        "3": "Figueiredo deixou o cargo em março de 1985.",
+        "4": "Collor foi eleito em 1989."
+      },
+      "pegadinha": "Tancredo foi eleito, mas nunca tomou posse.",
+      "fonte": "Eleição indireta de 15/01/1985; posse de Sarney em 15/03/1985."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0060",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Abertura e redemocratização",
+    "dificuldade": 2,
+    "enunciado": "A primeira eleição direta para presidente após o regime militar ocorreu em",
+    "alternativas": [
+      "1985, com a vitória de Tancredo Neves nas urnas.",
+      "1988, junto com a promulgação da Constituição.",
+      "1989, com a vitória de Fernando Collor, que deixou o cargo em 1992 em meio a um processo de impeachment.",
+      "1994, com a vitória de Lula.",
+      "1979, logo após a Lei da Anistia."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Em 1989 houve a primeira eleição direta para presidente desde 1960.",
+        "Collor venceu Lula no segundo turno.",
+        "Acusado de corrupção, teve o impeachment aberto em 1992 e renunciou em dezembro, sendo substituído por Itamar Franco."
+      ],
+      "porQueErradas": {
+        "0": "Tancredo foi eleito indiretamente, pelo Colégio Eleitoral.",
+        "1": "Em 1988 houve a Constituição, mas não eleição presidencial.",
+        "3": "Em 1994 venceu Fernando Henrique Cardoso; Lula venceu em 2002.",
+        "4": "Em 1979 Figueiredo assumiu por eleição indireta."
+      },
+      "pegadinha": "A última eleição direta antes do regime foi a de 1960 (Jânio); a seguinte só em 1989.",
+      "fonte": "Eleição presidencial de 1989; impeachment de 1992."
+    },
+    "origem": "gerada"
+  }
+]

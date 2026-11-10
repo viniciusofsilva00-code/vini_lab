@@ -1,0 +1,616 @@
+[
+  {
+    "id": "adm-0021",
+    "materia": "administracao_publica",
+    "assunto": "CF: Direitos e deveres individuais e coletivos (art. 5º)",
+    "dificuldade": 1,
+    "enunciado": "Nos termos do art. 5º, XVI, da Constituição Federal, todos podem reunir-se pacificamente, sem armas, em locais abertos ao público,",
+    "alternativas": [
+      "mediante prévia autorização da autoridade competente, desde que não frustrem outra reunião anteriormente convocada para o mesmo local.",
+      "independentemente de autorização e de aviso, ainda que frustrem outra reunião anteriormente convocada para o mesmo local.",
+      "independentemente de autorização, desde que não frustrem outra reunião anteriormente convocada para o mesmo local, sendo apenas exigido prévio aviso à autoridade competente.",
+      "independentemente de autorização, desde que realizadas durante o dia e com aviso prévio à autoridade judiciária.",
+      "mediante licença da autoridade policial, que poderá negá-la por conveniência administrativa."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Requisitos: reunião pacífica, sem armas, em local aberto ao público.",
+        "Não precisa de autorização; basta o prévio aviso à autoridade competente.",
+        "Não pode frustrar outra reunião anteriormente convocada para o mesmo local."
+      ],
+      "porQueErradas": {
+        "0": "A Constituição dispensa autorização; exige apenas prévio aviso.",
+        "1": "Exige-se prévio aviso, e a reunião não pode frustrar outra anteriormente convocada.",
+        "3": "Não há restrição ao período diurno, e o aviso é à autoridade competente, não necessariamente judiciária.",
+        "4": "A reunião pacífica independe de licença ou autorização."
+      },
+      "pegadinha": "A banca troca 'aviso' por 'autorização' ou 'licença'. Aviso informa; autorização dependeria de permissão, o que a CF afasta.",
+      "fonte": "CF/88, art. 5º, inciso XVI"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0022",
+    "materia": "administracao_publica",
+    "assunto": "CF: Direitos políticos (arts. 14 a 16)",
+    "dificuldade": 2,
+    "enunciado": "Nos termos do art. 14, § 8º, da Constituição Federal, o militar alistável é elegível, atendidas certas condições. Assinale a alternativa correta.",
+    "alternativas": [
+      "Se contar mais de dez anos de serviço, será agregado pela autoridade superior e, se eleito, passará automaticamente, no ato da diplomação, para a inatividade.",
+      "Se contar mais de dez anos de serviço, será agregado pela autoridade superior e, se eleito, passará para a inatividade no ato da posse.",
+      "Se contar menos de dez anos de serviço, será agregado pela autoridade superior e retornará à atividade se não for eleito.",
+      "O militar da ativa é inelegível enquanto não for transferido para a reserva remunerada.",
+      "Se contar mais de cinco anos de serviço, deverá afastar-se definitivamente da atividade."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Menos de dez anos de serviço: afasta-se da atividade.",
+        "Mais de dez anos: é agregado pela autoridade superior.",
+        "Se eleito, passa automaticamente para a inatividade no ato da diplomação.",
+        "O art. 42, § 1º, manda aplicar essa regra aos militares dos Estados."
+      ],
+      "porQueErradas": {
+        "1": "A passagem para a inatividade ocorre no ato da diplomação, e não da posse.",
+        "2": "Com menos de dez anos, o militar deve afastar-se da atividade; a agregação é para quem tem mais de dez anos.",
+        "3": "O militar alistável é elegível, desde que atendidas as condições do § 8º.",
+        "4": "O marco temporal é de dez anos, e quem tem mais de dez anos é agregado."
+      },
+      "pegadinha": "Dois detalhes caem sempre: o marco de dez anos e o momento 'diplomação' (não posse).",
+      "fonte": "CF/88, art. 14, § 8º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0023",
+    "materia": "administracao_publica",
+    "assunto": "CF: Administração Pública, disposições gerais (arts. 37 e 38)",
+    "dificuldade": 3,
+    "enunciado": "A respeito das funções de confiança e dos cargos em comissão, assinale a alternativa que está de acordo com o art. 37, V, da Constituição Federal.",
+    "alternativas": [
+      "Os cargos em comissão são exercidos exclusivamente por servidores ocupantes de cargo efetivo.",
+      "As funções de confiança e os cargos em comissão destinam-se às atribuições de direção, chefia, assessoramento e execução de tarefas técnicas.",
+      "As funções de confiança podem ser exercidas por pessoas sem vínculo com a Administração, desde que de livre nomeação.",
+      "As funções de confiança são exercidas exclusivamente por servidores ocupantes de cargo efetivo e destinam-se apenas às atribuições de direção, chefia e assessoramento.",
+      "Os cargos em comissão dependem de aprovação prévia em concurso público de provas e títulos."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Funções de confiança: exclusivamente servidores ocupantes de cargo efetivo.",
+        "Cargos em comissão: preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei (os demais podem ser pessoas de fora).",
+        "Ambos destinam-se apenas às atribuições de direção, chefia e assessoramento."
+      ],
+      "porQueErradas": {
+        "0": "A exclusividade de servidores efetivos vale para as funções de confiança; os cargos em comissão são preenchidos por servidores de carreira apenas nos casos, condições e percentuais mínimos previstos em lei.",
+        "1": "Destinam-se apenas a direção, chefia e assessoramento.",
+        "2": "Funções de confiança são exclusivas de servidores ocupantes de cargo efetivo.",
+        "4": "Os cargos em comissão são de livre nomeação e exoneração e dispensam concurso (art. 37, II)."
+      },
+      "pegadinha": "A banca troca 'funções de confiança' por 'cargos em comissão' na palavra 'exclusivamente'. Associe: função de confiança = só efetivo.",
+      "fonte": "CF/88, art. 37, inciso V"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0024",
+    "materia": "administracao_publica",
+    "assunto": "CF: Militares dos Estados (art. 42)",
+    "dificuldade": 3,
+    "enunciado": "De acordo com o art. 42, § 3º, da Constituição Federal, quanto à acumulação de cargos, aplica-se aos militares dos Estados, do Distrito Federal e dos Territórios o disposto no art. 37, XVI,",
+    "alternativas": [
+      "com prevalência da atividade civil.",
+      "sendo vedada, em qualquer hipótese, a acumulação de cargos pelo militar estadual.",
+      "independentemente de compatibilidade de horários.",
+      "com prevalência da atividade militar.",
+      "desde que haja autorização do Presidente da República."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O art. 37, XVI, trata das hipóteses excepcionais de acumulação remunerada de cargos, sempre com compatibilidade de horários.",
+        "O art. 42, § 3º, estende essa regra aos militares estaduais, com prevalência da atividade militar."
+      ],
+      "porQueErradas": {
+        "0": "O texto determina a prevalência da atividade militar.",
+        "1": "O § 3º permite a acumulação nas hipóteses do art. 37, XVI, com prevalência da atividade militar.",
+        "2": "O art. 37, XVI, exige compatibilidade de horários.",
+        "4": "Não há exigência de autorização presidencial."
+      },
+      "pegadinha": "A banca inverte a prevalência ou diz que a acumulação é sempre proibida. Lembre: pode acumular nos casos do art. 37, XVI, mas a atividade militar prevalece.",
+      "fonte": "CF/88, art. 42, § 3º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0025",
+    "materia": "administracao_publica",
+    "assunto": "CF: Segurança Pública (art. 144)",
+    "dificuldade": 2,
+    "enunciado": "Não consta entre os órgãos listados nos incisos do caput do art. 144 da Constituição Federal, por meio dos quais é exercida a segurança pública:",
+    "alternativas": [
+      "polícia rodoviária federal.",
+      "guardas municipais.",
+      "polícias penais federal, estaduais e distrital.",
+      "corpos de bombeiros militares.",
+      "polícia ferroviária federal."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Os incisos do art. 144 listam: polícia federal, polícia rodoviária federal, polícia ferroviária federal, polícias civis, polícias militares e corpos de bombeiros militares, e polícias penais.",
+        "As guardas municipais aparecem no § 8º, como faculdade dos Municípios, e não na lista de órgãos dos incisos."
+      ],
+      "porQueErradas": {
+        "0": "A polícia rodoviária federal está no inciso II do art. 144.",
+        "2": "As polícias penais estão no inciso VI do art. 144.",
+        "3": "Os corpos de bombeiros militares estão no inciso V, junto com as polícias militares.",
+        "4": "A polícia ferroviária federal está no inciso III do art. 144."
+      },
+      "pegadinha": "As guardas municipais estão no art. 144, mas no § 8º, e não nos incisos. A banca explora essa diferença.",
+      "fonte": "CF/88, art. 144, caput, incisos I a VI, e § 8º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0026",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Poder Executivo",
+    "dificuldade": 2,
+    "enunciado": "Conforme o art. 49 da Constituição do Estado de São Paulo, admitida a acusação contra o Governador, por dois terços da Assembleia Legislativa, será ele submetido a julgamento, nas infrações penais comuns, perante o",
+    "alternativas": [
+      "Supremo Tribunal Federal.",
+      "Tribunal de Justiça do Estado.",
+      "Tribunal de Justiça Militar do Estado.",
+      "Plenário da Assembleia Legislativa.",
+      "Superior Tribunal de Justiça."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "A Assembleia Legislativa admite a acusação pelo voto de dois terços.",
+        "Nas infrações penais comuns, o Governador é julgado pelo Superior Tribunal de Justiça (como também prevê a CF, art. 105, I, a)."
+      ],
+      "porQueErradas": {
+        "0": "O STF julga o Presidente da República nas infrações penais comuns; o Governador é julgado pelo STJ.",
+        "1": "O Tribunal de Justiça julga outras autoridades estaduais, não o Governador nas infrações penais comuns.",
+        "2": "O TJM julga militares do Estado em crimes militares, não o Governador.",
+        "3": "A Assembleia apenas admite a acusação; o julgamento por infração penal comum cabe ao STJ."
+      },
+      "pegadinha": "Não confunda o Governador (STJ) com o Presidente da República (STF).",
+      "fonte": "CE-SP, art. 49"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0027",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Justiça Militar do Estado",
+    "dificuldade": 2,
+    "enunciado": "Segundo o art. 79-B da Constituição do Estado de São Paulo, compete à Justiça Militar estadual processar e julgar os militares do Estado nos crimes militares definidos em lei e as ações judiciais contra atos disciplinares militares,",
+    "alternativas": [
+      "inclusive nos crimes dolosos contra a vida de civil, cabendo-lhe ainda decidir sobre a perda do posto e da patente dos oficiais.",
+      "ressalvada a competência do júri quando a vítima for civil, cabendo ao Comandante-Geral decidir sobre a perda da graduação das praças.",
+      "ressalvada a competência do júri quando a vítima for civil, cabendo-lhe ainda decidir sobre a perda do posto e da patente dos oficiais e da graduação das praças.",
+      "bem como os civis que pratiquem crimes contra instituições militares estaduais.",
+      "ressalvadas as ações contra atos disciplinares militares, que são da competência da Justiça comum."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "A Justiça Militar estadual julga os militares do Estado nos crimes militares e as ações contra atos disciplinares militares.",
+        "Ressalva: quando a vítima for civil, a competência é do júri (crimes dolosos contra a vida).",
+        "Também decide sobre a perda do posto e da patente dos oficiais e da graduação das praças."
+      ],
+      "porQueErradas": {
+        "0": "Ressalva-se a competência do júri quando a vítima for civil.",
+        "1": "A decisão sobre a perda da graduação das praças também cabe à Justiça Militar.",
+        "3": "O art. 79-B fala em processar e julgar os militares do Estado, e não civis.",
+        "4": "As ações judiciais contra atos disciplinares militares são, expressamente, da competência da Justiça Militar estadual."
+      },
+      "pegadinha": "Os pontos que a banca troca: a ressalva do júri e quem decide a perda da graduação das praças (a Justiça Militar, não o comando).",
+      "fonte": "CE-SP, art. 79-B"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0028",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Administração Pública e servidores",
+    "dificuldade": 3,
+    "enunciado": "De acordo com o art. 138 da Constituição do Estado de São Paulo, o oficial da Polícia Militar condenado na Justiça comum ou militar à pena privativa de liberdade superior a dois anos, por sentença transitada em julgado,",
+    "alternativas": [
+      "será submetido a julgamento pelo Tribunal de Justiça Militar, que decidirá se ele é indigno do oficialato ou com ele incompatível, para fins de perda do posto e da patente.",
+      "perderá automaticamente o posto e a patente, por ato do Comandante-Geral da Polícia Militar.",
+      "será submetido a julgamento pelo Governador do Estado, que decidirá sobre a perda do posto e da patente.",
+      "somente será submetido ao julgamento de indignidade se a pena for superior a quatro anos.",
+      "será transferido para a reserva remunerada, sem julgamento sobre o oficialato."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Art. 138, § 4º: o oficial só perde o posto e a patente se julgado indigno do oficialato ou com ele incompatível, por decisão do Tribunal de Justiça Militar.",
+        "Art. 138, § 5º: o oficial condenado a pena privativa de liberdade superior a dois anos, com trânsito em julgado, é submetido a esse julgamento."
+      ],
+      "porQueErradas": {
+        "1": "A perda não é automática: depende de decisão do Tribunal de Justiça Militar.",
+        "2": "A decisão cabe ao Tribunal de Justiça Militar, e não ao Governador.",
+        "3": "O marco é pena privativa de liberdade superior a dois anos.",
+        "4": "O § 5º determina a submissão ao julgamento de indignidade ou incompatibilidade."
+      },
+      "pegadinha": "A banca troca o órgão (Comandante, Governador) ou o marco de dois anos. Lembre: 'mais de 2 anos' leva ao TJM.",
+      "fonte": "CE-SP, art. 138, §§ 4º e 5º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0029",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Segurança Pública e Polícia Militar",
+    "dificuldade": 2,
+    "enunciado": "Nos termos do art. 141, § 1º, da Constituição do Estado de São Paulo, o Comandante-Geral da Polícia Militar será nomeado",
+    "alternativas": [
+      "pelo Governador do Estado, dentre oficiais da ativa ou da reserva, dispensada a declaração pública de bens.",
+      "pelo Secretário da Segurança Pública, dentre oficiais da ativa ocupantes do último posto.",
+      "pelo Governador do Estado, após aprovação do nome pela Assembleia Legislativa.",
+      "pelo Governador do Estado, dentre quaisquer oficiais superiores da ativa, independentemente do posto.",
+      "pelo Governador do Estado, dentre oficiais da ativa ocupantes do último posto do Quadro de Oficiais Policiais Militares, devendo fazer declaração pública de bens no ato da posse e de sua exoneração."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Quem nomeia: o Governador do Estado.",
+        "Quem pode ser nomeado: oficial da ativa ocupante do último posto do Quadro de Oficiais Policiais Militares.",
+        "Obrigação: declaração pública de bens na posse e na exoneração."
+      ],
+      "porQueErradas": {
+        "0": "A escolha é entre oficiais da ativa, e a declaração pública de bens é obrigatória.",
+        "1": "A nomeação compete ao Governador do Estado.",
+        "2": "A CE-SP não exige aprovação da Assembleia Legislativa.",
+        "3": "Exige-se que seja ocupante do último posto do Quadro de Oficiais Policiais Militares."
+      },
+      "pegadinha": "Três detalhes: Governador, ativa, último posto. A banca troca um deles ou dispensa a declaração de bens.",
+      "fonte": "CE-SP, art. 141, § 1º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0030",
+    "materia": "administracao_publica",
+    "assunto": "Lei 12.527/11 (Acesso à Informação) e Decreto 68.155/23",
+    "dificuldade": 2,
+    "enunciado": "Ao tratar do pedido de acesso a informações, a Lei nº 12.527/2011 estabelece que, para o acesso a informações de interesse público,",
+    "alternativas": [
+      "o requerente deverá justificar o pedido, demonstrando seu interesse pessoal na informação.",
+      "o pedido somente poderá ser apresentado pessoalmente, no protocolo do órgão.",
+      "o pedido dispensa a identificação do requerente e a especificação da informação requerida.",
+      "são vedadas quaisquer exigências relativas aos motivos determinantes da solicitação.",
+      "o requerente deverá recolher taxa prévia pelo serviço de busca da informação."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Qualquer interessado pode pedir, por qualquer meio legítimo, com identificação e especificação da informação (art. 10, caput).",
+        "A identificação não pode conter exigências que inviabilizem o pedido (art. 10, § 1º).",
+        "São vedadas exigências relativas aos motivos da solicitação de informações de interesse público (art. 10, § 3º)."
+      ],
+      "porQueErradas": {
+        "0": "A lei proíbe exigir os motivos da solicitação de informações de interesse público.",
+        "1": "O pedido pode ser apresentado por qualquer meio legítimo, e os órgãos devem viabilizar o envio pela internet.",
+        "2": "O pedido deve conter a identificação do requerente e a especificação da informação; apenas não se admitem exigências que inviabilizem a solicitação.",
+        "4": "O serviço de busca e de fornecimento de informação é gratuito (art. 12)."
+      },
+      "pegadinha": "Identificação é exigida; motivação não. A banca inverte isso.",
+      "fonte": "Lei 12.527/11, art. 10, caput e §§ 1º a 3º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0031",
+    "materia": "administracao_publica",
+    "assunto": "CF: Direitos e deveres individuais e coletivos (art. 5º)",
+    "dificuldade": 3,
+    "enunciado": "De acordo com o art. 5º, LXI, da Constituição Federal, ninguém será preso senão em flagrante delito ou por ordem escrita e fundamentada de autoridade judiciária competente,",
+    "alternativas": [
+      "salvo nos casos de transgressão militar ou crime propriamente militar, definidos em lei.",
+      "salvo nos casos de transgressão militar ou de qualquer crime militar, próprio ou impróprio, definidos em lei.",
+      "salvo nos casos de crime hediondo, em que basta a ordem escrita da autoridade policial.",
+      "admitindo-se, em casos urgentes, ordem verbal da autoridade judiciária.",
+      "salvo nos casos de transgressão disciplinar de servidor civil, definidos em estatuto."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Regra: prisão só em flagrante ou por ordem escrita e fundamentada de autoridade judiciária competente.",
+        "Exceção: transgressão militar e crime propriamente militar, definidos em lei."
+      ],
+      "porQueErradas": {
+        "1": "A Constituição ressalva apenas o crime propriamente militar, e não qualquer crime militar.",
+        "2": "Não há ressalva para crimes hediondos nem autorização para prisão por ordem da autoridade policial.",
+        "3": "A ordem deve ser escrita e fundamentada.",
+        "4": "A ressalva refere-se à transgressão militar, não a infrações disciplinares de servidores civis."
+      },
+      "pegadinha": "Fique atento ao advérbio 'propriamente'. A banca amplia a exceção para 'qualquer crime militar'.",
+      "fonte": "CF/88, art. 5º, inciso LXI"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0032",
+    "materia": "administracao_publica",
+    "assunto": "CF: Direitos políticos (arts. 14 a 16)",
+    "dificuldade": 2,
+    "enunciado": "Nos termos do art. 15 da Constituição Federal, é vedada a cassação de direitos políticos, cuja perda ou suspensão só se dará em determinados casos. Assinale a alternativa que NÃO corresponde a um desses casos.",
+    "alternativas": [
+      "Cancelamento da naturalização por sentença transitada em julgado.",
+      "Incapacidade civil absoluta.",
+      "Condenação criminal em primeira instância, ainda pendente de recurso.",
+      "Recusa de cumprir obrigação a todos imposta ou prestação alternativa, nos termos do art. 5º, VIII.",
+      "Improbidade administrativa, nos termos do art. 37, § 4º."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O art. 15 proíbe a cassação e lista as hipóteses de perda ou suspensão.",
+        "No caso de condenação criminal, exige-se o trânsito em julgado e a suspensão dura enquanto durarem seus efeitos (inciso III).",
+        "Condenação ainda sujeita a recurso não suspende os direitos políticos."
+      ],
+      "porQueErradas": {
+        "0": "É hipótese expressa do art. 15, I.",
+        "1": "É hipótese expressa do art. 15, II.",
+        "3": "É hipótese expressa do art. 15, IV.",
+        "4": "É hipótese expressa do art. 15, V."
+      },
+      "pegadinha": "A palavra-chave é 'transitada em julgado'. Sem ela, a condenação criminal não gera a suspensão.",
+      "fonte": "CF/88, art. 15, incisos I a V"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0033",
+    "materia": "administracao_publica",
+    "assunto": "CF: Administração Pública, disposições gerais (arts. 37 e 38)",
+    "dificuldade": 2,
+    "enunciado": "Nos termos do art. 38 da Constituição Federal, ao servidor público da administração direta, autárquica e fundacional investido no mandato de Vereador, havendo compatibilidade de horários,",
+    "alternativas": [
+      "será afastado do cargo, sendo-lhe facultado optar pela sua remuneração.",
+      "ficará obrigatoriamente afastado do cargo, recebendo apenas o subsídio de Vereador.",
+      "perceberá as vantagens de seu cargo, emprego ou função, sem prejuízo da remuneração do cargo eletivo.",
+      "terá o tempo de mandato contado para todos os efeitos legais, inclusive para promoção por merecimento.",
+      "deverá exonerar-se do cargo efetivo antes da posse no mandato."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Mandato federal, estadual ou distrital: afastamento do cargo.",
+        "Prefeito: afastamento, podendo optar pela remuneração.",
+        "Vereador com compatibilidade de horários: exerce os dois e recebe as vantagens do cargo mais a remuneração do cargo eletivo.",
+        "Vereador sem compatibilidade: aplica-se a regra do Prefeito."
+      ],
+      "porQueErradas": {
+        "0": "Essa é a regra para o mandato de Prefeito, ou para o Vereador quando não houver compatibilidade de horários.",
+        "1": "Havendo compatibilidade, o servidor acumula as duas atividades e as duas remunerações.",
+        "3": "Quando há afastamento, o tempo conta para todos os efeitos, exceto para promoção por merecimento; e, havendo compatibilidade, não há afastamento.",
+        "4": "A Constituição não exige exoneração; regula a acumulação ou o afastamento."
+      },
+      "pegadinha": "A banca aplica ao Vereador a regra do Prefeito. Verifique sempre se há compatibilidade de horários.",
+      "fonte": "CF/88, art. 38, incisos II e III"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0034",
+    "materia": "administracao_publica",
+    "assunto": "CF: Militares dos Estados (art. 42)",
+    "dificuldade": 2,
+    "enunciado": "Conforme o art. 42, § 2º, da Constituição Federal, aos pensionistas dos militares dos Estados, do Distrito Federal e dos Territórios aplica-se o que for fixado",
+    "alternativas": [
+      "em lei específica do respectivo ente estatal.",
+      "em lei complementar federal, de caráter nacional.",
+      "nas regras do Regime Geral de Previdência Social.",
+      "em decreto do Governador do respectivo Estado.",
+      "na lei que rege as pensões dos militares das Forças Armadas."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O § 2º do art. 42 trata dos pensionistas dos militares estaduais.",
+        "A matéria é regulada por lei específica do respectivo ente estatal (Estado, Distrito Federal ou Território)."
+      ],
+      "porQueErradas": {
+        "1": "O texto remete à lei específica do respectivo ente estatal, e não à lei complementar federal.",
+        "2": "A Constituição não manda aplicar o Regime Geral a esses pensionistas.",
+        "3": "Exige-se lei específica, e não decreto.",
+        "4": "A disciplina cabe à lei específica do ente estatal ao qual o militar pertence."
+      },
+      "pegadinha": "A banca troca 'lei específica do ente' por lei federal, decreto ou Regime Geral. A autonomia aqui é do próprio Estado.",
+      "fonte": "CF/88, art. 42, § 2º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0035",
+    "materia": "administracao_publica",
+    "assunto": "CF: Segurança Pública (art. 144)",
+    "dificuldade": 2,
+    "enunciado": "Nos termos do art. 144, § 4º, da Constituição Federal, às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União,",
+    "alternativas": [
+      "as funções de polícia judiciária e a apuração de infrações penais, inclusive as militares.",
+      "as funções de polícia judiciária e a apuração de infrações penais, exceto as militares.",
+      "a polícia ostensiva e a preservação da ordem pública.",
+      "exercer, com exclusividade, as funções de polícia judiciária da União.",
+      "a execução de atividades de defesa civil."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Polícia civil: dirigida por delegado de carreira.",
+        "Atribuições: polícia judiciária e apuração de infrações penais, ressalvada a competência da União.",
+        "Exceção: as infrações penais militares."
+      ],
+      "porQueErradas": {
+        "0": "As infrações penais militares estão expressamente excluídas.",
+        "2": "Essa é a atribuição das polícias militares (art. 144, § 5º).",
+        "3": "Essa é atribuição da polícia federal (art. 144, § 1º, IV).",
+        "4": "Essa é atribuição dos corpos de bombeiros militares (art. 144, § 5º)."
+      },
+      "pegadinha": "A banca troca 'exceto' por 'inclusive'. Crime militar não é apurado pela polícia civil.",
+      "fonte": "CF/88, art. 144, § 4º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0036",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Poder Executivo",
+    "dificuldade": 2,
+    "enunciado": "De acordo com a Constituição do Estado de São Paulo, os Secretários de Estado serão escolhidos entre",
+    "alternativas": [
+      "brasileiros natos maiores de trinta e cinco anos.",
+      "brasileiros maiores de dezoito anos, ainda que com os direitos políticos suspensos.",
+      "brasileiros maiores de trinta anos, aprovados pela Assembleia Legislativa.",
+      "servidores públicos estaduais de carreira, maiores de vinte e cinco anos.",
+      "brasileiros maiores de vinte e um anos e no exercício dos direitos políticos."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "O art. 51 da CE-SP fixa os requisitos: ser brasileiro, maior de vinte e um anos e estar no exercício dos direitos políticos.",
+        "O Governador nomeia e exonera livremente os Secretários (art. 47, VI)."
+      ],
+      "porQueErradas": {
+        "0": "A CE-SP não exige ser brasileiro nato, e a idade é de vinte e um anos.",
+        "1": "Exige-se idade superior a vinte e um anos e o exercício dos direitos políticos.",
+        "2": "A idade é de vinte e um anos, e não há aprovação pela Assembleia.",
+        "3": "Não se exige que sejam servidores de carreira; a idade é de vinte e um anos."
+      },
+      "pegadinha": "Não confunda com a idade para Governador (trinta anos, CF art. 14). Secretário de Estado: vinte e um anos.",
+      "fonte": "CE-SP, art. 51"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0037",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Justiça Militar do Estado",
+    "dificuldade": 3,
+    "enunciado": "Conforme o art. 81, § 2º, da Constituição do Estado de São Paulo, na Justiça Militar estadual,",
+    "alternativas": [
+      "compete ao Conselho de Justiça processar e julgar os crimes militares cometidos contra civis, cabendo ao juiz de Direito, singularmente, julgar os demais crimes militares.",
+      "compete aos juízes de Direito do juízo militar processar e julgar, singularmente, os crimes militares cometidos contra civis e as ações judiciais contra atos disciplinares militares, cabendo ao Conselho de Justiça, sob a presidência do juiz de Direito, processar e julgar os demais crimes militares.",
+      "compete ao Conselho de Justiça, sob a presidência do oficial mais antigo, processar e julgar todos os crimes militares.",
+      "compete ao juiz de Direito do juízo militar processar e julgar, singularmente, todos os crimes militares, sem a participação de Conselhos de Justiça.",
+      "compete ao Tribunal de Justiça Militar julgar, originariamente, as ações judiciais contra atos disciplinares militares."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Juiz de Direito, sozinho: crimes militares contra civis e ações contra atos disciplinares militares.",
+        "Conselho de Justiça, presidido pelo juiz de Direito: os demais crimes militares.",
+        "O Tribunal de Justiça Militar atua, em regra, em grau de recurso (art. 81, II)."
+      ],
+      "porQueErradas": {
+        "0": "A divisão está invertida: o juiz de Direito julga, sozinho, os crimes contra civis.",
+        "2": "O Conselho é presidido pelo juiz de Direito e não julga os crimes militares contra civis nem as ações contra atos disciplinares.",
+        "3": "Os Conselhos de Justiça julgam os demais crimes militares.",
+        "4": "Essas ações cabem, singularmente, ao juiz de Direito do juízo militar."
+      },
+      "pegadinha": "A banca inverte quem julga crimes contra civis ou diz que o Conselho é presidido por oficial. Na redação atual, o presidente é o juiz de Direito.",
+      "fonte": "CE-SP, art. 81, § 2º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0038",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Administração Pública e servidores",
+    "dificuldade": 2,
+    "enunciado": "Segundo o caput do art. 129 da Constituição do Estado de São Paulo, ao servidor público estadual é assegurado o percebimento do adicional por tempo de serviço, concedido no mínimo por quinquênio, bem como",
+    "alternativas": [
+      "a sexta-parte dos vencimentos integrais, concedida aos vinte e cinco anos de efetivo exercício.",
+      "a sexta-parte dos vencimentos integrais, concedida aos vinte anos de efetivo exercício.",
+      "a décima parte dos vencimentos, concedida aos quinze anos de efetivo exercício.",
+      "a sexta-parte dos vencimentos integrais, concedida aos trinta anos de serviço, apenas para fins de aposentadoria.",
+      "um terço dos vencimentos, concedido aos vinte anos de efetivo exercício."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "O art. 129 assegura o adicional por tempo de serviço, no mínimo por quinquênio, vedada sua limitação.",
+        "Assegura também a sexta-parte dos vencimentos integrais aos vinte anos de efetivo exercício.",
+        "Ambos se incorporam aos vencimentos para todos os efeitos, observado o art. 115, XVI."
+      ],
+      "porQueErradas": {
+        "0": "A sexta-parte é concedida aos vinte anos de efetivo exercício.",
+        "2": "A vantagem é a sexta-parte, aos vinte anos.",
+        "3": "Ela é concedida aos vinte anos e se incorpora aos vencimentos para todos os efeitos.",
+        "4": "A fração prevista é a sexta-parte, e não um terço."
+      },
+      "pegadinha": "Guarde a dupla 'quinquênio' e 'sexta-parte aos vinte anos'. A banca muda o número de anos ou a fração.",
+      "fonte": "CE-SP, art. 129, caput"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0039",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Segurança Pública e Polícia Militar",
+    "dificuldade": 1,
+    "enunciado": "Nos termos do art. 142 da Constituição do Estado de São Paulo, ao Corpo de Bombeiros, além das atribuições definidas em lei, incumbe",
+    "alternativas": [
+      "o exercício das funções de polícia judiciária.",
+      "a segurança dos estabelecimentos penais.",
+      "a apuração das infrações penais militares.",
+      "a direção da Superintendência da Polícia Técnico-Científica.",
+      "a execução de atividades de defesa civil."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "O art. 142 atribui ao Corpo de Bombeiros, além do que a lei definir, a execução de atividades de defesa civil.",
+        "Seu quadro próprio e funcionamento são definidos na legislação prevista no § 2º do art. 141."
+      ],
+      "porQueErradas": {
+        "0": "Polícia judiciária é função da Polícia Civil (art. 140).",
+        "1": "Essa é a atribuição da Polícia Penal (art. 143-A).",
+        "2": "Essa não é a atribuição que a CE-SP confere ao Corpo de Bombeiros.",
+        "3": "A Superintendência é dirigida, alternadamente, por perito criminal e médico legista."
+      },
+      "pegadinha": "A CE-SP repete a CF (art. 144, § 5º): bombeiro = defesa civil.",
+      "fonte": "CE-SP, art. 142"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0040",
+    "materia": "administracao_publica",
+    "assunto": "Lei 12.527/11 (Acesso à Informação) e Decreto 68.155/23",
+    "dificuldade": 3,
+    "enunciado": "De acordo com o Decreto estadual nº 68.155/2023, que regulamenta a Lei de Acesso à Informação no Estado de São Paulo, negado o acesso à informação pelos órgãos ou entidades da Administração Pública estadual, o interessado poderá recorrer",
+    "alternativas": [
+      "no prazo de 10 dias, à Controladoria-Geral da União, que deverá se manifestar no prazo de 5 dias.",
+      "no prazo de 15 dias, diretamente à Comissão Estadual de Acesso à Informação.",
+      "no prazo de 5 dias, à Controladoria Geral do Estado, que deverá se manifestar no prazo de 10 dias.",
+      "no prazo de 30 dias, ao Governador do Estado, que decidirá em última instância.",
+      "no prazo de 10 dias, à Controladoria Geral do Estado, que deverá se manifestar no prazo de 5 dias."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Art. 20 do Decreto 68.155/2023: recurso em 10 dias à Controladoria Geral do Estado, que se manifesta em 5 dias.",
+        "O decreto prevê prazo de 30 dias quando a Controladoria determinar diligências junto ao órgão (art. 20, § 1º).",
+        "Negado o acesso pela Controladoria, cabe recurso em 10 dias à Comissão Estadual de Acesso à Informação - CEAI (art. 21)."
+      ],
+      "porQueErradas": {
+        "0": "A Controladoria-Geral da União atua no Poder Executivo federal; no Estado, o recurso vai à Controladoria Geral do Estado.",
+        "1": "A CEAI só aprecia recurso depois de negado o acesso pela Controladoria Geral do Estado (art. 21), e o prazo é de 10 dias.",
+        "2": "Os prazos estão invertidos: 10 dias para recorrer e 5 para a manifestação.",
+        "3": "O recurso é dirigido à Controladoria Geral do Estado, em 10 dias."
+      },
+      "pegadinha": "A banca troca o órgão estadual (Controladoria Geral do Estado) pelo federal (CGU) ou inverte os prazos 10/5.",
+      "fonte": "Decreto 68.155/23, art. 20, caput; art. 21"
+    },
+    "origem": "gerada"
+  }
+]

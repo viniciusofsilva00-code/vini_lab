@@ -1,0 +1,514 @@
+[
+  {
+    "id": "mat-0061",
+    "materia": "matematica",
+    "assunto": "Equação do 1º grau",
+    "dificuldade": 1,
+    "enunciado": "O triplo de um número, somado a 12, é igual a 45. Assinale a alternativa que apresenta esse número.",
+    "alternativas": ["9", "11", "13", "15", "19"],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Chame o número de x e monte a equação: 3x + 12 = 45.",
+        "Passe o 12 para o outro lado subtraindo: 3x = 45 − 12 = 33.",
+        "Divida por 3: x = 33 ÷ 3 = 11.",
+        "Confira: 3 · 11 + 12 = 33 + 12 = 45."
+      ],
+      "porQueErradas": {
+        "0": "3 · 9 + 12 = 39, e não 45.",
+        "2": "3 · 13 + 12 = 51, e não 45.",
+        "3": "15 é 45 ÷ 3, resultado de quem esqueceu de tirar o 12 antes de dividir.",
+        "4": "19 vem de (45 + 12) ÷ 3, que soma o 12 em vez de subtraí-lo."
+      },
+      "pegadinha": "Ao passar o 12 para o outro lado da igualdade, a operação se inverte: a soma vira subtração.",
+      "fonte": "Equação do 1º grau: isolamento da incógnita por operações inversas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0062",
+    "materia": "matematica",
+    "assunto": "Sistema de equações do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "No pátio de um batalhão estão estacionados 30 veículos, entre carros e motos, totalizando 100 rodas. Assinale a alternativa que indica o número de carros.",
+    "alternativas": ["10", "15", "20", "25", "30"],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Sejam c os carros e m as motos: c + m = 30 e 4c + 2m = 100.",
+        "Multiplique a primeira equação por 2: 2c + 2m = 60.",
+        "Subtraia da segunda: (4c + 2m) − (2c + 2m) = 100 − 60, logo 2c = 40 e c = 20.",
+        "Motos: m = 30 − 20 = 10. Confira: 4 · 20 + 2 · 10 = 80 + 20 = 100 rodas."
+      ],
+      "porQueErradas": {
+        "0": "10 é o número de motos, não de carros.",
+        "1": "Com 15 carros e 15 motos haveria 60 + 30 = 90 rodas.",
+        "3": "Com 25 carros e 5 motos haveria 100 + 10 = 110 rodas.",
+        "4": "30 é o total de veículos; só carros dariam 120 rodas."
+      },
+      "pegadinha": "A banca coloca o número de motos (10) entre as alternativas: confira qual incógnita o enunciado pede.",
+      "fonte": "Sistema de equações do 1º grau: método da adição."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0063",
+    "materia": "matematica",
+    "assunto": "Sistema métrico (tempo, comprimento, superfície, capacidade)",
+    "dificuldade": 1,
+    "enunciado": "Uma patrulha noturna começou às 22h30 e durou 2 horas e 45 minutos. Assinale a alternativa que indica o horário de término da patrulha.",
+    "alternativas": ["00h45", "00h55", "01h05", "01h10", "01h15"],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Some as horas: 22h + 2h = 24h, que corresponde a 00h.",
+        "Some os minutos: 30 min + 45 min = 75 min.",
+        "Como 75 min = 1 h 15 min, acrescente 1 hora: 00h + 1h15 = 01h15."
+      ],
+      "porQueErradas": {
+        "0": "00h45 corresponde a apenas 2h15 de patrulha após 22h30.",
+        "1": "00h55 corresponde a 2h25 de patrulha.",
+        "2": "01h05 corresponde a 2h35 de patrulha.",
+        "3": "01h10 corresponde a 2h40 de patrulha."
+      },
+      "pegadinha": "Minutos não são decimais: 75 minutos viram 1 hora e 15 minutos, e a passagem da meia-noite reinicia a contagem em 00h.",
+      "fonte": "Sistema sexagesimal: 1 h = 60 min."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0064",
+    "materia": "matematica",
+    "assunto": "Sistema métrico (tempo, comprimento, superfície, capacidade)",
+    "dificuldade": 1,
+    "enunciado": "Durante o treinamento físico, um soldado correu 3,5 km pela manhã e 750 m à tarde. Assinale a alternativa que apresenta a distância total percorrida, em metros.",
+    "alternativas": ["785 m", "1.100 m", "3.575 m", "4.250 m", "42.500 m"],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Converta quilômetros em metros: 1 km = 1.000 m, então 3,5 km = 3.500 m.",
+        "Some as distâncias: 3.500 m + 750 m = 4.250 m."
+      ],
+      "porQueErradas": {
+        "0": "785 m considera 3,5 km como 35 m.",
+        "1": "1.100 m considera 3,5 km como 350 m.",
+        "2": "3.575 m trata 750 m como se fossem 75 m.",
+        "4": "42.500 m é dez vezes o valor correto, erro na posição da vírgula."
+      },
+      "pegadinha": "Antes de somar, coloque as duas medidas na mesma unidade.",
+      "fonte": "Sistema métrico decimal: 1 km = 1.000 m."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0065",
+    "materia": "matematica",
+    "assunto": "Sistema métrico (tempo, comprimento, superfície, capacidade)",
+    "dificuldade": 2,
+    "enunciado": "Um terreno destinado à construção de uma base comunitária tem área de 2,5 hm². Assinale a alternativa que apresenta essa área em metros quadrados.",
+    "alternativas": ["250.000 m²", "25.000 m²", "2.500 m²", "250 m²", "25 m²"],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Nas medidas de superfície, cada degrau da escala vale 100: hm² → dam² → m².",
+        "De hm² para m² são dois degraus: 100 · 100 = 10.000.",
+        "2,5 hm² · 10.000 = 25.000 m²."
+      ],
+      "porQueErradas": {
+        "0": "250.000 m² multiplica por 100.000, um fator a mais que o correto.",
+        "2": "2.500 m² multiplica por 1.000, fator das medidas de volume ou do km para m.",
+        "3": "250 m² multiplica por 100, como se fosse medida de comprimento (hm → m).",
+        "4": "25 m² multiplica apenas por 10."
+      },
+      "pegadinha": "Em área o fator entre unidades vizinhas é 100, e não 10 como no comprimento.",
+      "fonte": "Sistema métrico: 1 hm² = 10.000 m²."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0066",
+    "materia": "matematica",
+    "assunto": "Sistema métrico (tempo, comprimento, superfície, capacidade)",
+    "dificuldade": 2,
+    "enunciado": "Um reservatório com 1,2 m³ de água potável será usado para encher garrafas de 1,5 litro. Assinale a alternativa que indica quantas garrafas podem ser completamente cheias.",
+    "alternativas": ["800", "80", "8.000", "1.800", "1.200"],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Converta volume em capacidade: 1 m³ = 1.000 L, logo 1,2 m³ = 1.200 L.",
+        "Divida pela capacidade de cada garrafa: 1.200 ÷ 1,5 = 800 garrafas."
+      ],
+      "porQueErradas": {
+        "1": "80 resulta de considerar 1,2 m³ como 120 L.",
+        "2": "8.000 resulta de considerar 1,2 m³ como 12.000 L.",
+        "3": "1.800 multiplica 1.200 por 1,5 em vez de dividir.",
+        "4": "1.200 é a quantidade de litros, não de garrafas."
+      },
+      "pegadinha": "A relação-chave é 1 m³ = 1.000 L; depois, divida (e não multiplique) pela capacidade da garrafa.",
+      "fonte": "Sistema métrico: 1 m³ = 1.000 L = 1.000 dm³."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0067",
+    "materia": "matematica",
+    "assunto": "Tabelas e gráficos",
+    "dificuldade": 2,
+    "texto": "A tabela a seguir mostra o número de ocorrências atendidas por uma companhia em cada dia útil de uma semana.\n\nDia | Ocorrências\nSegunda | 12\nTerça | 15\nQuarta | 9\nQuinta | 18\nSexta | 21",
+    "enunciado": "De acordo com a tabela, em quantos dias o número de ocorrências foi superior à média diária da semana?",
+    "alternativas": ["Nenhum.", "1.", "2.", "3.", "4."],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Some as ocorrências: 12 + 15 + 9 + 18 + 21 = 75.",
+        "Calcule a média: 75 ÷ 5 = 15.",
+        "Valores superiores a 15: quinta (18) e sexta (21), ou seja, 2 dias."
+      ],
+      "porQueErradas": {
+        "0": "Quinta e sexta superam a média de 15.",
+        "1": "Considera apenas a sexta-feira, mas a quinta (18) também supera 15.",
+        "3": "Inclui a terça (15), que é igual à média, e não superior.",
+        "4": "Apenas segunda e quarta ficam abaixo; terça é igual; restam só 2 dias acima."
+      },
+      "pegadinha": "\"Superior\" exclui o valor igual à média: a terça-feira, com 15, não conta.",
+      "fonte": "Média aritmética simples e leitura de tabelas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0068",
+    "materia": "matematica",
+    "assunto": "Tabelas e gráficos",
+    "dificuldade": 1,
+    "texto": "A frota de um batalhão está distribuída conforme a tabela.\n\nTipo de veículo | Quantidade\nSedã | 24\nSUV | 16\nMotocicleta | 32\nCaminhonete | 8",
+    "enunciado": "Com base na tabela, as motocicletas representam qual porcentagem da frota?",
+    "alternativas": ["10%", "20%", "30%", "32%", "40%"],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Total da frota: 24 + 16 + 32 + 8 = 80 veículos.",
+        "Porcentagem de motocicletas: 32 ÷ 80 = 0,4 = 40%."
+      ],
+      "porQueErradas": {
+        "0": "10% é a parcela das caminhonetes (8 de 80).",
+        "1": "20% é a parcela dos SUVs (16 de 80).",
+        "2": "30% é a parcela dos sedãs (24 de 80).",
+        "3": "32 é a quantidade de motos, não a porcentagem; o total não é 100."
+      },
+      "pegadinha": "A quantidade só coincide com a porcentagem quando o total é 100; aqui o total é 80.",
+      "fonte": "Porcentagem: parte ÷ todo × 100."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0069",
+    "materia": "matematica",
+    "assunto": "Geometria (perímetro, área, volume, Pitágoras)",
+    "dificuldade": 1,
+    "enunciado": "Uma sala quadrada de um quartel tem 64 m² de área. Assinale a alternativa que apresenta o perímetro dessa sala.",
+    "alternativas": ["32 m", "16 m", "8 m", "64 m", "256 m"],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Área do quadrado = lado², então lado = √64 = 8 m.",
+        "Perímetro = 4 · lado = 4 · 8 = 32 m."
+      ],
+      "porQueErradas": {
+        "1": "16 m é a soma de apenas dois lados.",
+        "2": "8 m é a medida do lado, não o perímetro.",
+        "3": "64 é a área, que não é igual ao perímetro neste caso.",
+        "4": "256 m resulta de multiplicar a área por 4."
+      },
+      "pegadinha": "Primeiro descubra o lado pela raiz quadrada da área; só depois multiplique por 4.",
+      "fonte": "Geometria plana: área do quadrado (l²) e perímetro (4l)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0070",
+    "materia": "matematica",
+    "assunto": "Geometria (perímetro, área, volume, Pitágoras)",
+    "dificuldade": 2,
+    "enunciado": "Uma viatura saiu da base, percorreu 9 km em linha reta para o norte e, em seguida, 12 km em linha reta para o leste. Assinale a alternativa que indica a distância, em linha reta, entre a viatura e a base.",
+    "alternativas": ["21 km", "3 km", "225 km", "10,5 km", "15 km"],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Os trajetos norte e leste formam um ângulo reto; a distância procurada é a hipotenusa.",
+        "Pitágoras: d² = 9² + 12² = 81 + 144 = 225.",
+        "d = √225 = 15 km."
+      ],
+      "porQueErradas": {
+        "0": "21 km é a distância percorrida pela estrada (9 + 12), não em linha reta.",
+        "1": "3 km é a diferença 12 − 9.",
+        "2": "225 é o quadrado da distância; falta extrair a raiz.",
+        "3": "10,5 km é a média de 9 e 12, sem relação com o triângulo retângulo."
+      },
+      "pegadinha": "Não esqueça de tirar a raiz quadrada no final; 225 é d², não d.",
+      "fonte": "Teorema de Pitágoras: a² = b² + c²."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0071",
+    "materia": "matematica",
+    "assunto": "Geometria (perímetro, área, volume, Pitágoras)",
+    "dificuldade": 2,
+    "enunciado": "Uma caixa-d'água em forma de cubo tem aresta interna de 1,5 m. Assinale a alternativa que indica a capacidade dessa caixa, em litros.",
+    "alternativas": ["2.250 L", "3.375 L", "4.500 L", "337,5 L", "13.500 L"],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Volume do cubo = aresta³ = 1,5 · 1,5 · 1,5.",
+        "1,5 · 1,5 = 2,25; 2,25 · 1,5 = 3,375 m³.",
+        "Como 1 m³ = 1.000 L, a capacidade é 3,375 · 1.000 = 3.375 L."
+      ],
+      "porQueErradas": {
+        "0": "2.250 L usa 1,5², que é a área de uma face, não o volume.",
+        "2": "4.500 L multiplica a aresta por 3 em vez de elevá-la ao cubo.",
+        "3": "337,5 L converte m³ em litros multiplicando por 100, e não por 1.000.",
+        "4": "13.500 L corresponde à área total das 6 faces (13,5 m²), não ao volume."
+      },
+      "pegadinha": "Elevar ao cubo é multiplicar o número por ele mesmo três vezes, e não multiplicar por 3.",
+      "fonte": "Geometria espacial: volume do cubo (a³); 1 m³ = 1.000 L."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0072",
+    "materia": "matematica",
+    "assunto": "Raciocínio lógico",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa que apresenta a negação lógica da afirmação: \"Todo policial é pontual\".",
+    "alternativas": [
+      "Nenhum policial é pontual.",
+      "Todo policial é impontual.",
+      "Algum policial é pontual.",
+      "Algum policial não é pontual.",
+      "Nenhum pontual é policial."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Para negar \"todo A é B\", basta mostrar que existe pelo menos um A que não é B.",
+        "Logo, a negação é \"algum policial não é pontual\"."
+      ],
+      "porQueErradas": {
+        "0": "\"Nenhum policial é pontual\" é a contrária, uma afirmação mais forte do que a negação.",
+        "1": "\"Todo policial é impontual\" diz o mesmo que \"nenhum é pontual\", e não é a negação.",
+        "2": "\"Algum policial é pontual\" é compatível com a frase original; não a nega.",
+        "4": "\"Nenhum pontual é policial\" fala de outro conjunto e também não é a negação."
+      },
+      "pegadinha": "A negação de \"todo\" não é \"nenhum\": basta um único caso contrário para derrubar a afirmação.",
+      "fonte": "Lógica proposicional: negação de proposições categóricas (todo → algum... não)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0073",
+    "materia": "matematica",
+    "assunto": "Raciocínio lógico",
+    "dificuldade": 2,
+    "enunciado": "Observe a sequência: 3, 7, 15, 31, 63, ... Mantido o padrão, assinale a alternativa que apresenta o próximo termo.",
+    "alternativas": ["95", "125", "126", "127", "129"],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Cada termo é o dobro do anterior mais 1: 3 · 2 + 1 = 7; 7 · 2 + 1 = 15; 15 · 2 + 1 = 31; 31 · 2 + 1 = 63.",
+        "Próximo termo: 63 · 2 + 1 = 127.",
+        "Outra forma: as diferenças são 4, 8, 16, 32, e a próxima é 64; 63 + 64 = 127."
+      ],
+      "porQueErradas": {
+        "0": "95 repete a diferença 32, mas as diferenças dobram a cada passo.",
+        "1": "125 não segue nenhuma das regras da sequência.",
+        "2": "126 dobra o 63 mas esquece de somar 1.",
+        "4": "129 soma 3 ao dobro, quando a regra soma 1."
+      },
+      "pegadinha": "Teste a regra em todos os termos dados, e não só nos dois primeiros.",
+      "fonte": "Raciocínio lógico: sequências numéricas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0074",
+    "materia": "matematica",
+    "assunto": "Raciocínio lógico",
+    "dificuldade": 3,
+    "enunciado": "Ana, Bruno e Carla foram escalados para três funções diferentes: portaria, ronda e rádio, um em cada função. Sabe-se que Ana não está na ronda; Bruno não está na portaria nem no rádio; Carla não está na portaria. Assinale a alternativa correta.",
+    "alternativas": [
+      "Ana está no rádio.",
+      "Bruno está na portaria.",
+      "Carla está na ronda.",
+      "Ana está na portaria e Carla, no rádio.",
+      "Bruno está no rádio."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Bruno não está na portaria nem no rádio, então Bruno está na ronda.",
+        "Carla não está na portaria e a ronda já é de Bruno, então Carla está no rádio.",
+        "Sobra a portaria para Ana, o que é compatível com \"Ana não está na ronda\"."
+      ],
+      "porQueErradas": {
+        "0": "O rádio ficou com Carla.",
+        "1": "O enunciado diz que Bruno não está na portaria.",
+        "2": "A ronda é de Bruno.",
+        "4": "O enunciado diz que Bruno não está no rádio."
+      },
+      "pegadinha": "Comece pela pessoa com mais restrições (Bruno): ela define as demais por eliminação.",
+      "fonte": "Raciocínio lógico: associação por eliminação."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0075",
+    "materia": "matematica",
+    "assunto": "Situações-problema",
+    "dificuldade": 2,
+    "enunciado": "Um soldado recebeu R$ 3.600,00. Gastou 1/3 desse valor com aluguel e 1/4 do restante com alimentação. Assinale a alternativa que indica quanto sobrou.",
+    "alternativas": ["R$ 1.800,00", "R$ 1.500,00", "R$ 2.100,00", "R$ 1.200,00", "R$ 2.400,00"],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Aluguel: 1/3 de 3.600 = 1.200. Restante: 3.600 − 1.200 = 2.400.",
+        "Alimentação: 1/4 de 2.400 = 600.",
+        "Sobra: 2.400 − 600 = R$ 1.800,00."
+      ],
+      "porQueErradas": {
+        "1": "R$ 1.500,00 calcula 1/4 sobre o total (900), e não sobre o restante.",
+        "2": "R$ 2.100,00 é o total gasto quando se aplicam as duas frações sobre o salário inteiro.",
+        "3": "R$ 1.200,00 é o valor do aluguel.",
+        "4": "R$ 2.400,00 é o que sobrou antes de pagar a alimentação."
+      },
+      "pegadinha": "\"Do restante\" muda a base do cálculo: a segunda fração incide sobre 2.400, e não sobre 3.600.",
+      "fonte": "Frações de quantidade e fração do restante."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0076",
+    "materia": "matematica",
+    "assunto": "Situações-problema",
+    "dificuldade": 1,
+    "enunciado": "Uma companhia opera com 4 viaturas por turno, cada uma com 3 policiais, em 3 turnos diários, sem que nenhum policial trabalhe em mais de um turno no dia. Assinale a alternativa que indica quantos policiais são escalados por dia.",
+    "alternativas": ["36", "12", "10", "24", "48"],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Policiais por turno: 4 viaturas · 3 policiais = 12.",
+        "Por dia: 12 · 3 turnos = 36 policiais."
+      ],
+      "porQueErradas": {
+        "1": "12 é o número de policiais de um único turno.",
+        "2": "10 soma 4 + 3 + 3 em vez de multiplicar.",
+        "3": "24 considera apenas 2 turnos.",
+        "4": "48 considera 4 turnos."
+      },
+      "pegadinha": "Viaturas, policiais e turnos se combinam por multiplicação, não por soma.",
+      "fonte": "Princípio multiplicativo em situações-problema."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0077",
+    "materia": "matematica",
+    "assunto": "Equação do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "Uma corda de 42 m foi cortada em dois pedaços. O pedaço maior tem 6 m a mais que o dobro do menor. Assinale a alternativa que apresenta o comprimento do pedaço menor.",
+    "alternativas": ["14 m", "16 m", "18 m", "30 m", "12 m"],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Seja x o pedaço menor; o maior é 2x + 6.",
+        "Equação: x + 2x + 6 = 42, logo 3x = 36.",
+        "x = 12 m. Confira: maior = 2 · 12 + 6 = 30; 12 + 30 = 42."
+      ],
+      "porQueErradas": {
+        "0": "14 m é 42 ÷ 3, sem descontar os 6 m.",
+        "1": "16 m é (42 + 6) ÷ 3, que soma os 6 m em vez de subtraí-los.",
+        "2": "18 m é (42 − 6) ÷ 2, que ignora o dobro.",
+        "3": "30 m é o pedaço maior."
+      },
+      "pegadinha": "O enunciado pede o menor pedaço; o maior (30 m) aparece como distrator.",
+      "fonte": "Equação do 1º grau aplicada a problemas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0078",
+    "materia": "matematica",
+    "assunto": "Equação do 1º grau",
+    "dificuldade": 3,
+    "enunciado": "Em um simulado de 60 questões, cada acerto vale 2 pontos e cada erro desconta 1 ponto. Um candidato respondeu todas as questões e fez 75 pontos. Assinale a alternativa que indica quantas questões ele acertou.",
+    "alternativas": ["40", "42", "45", "48", "50"],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Seja a o número de acertos; os erros são 60 − a.",
+        "Pontuação: 2a − (60 − a) = 75, logo 2a − 60 + a = 75.",
+        "3a = 135, então a = 45.",
+        "Confira: 45 acertos dão 90 pontos; 15 erros descontam 15; 90 − 15 = 75."
+      ],
+      "porQueErradas": {
+        "0": "Com 40 acertos e 20 erros: 80 − 20 = 60 pontos.",
+        "1": "Com 42 acertos e 18 erros: 84 − 18 = 66 pontos.",
+        "3": "Com 48 acertos e 12 erros: 96 − 12 = 84 pontos.",
+        "4": "Com 50 acertos e 10 erros: 100 − 10 = 90 pontos."
+      },
+      "pegadinha": "Ao abrir o parêntese −(60 − a), o sinal do a muda: fica +a.",
+      "fonte": "Equação do 1º grau com regra de sinais."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0079",
+    "materia": "matematica",
+    "assunto": "Sistema de equações do 1º grau",
+    "dificuldade": 3,
+    "enunciado": "Em um evento beneficente, o ingresso de adulto custava R$ 30,00 e o de criança, R$ 18,00. Foram vendidos 50 ingressos, com arrecadação de R$ 1.260,00. Assinale a alternativa que indica quantos ingressos de adulto foram vendidos a mais que os de criança.",
+    "alternativas": ["5", "10", "15", "20", "30"],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Sejam a os adultos e c as crianças: a + c = 50 e 30a + 18c = 1.260.",
+        "Substitua c = 50 − a: 30a + 18(50 − a) = 1.260, logo 30a + 900 − 18a = 1.260.",
+        "12a = 360, então a = 30 e c = 20.",
+        "Diferença: 30 − 20 = 10. Confira: 900 + 360 = 1.260."
+      ],
+      "porQueErradas": {
+        "0": "5 não corresponde à diferença entre 30 adultos e 20 crianças.",
+        "2": "15 não satisfaz o sistema; seria preciso 32,5 adultos.",
+        "3": "20 é o número de ingressos de criança.",
+        "4": "30 é o número de ingressos de adulto."
+      },
+      "pegadinha": "O enunciado pede a diferença, e não a quantidade de um dos tipos de ingresso.",
+      "fonte": "Sistema de equações do 1º grau: método da substituição."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0080",
+    "materia": "matematica",
+    "assunto": "Sistema métrico (tempo, comprimento, superfície, capacidade)",
+    "dificuldade": 2,
+    "enunciado": "Um curso de capacitação teve duração de 3,6 horas. Assinale a alternativa que apresenta essa duração em horas e minutos.",
+    "alternativas": ["4h00min", "3h06min", "3h36min", "3h30min", "3h40min"],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "A parte inteira são 3 horas.",
+        "A parte decimal: 0,6 h · 60 min = 36 min.",
+        "Duração: 3h36min."
+      ],
+      "porQueErradas": {
+        "0": "4h00min lê 0,6 h como 60 minutos.",
+        "1": "3h06min lê o 6 decimal como 6 minutos.",
+        "3": "3h30min corresponde a 3,5 h.",
+        "4": "3h40min corresponde a cerca de 3,67 h."
+      },
+      "pegadinha": "A parte decimal da hora deve ser multiplicada por 60; 0,6 h não é 60 nem 6 minutos.",
+      "fonte": "Sistema sexagesimal: conversão de horas decimais em minutos."
+    },
+    "origem": "gerada"
+  }
+]

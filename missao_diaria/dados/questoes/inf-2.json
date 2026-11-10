@@ -1,0 +1,520 @@
+[
+  {
+    "id": "inf-0018",
+    "materia": "informatica",
+    "assunto": "Excel 2016",
+    "dificuldade": 2,
+    "enunciado": "No Excel 2016, a célula A1 contém a fórmula =2+3*4^2. O resultado exibido é",
+    "alternativas": [
+      "146",
+      "400",
+      "80",
+      "50",
+      "26"
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Primeiro a potência: 4^2 = 16.",
+        "Depois a multiplicação: 3 · 16 = 48.",
+        "Por fim a soma: 2 + 48 = 50."
+      ],
+      "porQueErradas": {
+        "0": "146 = 2 + 12² seria elevar (3·4) ao quadrado, mas a potência vem antes da multiplicação.",
+        "1": "400 vem de calcular da esquerda para a direita: (2 + 3) · 4 = 20 e 20² = 400, ignorando a precedência.",
+        "2": "80 = (2+3)·16, somando antes de multiplicar.",
+        "4": "26 = 2 + 3·4·2, tratando ^ como multiplicação."
+      },
+      "pegadinha": "O Excel segue a precedência: ^ antes de * e /, que vêm antes de + e −.",
+      "fonte": "Excel 2016: ordem dos operadores em fórmulas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0019",
+    "materia": "informatica",
+    "assunto": "Excel 2016",
+    "dificuldade": 2,
+    "enunciado": "No Excel 2016, a célula C1 contém a fórmula =A1+B1. Se essa célula for copiada e colada na célula D3, a fórmula em D3 será",
+    "alternativas": [
+      "=B3+C3",
+      "=A1+B1",
+      "=C3+D3",
+      "=A3+B3",
+      "=B1+C1"
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "De C1 para D3: +1 coluna e +2 linhas.",
+        "A1 vira B3 e B1 vira C3.",
+        "Resultado: =B3+C3."
+      ],
+      "porQueErradas": {
+        "1": "As referências são relativas, portanto mudam ao copiar.",
+        "2": "Deslocou duas colunas, mas de C para D é apenas uma.",
+        "3": "Ajustou só as linhas; a coluna também desloca uma posição (C para D).",
+        "4": "Ajustou só as colunas; a linha também desloca duas posições (1 para 3)."
+      },
+      "pegadinha": "Conte o deslocamento separadamente para coluna e linha e aplique a cada referência.",
+      "fonte": "Excel 2016: referências relativas ao copiar fórmulas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0020",
+    "materia": "informatica",
+    "assunto": "Excel 2016",
+    "dificuldade": 3,
+    "enunciado": "No Excel 2016, a célula B2 contém =A2*$E$1. Ao copiar B2 para B5, a fórmula em B5 será",
+    "alternativas": [
+      "=D5*$E$1",
+      "=A5*E4",
+      "=A2*$E$1",
+      "=A5*$E$4",
+      "=A5*$E$1"
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "De B2 para B5: 0 coluna e +3 linhas.",
+        "A2 é relativa: vira A5.",
+        "$E$1 é absoluta: não muda.",
+        "Resultado: =A5*$E$1."
+      ],
+      "porQueErradas": {
+        "0": "A cópia foi na mesma coluna, então a coluna A não muda.",
+        "1": "Os cifrões permanecem na cópia e travam E1.",
+        "2": "A2 é relativa e deve mudar para A5.",
+        "3": "O $ antes da linha impede que o 1 mude para 4."
+      },
+      "pegadinha": "O cifrão fixa o que vem logo depois dele: $E$1 trava coluna e linha.",
+      "fonte": "Excel 2016: referências absolutas e relativas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0021",
+    "materia": "informatica",
+    "assunto": "Excel 2016",
+    "dificuldade": 2,
+    "enunciado": "No Excel 2016, a célula A1 contém o valor 6,5. A fórmula =SE(A1>=7;\"Aprovado\";\"Reprovado\") retorna",
+    "alternativas": [
+      "FALSO",
+      "VERDADEIRO",
+      "Reprovado",
+      "Aprovado",
+      "#NOME?"
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Teste lógico: 6,5 >= 7 é falso.",
+        "Quando o teste é falso, SE retorna o terceiro argumento: \"Reprovado\"."
+      ],
+      "porQueErradas": {
+        "0": "FALSO só apareceria se o terceiro argumento fosse omitido.",
+        "1": "A função retorna o texto indicado, não o valor lógico do teste.",
+        "3": "6,5 não é maior nem igual a 7, então a condição é falsa.",
+        "4": "A sintaxe está correta; não há erro de nome."
+      },
+      "pegadinha": "A ordem é SE(teste; valor_se_verdadeiro; valor_se_falso).",
+      "fonte": "Função SE do Excel 2016."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0022",
+    "materia": "informatica",
+    "assunto": "Excel 2016",
+    "dificuldade": 2,
+    "enunciado": "No Excel 2016, as células A1 a A5 contêm, nessa ordem: 10, texto 'PM', 20, (vazia), 30. A fórmula =CONT.NÚM(A1:A5) retorna",
+    "alternativas": [
+      "60",
+      "3",
+      "4",
+      "5",
+      "1"
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "CONT.NÚM conta apenas células com números.",
+        "Números no intervalo: 10, 20 e 30.",
+        "Total: 3."
+      ],
+      "porQueErradas": {
+        "0": "60 é a soma dos números, que seria obtida com SOMA.",
+        "2": "4 é o resultado de CONT.VALORES, que conta também o texto.",
+        "3": "5 seria contar todas as células do intervalo, inclusive vazia e texto.",
+        "4": "1 é a quantidade de células vazias (CONTAR.VAZIO)."
+      },
+      "pegadinha": "CONT.NÚM (só números) × CONT.VALORES (qualquer conteúdo não vazio).",
+      "fonte": "Funções CONT.NÚM e CONT.VALORES do Excel 2016."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0023",
+    "materia": "informatica",
+    "assunto": "Excel 2016",
+    "dificuldade": 1,
+    "enunciado": "No Excel 2016, uma célula exibe o erro #DIV/0!. Esse erro indica que a fórmula",
+    "alternativas": [
+      "resultou em um número largo demais para a coluna.",
+      "usa um nome de função que o Excel não reconhece.",
+      "faz referência a uma célula que foi excluída.",
+      "não encontrou o valor procurado em uma busca.",
+      "tentou dividir um valor por zero ou por uma célula vazia."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "#DIV/0! aparece quando o divisor é 0 ou uma célula vazia (tratada como zero).",
+        "Exemplo: =A1/B1 com B1 vazia."
+      ],
+      "porQueErradas": {
+        "0": "Coluna estreita mostra ##### e não é erro de fórmula.",
+        "1": "Nome de função inválido gera #NOME?.",
+        "2": "Referência inválida gera #REF!.",
+        "3": "Valor não encontrado em PROCV gera #N/D."
+      },
+      "pegadinha": "Célula vazia no divisor também gera #DIV/0!, pois vale zero.",
+      "fonte": "Excel 2016: valores de erro em fórmulas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0024",
+    "materia": "informatica",
+    "assunto": "Excel 2016",
+    "dificuldade": 3,
+    "enunciado": "Numa planilha do Excel 2016, as células B2:B6 contêm as quantidades de ocorrências de cinco equipes: 4, 9, 7, 2 e 8. A fórmula =MÁXIMO(B2:B6)-MÍNIMO(B2:B6)+MÉDIA(B2:B6) retorna",
+    "alternativas": [
+      "15",
+      "17",
+      "6",
+      "13",
+      "7"
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "MÁXIMO = 9 e MÍNIMO = 2: 9 − 2 = 7.",
+        "MÉDIA = (4 + 9 + 7 + 2 + 8) ÷ 5 = 30 ÷ 5 = 6.",
+        "Resultado: 7 + 6 = 13."
+      ],
+      "porQueErradas": {
+        "0": "15 = 9 + 6, esquecendo de subtrair o mínimo.",
+        "1": "17 = 9 + 2 + 6, somando o mínimo em vez de subtraí-lo.",
+        "2": "6 é só a média; faltou a diferença entre máximo e mínimo.",
+        "4": "7 é apenas a diferença entre o máximo (9) e o mínimo (2)."
+      },
+      "pegadinha": "Faça cada função separadamente e respeite os sinais entre elas.",
+      "fonte": "Funções MÁXIMO, MÍNIMO e MÉDIA do Excel 2016."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0025",
+    "materia": "informatica",
+    "assunto": "PowerPoint 2016",
+    "dificuldade": 1,
+    "enunciado": "No PowerPoint 2016, a tecla que inicia a apresentação de slides a partir do primeiro slide é",
+    "alternativas": [
+      "F5",
+      "Esc",
+      "F7",
+      "F12",
+      "F2"
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "F5 inicia do começo.",
+        "Shift + F5 inicia do slide atual."
+      ],
+      "porQueErradas": {
+        "1": "Esc encerra a apresentação em andamento.",
+        "2": "F7 verifica a ortografia.",
+        "3": "F12 abre a caixa Salvar Como.",
+        "4": "F2 edita o texto do objeto selecionado."
+      },
+      "pegadinha": "Atenção à diferença entre F5 (do início) e Shift + F5 (do slide atual).",
+      "fonte": "Atalhos de teclado do PowerPoint 2016 (Microsoft Suporte)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0026",
+    "materia": "informatica",
+    "assunto": "PowerPoint 2016",
+    "dificuldade": 2,
+    "enunciado": "Durante a edição no PowerPoint 2016, para iniciar a apresentação a partir do slide que está selecionado, utiliza-se",
+    "alternativas": [
+      "Shift + F5",
+      "F12",
+      "F7",
+      "Ctrl + M",
+      "F5"
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O comando 'Do Slide Atual' fica na guia Apresentação de Slides.",
+        "Seu atalho é Shift + F5."
+      ],
+      "porQueErradas": {
+        "1": "F12 abre a caixa Salvar Como.",
+        "2": "F7 verifica a ortografia.",
+        "3": "Ctrl + M insere um novo slide.",
+        "4": "F5 inicia sempre a partir do primeiro slide."
+      },
+      "pegadinha": "A banca coloca F5 como distrator: ele sempre começa do primeiro slide.",
+      "fonte": "Atalhos de teclado do PowerPoint 2016 (Microsoft Suporte)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0027",
+    "materia": "informatica",
+    "assunto": "PowerPoint 2016",
+    "dificuldade": 2,
+    "enunciado": "No PowerPoint 2016, a diferença entre as guias Transições e Animações é que",
+    "alternativas": [
+      "ambas aplicam efeitos somente na troca de slides.",
+      "Animações substituem o tema escolhido na guia Design.",
+      "Transições só funcionam no modo de exibição Classificação de Slides.",
+      "Transições definem efeitos para textos, e Animações definem efeitos apenas para imagens.",
+      "Transições definem o efeito na passagem de um slide para outro, e Animações definem efeitos para objetos dentro do slide."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Transição: efeito entre slides (por exemplo, Esmaecer ao passar do slide 2 para o 3).",
+        "Animação: efeito de entrada, ênfase, saída ou trajetória de um objeto."
+      ],
+      "porQueErradas": {
+        "0": "Animações atuam sobre objetos dentro do slide.",
+        "1": "Animações não alteram o tema do slide.",
+        "2": "Transições são vistas durante a apresentação.",
+        "3": "Animações valem para qualquer objeto: textos, imagens, formas."
+      },
+      "pegadinha": "Pense em 'transição = trânsito entre slides' e 'animação = movimento de objetos'.",
+      "fonte": "Interface do PowerPoint 2016: guias Transições e Animações."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0028",
+    "materia": "informatica",
+    "assunto": "PowerPoint 2016",
+    "dificuldade": 2,
+    "enunciado": "No PowerPoint 2016, um instrutor quer que o brasão da corporação apareça automaticamente em todos os slides da apresentação, na mesma posição. O recurso mais adequado, acessado pela guia Exibir, é",
+    "alternativas": [
+      "Ocultar Slide.",
+      "Modo de Exibição de Leitura.",
+      "Classificação de Slides.",
+      "Slide Mestre.",
+      "Anotações."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O Slide Mestre controla o layout, fontes e elementos comuns a todos os slides.",
+        "Inserir o brasão no mestre faz com que ele apareça em todos os slides baseados nele."
+      ],
+      "porQueErradas": {
+        "0": "Ocultar Slide impede que um slide apareça na apresentação.",
+        "1": "Exibe a apresentação dentro da janela do programa, para revisão; não define elementos comuns aos slides.",
+        "2": "Esse modo mostra miniaturas para reorganizar a ordem dos slides.",
+        "4": "O modo Anotações mostra o slide com as notas do apresentador."
+      },
+      "pegadinha": "Copiar e colar o brasão em cada slide funciona, mas não é o recurso 'adequado'; a banca quer o Slide Mestre.",
+      "fonte": "Interface do PowerPoint 2016: guia Exibir, grupo Modos de Exibição Mestres."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0029",
+    "materia": "informatica",
+    "assunto": "PowerPoint 2016",
+    "dificuldade": 1,
+    "enunciado": "No PowerPoint 2016, durante a apresentação de slides, a tecla que encerra a apresentação e volta ao modo de edição é",
+    "alternativas": [
+      "Enter",
+      "Esc",
+      "Barra de espaço",
+      "Backspace",
+      "Home"
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Esc interrompe a apresentação a qualquer momento.",
+        "O PowerPoint volta ao modo de exibição em que estava antes."
+      ],
+      "porQueErradas": {
+        "0": "Enter avança para o próximo slide ou animação.",
+        "2": "A barra de espaço avança na apresentação.",
+        "3": "Backspace volta ao slide ou animação anterior.",
+        "4": "Home vai para o primeiro slide, sem encerrar."
+      },
+      "pegadinha": "Home e Backspace mudam de slide, mas não encerram a apresentação.",
+      "fonte": "Atalhos de teclado do PowerPoint 2016 (Microsoft Suporte)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0030",
+    "materia": "informatica",
+    "assunto": "PowerPoint 2016",
+    "dificuldade": 3,
+    "enunciado": "Um apresentador deseja que um slide permaneça no arquivo do PowerPoint 2016, mas não seja exibido durante a apresentação. O comando adequado e a guia em que se encontra são",
+    "alternativas": [
+      "Transições > Nenhuma, na guia Transições.",
+      "Seção, na guia Inserir.",
+      "Ocultar Slide, na guia Apresentação de Slides.",
+      "Excluir Slide, na guia Página Inicial.",
+      "Ocultar Slide, na guia Design."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Ocultar Slide mantém o slide no arquivo, marcado com a numeração riscada.",
+        "Na apresentação, o slide é pulado.",
+        "O comando fica na guia Apresentação de Slides (também no menu do botão direito sobre a miniatura)."
+      ],
+      "porQueErradas": {
+        "0": "Retirar a transição não impede que o slide seja exibido.",
+        "1": "Seções são criadas pela guia Página Inicial e organizam slides, sem ocultá-los.",
+        "3": "Excluir remove o slide do arquivo, o que não é desejado.",
+        "4": "A guia Design trata de temas e tamanho do slide."
+      },
+      "pegadinha": "Excluir e ocultar são diferentes: o slide oculto continua no arquivo e pode ser reexibido.",
+      "fonte": "Interface do PowerPoint 2016: guia Apresentação de Slides, grupo Configurar."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0031",
+    "materia": "informatica",
+    "assunto": "PowerPoint 2016",
+    "dificuldade": 3,
+    "enunciado": "No PowerPoint 2016, um arquivo salvo no formato .ppsx tem como característica",
+    "alternativas": [
+      "conter macros habilitadas.",
+      "ser um modelo para criar novas apresentações.",
+      "ser compatível apenas com o PowerPoint 97-2003.",
+      "abrir diretamente no modo de apresentação de slides ao ser executado.",
+      "ser uma imagem de cada slide, sem possibilidade de edição."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        ".pptx: apresentação comum, abre no modo de edição.",
+        ".ppsx: Apresentação de Slides do PowerPoint, abre já exibindo os slides."
+      ],
+      "porQueErradas": {
+        "0": "Apresentação com macros usa .pptm.",
+        "1": "Modelo do PowerPoint usa a extensão .potx.",
+        "2": "O formato antigo é .ppt (ou .pps para apresentação).",
+        "4": "Imagens seriam salvas como .png ou .jpg."
+      },
+      "pegadinha": "A diferença é só uma letra: pptx (edição) × ppsx (exibição, de 'show').",
+      "fonte": "Formatos de arquivo do PowerPoint 2016 (Microsoft Suporte)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0032",
+    "materia": "informatica",
+    "assunto": "Correio eletrônico",
+    "dificuldade": 1,
+    "enunciado": "Ao enviar uma mensagem de correio eletrônico, um sargento quer que um destinatário receba uma cópia sem que os demais destinatários saibam disso. Ele deve colocar o endereço desse destinatário no campo",
+    "alternativas": [
+      "Cco (cópia oculta).",
+      "Assunto.",
+      "Para.",
+      "Responder para.",
+      "Cc (cópia)."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Cc envia cópia visível a todos.",
+        "Cco envia cópia oculta: os demais destinatários não veem esse endereço."
+      ],
+      "porQueErradas": {
+        "1": "O Assunto é o título da mensagem, não um campo de endereço.",
+        "2": "Quem está em 'Para' é visto por todos os destinatários.",
+        "3": "Esse campo define para onde vão as respostas, não quem recebe a cópia.",
+        "4": "Quem está em 'Cc' também é visto por todos."
+      },
+      "pegadinha": "Cc e Cco têm o mesmo efeito de entrega; a diferença está apenas na visibilidade.",
+      "fonte": "Conceitos de correio eletrônico: campos Para, Cc e Cco."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0033",
+    "materia": "informatica",
+    "assunto": "Correio eletrônico",
+    "dificuldade": 2,
+    "enunciado": "Em um programa de correio eletrônico, ao usar a opção 'Encaminhar' em uma mensagem que contém um arquivo anexo, em configuração padrão,",
+    "alternativas": [
+      "somente o anexo é enviado, sem o corpo da mensagem.",
+      "o anexo é incluído e o usuário precisa informar o novo destinatário.",
+      "a mensagem é enviada automaticamente a todos que a receberam.",
+      "o anexo é removido e a mensagem vai ao remetente original.",
+      "o anexo é incluído e a mensagem volta ao remetente original."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Encaminhar repassa a mensagem a outra pessoa, com o anexo.",
+        "Responder e Responder a todos preenchem destinatários automaticamente e, por padrão, não levam o anexo."
+      ],
+      "porQueErradas": {
+        "0": "Encaminhar envia o corpo e o anexo.",
+        "2": "Isso descreve 'Responder a todos', que também não envia o anexo.",
+        "3": "Esse é o comportamento de 'Responder', que vai ao remetente e não leva o anexo.",
+        "4": "Encaminhar exige informar novo destinatário; não volta automaticamente ao remetente."
+      },
+      "pegadinha": "A banca troca os comportamentos de Responder e Encaminhar; lembre que só Encaminhar leva o anexo.",
+      "fonte": "Conceitos de correio eletrônico: responder, responder a todos e encaminhar."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0034",
+    "materia": "informatica",
+    "assunto": "Correio eletrônico",
+    "dificuldade": 2,
+    "enunciado": "Sobre os protocolos usados no correio eletrônico, é correto afirmar que",
+    "alternativas": [
+      "o HTTP é o único protocolo capaz de enviar mensagens.",
+      "o FTP é usado para baixar mensagens da caixa de entrada.",
+      "o POP3 é usado no envio de mensagens, e o SMTP, no recebimento.",
+      "o IMAP é usado apenas para envio de mensagens com anexo.",
+      "o SMTP é usado no envio de mensagens, e o IMAP permite acessar as mensagens mantendo-as sincronizadas no servidor."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "SMTP: envio de mensagens entre cliente e servidor e entre servidores.",
+        "POP3: baixa as mensagens, em geral removendo-as do servidor.",
+        "IMAP: mantém as mensagens no servidor e sincroniza pastas entre dispositivos."
+      ],
+      "porQueErradas": {
+        "0": "O protocolo padrão de envio é o SMTP.",
+        "1": "FTP transfere arquivos e não é protocolo de correio.",
+        "2": "Os papéis estão invertidos: SMTP envia, POP3 recebe.",
+        "3": "IMAP é protocolo de acesso/recebimento, não de envio."
+      },
+      "pegadinha": "Associe SMTP a 'Sua Mensagem Tá Partindo' para lembrar que é envio.",
+      "fonte": "Protocolos de correio eletrônico: SMTP, POP3 e IMAP."
+    },
+    "origem": "gerada"
+  }
+]

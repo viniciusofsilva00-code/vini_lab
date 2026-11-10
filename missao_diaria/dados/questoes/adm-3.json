@@ -1,0 +1,313 @@
+[
+  {
+    "id": "adm-0041",
+    "materia": "administracao_publica",
+    "assunto": "CF: Direitos e deveres individuais e coletivos (art. 5º)",
+    "dificuldade": 1,
+    "enunciado": "O art. 5º, XLVI, da Constituição Federal determina que a lei regulará a individualização da pena e adotará, entre outras, determinadas penas. Assinale a alternativa que indica uma pena admitida pela Constituição.",
+    "alternativas": [
+      "Banimento.",
+      "Suspensão ou interdição de direitos.",
+      "Trabalhos forçados.",
+      "Prisão de caráter perpétuo.",
+      "Pena de morte em tempo de paz, para crimes hediondos."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "O inciso XLVI lista, entre outras: privação ou restrição da liberdade, perda de bens, multa, prestação social alternativa e suspensão ou interdição de direitos.",
+        "O inciso XLVII proíbe as penas de morte (salvo guerra declarada), de caráter perpétuo, de trabalhos forçados, de banimento e cruéis."
+      ],
+      "porQueErradas": {
+        "0": "A pena de banimento é vedada pelo art. 5º, XLVII, d.",
+        "2": "A pena de trabalhos forçados é vedada pelo art. 5º, XLVII, c.",
+        "3": "A pena de caráter perpétuo é vedada pelo art. 5º, XLVII, b.",
+        "4": "A pena de morte só é admitida em caso de guerra declarada, nos termos do art. 84, XIX."
+      },
+      "pegadinha": "A banca mistura as penas permitidas (XLVI) com as proibidas (XLVII). Lembre da única exceção: morte em guerra declarada.",
+      "fonte": "CF/88, art. 5º, incisos XLVI e XLVII"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0042",
+    "materia": "administracao_publica",
+    "assunto": "CF: Direitos políticos (arts. 14 a 16)",
+    "dificuldade": 2,
+    "enunciado": "Conforme o art. 16 da Constituição Federal, a lei que alterar o processo eleitoral",
+    "alternativas": [
+      "entrará em vigor um ano após a data de sua publicação.",
+      "entrará em vigor na data de sua publicação, não se aplicando à eleição que ocorra até seis meses da data de sua vigência.",
+      "entrará em vigor noventa dias após sua publicação, aplicando-se imediatamente às eleições seguintes.",
+      "só poderá ser aprovada no primeiro ano do mandato presidencial.",
+      "entrará em vigor na data de sua publicação, não se aplicando à eleição que ocorra até um ano da data de sua vigência."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "O art. 16 consagra o princípio da anterioridade (ou anualidade) eleitoral.",
+        "A lei vigora desde a publicação.",
+        "Mas não se aplica à eleição que ocorra até um ano da data de sua vigência."
+      ],
+      "porQueErradas": {
+        "0": "A lei entra em vigor na data da publicação; o que se adia é a sua aplicação às eleições.",
+        "1": "O prazo constitucional é de um ano, e não de seis meses.",
+        "2": "A lei vigora desde a publicação e não se aplica à eleição que ocorra até um ano de sua vigência.",
+        "3": "A Constituição não impõe essa restrição; trata apenas da anualidade."
+      },
+      "pegadinha": "Diferencie vigência (imediata) de aplicação (só para eleição que ocorra após um ano). A banca mistura os dois conceitos.",
+      "fonte": "CF/88, art. 16"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0043",
+    "materia": "administracao_publica",
+    "assunto": "CF: Administração Pública, disposições gerais (arts. 37 e 38)",
+    "dificuldade": 2,
+    "enunciado": "Nos termos do art. 37, XVI, da Constituição Federal, é vedada a acumulação remunerada de cargos públicos, exceto, quando houver compatibilidade de horários, em algumas hipóteses. Assinale a alternativa que apresenta uma dessas hipóteses.",
+    "alternativas": [
+      "Dois cargos de policial militar, em corporações de Estados diferentes.",
+      "Dois cargos privativos de médico, ainda que sem compatibilidade de horários.",
+      "Dois cargos técnicos ou científicos de qualquer natureza.",
+      "Dois cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas.",
+      "Dois cargos em comissão de livre nomeação e exoneração."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "A regra é a proibição de acumular cargos públicos remunerados.",
+        "As exceções exigem compatibilidade de horários e observância do teto (inciso XI).",
+        "Uma delas é a de dois cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas (alínea c).",
+        "A proibição estende-se a empregos e funções na administração indireta (inciso XVII)."
+      ],
+      "porQueErradas": {
+        "0": "Essa hipótese não está entre as exceções do art. 37, XVI.",
+        "1": "A compatibilidade de horários é sempre exigida.",
+        "2": "A Constituição não permite a acumulação de dois cargos técnicos ou científicos.",
+        "4": "A acumulação de cargos em comissão não está entre as exceções."
+      },
+      "pegadinha": "Atenção ao requisito da compatibilidade de horários, que vale para todas as exceções. A banca o retira para tornar a alternativa errada.",
+      "fonte": "CF/88, art. 37, incisos XVI, alínea c, e XVII"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0044",
+    "materia": "administracao_publica",
+    "assunto": "CF: Militares dos Estados (art. 42)",
+    "dificuldade": 2,
+    "enunciado": "Considerando o art. 42, § 1º, da Constituição Federal, assinale a alternativa correta sobre os militares dos Estados.",
+    "alternativas": [
+      "A regra de elegibilidade do art. 14, § 8º, aplica-se apenas aos militares das Forças Armadas.",
+      "Cabe a lei federal específica dispor sobre as matérias do art. 142, § 3º, X, relativas aos militares estaduais.",
+      "Aplica-se a eles a regra de elegibilidade do militar alistável prevista no art. 14, § 8º.",
+      "As patentes de seus oficiais são conferidas pelo Presidente da República, mediante proposta do Governador.",
+      "Os integrantes dos Corpos de Bombeiros Militares não são considerados militares dos Estados."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O § 1º do art. 42 manda aplicar aos militares estaduais o art. 14, § 8º (elegibilidade), o art. 40, § 9º, e o art. 142, §§ 2º e 3º.",
+        "Cabe a lei estadual específica dispor sobre as matérias do art. 142, § 3º, X.",
+        "As patentes dos oficiais são conferidas pelos respectivos Governadores."
+      ],
+      "porQueErradas": {
+        "0": "O § 1º do art. 42 manda aplicar expressamente o art. 14, § 8º, aos militares estaduais.",
+        "1": "O texto fala em lei estadual específica.",
+        "3": "As patentes são conferidas pelos respectivos Governadores.",
+        "4": "O caput do art. 42 inclui expressamente os Corpos de Bombeiros Militares."
+      },
+      "pegadinha": "A banca troca 'lei estadual' por 'lei federal' e 'Governador' por 'Presidente'. No art. 42, a autonomia é estadual.",
+      "fonte": "CF/88, art. 42, caput e § 1º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0045",
+    "materia": "administracao_publica",
+    "assunto": "CF: Segurança Pública (art. 144)",
+    "dificuldade": 2,
+    "enunciado": "Conforme o art. 144, § 8º, da Constituição Federal, os Municípios",
+    "alternativas": [
+      "poderão constituir guardas municipais destinadas à proteção de seus bens, serviços e instalações, conforme dispuser a lei.",
+      "deverão constituir guardas municipais destinadas à proteção de seus bens, serviços e instalações.",
+      "poderão constituir guardas municipais destinadas à polícia ostensiva e à preservação da ordem pública.",
+      "poderão constituir guardas municipais subordinadas ao Governador do Estado.",
+      "poderão constituir guardas municipais destinadas à apuração de infrações penais de menor potencial ofensivo."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O § 8º do art. 144 traz uma faculdade ('poderão').",
+        "A finalidade descrita é a proteção dos bens, serviços e instalações do Município, conforme dispuser a lei."
+      ],
+      "porQueErradas": {
+        "1": "A Constituição usa 'poderão': trata-se de faculdade, e não de obrigação.",
+        "2": "Polícia ostensiva e preservação da ordem pública são atribuições das polícias militares (§ 5º).",
+        "3": "As guardas são órgãos municipais; a subordinação aos Governadores refere-se às polícias estaduais (§ 6º).",
+        "4": "A apuração de infrações penais é atribuição das polícias judiciárias, não das guardas municipais, segundo o § 8º."
+      },
+      "pegadinha": "Dois pontos: 'poderão' (e não 'deverão') e a finalidade de proteção de bens, serviços e instalações.",
+      "fonte": "CF/88, art. 144, § 8º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0046",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Poder Executivo",
+    "dificuldade": 3,
+    "enunciado": "Nos termos do art. 47 da Constituição do Estado de São Paulo, compete privativamente ao Governador, além de outras atribuições previstas na Constituição,",
+    "alternativas": [
+      "dispor, mediante decreto, sobre organização e funcionamento da administração estadual, ainda que isso implique aumento de despesa e criação de órgãos públicos.",
+      "delegar, por decreto, funções administrativas que sejam de sua exclusiva competência.",
+      "vetar projetos de lei, total ou parcialmente.",
+      "extinguir, mediante decreto, funções ou cargos públicos, ainda que ocupados.",
+      "nomear e exonerar os Secretários de Estado, após aprovação prévia da Assembleia Legislativa."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Art. 47, IV: compete ao Governador vetar projetos de lei, total ou parcialmente.",
+        "Art. 47, XIX: decreto autônomo só para organização sem aumento de despesa nem criação ou extinção de órgãos, e para extinguir cargos ou funções vagos.",
+        "Art. 47, XVI: só se delega o que não é de competência exclusiva.",
+        "Art. 47, VI: Secretários são nomeados e exonerados livremente."
+      ],
+      "porQueErradas": {
+        "0": "O inciso XIX, a, permite o decreto apenas quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos.",
+        "1": "O inciso XVI permite delegar apenas funções que não sejam de sua exclusiva competência.",
+        "3": "O inciso XIX, b, autoriza a extinção por decreto somente de funções ou cargos vagos.",
+        "4": "O inciso VI diz que o Governador nomeia e exonera os Secretários livremente."
+      },
+      "pegadinha": "As alternativas erradas copiam o texto e trocam uma palavra: 'vagos' por 'ocupados', 'não sejam' por 'sejam', 'livremente' por 'após aprovação'.",
+      "fonte": "CE-SP, art. 47, incisos IV, VI, XVI e XIX"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0047",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Justiça Militar do Estado",
+    "dificuldade": 2,
+    "enunciado": "Nos termos do art. 81, I, da Constituição do Estado de São Paulo, compete ao Tribunal de Justiça Militar processar e julgar, originariamente, nos crimes militares definidos em lei,",
+    "alternativas": [
+      "o Governador do Estado e o Secretário da Segurança Pública.",
+      "o Delegado-Geral da Polícia Civil e o Comandante-Geral da Polícia Militar.",
+      "todos os policiais militares, qualquer que seja o posto ou graduação.",
+      "o Chefe da Casa Militar e o Comandante-Geral da Polícia Militar.",
+      "os Deputados Estaduais."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Originariamente (art. 81, I): o Chefe da Casa Militar e o Comandante-Geral da PM, nos crimes militares; também mandados de segurança, habeas corpus e revisões criminais nos casos ali previstos.",
+        "Em grau de recurso (art. 81, II): os policiais militares, nos crimes militares definidos em lei."
+      ],
+      "porQueErradas": {
+        "0": "O dispositivo menciona o Chefe da Casa Militar e o Comandante-Geral da Polícia Militar.",
+        "1": "O Delegado-Geral da Polícia Civil não consta do art. 81, I; a CE-SP o submete ao Tribunal de Justiça (art. 74, II).",
+        "2": "Os policiais militares em geral são julgados pelo TJM em grau de recurso (art. 81, II), e não originariamente.",
+        "4": "Deputados Estaduais não constam do rol do art. 81, I."
+      },
+      "pegadinha": "A banca troca 'originariamente' por 'em grau de recurso' ou inclui autoridades que não são julgadas pelo TJM.",
+      "fonte": "CE-SP, art. 81, incisos I e II"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0048",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Administração Pública e servidores",
+    "dificuldade": 2,
+    "enunciado": "De acordo com o art. 138, § 3º, da Constituição do Estado de São Paulo, o servidor público militar demitido por ato administrativo, se absolvido pela Justiça na ação referente ao ato que deu causa à demissão,",
+    "alternativas": [
+      "poderá ser readmitido, mediante novo concurso público, sem direito aos atrasados.",
+      "será reintegrado apenas se a absolvição ocorrer no prazo de dois anos da demissão.",
+      "será transferido para a reserva não remunerada.",
+      "terá direito apenas a indenização, vedada a reintegração.",
+      "será reintegrado à Corporação com todos os direitos restabelecidos."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "O art. 138 trata dos servidores públicos militares (integrantes da Polícia Militar).",
+        "O § 3º assegura a reintegração à Corporação, com todos os direitos restabelecidos, ao militar demitido por ato administrativo que for absolvido pela Justiça na ação referente ao mesmo fato.",
+        "Regra semelhante vale para o servidor civil (art. 136)."
+      ],
+      "porQueErradas": {
+        "0": "A CE-SP prevê reintegração com todos os direitos restabelecidos, sem novo concurso.",
+        "1": "A CE-SP não fixa prazo para a absolvição gerar a reintegração.",
+        "2": "A consequência prevista é a reintegração à Corporação.",
+        "3": "A reintegração é expressamente assegurada."
+      },
+      "pegadinha": "A banca troca 'reintegração' por readmissão, indenização ou reserva. Absolvido na Justiça pelo mesmo fato = volta com todos os direitos.",
+      "fonte": "CE-SP, art. 138, § 3º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0049",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Segurança Pública e Polícia Militar",
+    "dificuldade": 3,
+    "enunciado": "Nos termos do art. 141 da Constituição do Estado de São Paulo, assinale a alternativa correta.",
+    "alternativas": [
+      "O Chefe da Casa Militar será escolhido pelo Comandante-Geral da Polícia Militar entre oficiais da reserva.",
+      "O Chefe da Casa Militar será escolhido pelo Governador do Estado entre oficiais da ativa, ocupantes do último posto do Quadro de Oficiais Policiais Militares.",
+      "À Polícia Militar, órgão temporário, incumbe exclusivamente a polícia ostensiva.",
+      "A criação e a manutenção da Casa Militar e das Assessorias Militares independem de lei.",
+      "A organização e o funcionamento da Polícia Militar serão disciplinados por decreto do Governador."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Caput: a PM é órgão permanente; incumbe-lhe a polícia ostensiva e a preservação da ordem pública, além do definido em lei.",
+        "§ 2º: Lei Orgânica e Estatuto disciplinam organização, funcionamento, direitos e deveres.",
+        "§ 3º: Casa Militar e Assessorias Militares só nos termos da lei.",
+        "§ 4º: o Chefe da Casa Militar é escolhido pelo Governador entre oficiais da ativa do último posto."
+      ],
+      "porQueErradas": {
+        "0": "A escolha cabe ao Governador, entre oficiais da ativa ocupantes do último posto.",
+        "2": "A PM é órgão permanente e incumbe-lhe, além das atribuições definidas em lei, a polícia ostensiva e a preservação da ordem pública.",
+        "3": "Elas somente poderão ser efetivadas nos termos em que a lei estabelecer (§ 3º).",
+        "4": "O § 2º exige Lei Orgânica e Estatuto, respeitadas as leis federais."
+      },
+      "pegadinha": "Todos os parágrafos do art. 141 cabem numa mesma questão. Os erros estão em palavras como 'temporário', 'reserva', 'decreto' e 'independem de lei'.",
+      "fonte": "CE-SP, art. 141, caput e §§ 2º a 4º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0050",
+    "materia": "administracao_publica",
+    "assunto": "Lei 12.527/11 (Acesso à Informação) e Decreto 68.155/23",
+    "dificuldade": 3,
+    "enunciado": "Segundo o Decreto estadual nº 68.155/2023, a classificação de informação no grau de sigilo ultrassecreto, no âmbito da Administração Pública estadual paulista, é de competência",
+    "alternativas": [
+      "do Governador do Estado, do Vice-Governador do Estado, dos Secretários de Estado, do Controlador Geral do Estado e do Procurador Geral do Estado.",
+      "das autoridades máximas das entidades da Administração Indireta, exclusivamente.",
+      "de qualquer agente público que ocupe cargo ou função de coordenador.",
+      "exclusivamente do Governador do Estado, vedada qualquer delegação.",
+      "da Comissão Estadual de Acesso à Informação, por maioria absoluta."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Art. 31, I: ultrassecreto, Governador, Vice-Governador, Secretários de Estado, Controlador Geral e Procurador Geral do Estado.",
+        "Art. 31, II: secreto, as autoridades do inciso I e as autoridades máximas da Administração Indireta.",
+        "Art. 31, III: reservado, as anteriores e os ocupantes de cargo ou função de coordenador, ou equivalente ou superior.",
+        "Parágrafo único: as competências dos incisos I e II podem ser delegadas a coordenador ou equivalente, vedada a subdelegação."
+      ],
+      "porQueErradas": {
+        "1": "Essas autoridades podem classificar no grau secreto (art. 31, II), não no ultrassecreto.",
+        "2": "Ocupantes de cargo de coordenador podem classificar no grau reservado (art. 31, III).",
+        "3": "A competência é de várias autoridades, e o parágrafo único admite delegação a coordenador ou equivalente, vedada a subdelegação.",
+        "4": "A CEAI julga recursos e tem outras atribuições, mas a classificação ultrassecreta cabe às autoridades do art. 31, I."
+      },
+      "pegadinha": "A banca desloca as autoridades de um grau para outro. Quanto mais alto o sigilo, mais restrito o rol de quem pode classificar.",
+      "fonte": "Decreto 68.155/23, art. 31"
+    },
+    "origem": "gerada"
+  }
+]

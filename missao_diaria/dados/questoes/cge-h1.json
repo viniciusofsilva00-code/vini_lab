@@ -1,0 +1,613 @@
+[
+  {
+    "id": "cge-0001",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Primeira Guerra Mundial",
+    "dificuldade": 1,
+    "enunciado": "O episódio considerado o estopim da Primeira Guerra Mundial, em junho de 1914, foi",
+    "alternativas": [
+      "a invasão da Polônia pelas tropas alemãs, seguida da declaração de guerra franco-britânica.",
+      "o afundamento do transatlântico Lusitania por um submarino alemão.",
+      "a Revolução Russa, que derrubou o czar Nicolau II.",
+      "o ataque japonês à base naval norte-americana de Pearl Harbor.",
+      "o assassinato do arquiduque Francisco Ferdinando, herdeiro do trono austro-húngaro, em Sarajevo."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Em 28 de junho de 1914, o arquiduque Francisco Ferdinando foi morto em Sarajevo, na Bósnia, pelo nacionalista Gavrilo Princip.",
+        "A Áustria-Hungria responsabilizou a Sérvia e declarou-lhe guerra em julho; o sistema de alianças arrastou as demais potências.",
+        "O atentado foi o estopim; as causas profundas foram o imperialismo, o nacionalismo e a corrida armamentista."
+      ],
+      "porQueErradas": {
+        "0": "A invasão da Polônia (1939) marca o início da Segunda Guerra Mundial.",
+        "1": "O Lusitania foi afundado em 1915, com a guerra já em andamento.",
+        "2": "A Revolução Russa é de 1917, quando o conflito já durava três anos.",
+        "3": "Pearl Harbor (1941) está ligado à Segunda Guerra Mundial."
+      },
+      "pegadinha": "Não confunda o estopim (fato imediato) com as causas estruturais, nem misture marcos da Primeira e da Segunda Guerra.",
+      "fonte": "Atentado de Sarajevo, 28/06/1914."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0002",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Primeira Guerra Mundial",
+    "dificuldade": 1,
+    "enunciado": "Às vésperas da Primeira Guerra Mundial, a Tríplice Entente era formada por",
+    "alternativas": [
+      "Alemanha, Áustria-Hungria e Itália.",
+      "Alemanha, Itália e Japão.",
+      "Estados Unidos, Reino Unido e União Soviética.",
+      "Reino Unido, França e Rússia.",
+      "França, Sérvia e Império Otomano."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "A Europa de 1914 estava dividida em dois sistemas de alianças.",
+        "Tríplice Entente: Reino Unido, França e Rússia.",
+        "Tríplice Aliança: Alemanha, Áustria-Hungria e Itália (que mudaria de lado em 1915)."
+      ],
+      "porQueErradas": {
+        "0": "Esses países formavam a Tríplice Aliança, bloco rival.",
+        "1": "Esse é o Eixo, da Segunda Guerra Mundial.",
+        "2": "São os principais Aliados da Segunda Guerra; a URSS só foi criada em 1922.",
+        "4": "O Império Otomano lutou ao lado das Potências Centrais (Alemanha e Áustria-Hungria)."
+      },
+      "pegadinha": "A banca costuma trocar os blocos da Primeira Guerra pelos da Segunda (Aliados x Eixo).",
+      "fonte": "Tríplice Entente, consolidada em 1907."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0003",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Primeira Guerra Mundial",
+    "dificuldade": 2,
+    "enunciado": "Embora integrasse a Tríplice Aliança antes de 1914, a Itália entrou na Primeira Guerra Mundial, em 1915, ao lado da Entente. Essa mudança está ligada",
+    "alternativas": [
+      "à invasão do território italiano pelo Japão.",
+      "às promessas de ganhos territoriais feitas pela Entente no Tratado de Londres.",
+      "ao acordo de paz firmado com a Rússia em Brest-Litovsk.",
+      "à ascensão de Mussolini ao poder, que rompeu com a Alemanha.",
+      "à criação da Liga das Nações, que exigia sua adesão aos Aliados."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Em 1914 a Itália declarou neutralidade, alegando que a aliança era defensiva.",
+        "Em abril de 1915, pelo Tratado de Londres, a Entente prometeu-lhe territórios austro-húngaros.",
+        "Em maio de 1915 a Itália entrou na guerra contra a Áustria-Hungria."
+      ],
+      "porQueErradas": {
+        "0": "O Japão não invadiu a Itália; lutou do lado da Entente.",
+        "2": "Brest-Litovsk (1918) foi a paz entre Rússia e Alemanha.",
+        "3": "Mussolini só chegou ao poder em 1922, depois da guerra.",
+        "4": "A Liga das Nações só surgiu depois da guerra, a partir dos tratados de 1919."
+      },
+      "pegadinha": "Não basta lembrar a composição inicial das alianças: a Itália trocou de lado.",
+      "fonte": "Tratado de Londres, abril de 1915."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0004",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Primeira Guerra Mundial",
+    "dificuldade": 2,
+    "enunciado": "A entrada dos Estados Unidos na Primeira Guerra Mundial, em 1917, teve como fatores imediatos",
+    "alternativas": [
+      "o ataque japonês a Pearl Harbor e a invasão das Filipinas.",
+      "a saída da Rússia do conflito e a Revolução Mexicana.",
+      "a anexação da Áustria pela Alemanha e a crise dos Sudetos.",
+      "a guerra submarina irrestrita alemã e o telegrama Zimmermann, que propunha uma aliança ao México.",
+      "a exigência da Liga das Nações de defender a Bélgica."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Em 1917 a Alemanha retomou a guerra submarina irrestrita, afundando navios neutros, inclusive norte-americanos.",
+        "O telegrama Zimmermann, interceptado pelos britânicos, oferecia ao México apoio para recuperar territórios perdidos para os EUA.",
+        "Em abril de 1917 os EUA declararam guerra à Alemanha."
+      ],
+      "porQueErradas": {
+        "0": "Esses fatos são de 1941, na Segunda Guerra.",
+        "1": "A Rússia só deixou a guerra em 1918, depois da entrada norte-americana.",
+        "2": "Anexação da Áustria e crise dos Sudetos ocorreram em 1938.",
+        "4": "A Liga das Nações ainda não existia em 1917."
+      },
+      "pegadinha": "O Lusitania (1915) aumentou a hostilidade, mas os EUA só entraram dois anos depois; o fator imediato foi a campanha submarina de 1917.",
+      "fonte": "Declaração de guerra dos EUA à Alemanha, abril de 1917."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0005",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Primeira Guerra Mundial",
+    "dificuldade": 2,
+    "enunciado": "Em março de 1918, a Rússia retirou-se da Primeira Guerra Mundial ao assinar com a Alemanha o Tratado de",
+    "alternativas": [
+      "Brest-Litovsk, após a tomada do poder pelos bolcheviques.",
+      "Versalhes, imposto aos derrotados ao fim do conflito.",
+      "Tordesilhas, que dividiu territórios europeus entre as potências.",
+      "Londres, que prometeu territórios à Rússia em troca de paz.",
+      "Munique, que cedeu os Sudetos à Alemanha."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Em outubro/novembro de 1917 os bolcheviques, liderados por Lênin, tomaram o poder com o lema “paz, terra e pão”.",
+        "Para sair da guerra, assinaram com a Alemanha o Tratado de Brest-Litovsk (março de 1918), cedendo vastos territórios."
+      ],
+      "porQueErradas": {
+        "1": "Versalhes (1919) foi imposto à Alemanha pelos vencedores.",
+        "2": "Tordesilhas (1494) dividiu terras entre Portugal e Espanha.",
+        "3": "O Tratado de Londres (1915) levou a Itália à guerra.",
+        "4": "O Acordo de Munique é de 1938."
+      },
+      "pegadinha": "Brest-Litovsk é a paz separada da Rússia; Versalhes é a paz geral de 1919.",
+      "fonte": "Tratado de Brest-Litovsk, 03/03/1918."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0006",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Primeira Guerra Mundial",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa que apresenta uma determinação do Tratado de Versalhes (1919) imposta à Alemanha.",
+    "alternativas": [
+      "Divisão do país em quatro zonas de ocupação administradas pelos vencedores.",
+      "Anexação da Áustria para compensar perdas territoriais.",
+      "Ampliação do exército alemão para garantir o equilíbrio europeu.",
+      "Ingresso imediato da Alemanha na Liga das Nações como membro fundador.",
+      "Devolução da Alsácia-Lorena à França e pagamento de pesadas reparações de guerra."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "O tratado atribuiu à Alemanha a culpa pela guerra (art. 231).",
+        "Impôs reparações, perda de territórios (como a Alsácia-Lorena) e das colônias, e a desmilitarização, com exército limitado a 100 mil homens.",
+        "O caráter humilhante do “Diktat” alimentou o revanchismo explorado pelo nazismo."
+      ],
+      "porQueErradas": {
+        "0": "A divisão em quatro zonas ocorreu após a Segunda Guerra, em 1945.",
+        "1": "O tratado proibia a união com a Áustria, feita por Hitler só em 1938.",
+        "2": "O exército foi limitado a 100 mil homens.",
+        "3": "A Alemanha foi excluída de início e só entrou na Liga em 1926."
+      },
+      "pegadinha": "A banca troca medidas de 1919 pelas de 1945, como as zonas de ocupação.",
+      "fonte": "Tratado de Versalhes, 28/06/1919 (art. 231)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0007",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Primeira Guerra Mundial",
+    "dificuldade": 1,
+    "enunciado": "Na frente ocidental da Primeira Guerra Mundial, o combate caracterizou-se principalmente",
+    "alternativas": [
+      "pela guerra-relâmpago (Blitzkrieg), com rápidos avanços de tanques e aviões.",
+      "pela guerra de trincheiras, com linhas quase fixas e muitos mortos em troca de pequenos avanços.",
+      "pelo uso de bombas atômicas contra cidades industriais.",
+      "pela guerrilha em selvas tropicais, como no Vietnã.",
+      "pela ausência de novas armas, com uso apenas de cavalaria e espadas."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Após o fracasso do avanço alemão rápido em 1914, os dois lados cavaram trincheiras da Suíça ao Mar do Norte.",
+        "Batalhas como Verdun e Somme (1916) mataram centenas de milhares quase sem mudar as linhas."
+      ],
+      "porQueErradas": {
+        "0": "A Blitzkrieg é a tática alemã da Segunda Guerra.",
+        "2": "As bombas atômicas só foram usadas em 1945.",
+        "3": "A guerrilha na selva marca a Guerra do Vietnã, não a frente ocidental europeia.",
+        "4": "Surgiram ou se difundiram metralhadoras, gases tóxicos, tanques e aviões."
+      },
+      "pegadinha": "Não confunda a guerra estática de 1914–1918 com a guerra de movimento (Blitzkrieg) de 1939–1945.",
+      "fonte": "Frente Ocidental, 1914–1918."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0008",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Primeira Guerra Mundial",
+    "dificuldade": 3,
+    "enunciado": "Sobre a participação do Brasil na Primeira Guerra Mundial, é correto afirmar que",
+    "alternativas": [
+      "o país declarou guerra à Alemanha em 1917, após o afundamento de navios mercantes brasileiros, e enviou uma divisão naval e uma missão médica.",
+      "o Brasil enviou a Força Expedicionária Brasileira, que combateu em Monte Castelo.",
+      "o país lutou ao lado das Potências Centrais por interesses no comércio de café.",
+      "o Brasil permaneceu neutro durante todo o conflito, sob o governo de Getúlio Vargas.",
+      "a declaração de guerra ocorreu em 1914, logo após o atentado de Sarajevo."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Em 1917 submarinos alemães afundaram navios mercantes brasileiros, como o Paraná e o Macau.",
+        "Em 26/10/1917, no governo Venceslau Brás, o Brasil declarou guerra à Alemanha.",
+        "Enviou a DNOG (Divisão Naval em Operações de Guerra) e uma missão médica à França."
+      ],
+      "porQueErradas": {
+        "1": "A FEB e Monte Castelo pertencem à Segunda Guerra.",
+        "2": "O Brasil ficou ao lado da Entente.",
+        "3": "O Brasil entrou na guerra em 1917, sob Venceslau Brás; Vargas só governou a partir de 1930.",
+        "4": "Em 1914 o Brasil declarou neutralidade."
+      },
+      "pegadinha": "A banca troca a participação modesta de 1917 pela da FEB, na Segunda Guerra.",
+      "fonte": "Declaração de guerra de 26/10/1917, governo Venceslau Brás."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0009",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Nazifascismo e Segunda Guerra",
+    "dificuldade": 2,
+    "enunciado": "Em 1922, o líder fascista Benito Mussolini chegou ao poder na Itália após",
+    "alternativas": [
+      "vencer uma eleição presidencial direta com maioria absoluta.",
+      "o Putsch da Cervejaria, em Munique.",
+      "a assinatura do Pacto de Aço com a Alemanha.",
+      "uma revolução comunista que derrubou a monarquia italiana.",
+      "a Marcha sobre Roma, que levou o rei Vítor Emanuel III a nomeá-lo chefe de governo."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "No pós-guerra, a Itália vivia crise econômica, greves e medo do comunismo.",
+        "Em outubro de 1922, milhares de “camisas negras” marcharam sobre Roma.",
+        "O rei Vítor Emanuel III, em vez de reagir, nomeou Mussolini primeiro-ministro."
+      ],
+      "porQueErradas": {
+        "0": "A Itália era uma monarquia; não havia eleição presidencial.",
+        "1": "O Putsch da Cervejaria (1923) foi a tentativa frustrada de golpe de Hitler na Alemanha.",
+        "2": "O Pacto de Aço é de 1939.",
+        "3": "O fascismo era anticomunista, e a monarquia durou até 1946."
+      },
+      "pegadinha": "Mussolini chegou ao poder em 1922 de forma “legal”, por nomeação do rei, sob pressão da Marcha.",
+      "fonte": "Marcha sobre Roma, outubro de 1922."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0010",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Nazifascismo e Segunda Guerra",
+    "dificuldade": 1,
+    "enunciado": "São características comuns ao nazismo alemão e ao fascismo italiano:",
+    "alternativas": [
+      "pluripartidarismo, liberdade de imprensa e respeito às minorias.",
+      "internacionalismo proletário e abolição da propriedade privada.",
+      "totalitarismo, nacionalismo exacerbado, anticomunismo e culto ao líder.",
+      "liberalismo econômico e Estado mínimo.",
+      "pacifismo e defesa do desarmamento."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Nazismo e fascismo surgiram no entreguerras, em meio a crise econômica e medo do comunismo.",
+        "Defendiam o Estado acima do indivíduo, partido único, propaganda, censura e o culto ao líder (Duce, Führer)."
+      ],
+      "porQueErradas": {
+        "0": "Os regimes impuseram partido único, censura e perseguição a minorias.",
+        "1": "Essas são propostas do comunismo, combatido pelos dois regimes.",
+        "3": "O Estado totalitário interferia fortemente na economia.",
+        "4": "Ambos exaltavam o militarismo e a guerra."
+      },
+      "pegadinha": "Os dois regimes eram contrários tanto ao liberalismo quanto ao comunismo.",
+      "fonte": "Regimes totalitários do entreguerras (Itália, 1922; Alemanha, 1933)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0011",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Nazifascismo e Segunda Guerra",
+    "dificuldade": 2,
+    "enunciado": "Entre os fatores que favoreceram a ascensão do nazismo, que levou Hitler ao cargo de chanceler da Alemanha em janeiro de 1933, destaca-se",
+    "alternativas": [
+      "a vitória alemã na Primeira Guerra Mundial, que fortaleceu o nacionalismo.",
+      "a prosperidade da República de Weimar, que dispensava reformas.",
+      "o apoio da União Soviética ao Partido Nazista.",
+      "a crise econômica agravada pela quebra da Bolsa de Nova York, em 1929, com desemprego em massa.",
+      "a imposição de Hitler pelos Aliados, prevista no Tratado de Versalhes."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "A crise de 1929 retirou capitais norte-americanos da Alemanha e gerou milhões de desempregados.",
+        "O ressentimento com Versalhes e o medo do comunismo ampliaram o apoio aos nazistas.",
+        "Em 30/01/1933, o presidente Hindenburg nomeou Hitler chanceler."
+      ],
+      "porQueErradas": {
+        "0": "A Alemanha foi derrotada em 1918.",
+        "1": "Weimar enfrentou hiperinflação (1923) e a crise de 1929.",
+        "2": "O nazismo era anticomunista e combatia a URSS.",
+        "4": "Versalhes não tratou de governos; Hitler foi nomeado pelo presidente Hindenburg."
+      },
+      "pegadinha": "Hitler não tomou o poder por golpe em 1933: foi nomeado legalmente e depois desmontou a democracia.",
+      "fonte": "Nomeação de Hitler como chanceler, 30/01/1933."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0012",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Nazifascismo e Segunda Guerra",
+    "dificuldade": 1,
+    "enunciado": "O marco inicial da Segunda Guerra Mundial, em 1º de setembro de 1939, foi",
+    "alternativas": [
+      "o bombardeio de Pearl Harbor pelo Japão.",
+      "a invasão da Polônia pela Alemanha.",
+      "a invasão da União Soviética pela Alemanha (Operação Barbarossa).",
+      "o assassinato do arquiduque Francisco Ferdinando.",
+      "o desembarque aliado na Normandia."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Em 1º de setembro de 1939 a Alemanha invadiu a Polônia.",
+        "Em 3 de setembro, Reino Unido e França declararam guerra à Alemanha."
+      ],
+      "porQueErradas": {
+        "0": "Pearl Harbor ocorreu em dezembro de 1941.",
+        "2": "A Operação Barbarossa começou em junho de 1941.",
+        "3": "Esse foi o estopim da Primeira Guerra, em 1914.",
+        "4": "O Dia D ocorreu em junho de 1944."
+      },
+      "pegadinha": "Pearl Harbor marca a entrada dos EUA, não o início da guerra.",
+      "fonte": "Invasão da Polônia, 01/09/1939."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0013",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Nazifascismo e Segunda Guerra",
+    "dificuldade": 3,
+    "enunciado": "Em agosto de 1939, dias antes do início da Segunda Guerra, Alemanha e União Soviética assinaram",
+    "alternativas": [
+      "uma aliança militar contra os Estados Unidos, chamada Pacto Anti-Comintern.",
+      "o Tratado de Versalhes, que encerrou disputas fronteiriças.",
+      "a Carta do Atlântico, base da futura ONU.",
+      "um pacto de não agressão, conhecido como Pacto Ribbentrop-Molotov, com cláusulas secretas de divisão da Polônia.",
+      "o Acordo de Munique, que entregou a Áustria à URSS."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Apesar da rivalidade ideológica, os dois países firmaram um pacto de não agressão em 23/08/1939.",
+        "Um protocolo secreto dividia a Polônia e o Leste europeu em zonas de influência.",
+        "Em setembro de 1939, alemães e soviéticos invadiram a Polônia."
+      ],
+      "porQueErradas": {
+        "0": "O Pacto Anti-Comintern (1936) era dirigido contra o comunismo, isto é, contra a própria URSS.",
+        "1": "Versalhes é de 1919 e não foi assinado pela URSS.",
+        "2": "A Carta do Atlântico (1941) foi firmada por EUA e Reino Unido.",
+        "4": "Munique (1938) entregou os Sudetos à Alemanha, sem participação soviética."
+      },
+      "pegadinha": "O pacto surpreende porque une inimigos ideológicos; foi rompido pela Alemanha em 1941.",
+      "fonte": "Pacto Germano-Soviético, 23/08/1939."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0014",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Nazifascismo e Segunda Guerra",
+    "dificuldade": 1,
+    "enunciado": "Os Estados Unidos entraram oficialmente na Segunda Guerra Mundial após",
+    "alternativas": [
+      "o torpedeamento do Lusitania, em 1915.",
+      "o ataque japonês à base de Pearl Harbor, no Havaí, em dezembro de 1941.",
+      "a invasão alemã da Polônia, em 1939.",
+      "o lançamento das bombas atômicas sobre Hiroshima e Nagasaki.",
+      "a construção do Muro de Berlim."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Em 7 de dezembro de 1941, o Japão atacou de surpresa a base naval de Pearl Harbor.",
+        "No dia seguinte, os EUA declararam guerra ao Japão; Alemanha e Itália declararam guerra aos EUA logo depois."
+      ],
+      "porQueErradas": {
+        "0": "O Lusitania está ligado à Primeira Guerra.",
+        "2": "Os EUA permaneceram fora do conflito até o fim de 1941.",
+        "3": "As bombas foram lançadas pelos próprios EUA em 1945, no fim da guerra.",
+        "4": "O Muro de Berlim é de 1961, na Guerra Fria."
+      },
+      "pegadinha": "Antes de 1941 os EUA já ajudavam o Reino Unido (Lei de Empréstimo e Arrendamento), mas sem entrar oficialmente na guerra.",
+      "fonte": "Ataque a Pearl Harbor, 07/12/1941."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0015",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Nazifascismo e Segunda Guerra",
+    "dificuldade": 2,
+    "enunciado": "A Força Expedicionária Brasileira (FEB), na Segunda Guerra Mundial, combateu",
+    "alternativas": [
+      "no norte da África, ao lado das forças do Eixo.",
+      "na França, no desembarque da Normandia, em 1944.",
+      "na Itália, ao lado dos Aliados, com destaque para a tomada de Monte Castelo, em 1945.",
+      "no Pacífico, contra o Japão, na batalha de Midway.",
+      "na Alemanha, durante a tomada de Berlim pelas tropas soviéticas."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Após o afundamento de navios brasileiros, o Brasil declarou guerra à Alemanha e à Itália em agosto de 1942.",
+        "A FEB embarcou para a Itália em 1944 e integrou o 5º Exército dos EUA.",
+        "Em 21/02/1945, tomou Monte Castelo; depois venceu em Montese e Fornovo."
+      ],
+      "porQueErradas": {
+        "0": "O Brasil lutou contra o Eixo, e a FEB atuou na Itália.",
+        "1": "A FEB não participou do Dia D.",
+        "3": "Midway (1942) foi travada entre EUA e Japão.",
+        "4": "Berlim foi tomada pelo Exército Vermelho, sem participação brasileira."
+      },
+      "pegadinha": "Contradição explorada pela banca: Vargas, ditador do Estado Novo, combateu regimes autoritários, o que enfraqueceu seu governo.",
+      "fonte": "Campanha da FEB na Itália, 1944–1945."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0016",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Nazifascismo e Segunda Guerra",
+    "dificuldade": 3,
+    "enunciado": "A Conferência de Munique, em 1938, é lembrada como exemplo da política de apaziguamento porque",
+    "alternativas": [
+      "a Alemanha devolveu a Alsácia-Lorena à França em troca da paz.",
+      "a União Soviética e os EUA dividiram a Europa em zonas de influência.",
+      "a Itália foi expulsa da Liga das Nações por invadir a Polônia.",
+      "Reino Unido e França aceitaram a anexação dos Sudetos, região da Tchecoslováquia, pela Alemanha, para evitar a guerra.",
+      "Hitler renunciou ao rearmamento alemão em troca de colônias na África."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Hitler reivindicava os Sudetos, região tcheca de população de língua alemã.",
+        "Em setembro de 1938, Chamberlain (Reino Unido), Daladier (França), Hitler e Mussolini aceitaram a anexação, sem ouvir a Tchecoslováquia.",
+        "Em março de 1939 Hitler ocupou o restante do país tcheco, mostrando o fracasso do apaziguamento."
+      ],
+      "porQueErradas": {
+        "0": "A Alsácia-Lorena já era francesa desde Versalhes.",
+        "1": "Essa divisão está ligada às conferências de 1945, como Ialta.",
+        "2": "Quem invadiu a Polônia foi a Alemanha, em 1939.",
+        "4": "O rearmamento continuou e acelerou."
+      },
+      "pegadinha": "Apaziguamento = ceder às exigências de Hitler esperando evitar a guerra.",
+      "fonte": "Acordo de Munique, 29–30/09/1938."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0017",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Guerra Fria",
+    "dificuldade": 2,
+    "enunciado": "A Doutrina Truman, anunciada em 1947, tinha como objetivo principal",
+    "alternativas": [
+      "promover a integração econômica da Europa Oriental sob comando de Moscou.",
+      "reconstruir o Japão por meio de uma moeda comum asiática.",
+      "garantir a neutralidade dos Estados Unidos nos conflitos europeus.",
+      "criar a Organização das Nações Unidas.",
+      "conter a expansão do comunismo, oferecendo apoio a países ameaçados pela influência soviética."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Em março de 1947, Harry Truman pediu ao Congresso ajuda à Grécia e à Turquia contra a ameaça comunista.",
+        "Nascia a política de contenção, base da atuação dos EUA na Guerra Fria."
+      ],
+      "porQueErradas": {
+        "0": "Isso descreve o Comecon, iniciativa soviética.",
+        "1": "Não houve moeda comum asiática; a doutrina tratava da contenção do comunismo.",
+        "2": "A doutrina rompeu com o isolacionismo e comprometeu os EUA com a Europa.",
+        "3": "A ONU foi criada em 1945."
+      },
+      "pegadinha": "Doutrina Truman é a face político-militar; Plano Marshall é a face econômica da mesma estratégia.",
+      "fonte": "Discurso de Harry Truman ao Congresso, 12/03/1947."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0018",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Guerra Fria",
+    "dificuldade": 1,
+    "enunciado": "O Plano Marshall, lançado em 1947, consistiu em",
+    "alternativas": [
+      "um programa soviético de industrialização dos países do Leste europeu.",
+      "um acordo militar de defesa mútua entre países da Europa Oriental.",
+      "o plano alemão de invasão da França.",
+      "ajuda econômica dos Estados Unidos para a reconstrução da Europa ocidental após a Segunda Guerra.",
+      "a divisão da Coreia em duas zonas no paralelo 38."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O secretário de Estado George Marshall anunciou o programa em junho de 1947.",
+        "Os EUA forneceram bilhões de dólares para reconstruir a Europa ocidental e afastá-la do comunismo."
+      ],
+      "porQueErradas": {
+        "0": "A resposta soviética foi o Comecon (1949).",
+        "1": "Isso descreve o Pacto de Varsóvia (1955).",
+        "2": "Não tem relação com o plano norte-americano de 1947.",
+        "4": "A divisão da Coreia ocorreu em 1945 e não se relaciona ao plano."
+      },
+      "pegadinha": "O plano foi oferecido também ao Leste, mas a URSS o recusou e impediu seus aliados de aderir.",
+      "fonte": "Programa de Recuperação Europeia (Plano Marshall), 1947."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0019",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Guerra Fria",
+    "dificuldade": 2,
+    "enunciado": "Durante a Guerra Fria, as alianças militares que representaram os blocos capitalista e socialista foram, respectivamente,",
+    "alternativas": [
+      "o Pacto de Varsóvia e a OTAN.",
+      "a OTAN, criada em 1949, e o Pacto de Varsóvia, criado em 1955.",
+      "a Liga das Nações e o Comecon.",
+      "a Tríplice Entente e a Tríplice Aliança.",
+      "a ONU e o Mercosul."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "A OTAN (Organização do Tratado do Atlântico Norte) reuniu EUA, Canadá e aliados da Europa ocidental em 1949.",
+        "Em resposta, a URSS criou o Pacto de Varsóvia em 1955, com os países socialistas do Leste europeu."
+      ],
+      "porQueErradas": {
+        "0": "A ordem está invertida: o Pacto de Varsóvia era o bloco socialista.",
+        "2": "A Liga das Nações era do entreguerras, e o Comecon era econômico, não militar.",
+        "3": "São as alianças da Primeira Guerra Mundial.",
+        "4": "A ONU não é aliança de bloco, e o Mercosul é bloco econômico de 1991."
+      },
+      "pegadinha": "Atenção ao termo “respectivamente”: a ordem das alternativas importa.",
+      "fonte": "Tratado do Atlântico Norte (1949); Pacto de Varsóvia (1955)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0020",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Guerra Fria",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa que indica corretamente os anos de construção e de queda do Muro de Berlim.",
+    "alternativas": [
+      "1945 e 1991.",
+      "1949 e 1990.",
+      "1961 e 1991.",
+      "1955 e 1985.",
+      "1961 e 1989."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Em agosto de 1961, a Alemanha Oriental ergueu o muro para conter a fuga de seus cidadãos para Berlim Ocidental.",
+        "Em 9 de novembro de 1989, o muro foi aberto e derrubado; a reunificação alemã veio em 1990."
+      ],
+      "porQueErradas": {
+        "0": "1945 é o fim da Segunda Guerra e 1991, o fim da URSS.",
+        "1": "1949 é a criação das duas Alemanhas e 1990, a reunificação.",
+        "2": "O muro caiu em 1989; 1991 é o fim da URSS.",
+        "3": "1955 é a criação do Pacto de Varsóvia, e 1985 é a chegada de Gorbachev ao poder."
+      },
+      "pegadinha": "Não confunda a queda do muro (1989) com a reunificação (1990) e o fim da URSS (1991).",
+      "fonte": "Muro de Berlim, 13/08/1961 a 09/11/1989."
+    },
+    "origem": "gerada"
+  }
+]

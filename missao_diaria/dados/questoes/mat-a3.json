@@ -1,0 +1,619 @@
+[
+  {
+    "id": "mat-0041",
+    "materia": "matematica",
+    "assunto": "Porcentagem",
+    "dificuldade": 2,
+    "enunciado": "Após um desconto de 15%, um policial pagou R$ 340,00 por um par de coturnos. O preço sem desconto era",
+    "alternativas": [
+      "R$ 391,00.",
+      "R$ 289,00.",
+      "R$ 400,00.",
+      "R$ 355,00.",
+      "R$ 325,00."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Pagou 100% − 15% = 85% do preço original.",
+        "0,85 × P = 340.",
+        "P = 340 ÷ 0,85 = 400.",
+        "Conferência: 15% de 400 = 60; 400 − 60 = 340."
+      ],
+      "porQueErradas": {
+        "0": "Aumenta 15% sobre R$ 340,00; o desconto foi sobre o preço original.",
+        "1": "Aplica novo desconto de 15% sobre R$ 340,00.",
+        "3": "Soma R$ 15,00 em vez de 15%.",
+        "4": "Subtrai R$ 15,00."
+      },
+      "pegadinha": "Para voltar ao valor original, divida pelo fator (0,85); somar 15% ao preço final dá errado.",
+      "fonte": "Porcentagem: cálculo do valor original"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0042",
+    "materia": "matematica",
+    "assunto": "Porcentagem",
+    "dificuldade": 3,
+    "enunciado": "Em um concurso com 4.800 candidatos, 35% foram eliminados na primeira fase e 40% dos restantes foram eliminados na segunda. Quantos candidatos seguiram após a segunda fase?",
+    "alternativas": [
+      "1.200",
+      "3.120",
+      "1.248",
+      "1.872",
+      "1.680"
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "1ª fase: restam 65% de 4.800 = 3.120.",
+        "2ª fase: restam 60% de 3.120 = 1.872.",
+        "Ou: 4.800 × 0,65 × 0,60 = 1.872."
+      ],
+      "porQueErradas": {
+        "0": "Soma as taxas (75%) e aplica sobre o total.",
+        "1": "Desconta apenas a primeira fase.",
+        "2": "É o número de eliminados na segunda fase.",
+        "4": "É o número de eliminados na primeira fase."
+      },
+      "pegadinha": "\"40% dos restantes\" incide sobre 3.120, não sobre 4.800.",
+      "fonte": "Porcentagem: descontos sucessivos"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0043",
+    "materia": "matematica",
+    "assunto": "Porcentagem",
+    "dificuldade": 1,
+    "enunciado": "Em uma turma de 25 alunos, 9 foram aprovados no teste físico. A porcentagem de aprovados é",
+    "alternativas": [
+      "36%.",
+      "9%.",
+      "25%.",
+      "64%.",
+      "0,36%."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "9/25 = 36/100.",
+        "36/100 = 36%."
+      ],
+      "porQueErradas": {
+        "1": "Confunde a quantidade com a porcentagem.",
+        "2": "Confunde o total com a porcentagem.",
+        "3": "É a porcentagem de reprovados.",
+        "4": "Esquece de multiplicar 0,36 por 100."
+      },
+      "pegadinha": "Multiplique numerador e denominador para chegar a 100 no denominador.",
+      "fonte": "Porcentagem: fração para porcentagem"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0044",
+    "materia": "matematica",
+    "assunto": "Porcentagem",
+    "dificuldade": 1,
+    "enunciado": "Em uma blitz, 180 veículos foram abordados e 45 apresentaram alguma irregularidade. A porcentagem de veículos sem irregularidade foi de",
+    "alternativas": [
+      "25%.",
+      "75%.",
+      "45%.",
+      "40%.",
+      "135%."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Regulares: 180 − 45 = 135.",
+        "135 ÷ 180 = 0,75 = 75%."
+      ],
+      "porQueErradas": {
+        "0": "É a porcentagem de veículos irregulares.",
+        "2": "Confunde a quantidade com a porcentagem.",
+        "3": "Erra a divisão 45 ÷ 180.",
+        "4": "Confunde 135 veículos regulares com porcentagem."
+      },
+      "pegadinha": "A pergunta é sobre os regulares; a banca põe a porcentagem de irregulares como isca.",
+      "fonte": "Porcentagem"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0045",
+    "materia": "matematica",
+    "assunto": "Regra de três simples",
+    "dificuldade": 1,
+    "enunciado": "Uma viatura consome 8 litros de combustível para percorrer 96 km. Mantendo o mesmo consumo, para percorrer 156 km ela consumirá",
+    "alternativas": [
+      "12 litros.",
+      "14 litros.",
+      "10,5 litros.",
+      "13 litros.",
+      "18 litros."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Grandezas diretamente proporcionais.",
+        "8/96 = x/156 → x = 8 × 156 ÷ 96.",
+        "x = 1.248 ÷ 96 = 13 litros."
+      ],
+      "porQueErradas": {
+        "0": "Confunde com o rendimento de 12 km por litro.",
+        "1": "Erra a divisão 156 ÷ 12.",
+        "2": "Erra a montagem da regra de três.",
+        "4": "Erra a montagem da regra de três."
+      },
+      "pegadinha": "Mais quilômetros, mais combustível: regra de três direta.",
+      "fonte": "Regra de três simples direta"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0046",
+    "materia": "matematica",
+    "assunto": "Regra de três simples",
+    "dificuldade": 2,
+    "enunciado": "Seis policiais concluem um levantamento em 10 dias. Com a mesma produtividade, 15 policiais concluiriam o mesmo levantamento em",
+    "alternativas": [
+      "25 dias.",
+      "5 dias.",
+      "6 dias.",
+      "9 dias.",
+      "4 dias."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Grandezas inversamente proporcionais.",
+        "Trabalho total: 6 × 10 = 60 policial-dias.",
+        "60 ÷ 15 = 4 dias."
+      ],
+      "porQueErradas": {
+        "0": "Trata as grandezas como diretas; mais policiais levam menos tempo.",
+        "1": "15 × 5 = 75 policial-dias, mais que os 60 necessários.",
+        "2": "15 × 6 = 90 policial-dias, mais que os 60 necessários.",
+        "3": "Subtrai em vez de usar a proporção inversa."
+      },
+      "pegadinha": "Mais trabalhadores, menos dias: inversa. Multiplique na horizontal.",
+      "fonte": "Regra de três simples inversa"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0047",
+    "materia": "matematica",
+    "assunto": "Regra de três simples",
+    "dificuldade": 2,
+    "enunciado": "A 80 km/h, uma viatura faz um percurso em 3 horas. Na mesma estrada, a 120 km/h, fará o mesmo percurso em",
+    "alternativas": [
+      "4 horas e 30 minutos.",
+      "2 horas e 30 minutos.",
+      "2 horas.",
+      "1 hora e 30 minutos.",
+      "2 horas e 40 minutos."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Velocidade e tempo são inversamente proporcionais.",
+        "Distância: 80 × 3 = 240 km.",
+        "Tempo: 240 ÷ 120 = 2 h."
+      ],
+      "porQueErradas": {
+        "0": "Trata as grandezas como diretas.",
+        "1": "120 × 2,5 = 300 km, mais que os 240 km do percurso.",
+        "3": "120 × 1,5 = 180 km, menos que os 240 km do percurso.",
+        "4": "120 × 8/3 = 320 km, mais que os 240 km do percurso."
+      },
+      "pegadinha": "Maior velocidade, menor tempo. Se o resultado aumentou, a regra foi montada como direta.",
+      "fonte": "Regra de três simples inversa"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0048",
+    "materia": "matematica",
+    "assunto": "Regra de três simples",
+    "dificuldade": 1,
+    "enunciado": "Se 5 kg de um produto custam R$ 32,50, então 8 kg do mesmo produto custam",
+    "alternativas": [
+      "R$ 40,00.",
+      "R$ 35,50.",
+      "R$ 20,31.",
+      "R$ 52,00.",
+      "R$ 48,00."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Preço por quilo: 32,50 ÷ 5 = 6,50.",
+        "8 × 6,50 = 52,00."
+      ],
+      "porQueErradas": {
+        "0": "Multiplica 8 por 5, ignorando o preço.",
+        "1": "Soma R$ 3,00 aos R$ 32,50 (diferença de 3 kg).",
+        "2": "Monta a regra de três como inversa.",
+        "4": "Erra o preço por quilo, que é R$ 6,50."
+      },
+      "pegadinha": "Calcule o valor unitário primeiro; fica mais difícil errar.",
+      "fonte": "Regra de três simples direta"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0049",
+    "materia": "matematica",
+    "assunto": "Regra de três simples",
+    "dificuldade": 3,
+    "enunciado": "Uma impressora imprime 45 páginas em 1 minuto e 30 segundos. Mantendo o mesmo ritmo, quantas páginas imprimirá em 12 minutos?",
+    "alternativas": [
+      "540",
+      "270",
+      "720",
+      "8",
+      "360"
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "1 min 30 s = 90 s; 12 min = 720 s.",
+        "720 ÷ 90 = 8 intervalos.",
+        "8 × 45 = 360 páginas.",
+        "Ou: 45 páginas em 1,5 min = 30 páginas por minuto; 30 × 12 = 360."
+      ],
+      "porQueErradas": {
+        "0": "Ignora os 30 segundos e considera 45 páginas por minuto.",
+        "1": "Arredonda o tempo para 2 minutos.",
+        "2": "Converte 12 min em segundos e não completa a regra de três.",
+        "3": "É o número de intervalos de 1 min 30 s; falta multiplicar por 45."
+      },
+      "pegadinha": "1 min 30 s é 1,5 min (ou 90 s), não 1,3 min. Converta tudo para a mesma unidade.",
+      "fonte": "Regra de três simples direta com conversão de tempo"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0050",
+    "materia": "matematica",
+    "assunto": "Regra de três simples",
+    "dificuldade": 2,
+    "enunciado": "No rancho de um batalhão, 12 kg de arroz alimentam 80 policiais em uma refeição. Para 140 policiais, na mesma proporção, serão necessários",
+    "alternativas": [
+      "18 kg.",
+      "24 kg.",
+      "26 kg.",
+      "21 kg.",
+      "20 kg."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Grandezas diretamente proporcionais.",
+        "x = 12 × 140 ÷ 80.",
+        "x = 1.680 ÷ 80 = 21 kg."
+      ],
+      "porQueErradas": {
+        "0": "Erra a conta: 12 × 140 ÷ 80 = 21.",
+        "1": "Dobra a quantidade sem fazer a proporção.",
+        "2": "Erra a montagem da regra de três.",
+        "4": "Erra a conta: 12 × 140 ÷ 80 = 21."
+      },
+      "pegadinha": "Simplifique antes: 140/80 = 7/4, logo x = 12 × 7/4 = 21.",
+      "fonte": "Regra de três simples direta"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0051",
+    "materia": "matematica",
+    "assunto": "Regra de três simples",
+    "dificuldade": 3,
+    "enunciado": "A reforma de um quartel foi planejada para ser feita por 12 operários em 24 dias. Após 6 dias de trabalho, 3 operários foram dispensados. Mantida a produtividade, a reforma será concluída, contando desde o início, em",
+    "alternativas": [
+      "30 dias.",
+      "32 dias.",
+      "24 dias.",
+      "38 dias.",
+      "19 dias e meio."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Restam 24 − 6 = 18 dias de trabalho para 12 operários.",
+        "Com 9 operários (inversa): 18 × 12 ÷ 9 = 24 dias.",
+        "Total: 6 + 24 = 30 dias."
+      ],
+      "porQueErradas": {
+        "1": "Aplica a nova equipe à obra inteira, desde o primeiro dia.",
+        "2": "Mantém o prazo, ignorando a saída dos operários.",
+        "3": "Aplica a nova equipe à obra inteira e ainda soma os 6 dias.",
+        "4": "Trata as grandezas como diretas."
+      },
+      "pegadinha": "Só a parte que falta muda de equipe; os 6 dias já feitos continuam valendo.",
+      "fonte": "Regra de três simples inversa"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0052",
+    "materia": "matematica",
+    "assunto": "Regra de três simples",
+    "dificuldade": 1,
+    "enunciado": "Um policial a pé percorre 1,2 km em 15 minutos. Na mesma velocidade, em 50 minutos ele percorrerá",
+    "alternativas": [
+      "3,6 km.",
+      "4,8 km.",
+      "4 km.",
+      "0,36 km.",
+      "6 km."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "x = 1,2 × 50 ÷ 15.",
+        "x = 60 ÷ 15 = 4 km."
+      ],
+      "porQueErradas": {
+        "0": "Erra a montagem da regra de três.",
+        "1": "Considera 1 hora em vez de 50 minutos.",
+        "3": "Monta a regra de três como inversa.",
+        "4": "Erra a montagem da regra de três."
+      },
+      "pegadinha": "Mais tempo, mais distância: direta. Confira se o resultado faz sentido.",
+      "fonte": "Regra de três simples direta"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0053",
+    "materia": "matematica",
+    "assunto": "Média aritmética simples",
+    "dificuldade": 1,
+    "enunciado": "Um candidato obteve as notas 6,5; 8,0; 7,5 e 9,0 em quatro simulados. Sua média aritmética foi",
+    "alternativas": [
+      "7,5.",
+      "8,0.",
+      "7,7.",
+      "31.",
+      "7,75."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Soma: 6,5 + 8,0 + 7,5 + 9,0 = 31.",
+        "Média: 31 ÷ 4 = 7,75."
+      ],
+      "porQueErradas": {
+        "0": "Erra a divisão 31 ÷ 4.",
+        "1": "Erra a soma ou arredonda a média.",
+        "2": "Trunca a média em uma casa decimal.",
+        "3": "É a soma das notas, sem dividir por 4."
+      },
+      "pegadinha": "Não arredonde nem trunque se a alternativa exata existir.",
+      "fonte": "Média aritmética simples"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0054",
+    "materia": "matematica",
+    "assunto": "Média aritmética simples",
+    "dificuldade": 2,
+    "enunciado": "A média aritmética das quatro primeiras provas de um aluno é 7. Para que a média das cinco provas seja 7,4, ele precisa tirar, na quinta prova, nota",
+    "alternativas": [
+      "7,4.",
+      "9.",
+      "8.",
+      "9,4.",
+      "7,8."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Soma atual: 4 × 7 = 28.",
+        "Soma necessária: 5 × 7,4 = 37.",
+        "Quinta nota: 37 − 28 = 9."
+      ],
+      "porQueErradas": {
+        "0": "Confunde a média desejada com a nota necessária.",
+        "2": "Erra o total de pontos necessário.",
+        "3": "Erra o total de pontos necessário.",
+        "4": "Calcula a média entre 7 e a nota desconhecida de forma errada."
+      },
+      "pegadinha": "Trabalhe com somas, não com médias: média × quantidade = soma.",
+      "fonte": "Média aritmética simples"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0055",
+    "materia": "matematica",
+    "assunto": "Média aritmética simples",
+    "dificuldade": 2,
+    "enunciado": "A média aritmética de 10 números é 18. Retirando-se o número 36 desse conjunto, a média dos números restantes passa a ser",
+    "alternativas": [
+      "18.",
+      "16.",
+      "14,4.",
+      "17.",
+      "15."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Soma inicial: 10 × 18 = 180.",
+        "Nova soma: 180 − 36 = 144.",
+        "Nova média: 144 ÷ 9 = 16."
+      ],
+      "porQueErradas": {
+        "0": "Supõe que a média não muda.",
+        "2": "Divide a nova soma por 10 em vez de 9.",
+        "3": "Erra a nova soma.",
+        "4": "Erra a nova soma."
+      },
+      "pegadinha": "Ao retirar um número, a quantidade também diminui: divida por 9.",
+      "fonte": "Média aritmética simples"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0056",
+    "materia": "matematica",
+    "assunto": "Média aritmética simples",
+    "dificuldade": 1,
+    "enunciado": "Em uma semana, uma companhia registrou 12, 15, 9, 18, 14, 20 e 17 ocorrências por dia. A média diária de ocorrências foi",
+    "alternativas": [
+      "14.",
+      "16.",
+      "17,5.",
+      "18.",
+      "15."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Soma: 12 + 15 + 9 + 18 + 14 + 20 + 17 = 105.",
+        "Média: 105 ÷ 7 = 15."
+      ],
+      "porQueErradas": {
+        "0": "Erra a soma (105).",
+        "1": "Erra a soma (105).",
+        "2": "Divide por 6 dias em vez de 7.",
+        "3": "Erra a soma ou a divisão."
+      },
+      "pegadinha": "Conte quantos valores existem; a semana tem 7 dias.",
+      "fonte": "Média aritmética simples"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0057",
+    "materia": "matematica",
+    "assunto": "Média aritmética simples",
+    "dificuldade": 3,
+    "enunciado": "A turma A, com 30 alunos, teve média 6,0 em uma prova; a turma B, com 20 alunos, teve média 8,0. A média de todos os 50 alunos foi",
+    "alternativas": [
+      "7,0.",
+      "6,8.",
+      "7,2.",
+      "6,5.",
+      "14,0."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Pontos da turma A: 30 × 6 = 180.",
+        "Pontos da turma B: 20 × 8 = 160.",
+        "Média geral: (180 + 160) ÷ 50 = 340 ÷ 50 = 6,8."
+      ],
+      "porQueErradas": {
+        "0": "Calcula a média das médias, ignorando o número de alunos.",
+        "2": "Troca os pesos das turmas.",
+        "3": "Erra a soma dos pontos.",
+        "4": "Soma as médias."
+      },
+      "pegadinha": "Com grupos de tamanhos diferentes, não se faz média das médias; some os pontos.",
+      "fonte": "Média aritmética simples de grupos"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0058",
+    "materia": "matematica",
+    "assunto": "Média aritmética simples",
+    "dificuldade": 2,
+    "enunciado": "A média de idade de 5 policiais de uma equipe é 32 anos. Com a chegada de um novo integrante, a média passou a 33 anos. A idade do novo integrante é",
+    "alternativas": [
+      "33 anos.",
+      "34 anos.",
+      "38 anos.",
+      "37 anos.",
+      "65 anos."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Soma inicial: 5 × 32 = 160.",
+        "Nova soma: 6 × 33 = 198.",
+        "Idade do novo: 198 − 160 = 38."
+      ],
+      "porQueErradas": {
+        "0": "Supõe que a idade do novo é igual à nova média.",
+        "1": "Soma 1 ano para cada integrante antigo de forma errada.",
+        "3": "Erra a nova soma (6 × 33 = 198).",
+        "4": "Soma as duas médias."
+      },
+      "pegadinha": "Cada um dos 6 \"ganha\" 1 ano na média: 32 + 6 = 38. Confira pelos totais.",
+      "fonte": "Média aritmética simples"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0059",
+    "materia": "matematica",
+    "assunto": "Média aritmética simples",
+    "dificuldade": 3,
+    "enunciado": "A média de 8 valores foi calculada como 25, mas um dos valores, que era 42, foi lançado por engano como 24. A média correta é",
+    "alternativas": [
+      "27,25.",
+      "22,75.",
+      "25.",
+      "27.",
+      "43."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Soma registrada: 8 × 25 = 200.",
+        "Correção: 42 − 24 = 18 a mais.",
+        "Soma correta: 218.",
+        "Média: 218 ÷ 8 = 27,25."
+      ],
+      "porQueErradas": {
+        "1": "Subtrai a diferença em vez de somá-la.",
+        "2": "Mantém a média errada.",
+        "3": "Trunca o resultado.",
+        "4": "Soma a diferença (18) diretamente à média."
+      },
+      "pegadinha": "O erro de 18 se divide entre os 8 valores: a média sobe 18 ÷ 8 = 2,25.",
+      "fonte": "Média aritmética simples"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0060",
+    "materia": "matematica",
+    "assunto": "Média aritmética simples",
+    "dificuldade": 1,
+    "enunciado": "Em três séries de tiro, um soldado fez 45, 38 e x pontos, com média de 42 pontos. O valor de x é",
+    "alternativas": [
+      "43.",
+      "42.",
+      "41,5.",
+      "40.",
+      "41."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Soma necessária: 3 × 42 = 126.",
+        "45 + 38 = 83.",
+        "x = 126 − 83 = 43."
+      ],
+      "porQueErradas": {
+        "1": "Supõe que x é igual à média.",
+        "2": "Calcula a média de 45 e 38.",
+        "3": "Erra a soma necessária.",
+        "4": "Erra a soma necessária."
+      },
+      "pegadinha": "Média × quantidade = soma. Monte a soma total e descubra o que falta.",
+      "fonte": "Média aritmética simples"
+    },
+    "origem": "gerada"
+  }
+]

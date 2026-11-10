@@ -1,0 +1,514 @@
+[
+  {
+    "id": "mat-0101",
+    "materia": "matematica",
+    "assunto": "Equação do 1º grau",
+    "dificuldade": 1,
+    "enunciado": "Um número somado ao seu dobro resulta em 54. Assinale a alternativa que apresenta esse número.",
+    "alternativas": ["18", "27", "9", "24", "36"],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Equação: x + 2x = 54.",
+        "3x = 54, logo x = 18.",
+        "Confira: 18 + 36 = 54."
+      ],
+      "porQueErradas": {
+        "1": "27 é 54 ÷ 2, como se a equação fosse x + x = 54.",
+        "2": "9 é 54 ÷ 6, divisão sem relação com a equação.",
+        "3": "24 + 48 = 72, e não 54.",
+        "4": "36 é o dobro do número procurado."
+      },
+      "pegadinha": "\"Um número somado ao seu dobro\" equivale a 3 vezes o número, e não a 2.",
+      "fonte": "Equação do 1º grau: tradução da linguagem comum para a algébrica."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0102",
+    "materia": "matematica",
+    "assunto": "Sistema de equações do 1º grau",
+    "dificuldade": 1,
+    "enunciado": "Em um curso de formação, a soma das notas de um aluno nas duas etapas é 16, e a diferença entre elas é 2. Assinale a alternativa que apresenta a maior nota.",
+    "alternativas": ["7", "8", "9", "10", "14"],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Sistema: x + y = 16 e x − y = 2.",
+        "Somando: 2x = 18, logo x = 9.",
+        "y = 16 − 9 = 7. Confira: 9 − 7 = 2."
+      ],
+      "porQueErradas": {
+        "0": "7 é a menor nota.",
+        "1": "8 é a metade da soma; ignora a diferença.",
+        "3": "Com 10, a outra nota seria 6 e a diferença seria 4.",
+        "4": "14 é 16 − 2, que ainda precisa ser dividido por 2 e dá a menor nota."
+      },
+      "pegadinha": "Somar as duas equações elimina y e dá direto o dobro da maior nota.",
+      "fonte": "Sistema de equações do 1º grau: método da adição."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0103",
+    "materia": "matematica",
+    "assunto": "Sistema de equações do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "Um cofre contém 60 moedas, apenas de R$ 0,50 e de R$ 1,00, totalizando R$ 42,00. Assinale a alternativa que indica quantas moedas de R$ 1,00 há no cofre.",
+    "alternativas": ["18", "24", "30", "36", "42"],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Sejam a as moedas de R$ 0,50 e b as de R$ 1,00: a + b = 60 e 0,5a + b = 42.",
+        "Subtraia a segunda da primeira: 0,5a = 18, logo a = 36.",
+        "b = 60 − 36 = 24. Confira: 36 · 0,50 + 24 · 1,00 = 18 + 24 = 42."
+      ],
+      "porQueErradas": {
+        "0": "18 é o valor, em reais, das moedas de R$ 0,50.",
+        "2": "30 é a metade das moedas; daria 15 + 30 = R$ 45,00.",
+        "3": "36 é o número de moedas de R$ 0,50.",
+        "4": "42 é o valor total em reais, não uma quantidade de moedas."
+      },
+      "pegadinha": "Separe quantidade de moedas e valor em reais: são duas equações diferentes.",
+      "fonte": "Sistema de equações do 1º grau."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0104",
+    "materia": "matematica",
+    "assunto": "Sistema métrico (tempo, comprimento, superfície, capacidade)",
+    "dificuldade": 2,
+    "enunciado": "Em uma semana, um policial cumpriu 3 plantões de 7h40min cada. Assinale a alternativa que indica o tempo total trabalhado.",
+    "alternativas": ["21h40min", "22h00min", "22h20min", "23h00min", "24h00min"],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Horas: 3 · 7 h = 21 h.",
+        "Minutos: 3 · 40 min = 120 min = 2 h.",
+        "Total: 21 h + 2 h = 23h00min."
+      ],
+      "porQueErradas": {
+        "0": "21h40min multiplica só as horas e mantém os 40 minutos.",
+        "1": "22h00min converte 120 minutos em apenas 1 hora.",
+        "2": "22h20min trata 120 minutos como 1h20min, como se a hora tivesse 100 minutos.",
+        "4": "24h00min arredonda cada plantão para 8 horas."
+      },
+      "pegadinha": "120 minutos são 2 horas exatas, pois 1 hora tem 60 minutos.",
+      "fonte": "Sistema sexagesimal: 1 h = 60 min."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0105",
+    "materia": "matematica",
+    "assunto": "Sistema métrico (tempo, comprimento, superfície, capacidade)",
+    "dificuldade": 3,
+    "enunciado": "Ao longo de um trecho reto de 0,1 km serão instalados cones a cada 2,5 m, com um cone no início e outro no final do trecho. Assinale a alternativa que indica o número de cones.",
+    "alternativas": ["4", "40", "41", "400", "401"],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Converta: 0,1 km = 100 m.",
+        "Número de intervalos: 100 ÷ 2,5 = 40.",
+        "Com cone no início e no fim, há um cone a mais que intervalos: 40 + 1 = 41."
+      ],
+      "porQueErradas": {
+        "0": "4 considera 0,1 km como 10 m e esquece o cone extra.",
+        "1": "40 é o número de intervalos, não de cones.",
+        "3": "400 considera 0,1 km como 1.000 m e esquece o cone extra.",
+        "4": "401 considera 0,1 km como 1.000 m."
+      },
+      "pegadinha": "Em linha aberta com marcos nas duas pontas, o número de marcos é o de intervalos mais 1.",
+      "fonte": "Sistema métrico decimal (1 km = 1.000 m) e contagem de intervalos."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0106",
+    "materia": "matematica",
+    "assunto": "Sistema métrico (tempo, comprimento, superfície, capacidade)",
+    "dificuldade": 2,
+    "enunciado": "Um cartaz informativo tem 3.600 cm² de área. Assinale a alternativa que apresenta essa área em metros quadrados.",
+    "alternativas": ["36 m²", "3,6 m²", "0,036 m²", "360 m²", "0,36 m²"],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "1 m = 100 cm, logo 1 m² = 100 · 100 = 10.000 cm².",
+        "3.600 ÷ 10.000 = 0,36 m².",
+        "Exemplo: um quadrado de 60 cm de lado (0,6 m) tem 0,6 · 0,6 = 0,36 m²."
+      ],
+      "porQueErradas": {
+        "0": "36 m² divide por 100, fator do comprimento, e não da área.",
+        "1": "3,6 m² divide por 1.000.",
+        "2": "0,036 m² divide por 100.000.",
+        "3": "360 m² divide apenas por 10."
+      },
+      "pegadinha": "Na área, de cm² para m² o fator é 10.000, porque são dois degraus de 100.",
+      "fonte": "Sistema métrico: 1 m² = 10.000 cm²."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0107",
+    "materia": "matematica",
+    "assunto": "Sistema métrico (tempo, comprimento, superfície, capacidade)",
+    "dificuldade": 1,
+    "enunciado": "Durante uma operação, a equipe consumiu 3 garrafas de 1,5 L de água e 6 copos de 200 mL. Assinale a alternativa que indica o total consumido, em litros.",
+    "alternativas": ["4,62 L", "4,7 L", "5,7 L", "16,5 L", "1.204,5 L"],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Garrafas: 3 · 1,5 L = 4,5 L.",
+        "Copos: 6 · 200 mL = 1.200 mL = 1,2 L.",
+        "Total: 4,5 + 1,2 = 5,7 L."
+      ],
+      "porQueErradas": {
+        "0": "4,62 L trata 1.200 mL como 0,12 L.",
+        "1": "4,7 L soma apenas um copo (0,2 L) às garrafas.",
+        "3": "16,5 L trata 200 mL como 2 L.",
+        "4": "1.204,5 L soma mililitros com litros sem converter."
+      },
+      "pegadinha": "Converta mililitros em litros dividindo por 1.000 antes de somar.",
+      "fonte": "Sistema métrico: 1 L = 1.000 mL."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0108",
+    "materia": "matematica",
+    "assunto": "Tabelas e gráficos",
+    "dificuldade": 2,
+    "texto": "A tabela apresenta o resultado de um teste de aptidão física em quatro turmas.\n\nTurma | Alunos | Aprovados\nA | 40 | 30\nB | 50 | 35\nC | 25 | 20\nD | 60 | 42",
+    "enunciado": "De acordo com a tabela, a turma com maior porcentagem de aprovados foi a turma",
+    "alternativas": ["D.", "A.", "B.", "C.", "A e C, empatadas."],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "A: 30 ÷ 40 = 75%. B: 35 ÷ 50 = 70%.",
+        "C: 20 ÷ 25 = 80%. D: 42 ÷ 60 = 70%.",
+        "A maior porcentagem é a da turma C, com 80%."
+      ],
+      "porQueErradas": {
+        "0": "D tem mais aprovados em número (42), mas apenas 70%.",
+        "1": "A tem 75%, abaixo dos 80% de C.",
+        "2": "B tem 70%.",
+        "4": "A (75%) e C (80%) não estão empatadas."
+      },
+      "pegadinha": "Maior quantidade absoluta não é maior porcentagem: divida aprovados pelo total de cada turma.",
+      "fonte": "Porcentagem e leitura de tabelas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0109",
+    "materia": "matematica",
+    "assunto": "Tabelas e gráficos",
+    "dificuldade": 2,
+    "texto": "Em um mês, uma companhia registrou 640 ocorrências, distribuídas por tipo conforme a tabela.\n\nTipo | Porcentagem\nFurto | 35%\nRoubo | 20%\nPerturbação do sossego | 25%\nOutros | 20%",
+    "enunciado": "Com base na tabela, quantas ocorrências de furto houve a mais que de roubo?",
+    "alternativas": ["15", "64", "128", "224", "96"],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Diferença percentual: 35% − 20% = 15%.",
+        "15% de 640 = 0,15 · 640 = 96.",
+        "Confira: furtos 224, roubos 128; 224 − 128 = 96."
+      ],
+      "porQueErradas": {
+        "0": "15 é a diferença em pontos percentuais, não em número de ocorrências.",
+        "1": "64 corresponde a 10% de 640.",
+        "2": "128 é o número de roubos (20%).",
+        "3": "224 é o número de furtos (35%)."
+      },
+      "pegadinha": "Transforme a diferença percentual em quantidade aplicando-a sobre o total de 640.",
+      "fonte": "Porcentagem aplicada a tabelas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0110",
+    "materia": "matematica",
+    "assunto": "Tabelas e gráficos",
+    "dificuldade": 2,
+    "enunciado": "Em um gráfico de setores (pizza) que representa a distribuição do orçamento de uma unidade, a despesa com manutenção corresponde a 30% do total. Assinale a alternativa que apresenta o ângulo central do setor correspondente a essa despesa.",
+    "alternativas": ["108°", "30°", "90°", "120°", "54°"],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O círculo inteiro (100%) corresponde a 360°.",
+        "30% de 360° = 0,3 · 360° = 108°."
+      ],
+      "porQueErradas": {
+        "1": "30° confunde a porcentagem com a medida do ângulo.",
+        "2": "90° corresponde a 25% do círculo.",
+        "3": "120° corresponde a 1/3 do círculo (cerca de 33,3%).",
+        "4": "54° é 30% de 180°, como se o círculo tivesse 180°."
+      },
+      "pegadinha": "No gráfico de setores a referência é 360°, e não 100° nem 180°.",
+      "fonte": "Gráfico de setores: ângulo = porcentagem · 360°."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0111",
+    "materia": "matematica",
+    "assunto": "Geometria (perímetro, área, volume, Pitágoras)",
+    "dificuldade": 1,
+    "enunciado": "Uma praça circular tem 10 m de raio. Uma pista contorna exatamente a borda da praça. Considerando π = 3,14, assinale a alternativa que apresenta o comprimento da pista.",
+    "alternativas": ["31,4 m", "62,8 m", "314 m", "628 m", "20 m"],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Comprimento da circunferência: C = 2 · π · r.",
+        "C = 2 · 3,14 · 10 = 62,8 m."
+      ],
+      "porQueErradas": {
+        "0": "31,4 m é π · r, sem o fator 2.",
+        "2": "314 é a área da praça (π · r²), em m².",
+        "3": "628 é o dobro da área, sem significado aqui.",
+        "4": "20 m é o diâmetro."
+      },
+      "pegadinha": "Perímetro do círculo usa 2πr; a fórmula πr² é da área.",
+      "fonte": "Geometria plana: comprimento da circunferência (C = 2πr)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0112",
+    "materia": "matematica",
+    "assunto": "Geometria (perímetro, área, volume, Pitágoras)",
+    "dificuldade": 2,
+    "enunciado": "Um tanque de treinamento em forma de bloco retangular mede 8 m de comprimento, 5 m de largura e 1,5 m de profundidade. Ele está com 80% de sua capacidade ocupada por água. Assinale a alternativa que indica o volume de água, em litros.",
+    "alternativas": ["60.000 L", "4.800 L", "12.000 L", "48.000 L", "480.000 L"],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Volume total: 8 · 5 · 1,5 = 60 m³.",
+        "80% de 60 m³ = 48 m³.",
+        "Como 1 m³ = 1.000 L, são 48.000 L."
+      ],
+      "porQueErradas": {
+        "0": "60.000 L é a capacidade total, com o tanque cheio.",
+        "1": "4.800 L converte m³ em litros multiplicando por 100.",
+        "2": "12.000 L é a parte vazia (20%).",
+        "4": "480.000 L converte m³ em litros multiplicando por 10.000."
+      },
+      "pegadinha": "Calcule o volume total, aplique a porcentagem e só então converta: 1 m³ = 1.000 L.",
+      "fonte": "Geometria espacial: volume do paralelepípedo (c · l · h)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0113",
+    "materia": "matematica",
+    "assunto": "Geometria (perímetro, área, volume, Pitágoras)",
+    "dificuldade": 2,
+    "enunciado": "Um terreno retangular mede 24 m por 7 m. Um policial atravessa o terreno pela diagonal, de um canto ao canto oposto. Assinale a alternativa que indica a distância percorrida.",
+    "alternativas": ["17 m", "25 m", "31 m", "24,5 m", "625 m"],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "A diagonal é a hipotenusa do triângulo retângulo de catetos 24 m e 7 m.",
+        "d² = 24² + 7² = 576 + 49 = 625.",
+        "d = √625 = 25 m."
+      ],
+      "porQueErradas": {
+        "0": "17 m é a diferença 24 − 7.",
+        "2": "31 m é a soma 24 + 7, caminho pelos lados.",
+        "3": "24,5 m não satisfaz o teorema de Pitágoras.",
+        "4": "625 é o quadrado da diagonal; falta a raiz."
+      },
+      "pegadinha": "A diagonal é sempre menor que a soma dos lados: 25 m contra 31 m.",
+      "fonte": "Teorema de Pitágoras."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0114",
+    "materia": "matematica",
+    "assunto": "Raciocínio lógico",
+    "dificuldade": 1,
+    "enunciado": "Paulo é mais alto que Rui. Sara é mais baixa que Rui. Tânia é mais alta que Paulo. Assinale a alternativa que indica o segundo mais alto dos quatro.",
+    "alternativas": ["Paulo.", "Rui.", "Sara.", "Tânia.", "Não é possível determinar."],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Paulo > Rui e Rui > Sara, então Paulo > Rui > Sara.",
+        "Tânia > Paulo, então a ordem completa é Tânia > Paulo > Rui > Sara.",
+        "O segundo mais alto é Paulo."
+      ],
+      "porQueErradas": {
+        "1": "Rui é o terceiro mais alto.",
+        "2": "Sara é a mais baixa.",
+        "3": "Tânia é a mais alta.",
+        "4": "As informações permitem ordenar os quatro de forma única."
+      },
+      "pegadinha": "Monte a ordem completa antes de responder; \"mais baixa que\" inverte o sentido da comparação.",
+      "fonte": "Raciocínio lógico: ordenação."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0115",
+    "materia": "matematica",
+    "assunto": "Raciocínio lógico",
+    "dificuldade": 3,
+    "enunciado": "Três pessoas, A, B e C, prestaram depoimento. A disse: \"B mentiu\". B disse: \"C mentiu\". C disse: \"A e B mentiram\". Sabendo que cada um ou disse toda a verdade ou mentiu, assinale a alternativa correta.",
+    "alternativas": [
+      "Apenas A disse a verdade.",
+      "Apenas B disse a verdade.",
+      "Apenas C disse a verdade.",
+      "A e C disseram a verdade.",
+      "Todos mentiram."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Suponha que C disse a verdade: então A e B mentiram. Mas, se A mentiu, B disse a verdade. Contradição; logo, C mentiu.",
+        "Se C mentiu, a frase de B (\"C mentiu\") é verdadeira: B disse a verdade.",
+        "Então a frase de A (\"B mentiu\") é falsa: A mentiu.",
+        "Confira: C disse \"A e B mentiram\", o que é falso porque B foi sincero. Tudo consistente."
+      ],
+      "porQueErradas": {
+        "0": "A afirmou que B mentiu, mas B disse a verdade.",
+        "2": "Supor C verdadeiro leva a contradição.",
+        "3": "A e C mentiram.",
+        "4": "Se todos mentissem, a frase de C seria verdadeira, o que é contraditório."
+      },
+      "pegadinha": "Teste uma hipótese e siga as consequências até achar contradição; descarte-a se aparecer uma.",
+      "fonte": "Raciocínio lógico: problemas de verdade e mentira."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0116",
+    "materia": "matematica",
+    "assunto": "Raciocínio lógico",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa que apresenta a negação da afirmação: \"O policial está de folga e a viatura está na base\".",
+    "alternativas": [
+      "O policial não está de folga e a viatura não está na base.",
+      "O policial está de folga ou a viatura está na base.",
+      "Se o policial está de folga, então a viatura está na base.",
+      "O policial não está de folga e a viatura está na base.",
+      "O policial não está de folga ou a viatura não está na base."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "A negação de \"p e q\" é \"não p ou não q\" (lei de De Morgan).",
+        "p: o policial está de folga; q: a viatura está na base.",
+        "Negação: \"O policial não está de folga ou a viatura não está na base\"."
+      ],
+      "porQueErradas": {
+        "0": "Nega as duas partes mas mantém o \"e\"; o conectivo deve virar \"ou\".",
+        "1": "Troca o conectivo mas não nega as partes.",
+        "2": "Uma condicional não é a negação de uma conjunção.",
+        "3": "Nega só a primeira parte e mantém o \"e\"."
+      },
+      "pegadinha": "Na negação da conjunção, nega-se cada parte e o \"e\" vira \"ou\".",
+      "fonte": "Lógica proposicional: ~(p ∧ q) ≡ ~p ∨ ~q (De Morgan)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0117",
+    "materia": "matematica",
+    "assunto": "Situações-problema",
+    "dificuldade": 1,
+    "enunciado": "Um soldado comprou 3 camisetas de R$ 35,00 cada e 2 calças de R$ 80,00 cada. Pagou com R$ 300,00. Assinale a alternativa que indica o troco recebido.",
+    "alternativas": ["R$ 45,00", "R$ 185,00", "R$ 265,00", "R$ 25,00", "R$ 35,00"],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Camisetas: 3 · 35 = 105. Calças: 2 · 80 = 160.",
+        "Total gasto: 105 + 160 = 265.",
+        "Troco: 300 − 265 = R$ 35,00."
+      ],
+      "porQueErradas": {
+        "0": "R$ 45,00 corresponde a um gasto de R$ 255,00, erro na soma.",
+        "1": "R$ 185,00 desconta só uma camiseta e uma calça (35 + 80).",
+        "2": "R$ 265,00 é o total gasto, não o troco.",
+        "3": "R$ 25,00 corresponde a um gasto de R$ 275,00, erro na soma."
+      },
+      "pegadinha": "Multiplique cada preço pela quantidade antes de somar.",
+      "fonte": "Operações fundamentais em situações-problema."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0118",
+    "materia": "matematica",
+    "assunto": "Situações-problema",
+    "dificuldade": 2,
+    "enunciado": "Em um torneio interno de tiro, 5 policiais se enfrentarão em duelos, de modo que cada um enfrente cada um dos outros exatamente uma vez. Assinale a alternativa que indica o total de duelos.",
+    "alternativas": ["10", "5", "20", "25", "15"],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Cada policial enfrenta os outros 4: 5 · 4 = 20 pares contados.",
+        "Cada duelo foi contado duas vezes (A × B e B × A): 20 ÷ 2 = 10 duelos."
+      ],
+      "porQueErradas": {
+        "1": "5 é o número de policiais.",
+        "2": "20 conta cada duelo duas vezes.",
+        "3": "25 é 5 · 5 e inclui duelos de alguém contra si mesmo.",
+        "4": "15 é 5 · 3, sem fundamento na contagem."
+      },
+      "pegadinha": "O duelo A × B é o mesmo que B × A: divida por 2.",
+      "fonte": "Princípio de contagem: n · (n − 1) ÷ 2 pares."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0119",
+    "materia": "matematica",
+    "assunto": "Situações-problema",
+    "dificuldade": 3,
+    "enunciado": "Uma torneira enche um reservatório em 6 horas; outra, sozinha, o enche em 3 horas. Abertas juntas, com o reservatório vazio, em quanto tempo o encherão?",
+    "alternativas": ["1h30min", "2h30min", "4h30min", "2h", "9h"],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Em 1 hora, a primeira enche 1/6 e a segunda 1/3 do reservatório.",
+        "Juntas, em 1 hora: 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2.",
+        "Se enchem metade por hora, levam 2 horas."
+      ],
+      "porQueErradas": {
+        "0": "1h30min encheria só 3/4 do reservatório.",
+        "1": "2h30min passa do tempo necessário: em 2 h ele já está cheio.",
+        "2": "4h30min é a média dos tempos; juntas elas são mais rápidas que cada uma.",
+        "4": "9h soma os tempos, como se uma torneira esperasse a outra."
+      },
+      "pegadinha": "Some as vazões (fração por hora), e não os tempos; o resultado é menor que o da torneira mais rápida.",
+      "fonte": "Situações-problema com frações: vazões somadas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0120",
+    "materia": "matematica",
+    "assunto": "Situações-problema",
+    "dificuldade": 3,
+    "enunciado": "Um soldado guardou R$ 150,00 no primeiro mês e, a cada mês seguinte, guardou R$ 25,00 a mais do que no mês anterior. Assinale a alternativa que indica o total guardado ao final de 6 meses.",
+    "alternativas": ["R$ 900,00", "R$ 1.050,00", "R$ 1.275,00", "R$ 1.425,00", "R$ 1.650,00"],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Valores mensais: 150, 175, 200, 225, 250, 275.",
+        "Some em pares: (150 + 275) + (175 + 250) + (200 + 225) = 425 + 425 + 425.",
+        "Total: 3 · 425 = R$ 1.275,00."
+      ],
+      "porQueErradas": {
+        "0": "R$ 900,00 considera R$ 150,00 em todos os meses, sem aumento.",
+        "1": "R$ 1.050,00 considera R$ 175,00 em todos os meses.",
+        "3": "R$ 1.425,00 aplica o aumento já no primeiro mês (175 a 300).",
+        "4": "R$ 1.650,00 considera o valor do último mês (275) em todos os meses."
+      },
+      "pegadinha": "O primeiro mês é R$ 150,00; o aumento começa no segundo.",
+      "fonte": "Situações-problema: soma de valores com acréscimo constante."
+    },
+    "origem": "gerada"
+  }
+]

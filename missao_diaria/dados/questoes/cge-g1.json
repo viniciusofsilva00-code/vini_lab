@@ -1,0 +1,623 @@
+[
+  {
+    "id": "cge-0061",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Nova ordem mundial e globalização",
+    "dificuldade": 1,
+    "enunciado": "Com o fim da Guerra Fria, simbolizado pela dissolução da União Soviética em 1991, a ordem mundial bipolar deu lugar a uma nova configuração geopolítica. Assinale a alternativa que descreve corretamente essa nova ordem.",
+    "alternativas": [
+      "A manutenção da disputa entre dois blocos ideológicos, agora liderados por China e Rússia.",
+      "O predomínio absoluto da União Soviética, que passou a controlar o Leste Europeu.",
+      "Uma ordem marcada pela supremacia militar dos Estados Unidos, combinada com a existência de vários polos de poder econômico, como União Europeia, Japão e China.",
+      "A divisão do mundo em países do Primeiro, Segundo e Terceiro Mundo, criada após 1991.",
+      "O fim de qualquer conflito armado internacional, graças à vitória do socialismo."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "A Guerra Fria opunha EUA (capitalismo) e URSS (socialismo): ordem bipolar.",
+        "Com o fim da URSS, os EUA ficaram como única superpotência militar.",
+        "No plano econômico, porém, surgiram vários polos (UE, Japão, China), por isso muitos autores falam em ordem 'unimultipolar' ou multipolar."
+      ],
+      "porQueErradas": {
+        "0": "A bipolaridade ideológica entre capitalismo e socialismo terminou com o fim da URSS.",
+        "1": "A URSS deixou de existir em 1991; não poderia passar a dominar nada.",
+        "3": "Essa classificação é da época da Guerra Fria, não uma novidade posterior a 1991.",
+        "4": "Conflitos continuaram a ocorrer e o socialismo não saiu vitorioso da Guerra Fria."
+      },
+      "pegadinha": "A banca mistura a classificação antiga (Primeiro/Segundo/Terceiro Mundo) com a nova ordem; lembre que ela pertence à Guerra Fria.",
+      "fonte": "Geografia geopolítica: nova ordem mundial pós-Guerra Fria (1991)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0062",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Nova ordem mundial e globalização",
+    "dificuldade": 1,
+    "enunciado": "O Mercado Comum do Sul (Mercosul) foi criado pelo Tratado de Assunção, em 1991. Assinale a alternativa que apresenta os países fundadores do bloco.",
+    "alternativas": [
+      "Brasil, Argentina, Chile e Bolívia.",
+      "Brasil, Venezuela, Colômbia e Peru.",
+      "Brasil, Argentina, Paraguai e Uruguai.",
+      "Argentina, Chile, Peru e Equador.",
+      "Brasil, México, Argentina e Uruguai."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O Tratado de Assunção (1991) foi assinado por quatro países do Cone Sul.",
+        "São eles: Brasil, Argentina, Paraguai e Uruguai.",
+        "Outros países aderiram ou se associaram depois, em momentos diferentes."
+      ],
+      "porQueErradas": {
+        "0": "Chile e Bolívia não estavam entre os signatários originais do Tratado de Assunção.",
+        "1": "Esses países não fundaram o Mercosul; a Venezuela aderiu bem depois e foi suspensa.",
+        "3": "O Brasil é fundador e não aparece; os demais não são fundadores.",
+        "4": "O México não integra o Mercosul como fundador."
+      },
+      "pegadinha": "Chile e Bolívia são vizinhos e aparecem como distratores; não confunda país associado ou que aderiu depois com fundador.",
+      "fonte": "Tratado de Assunção (1991), que cria o Mercosul."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0063",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Nova ordem mundial e globalização",
+    "dificuldade": 2,
+    "enunciado": "Os blocos econômicos passam por diferentes estágios de integração. Assinale a alternativa que indica corretamente o que caracteriza uma união aduaneira.",
+    "alternativas": [
+      "Livre circulação de mercadorias entre os membros somada à adoção de uma Tarifa Externa Comum (TEC) para produtos vindos de fora do bloco.",
+      "Apenas a redução ou eliminação de tarifas no comércio entre os membros, sem política comum para terceiros países.",
+      "Adoção de uma moeda única e de um banco central comum.",
+      "Livre circulação apenas de pessoas, sem acordos sobre mercadorias.",
+      "Proibição total do comércio com países que não pertencem ao bloco."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Zona de livre comércio: elimina tarifas entre os membros.",
+        "União aduaneira: zona de livre comércio + Tarifa Externa Comum (TEC).",
+        "Mercado comum: acrescenta livre circulação de pessoas, serviços e capitais.",
+        "União econômica e monetária: acrescenta moeda única (ex.: euro)."
+      ],
+      "porQueErradas": {
+        "1": "Isso define a zona de livre comércio, estágio anterior à união aduaneira.",
+        "2": "Moeda única caracteriza a união econômica e monetária, estágio mais avançado.",
+        "3": "A união aduaneira trata essencialmente de mercadorias e tarifas.",
+        "4": "Nenhum estágio de integração proíbe o comércio com terceiros; a TEC apenas uniformiza a tarifa."
+      },
+      "pegadinha": "A banca costuma descrever a zona de livre comércio como se fosse união aduaneira; o que diferencia é a TEC.",
+      "fonte": "Geografia econômica: estágios de integração regional."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0064",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Nova ordem mundial e globalização",
+    "dificuldade": 2,
+    "enunciado": "Considere as características a seguir: moeda única adotada por parte dos países-membros, banco central comum, parlamento eleito pelos cidadãos e livre circulação de pessoas. Elas descrevem o bloco denominado",
+    "alternativas": [
+      "Mercosul.",
+      "União Europeia.",
+      "Acordo Estados Unidos-México-Canadá (USMCA), sucessor do Nafta.",
+      "Associação das Nações do Sudeste Asiático (Asean).",
+      "Comunidade Andina."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "A União Europeia é o bloco de integração mais avançado do mundo.",
+        "Possui o euro (adotado por parte dos membros), o Banco Central Europeu e o Parlamento Europeu.",
+        "Também garante a livre circulação de pessoas, mercadorias, serviços e capitais."
+      ],
+      "porQueErradas": {
+        "0": "O Mercosul não possui moeda única nem banco central comum.",
+        "2": "É um acordo de livre comércio, sem moeda única nem livre circulação de pessoas.",
+        "3": "A Asean não adotou moeda única nem banco central comum.",
+        "4": "A Comunidade Andina não possui moeda única."
+      },
+      "pegadinha": "Nem todo membro da UE usa o euro; por isso o enunciado diz 'parte dos países-membros'. Não descarte a UE por esse detalhe.",
+      "fonte": "Geografia econômica: União Europeia (Tratado de Maastricht, 1992)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0065",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Nova ordem mundial e globalização",
+    "dificuldade": 2,
+    "enunciado": "A sigla BRICS surgiu para designar um grupo de economias emergentes. Assinale a alternativa que apresenta apenas países que formaram o grupo original, antes das ampliações recentes.",
+    "alternativas": [
+      "Brasil, Reino Unido, Itália, Canadá e Suécia.",
+      "Brasil, Rússia, Índia, China e África do Sul.",
+      "Bolívia, Rússia, Indonésia, Chile e Sudão.",
+      "Brasil, Romênia, Irã, Colômbia e Senegal.",
+      "Argentina, Rússia, Índia, Japão e Arábia Saudita."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "BRICS é uma sigla: B = Brasil, R = Rússia, I = Índia, C = China, S = África do Sul (South Africa).",
+        "A África do Sul entrou em 2011; antes o grupo era chamado BRIC.",
+        "Ampliações mais recentes acrescentaram outros países, mas a sigla vem dos cinco originais."
+      ],
+      "porQueErradas": {
+        "0": "São países desenvolvidos; o 'R' é de Rússia e o 'I' de Índia.",
+        "2": "A sigla não corresponde a esses países.",
+        "3": "Nenhum desses, exceto o Brasil, integrou o grupo original.",
+        "4": "O 'B' é de Brasil e o Japão é país desenvolvido."
+      },
+      "pegadinha": "O 'S' vem do nome em inglês (South Africa); a banca pode tentar associá-lo a outro país.",
+      "fonte": "Geopolítica: grupo BRICS e economias emergentes."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0066",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Nova ordem mundial e globalização",
+    "dificuldade": 2,
+    "enunciado": "Nas últimas décadas, muitas empresas transnacionais transferiram fábricas para países do Sul Global. Entre os principais fatores que explicam esse deslocamento, está",
+    "alternativas": [
+      "a exigência de leis ambientais e trabalhistas mais rigorosas nesses países.",
+      "o desejo de reduzir a produção e abandonar o mercado internacional.",
+      "a proibição de qualquer filial nos países desenvolvidos.",
+      "a busca por mão de obra mais barata, incentivos fiscais e proximidade de mercados consumidores em expansão.",
+      "a escassez de matérias-primas em todo o mundo, exceto nos países desenvolvidos."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Transnacionais buscam reduzir custos e ampliar mercados.",
+        "Salários menores, isenção de impostos e regras mais flexíveis atraem filiais.",
+        "Mercados consumidores em crescimento também pesam na escolha."
+      ],
+      "porQueErradas": {
+        "0": "Normalmente ocorre o contrário: legislações mais brandas atraem as empresas.",
+        "1": "O deslocamento visa ampliar a produção e a competitividade global.",
+        "2": "Não existe tal proibição; as sedes costumam permanecer nos países desenvolvidos.",
+        "4": "Muitos países do Sul são justamente grandes fornecedores de matérias-primas."
+      },
+      "pegadinha": "A alternativa sobre leis 'mais rigorosas' inverte o fator de atração; leia com atenção o sentido.",
+      "fonte": "Geografia econômica: globalização e transnacionais (fragmentação da produção)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0067",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Nova ordem mundial e globalização",
+    "dificuldade": 3,
+    "enunciado": "O geógrafo Milton Santos chamou de meio técnico-científico-informacional o espaço geográfico resultante da globalização. Assinale a alternativa que expressa corretamente essa ideia.",
+    "alternativas": [
+      "É o espaço natural, ainda não transformado pela ação humana.",
+      "É um espaço homogêneo, em que todos os lugares recebem igualmente as inovações.",
+      "É o espaço típico da Primeira Revolução Industrial, baseado no carvão e na máquina a vapor.",
+      "É o espaço em que ciência, tecnologia e informação estão incorporadas ao território, permitindo fluxos rápidos de capital, mercadorias e dados, mas de forma desigual entre os lugares.",
+      "É o espaço rural isolado, sem conexões com as redes globais."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Milton Santos divide a história do espaço em meio natural, meio técnico e meio técnico-científico-informacional.",
+        "O último surge após a Segunda Guerra e se intensifica com a globalização.",
+        "Ele é marcado pela união entre ciência, técnica e informação, mas se difunde de modo seletivo e desigual."
+      ],
+      "porQueErradas": {
+        "0": "Isso corresponde ao meio natural, a primeira fase descrita pelo autor.",
+        "1": "O autor enfatiza justamente a desigualdade na difusão das técnicas.",
+        "2": "Isso se aproxima do meio técnico, anterior ao técnico-científico-informacional.",
+        "4": "O conceito se refere ao espaço conectado às redes, não ao isolamento."
+      },
+      "pegadinha": "A alternativa do 'espaço homogêneo' parece um elogio à globalização; o autor destacou a desigualdade.",
+      "fonte": "Milton Santos, conceito de meio técnico-científico-informacional."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0068",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Nova ordem mundial e globalização",
+    "dificuldade": 2,
+    "enunciado": "A Organização Mundial do Comércio (OMC), criada em 1995, tem como uma de suas principais funções",
+    "alternativas": [
+      "estabelecer regras para o comércio internacional e atuar como mediadora na solução de disputas comerciais entre os países-membros.",
+      "emitir a moeda utilizada nas transações internacionais.",
+      "comandar as tropas de paz da ONU em áreas de conflito.",
+      "financiar obras de infraestrutura em países pobres.",
+      "definir as fronteiras entre os países em litígio."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "A OMC substituiu o GATT, acordo criado após a Segunda Guerra.",
+        "Ela negocia regras para o comércio entre os países.",
+        "Possui um sistema de solução de controvérsias para disputas comerciais."
+      ],
+      "porQueErradas": {
+        "1": "A OMC não emite moeda; essa não é função de nenhum organismo multilateral de comércio.",
+        "2": "Missões de paz são atribuição do Conselho de Segurança da ONU.",
+        "3": "Financiamentos desse tipo são feitos por instituições como o Banco Mundial.",
+        "4": "Disputas territoriais não são tratadas pela OMC."
+      },
+      "pegadinha": "Não confunda OMC (comércio) com FMI (estabilidade financeira) e Banco Mundial (financiamento ao desenvolvimento).",
+      "fonte": "Organismos internacionais: OMC (1995), sucessora do GATT."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0069",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Nova ordem mundial e globalização",
+    "dificuldade": 1,
+    "enunciado": "Na Divisão Internacional do Trabalho clássica, consolidada no século XIX, cabia à maioria dos países da América Latina, da África e da Ásia",
+    "alternativas": [
+      "a exportação de bens industrializados de alta tecnologia para a Europa.",
+      "o controle das principais rotas financeiras e bancárias do mundo.",
+      "a produção autossuficiente, sem comércio externo.",
+      "a instalação das sedes das grandes empresas industriais.",
+      "a exportação de produtos primários, como alimentos e matérias-primas, e a importação de produtos industrializados."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "A DIT define o papel de cada país na economia mundial.",
+        "Países centrais industrializados exportavam manufaturados.",
+        "Países periféricos forneciam matérias-primas e alimentos."
+      ],
+      "porQueErradas": {
+        "0": "Esse papel cabia aos países industrializados.",
+        "1": "O sistema financeiro era controlado pelas potências industriais.",
+        "2": "Esses países estavam integrados ao comércio mundial como fornecedores primários.",
+        "3": "As sedes ficavam nos países centrais."
+      },
+      "pegadinha": "Algumas alternativas descrevem os países centrais; identifique de quem a pergunta trata.",
+      "fonte": "Geografia econômica: Divisão Internacional do Trabalho."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0070",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Nova ordem mundial e globalização",
+    "dificuldade": 3,
+    "enunciado": "Sobre os efeitos da globalização, assinale a alternativa correta.",
+    "alternativas": [
+      "A globalização distribuiu igualmente os benefícios econômicos entre todos os países.",
+      "A globalização acabou com as fronteiras nacionais e com o papel dos Estados.",
+      "A globalização garantiu a livre circulação de trabalhadores em todo o planeta.",
+      "A globalização se limita ao campo cultural, sem efeitos econômicos.",
+      "A globalização ampliou os fluxos de mercadorias, capitais e informações, mas não eliminou as desigualdades entre países e regiões, podendo até aprofundá-las."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "A globalização intensificou o comércio, o fluxo de capitais e a comunicação.",
+        "Mercadorias e capitais circulam com muito mais liberdade do que pessoas.",
+        "A exclusão digital e a concentração de renda mostram que a desigualdade persiste."
+      ],
+      "porQueErradas": {
+        "0": "Os ganhos se concentram em alguns países e grupos sociais.",
+        "1": "Os Estados continuam existindo e controlam, por exemplo, a circulação de pessoas.",
+        "2": "Os fluxos de pessoas continuam muito restritos, com barreiras migratórias.",
+        "3": "Seus efeitos mais marcantes são justamente econômicos e financeiros."
+      },
+      "pegadinha": "Cuidado com generalizações absolutas ('igualmente', 'acabou', 'todo o planeta'): costumam indicar a alternativa errada.",
+      "fonte": "Geografia econômica: globalização e desigualdades."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0071",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Problemas ambientais",
+    "dificuldade": 1,
+    "enunciado": "O efeito estufa é um fenômeno natural importante para a vida na Terra, mas sua intensificação preocupa cientistas. Assinale a alternativa que indica a principal causa humana dessa intensificação.",
+    "alternativas": [
+      "A destruição da camada de ozônio pelos raios solares.",
+      "A emissão de gases como o dióxido de carbono e o metano, provenientes da queima de combustíveis fósseis, do desmatamento e da agropecuária.",
+      "O aumento das chuvas ácidas nos oceanos.",
+      "A redução da queima de carvão nas indústrias.",
+      "A expansão das áreas de floresta no planeta."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "O efeito estufa natural mantém a Terra aquecida.",
+        "Atividades humanas lançam mais gases de efeito estufa (CO2, metano) na atmosfera.",
+        "Isso retém mais calor e provoca o aquecimento global."
+      ],
+      "porQueErradas": {
+        "0": "O buraco na camada de ozônio é outro problema, ligado aos CFCs.",
+        "2": "Chuva ácida está ligada a óxidos de enxofre e nitrogênio, não à causa do efeito estufa.",
+        "3": "A queima de carvão intensifica, e não reduz, o efeito estufa.",
+        "4": "Florestas absorvem CO2; o desmatamento é que contribui para o problema."
+      },
+      "pegadinha": "A banca confunde efeito estufa com buraco na camada de ozônio; são fenômenos distintos.",
+      "fonte": "Climatologia: efeito estufa e aquecimento global (IPCC)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0072",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Problemas ambientais",
+    "dificuldade": 2,
+    "enunciado": "A camada de ozônio protege a superfície terrestre de parte da radiação ultravioleta. Os principais responsáveis pela sua degradação e o acordo internacional criado para combatê-la são, respectivamente,",
+    "alternativas": [
+      "o dióxido de carbono e o Protocolo de Kyoto.",
+      "o dióxido de enxofre e o Acordo de Paris.",
+      "os clorofluorcarbonos (CFCs) e o Protocolo de Montreal.",
+      "o metano e a Agenda 21.",
+      "os CFCs e o Tratado de Assunção."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Os CFCs, usados em aerossóis e refrigeração, liberam cloro na estratosfera.",
+        "O cloro destrói moléculas de ozônio.",
+        "O Protocolo de Montreal (1987) determinou a eliminação gradual desses gases."
+      ],
+      "porQueErradas": {
+        "0": "O Protocolo de Kyoto trata dos gases de efeito estufa, não da camada de ozônio.",
+        "1": "Dióxido de enxofre causa chuva ácida; o Acordo de Paris trata do clima.",
+        "3": "O metano é gás de efeito estufa e a Agenda 21 é um plano de ação da Rio-92.",
+        "4": "O Tratado de Assunção criou o Mercosul."
+      },
+      "pegadinha": "Kyoto e Montreal são os tratados mais confundidos: Kyoto = clima/efeito estufa; Montreal = ozônio/CFCs.",
+      "fonte": "Protocolo de Montreal (1987) sobre substâncias que destroem a camada de ozônio."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0073",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Problemas ambientais",
+    "dificuldade": 2,
+    "enunciado": "A chuva ácida pode corroer monumentos, acidificar lagos e prejudicar florestas, inclusive em locais distantes da fonte poluidora. Ela se forma principalmente a partir de",
+    "alternativas": [
+      "clorofluorcarbonos liberados por aparelhos de refrigeração.",
+      "vapor de água puro liberado pelos oceanos.",
+      "óxidos de enxofre e de nitrogênio lançados pela queima de combustíveis fósseis, que reagem com a água da atmosfera.",
+      "partículas de areia transportadas dos desertos.",
+      "oxigênio produzido pela fotossíntese das florestas."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Indústrias, usinas termelétricas e veículos queimam combustíveis fósseis.",
+        "Liberam óxidos de enxofre (SOx) e de nitrogênio (NOx).",
+        "Esses gases reagem com a água e formam ácidos que caem com a chuva, podendo ser levados pelo vento para longe."
+      ],
+      "porQueErradas": {
+        "0": "Os CFCs estão ligados à destruição da camada de ozônio.",
+        "1": "A água pura não torna a chuva ácida.",
+        "3": "Poeira de deserto não é a origem da chuva ácida.",
+        "4": "O oxigênio da fotossíntese não forma ácidos na chuva."
+      },
+      "pegadinha": "A chuva ácida é um problema que ultrapassa fronteiras; a banca pode afirmar que só atinge o local da fonte, o que é falso.",
+      "fonte": "Química ambiental: formação da chuva ácida."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0074",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Problemas ambientais",
+    "dificuldade": 2,
+    "enunciado": "Em grandes cidades, é comum que as áreas centrais registrem temperaturas mais elevadas do que os bairros arborizados e a zona rural próxima. Esse fenômeno é chamado de",
+    "alternativas": [
+      "inversão térmica.",
+      "ilha de calor.",
+      "chuva ácida.",
+      "efeito orográfico.",
+      "eutrofização."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Asfalto, concreto e poucas áreas verdes absorvem e retêm calor.",
+        "Veículos e indústrias também liberam calor.",
+        "O centro urbano fica mais quente que a periferia arborizada: é a ilha de calor."
+      ],
+      "porQueErradas": {
+        "0": "A inversão térmica é a retenção de ar frio junto à superfície, que dificulta a dispersão de poluentes.",
+        "2": "Chuva ácida é precipitação com acidez elevada, não aumento de temperatura.",
+        "3": "O efeito orográfico está ligado à chuva causada pelo relevo.",
+        "4": "Eutrofização é o excesso de nutrientes em corpos d'água."
+      },
+      "pegadinha": "Ilha de calor e inversão térmica são fenômenos urbanos que a banca coloca lado a lado; um é aumento de temperatura, o outro é retenção de poluentes.",
+      "fonte": "Climatologia urbana: ilhas de calor."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0075",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Problemas ambientais",
+    "dificuldade": 3,
+    "enunciado": "Nas manhãs de inverno, em cidades como São Paulo, é frequente o agravamento da poluição do ar por causa da inversão térmica. Assinale a alternativa que explica corretamente esse fenômeno.",
+    "alternativas": [
+      "O ar quente fica junto ao solo e sobe rapidamente, levando os poluentes para as camadas altas.",
+      "Uma camada de ar frio fica retida próxima à superfície, sob uma camada de ar mais quente, o que impede a circulação vertical do ar e a dispersão dos poluentes.",
+      "A camada de ozônio desce até a superfície e retém os poluentes.",
+      "As chuvas intensas do inverno lavam a atmosfera e retêm os poluentes no solo.",
+      "O vento forte do inverno concentra os poluentes no centro da cidade."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Normalmente o ar próximo ao solo é mais quente e sobe, dispersando poluentes.",
+        "No inverno, o solo perde calor durante a noite e o ar junto a ele esfria.",
+        "Esse ar frio, mais denso, fica preso sob uma camada mais quente, e os poluentes se acumulam."
+      ],
+      "porQueErradas": {
+        "0": "Isso descreve a situação normal, que favorece a dispersão.",
+        "2": "A camada de ozônio fica na estratosfera e não tem relação com o fenômeno.",
+        "3": "O inverno paulista é seco, e chuva ajuda a limpar o ar.",
+        "4": "Ventos fortes dispersam os poluentes; a inversão ocorre com ar estável."
+      },
+      "pegadinha": "A palavra 'inversão' se refere à inversão da ordem normal das camadas de temperatura, não a ventos ou chuva.",
+      "fonte": "Climatologia urbana: inversão térmica."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0076",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Problemas ambientais",
+    "dificuldade": 2,
+    "enunciado": "O Acordo de Paris, firmado em 2015 no âmbito da ONU, tem como objetivo central",
+    "alternativas": [
+      "eliminar a produção de CFCs para recuperar a camada de ozônio.",
+      "criar um bloco econômico de livre comércio entre países europeus.",
+      "proibir imediatamente o uso de qualquer combustível fóssil no mundo.",
+      "regular a pesca em águas internacionais.",
+      "limitar o aumento da temperatura média global a bem menos de 2 °C em relação aos níveis pré-industriais, com esforços para não ultrapassar 1,5 °C."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "O Acordo de Paris substitui a lógica do Protocolo de Kyoto.",
+        "Cada país apresenta suas metas (contribuições nacionalmente determinadas).",
+        "A meta global é manter o aquecimento bem abaixo de 2 °C, buscando 1,5 °C."
+      ],
+      "porQueErradas": {
+        "0": "Esse é o objetivo do Protocolo de Montreal.",
+        "1": "O acordo é climático, não comercial.",
+        "2": "O acordo não impõe proibição imediata; prevê metas nacionais de redução.",
+        "3": "A pesca não é o foco do acordo."
+      },
+      "pegadinha": "No Acordo de Paris todos os países apresentam metas; em Kyoto as metas obrigatórias eram só dos países desenvolvidos.",
+      "fonte": "Acordo de Paris (2015), art. 2º, Convenção-Quadro da ONU sobre Mudança do Clima."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0077",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Problemas ambientais",
+    "dificuldade": 2,
+    "enunciado": "A degradação das terras em regiões áridas, semiáridas e subúmidas secas, causada por variações climáticas e por atividades humanas como desmatamento e uso inadequado do solo, é denominada",
+    "alternativas": [
+      "arenização.",
+      "eutrofização.",
+      "desertificação.",
+      "lixiviação.",
+      "voçorocamento."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "A ONU define desertificação como degradação de terras em zonas secas.",
+        "As causas combinam clima e ação humana.",
+        "O resultado é a perda de produtividade do solo."
+      ],
+      "porQueErradas": {
+        "0": "A arenização ocorre em clima úmido, sobre solos arenosos, como no sudoeste gaúcho.",
+        "1": "Eutrofização ocorre em corpos d'água com excesso de nutrientes.",
+        "3": "Lixiviação é a lavagem de nutrientes do solo pela água da chuva.",
+        "4": "Voçorocas são grandes erosões lineares, não um processo regional de degradação de terras secas."
+      },
+      "pegadinha": "Desertificação e arenização parecem iguais; a diferença está no clima: seco na desertificação, úmido na arenização.",
+      "fonte": "Convenção das Nações Unidas de Combate à Desertificação (1994)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0078",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Problemas ambientais",
+    "dificuldade": 2,
+    "enunciado": "O lançamento de esgoto doméstico e de fertilizantes em lagos e represas pode provocar a proliferação excessiva de algas, a redução do oxigênio dissolvido na água e a morte de peixes. Esse processo é chamado de",
+    "alternativas": [
+      "assoreamento.",
+      "salinização.",
+      "eutrofização.",
+      "inversão térmica.",
+      "desertificação."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Esgoto e fertilizantes trazem nutrientes como fósforo e nitrogênio.",
+        "As algas se multiplicam rapidamente na superfície.",
+        "Ao morrer, sua decomposição consome o oxigênio da água, matando peixes."
+      ],
+      "porQueErradas": {
+        "0": "Assoreamento é o acúmulo de sedimentos no leito dos rios.",
+        "1": "Salinização é o acúmulo de sais no solo, comum em irrigação mal manejada.",
+        "3": "Inversão térmica é um fenômeno atmosférico.",
+        "4": "Desertificação é a degradação de terras secas."
+      },
+      "pegadinha": "O termo vem de 'eutrófico' (bem nutrido): o problema é excesso de nutrientes, não falta.",
+      "fonte": "Ecologia aquática: eutrofização."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0079",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Problemas ambientais",
+    "dificuldade": 1,
+    "enunciado": "O conceito de desenvolvimento sustentável, difundido pelo relatório 'Nosso Futuro Comum' (1987), é entendido como",
+    "alternativas": [
+      "o crescimento econômico máximo, sem limites ao uso dos recursos naturais.",
+      "a proibição de qualquer atividade industrial no planeta.",
+      "a preservação da natureza sem considerar as necessidades humanas.",
+      "o uso exclusivo de recursos não renováveis.",
+      "o desenvolvimento que atende às necessidades do presente sem comprometer a capacidade das gerações futuras de atenderem às suas próprias necessidades."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "O relatório da ONU, conhecido como Relatório Brundtland, popularizou o conceito.",
+        "Ele une crescimento econômico, justiça social e proteção ambiental.",
+        "A ideia central é não comprometer as gerações futuras."
+      ],
+      "porQueErradas": {
+        "0": "Isso contraria a própria ideia de sustentabilidade.",
+        "1": "O conceito busca conciliar economia e ambiente, não proibir a indústria.",
+        "2": "O conceito inclui as necessidades humanas do presente e do futuro.",
+        "3": "A sustentabilidade valoriza recursos renováveis e o uso racional."
+      },
+      "pegadinha": "As alternativas extremas (crescer sem limites ou proibir tudo) são erradas; o conceito é de equilíbrio.",
+      "fonte": "Relatório Brundtland, 'Nosso Futuro Comum' (ONU, 1987)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0080",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia Geral: Problemas ambientais",
+    "dificuldade": 3,
+    "enunciado": "Sobre as grandes conferências internacionais de meio ambiente, assinale a alternativa correta.",
+    "alternativas": [
+      "A Rio-92 foi a primeira conferência da ONU sobre meio ambiente, e Estocolmo ocorreu depois, em 2002.",
+      "A Conferência de Estocolmo criou o Mercosul e a Rio-92 criou a União Europeia.",
+      "A Conferência de Estocolmo (1972) foi a primeira grande conferência da ONU sobre o meio ambiente, e a Rio-92 aprovou documentos como a Agenda 21.",
+      "A Rio-92 aprovou o Protocolo de Montreal sobre o ozônio.",
+      "A Agenda 21 foi assinada em Estocolmo, em 1972, para regular o comércio mundial."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Estocolmo (1972): primeira Conferência da ONU sobre o Meio Ambiente Humano.",
+        "Rio-92 (Eco-92), no Rio de Janeiro: Agenda 21 e convenções sobre clima e biodiversidade.",
+        "Depois vieram a Rio+10 (Joanesburgo, 2002) e a Rio+20 (2012)."
+      ],
+      "porQueErradas": {
+        "0": "A ordem está invertida: Estocolmo foi em 1972.",
+        "1": "Essas conferências não criaram blocos econômicos.",
+        "3": "O Protocolo de Montreal é de 1987 e não foi aprovado na Rio-92.",
+        "4": "A Agenda 21 é da Rio-92 e trata de desenvolvimento sustentável."
+      },
+      "pegadinha": "A banca troca datas e documentos entre conferências; associe Estocolmo a 1972 e Agenda 21 à Rio-92.",
+      "fonte": "ONU: Conferência de Estocolmo (1972) e Conferência Rio-92."
+    },
+    "origem": "gerada"
+  }
+]

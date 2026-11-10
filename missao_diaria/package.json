@@ -1,0 +1,22 @@
+{
+  "name": "missao_diaria",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 8010 -d ..",
+    "lint": "eslint .",
+    "test": "vitest run tests/unit",
+    "test:e2e": "playwright test",
+    "indice": "node scripts/indice.mjs && node scripts/sw.mjs",
+    "pretest": "npm run indice",
+    "pretest:e2e": "npm run indice"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "@playwright/test": "^1.49.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "vitest": "^2.0.0"
+  }
+}

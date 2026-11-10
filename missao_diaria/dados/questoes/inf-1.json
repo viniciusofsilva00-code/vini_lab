@@ -1,0 +1,518 @@
+[
+  {
+    "id": "inf-0001",
+    "materia": "informatica",
+    "assunto": "Windows 10",
+    "dificuldade": 1,
+    "enunciado": "No Windows 10, em sua configuração padrão, o atalho de teclado que abre o Explorador de Arquivos é",
+    "alternativas": [
+      "Ctrl + Shift + Esc",
+      "tecla do logotipo do Windows + E",
+      "tecla do logotipo do Windows + L",
+      "tecla do logotipo do Windows + D",
+      "tecla do logotipo do Windows + I"
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "O Explorador de Arquivos é a ferramenta para navegar por pastas e arquivos.",
+        "Seu atalho direto é Win + E (de 'Explorer')."
+      ],
+      "porQueErradas": {
+        "0": "Ctrl + Shift + Esc abre o Gerenciador de Tarefas.",
+        "2": "Win + L bloqueia o computador.",
+        "3": "Win + D mostra ou oculta a área de trabalho.",
+        "4": "Win + I abre as Configurações."
+      },
+      "pegadinha": "A banca mistura atalhos com a tecla Windows; associe E a Explorador, D a Desktop, L a Lock (bloquear), I a Configurações.",
+      "fonte": "Atalhos de teclado do Windows 10 (Microsoft Suporte)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0002",
+    "materia": "informatica",
+    "assunto": "Windows 10",
+    "dificuldade": 1,
+    "enunciado": "Um soldado precisa se afastar rapidamente do computador da seção e deseja bloquear a sessão do Windows 10 sem encerrar os programas abertos. O atalho adequado é",
+    "alternativas": [
+      "Ctrl + Alt + Tab",
+      "tecla do logotipo do Windows + M",
+      "Alt + F4",
+      "tecla do logotipo do Windows + R",
+      "tecla do logotipo do Windows + L"
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Bloquear a sessão mantém programas e documentos abertos e exige a senha para voltar.",
+        "O atalho é Win + L (de 'Lock')."
+      ],
+      "porQueErradas": {
+        "0": "Ctrl + Alt + Tab exibe as janelas abertas para alternância, sem bloquear.",
+        "1": "Win + M minimiza todas as janelas, mas não bloqueia a sessão.",
+        "2": "Alt + F4 fecha a janela ativa ou, na área de trabalho, abre a caixa de desligar.",
+        "3": "Win + R abre a caixa Executar."
+      },
+      "pegadinha": "Minimizar tudo (Win + M ou Win + D) não protege o computador: qualquer pessoa pode voltar às janelas.",
+      "fonte": "Atalhos de teclado do Windows 10 (Microsoft Suporte)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0003",
+    "materia": "informatica",
+    "assunto": "Windows 10",
+    "dificuldade": 2,
+    "enunciado": "No Explorador de Arquivos do Windows 10, ao selecionar um arquivo armazenado no disco rígido e pressionar Shift + Delete, confirmando a ação, o arquivo será",
+    "alternativas": [
+      "movido para a Lixeira, podendo ser restaurado depois.",
+      "renomeado, pois o nome fica em modo de edição.",
+      "copiado para a Área de Transferência.",
+      "excluído sem passar pela Lixeira.",
+      "ocultado, permanecendo na mesma pasta."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Delete sozinha envia o arquivo para a Lixeira.",
+        "Shift + Delete pede confirmação e exclui permanentemente, sem passar pela Lixeira."
+      ],
+      "porQueErradas": {
+        "0": "Isso acontece apenas com a tecla Delete sozinha.",
+        "1": "Renomear é a tecla F2.",
+        "2": "Copiar é Ctrl + C; Shift + Delete não copia.",
+        "4": "Ocultar é feito em Propriedades, atributo Oculto."
+      },
+      "pegadinha": "A diferença entre Delete e Shift + Delete é cobrada com frequência; com Shift, não há Lixeira para restaurar.",
+      "fonte": "Atalhos de teclado do Windows 10 (Microsoft Suporte)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0004",
+    "materia": "informatica",
+    "assunto": "Windows 10",
+    "dificuldade": 2,
+    "enunciado": "No Windows 10, um usuário arrasta com o botão esquerdo do mouse um arquivo de uma pasta da unidade C: para um pen drive (unidade E:), sem pressionar nenhuma tecla. Por padrão, o resultado é que o arquivo será",
+    "alternativas": [
+      "movido para o pen drive, deixando de existir na unidade C:.",
+      "excluído da unidade C: e enviado para a Lixeira.",
+      "copiado para o pen drive, permanecendo também na unidade C:.",
+      "transformado em atalho no pen drive.",
+      "compactado automaticamente em formato ZIP."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Arrastar dentro da mesma unidade: o padrão é mover.",
+        "Arrastar para unidade diferente: o padrão é copiar.",
+        "Como C: e E: são unidades diferentes, o arquivo é copiado."
+      ],
+      "porQueErradas": {
+        "0": "Mover é o padrão apenas quando origem e destino estão na mesma unidade.",
+        "1": "Arrastar para outra unidade não exclui o original.",
+        "3": "Criar atalho exige arrastar com Alt pressionado (ou o botão direito).",
+        "4": "O Windows não compacta arquivos ao arrastá-los."
+      },
+      "pegadinha": "Segurar Shift força mover; segurar Ctrl força copiar; segurar Alt cria atalho. Sem tecla, vale a regra da unidade.",
+      "fonte": "Ajuda do Windows: mover e copiar arquivos com arrastar e soltar."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0005",
+    "materia": "informatica",
+    "assunto": "Windows 10",
+    "dificuldade": 2,
+    "enunciado": "No Windows 10 (versão 1809 ou posterior), com o recurso ativado, o atalho tecla do logotipo do Windows + V permite",
+    "alternativas": [
+      "abrir o histórico da Área de Transferência, com itens copiados anteriormente.",
+      "abrir o Explorador de Arquivos.",
+      "capturar uma região da tela.",
+      "alternar entre áreas de trabalho virtuais.",
+      "colar o último item copiado sem formatação."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O Windows 10 guarda vários itens copiados quando o histórico está ativado.",
+        "Win + V exibe essa lista para escolher qual item colar."
+      ],
+      "porQueErradas": {
+        "1": "O Explorador de Arquivos abre com Win + E.",
+        "2": "A captura de região é Win + Shift + S.",
+        "3": "Isso é feito com Win + Ctrl + seta para a esquerda/direita.",
+        "4": "Colar comum é Ctrl + V; Win + V abre o histórico."
+      },
+      "pegadinha": "Não confunda Ctrl + V (cola o último item) com Win + V (mostra o histórico).",
+      "fonte": "Configurações > Sistema > Área de Transferência (Windows 10)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0006",
+    "materia": "informatica",
+    "assunto": "Windows 10",
+    "dificuldade": 1,
+    "enunciado": "No Windows 10, a combinação de teclas que abre diretamente o Gerenciador de Tarefas é",
+    "alternativas": [
+      "Ctrl + Shift + Esc",
+      "Ctrl + Alt + F4",
+      "tecla do logotipo do Windows + Tab",
+      "Ctrl + Esc",
+      "Alt + Tab"
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O Gerenciador de Tarefas mostra programas, processos e desempenho.",
+        "Ctrl + Shift + Esc o abre direto; Ctrl + Alt + Del abre uma tela de opções que também o inclui."
+      ],
+      "porQueErradas": {
+        "1": "Essa combinação não abre o Gerenciador de Tarefas.",
+        "2": "Win + Tab abre a Visão de Tarefas.",
+        "3": "Ctrl + Esc abre o menu Iniciar.",
+        "4": "Alt + Tab alterna entre janelas abertas."
+      },
+      "pegadinha": "Ctrl + Alt + Del não abre o Gerenciador direto: mostra uma tela com várias opções. O atalho direto é Ctrl + Shift + Esc.",
+      "fonte": "Atalhos de teclado do Windows 10 (Microsoft Suporte)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0007",
+    "materia": "informatica",
+    "assunto": "Windows 10",
+    "dificuldade": 3,
+    "enunciado": "Considere as afirmações sobre a Lixeira do Windows 10, em configuração padrão.\nI. Arquivos excluídos de um pen drive com a tecla Delete vão para a Lixeira.\nII. Um arquivo restaurado da Lixeira volta para a pasta de onde foi excluído.\nIII. Ao esvaziar a Lixeira, os arquivos nela contidos deixam de poder ser restaurados por ela.\nEstá correto o que se afirma em",
+    "alternativas": [
+      "I e III, apenas.",
+      "I, apenas.",
+      "I e II, apenas.",
+      "I, II e III.",
+      "II e III, apenas."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "I: em pen drives, o arquivo excluído é apagado direto, sem ir para a Lixeira. Falsa.",
+        "II: Restaurar devolve o item ao local original. Verdadeira.",
+        "III: esvaziar a Lixeira remove os itens dela definitivamente. Verdadeira."
+      ],
+      "porQueErradas": {
+        "0": "Inclui a afirmação I e omite a II, que é verdadeira.",
+        "1": "I é falsa: exclusões em unidades removíveis, como pen drives, normalmente não passam pela Lixeira.",
+        "2": "Inclui a afirmação I, que é falsa.",
+        "3": "A afirmação I é falsa."
+      },
+      "pegadinha": "A Lixeira atende às unidades internas; a banca gosta de afirmar que pen drive também usa Lixeira.",
+      "fonte": "Ajuda do Windows: Lixeira e recuperação de arquivos excluídos."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0008",
+    "materia": "informatica",
+    "assunto": "Windows 10",
+    "dificuldade": 2,
+    "enunciado": "No Explorador de Arquivos do Windows 10, após selecionar um arquivo, a tecla que coloca o nome do arquivo em modo de edição para renomeá-lo é",
+    "alternativas": [
+      "F1",
+      "F3",
+      "F2",
+      "F5",
+      "F4"
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Selecione o arquivo e pressione F2.",
+        "Digite o novo nome e confirme com Enter."
+      ],
+      "porQueErradas": {
+        "0": "F1 abre a ajuda.",
+        "1": "F3 leva à caixa de pesquisa do Explorador.",
+        "3": "F5 atualiza a exibição da janela.",
+        "4": "F4 abre a lista da barra de endereços."
+      },
+      "pegadinha": "No Explorador de Arquivos, F2 renomeia; no Excel, F2 edita o conteúdo da célula. Atenção ao programa citado.",
+      "fonte": "Atalhos de teclado do Windows 10 (Microsoft Suporte)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0009",
+    "materia": "informatica",
+    "assunto": "Word 2016",
+    "dificuldade": 1,
+    "enunciado": "No Microsoft Word 2016, em português, com o texto selecionado, os atalhos para aplicar negrito, itálico e sublinhado são, respectivamente,",
+    "alternativas": [
+      "Ctrl + B, Ctrl + I e Ctrl + U.",
+      "Ctrl + N, Ctrl + T e Ctrl + S.",
+      "Ctrl + G, Ctrl + I e Ctrl + U.",
+      "Ctrl + N, Ctrl + I e Ctrl + S.",
+      "Ctrl + S, Ctrl + I e Ctrl + N."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Na versão em português: N de Negrito, I de Itálico, S de Sublinhado.",
+        "Portanto: Ctrl + N, Ctrl + I e Ctrl + S."
+      ],
+      "porQueErradas": {
+        "0": "Esses são os atalhos da versão em inglês; no Word em português, Ctrl + B salva.",
+        "1": "Ctrl + T seleciona todo o documento.",
+        "2": "Ctrl + G alinha à direita e Ctrl + U abre Substituir.",
+        "4": "A ordem está trocada: Ctrl + S é sublinhado e Ctrl + N, negrito."
+      },
+      "pegadinha": "A VUNESP cobra a versão em português: Ctrl + B não é negrito, é Salvar.",
+      "fonte": "Atalhos de teclado do Word 2016, versão em português (Microsoft Suporte)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0010",
+    "materia": "informatica",
+    "assunto": "Word 2016",
+    "dificuldade": 1,
+    "enunciado": "No Word 2016, em português, o atalho Ctrl + B executa a ação de",
+    "alternativas": [
+      "aplicar negrito.",
+      "salvar o documento.",
+      "abrir um documento existente.",
+      "localizar uma palavra.",
+      "criar um novo documento."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "No Word em português, Ctrl + B corresponde a Salvar.",
+        "Na primeira gravação, abre a tela Salvar Como."
+      ],
+      "porQueErradas": {
+        "0": "Negrito, no Word em português, é Ctrl + N.",
+        "2": "Abrir é Ctrl + A.",
+        "3": "Localizar é Ctrl + L.",
+        "4": "Novo documento é Ctrl + O."
+      },
+      "pegadinha": "Quem estudou atalhos em inglês marca negrito. Na versão em português, negrito é Ctrl + N.",
+      "fonte": "Atalhos de teclado do Word 2016, versão em português (Microsoft Suporte)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0011",
+    "materia": "informatica",
+    "assunto": "Word 2016",
+    "dificuldade": 2,
+    "enunciado": "No Word 2016, em português, para justificar um parágrafo selecionado, deve-se usar o atalho",
+    "alternativas": [
+      "Ctrl + E",
+      "Ctrl + J",
+      "Ctrl + G",
+      "Ctrl + T",
+      "Ctrl + Q"
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Alinhamentos no Word em português: Ctrl + Q (esquerda), Ctrl + E (centralizar), Ctrl + G (direita), Ctrl + J (justificar).",
+        "Justificar alinha o texto às duas margens: Ctrl + J."
+      ],
+      "porQueErradas": {
+        "0": "Ctrl + E centraliza o parágrafo.",
+        "2": "Ctrl + G alinha à direita.",
+        "3": "Ctrl + T seleciona todo o documento.",
+        "4": "Ctrl + Q alinha à esquerda."
+      },
+      "pegadinha": "Os quatro atalhos de alinhamento costumam aparecer juntos nas alternativas; memorize Q, E, G, J.",
+      "fonte": "Atalhos de teclado do Word 2016, versão em português (Microsoft Suporte)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0012",
+    "materia": "informatica",
+    "assunto": "Word 2016",
+    "dificuldade": 2,
+    "enunciado": "Um escrivão precisa trocar, em todo um relatório no Word 2016, a palavra 'viatura' por 'VTR'. O recurso mais adequado, acessado pelo atalho Ctrl + U na versão em português, é",
+    "alternativas": [
+      "Ir para.",
+      "Localizar.",
+      "Substituir.",
+      "Sublinhar.",
+      "Ortografia e Gramática."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "A caixa Localizar e Substituir tem os campos 'Localizar' e 'Substituir por'.",
+        "Com 'Substituir tudo', todas as ocorrências são trocadas de uma vez.",
+        "No Word em português, o atalho direto é Ctrl + U."
+      ],
+      "porQueErradas": {
+        "0": "Ir para (F5) leva a uma página ou seção específica.",
+        "1": "Localizar (Ctrl + L) apenas encontra o termo, sem trocá-lo.",
+        "3": "Sublinhado, no Word em português, é Ctrl + S.",
+        "4": "Esse recurso (F7) verifica erros, não troca termos escolhidos pelo usuário."
+      },
+      "pegadinha": "Ctrl + U é sublinhado no Word em inglês; no Word em português abre Substituir.",
+      "fonte": "Atalhos de teclado do Word 2016, versão em português (Microsoft Suporte)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0013",
+    "materia": "informatica",
+    "assunto": "Word 2016",
+    "dificuldade": 2,
+    "enunciado": "No Word 2016, os comandos para alterar as margens e a orientação do papel (retrato ou paisagem) ficam na guia",
+    "alternativas": [
+      "Layout.",
+      "Exibir.",
+      "Página Inicial.",
+      "Inserir.",
+      "Revisão."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "No Word 2016, a guia Layout tem o grupo Configurar Página.",
+        "Nele ficam Margens, Orientação, Tamanho, Colunas e Quebras."
+      ],
+      "porQueErradas": {
+        "1": "Exibir controla modos de visualização, régua e zoom.",
+        "2": "Página Inicial reúne fonte, parágrafo, estilos e Área de Transferência.",
+        "3": "Inserir traz tabelas, imagens, cabeçalho, rodapé e números de página.",
+        "4": "Revisão traz ortografia, comentários e controle de alterações."
+      },
+      "pegadinha": "Em versões antigas a guia se chamava 'Layout da Página'; no Word 2016 é apenas 'Layout'. Não confunda com Design, que trata de temas.",
+      "fonte": "Interface do Word 2016: guia Layout, grupo Configurar Página."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0014",
+    "materia": "informatica",
+    "assunto": "Word 2016",
+    "dificuldade": 2,
+    "enunciado": "No Word 2016, para inserir uma quebra de página manual na posição do cursor, pode-se usar o atalho",
+    "alternativas": [
+      "Ctrl + Shift + Enter",
+      "Tab",
+      "Enter",
+      "Ctrl + Enter",
+      "Shift + Enter"
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Ctrl + Enter força o texto seguinte a começar em nova página.",
+        "O mesmo comando existe em Inserir > Quebra de Página e em Layout > Quebras."
+      ],
+      "porQueErradas": {
+        "0": "Ctrl + Shift + Enter insere quebra de coluna.",
+        "1": "Tab insere uma tabulação.",
+        "2": "Enter apenas inicia um novo parágrafo.",
+        "4": "Shift + Enter insere uma quebra de linha, sem iniciar novo parágrafo."
+      },
+      "pegadinha": "Shift + Enter é quebra de linha; Ctrl + Enter é quebra de página.",
+      "fonte": "Atalhos de teclado do Word 2016 (Microsoft Suporte)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0015",
+    "materia": "informatica",
+    "assunto": "Word 2016",
+    "dificuldade": 3,
+    "enunciado": "No Word 2016, um policial precisa enviar a mesma convocação a 80 pessoas, mudando apenas nome e endereço, que estão em uma planilha do Excel. O recurso apropriado e a guia em que ele se encontra são, respectivamente,",
+    "alternativas": [
+      "Envelopes, na guia Layout.",
+      "Mala Direta, na guia Inserir.",
+      "Controlar Alterações, na guia Revisão.",
+      "Referência Cruzada, na guia Referências.",
+      "Mala Direta, na guia Correspondências."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "A Mala Direta combina um documento principal com uma lista de dados (por exemplo, uma planilha).",
+        "Cada registro gera uma cópia com o nome e o endereço daquela pessoa.",
+        "O comando Iniciar Mala Direta está na guia Correspondências."
+      ],
+      "porQueErradas": {
+        "0": "Envelopes fica em Correspondências e cria um envelope, não documentos com dados variáveis.",
+        "1": "A guia Inserir não contém o recurso Iniciar Mala Direta.",
+        "2": "Controlar Alterações registra edições feitas no documento.",
+        "3": "Referência Cruzada aponta para partes do próprio documento."
+      },
+      "pegadinha": "A banca pode trocar a guia; lembre que Mala Direta, Envelopes e Etiquetas ficam todos em Correspondências.",
+      "fonte": "Interface do Word 2016: guia Correspondências, grupo Iniciar Mala Direta."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0016",
+    "materia": "informatica",
+    "assunto": "Word 2016",
+    "dificuldade": 3,
+    "enunciado": "No Word 2016, o recurso Pincel de Formatação, localizado na guia Página Inicial, grupo Área de Transferência, serve para",
+    "alternativas": [
+      "copiar o texto selecionado junto com a formatação para outro documento.",
+      "remover toda a formatação do texto selecionado.",
+      "copiar a formatação de um trecho e aplicá-la a outro trecho.",
+      "destacar o texto com cor de fundo, como um marca-texto.",
+      "desenhar formas livres sobre o documento."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Selecione o trecho com a formatação desejada e clique no Pincel.",
+        "Selecione o trecho de destino: a formatação é aplicada.",
+        "Com clique duplo no Pincel, ele fica ativo para vários trechos até pressionar Esc."
+      ],
+      "porQueErradas": {
+        "0": "O Pincel copia somente a formatação, não o texto.",
+        "1": "Limpar formatação é outro botão, no grupo Fonte.",
+        "3": "Isso é a Cor de Realce do Texto, no grupo Fonte.",
+        "4": "Desenho fica na guia Desenhar ou em Inserir > Formas."
+      },
+      "pegadinha": "O nome 'pincel' induz a pensar em desenho ou realce; ele apenas transfere formatação.",
+      "fonte": "Interface do Word 2016: guia Página Inicial, grupo Área de Transferência."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0017",
+    "materia": "informatica",
+    "assunto": "Excel 2016",
+    "dificuldade": 1,
+    "enunciado": "No Excel 2016, em português, a fórmula que soma os valores das células de A1 até A10 é",
+    "alternativas": [
+      "=SOMA(A1;A10)",
+      "=SOMA(A1:A10)",
+      "=SOMAR(A1:A10)",
+      "=SUM(A1:A10)",
+      "SOMA(A1:A10)"
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Fórmulas começam com '='.",
+        "Dois-pontos indicam intervalo (de A1 até A10); ponto e vírgula separa argumentos.",
+        "A função em português é SOMA."
+      ],
+      "porQueErradas": {
+        "0": "Com ponto e vírgula, soma apenas A1 e A10, não o intervalo.",
+        "2": "SOMAR não é o nome da função no Excel em português.",
+        "3": "SUM é o nome na versão em inglês.",
+        "4": "Sem o sinal de igual, o Excel trata o conteúdo como texto."
+      },
+      "pegadinha": "A troca de ':' por ';' muda tudo: A1;A10 são só duas células.",
+      "fonte": "Funções do Excel 2016 em português: SOMA; operadores de referência."
+    },
+    "origem": "gerada"
+  }
+]

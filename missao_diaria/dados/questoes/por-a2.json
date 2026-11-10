@@ -1,0 +1,622 @@
+[
+  {
+    "id": "por-0021",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 1,
+    "texto": "Depois de oito anos trabalhando no canil de um batalhão, o pastor-belga Trovão foi oficialmente aposentado na última sexta-feira. Com a idade, o faro continuava apurado, mas as articulações já não suportavam a rotina de buscas em terrenos irregulares.\n\nEm vez de seguir para um abrigo, Trovão foi adotado pelo próprio condutor, o soldado que o acompanhou durante quase toda a carreira. \"Ele passou anos cuidando da gente. Agora é a minha vez\", disse o policial.\n\nSegundo a veterinária do canil, a transição costuma ser mais tranquila quando o animal permanece com alguém que já conhece, pois a mudança de rotina, por si só, já exige adaptação.",
+    "enunciado": "De acordo com o texto, Trovão foi aposentado porque",
+    "alternativas": [
+      "perdeu o faro com a idade.",
+      "suas articulações já não suportavam a rotina de buscas.",
+      "foi adotado por uma família de fora do batalhão.",
+      "o canil do batalhão foi fechado.",
+      "o condutor pediu transferência."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "O primeiro parágrafo explica: o faro continuava bom, mas as articulações não aguentavam."
+      ],
+      "porQueErradas": {
+        "0": "O texto diz que o faro continuava apurado.",
+        "2": "Foi adotado pelo próprio condutor, e a adoção veio depois da aposentadoria.",
+        "3": "Não há menção ao fechamento do canil.",
+        "4": "Não há menção a transferência."
+      },
+      "pegadinha": "A banca usa o dado oposto ao texto (perda de faro) para quem lê com pressa.",
+      "fonte": "Interpretação de texto: localização de informação explícita"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0022",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Depois de oito anos trabalhando no canil de um batalhão, o pastor-belga Trovão foi oficialmente aposentado na última sexta-feira. Com a idade, o faro continuava apurado, mas as articulações já não suportavam a rotina de buscas em terrenos irregulares.\n\nEm vez de seguir para um abrigo, Trovão foi adotado pelo próprio condutor, o soldado que o acompanhou durante quase toda a carreira. \"Ele passou anos cuidando da gente. Agora é a minha vez\", disse o policial.\n\nSegundo a veterinária do canil, a transição costuma ser mais tranquila quando o animal permanece com alguém que já conhece, pois a mudança de rotina, por si só, já exige adaptação.",
+    "enunciado": "Na fala do soldado, \"Ele passou anos cuidando da gente. Agora é a minha vez\", predomina um sentimento de",
+    "alternativas": [
+      "obrigação imposta pelo batalhão.",
+      "gratidão e reciprocidade.",
+      "arrependimento pelo trabalho do cão.",
+      "indiferença em relação ao animal.",
+      "medo de ser punido."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "O soldado reconhece que o cão cuidou da equipe.",
+        "\"Agora é a minha vez\" indica retribuição: ele vai cuidar do cão."
+      ],
+      "porQueErradas": {
+        "0": "A adoção foi escolha do soldado, sem imposição.",
+        "2": "Não há arrependimento na fala.",
+        "3": "A fala mostra afeto e compromisso.",
+        "4": "Nada no texto sugere punição."
+      },
+      "pegadinha": "Identifique o sentimento pela relação entre as duas frases: receber cuidado e retribuí-lo.",
+      "fonte": "Interpretação de texto: compreensão global e inferência"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0023",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 3,
+    "texto": "Depois de oito anos trabalhando no canil de um batalhão, o pastor-belga Trovão foi oficialmente aposentado na última sexta-feira. Com a idade, o faro continuava apurado, mas as articulações já não suportavam a rotina de buscas em terrenos irregulares.\n\nEm vez de seguir para um abrigo, Trovão foi adotado pelo próprio condutor, o soldado que o acompanhou durante quase toda a carreira. \"Ele passou anos cuidando da gente. Agora é a minha vez\", disse o policial.\n\nSegundo a veterinária do canil, a transição costuma ser mais tranquila quando o animal permanece com alguém que já conhece, pois a mudança de rotina, por si só, já exige adaptação.",
+    "enunciado": "No trecho \"pois a mudança de rotina, por si só, já exige adaptação\", a expressão \"por si só\" indica que a mudança de rotina",
+    "alternativas": [
+      "já é exigente mesmo sem outros fatores somados a ela.",
+      "só ocorre quando o cão muda de dono.",
+      "deve ser feita pelo próprio animal, sem ajuda.",
+      "é fácil quando o cão fica com alguém conhecido.",
+      "dispensa qualquer adaptação do animal."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "\"Por si só\" significa \"isoladamente\", \"sem considerar outros elementos\".",
+        "A veterinária argumenta: se a mudança de rotina já exige adaptação, convém não acrescentar a troca de pessoas."
+      ],
+      "porQueErradas": {
+        "1": "A expressão não estabelece condição.",
+        "2": "Leitura literal sem apoio no contexto.",
+        "3": "O texto diz que é mais tranquila, não que é fácil; e \"por si só\" refere-se à mudança em si.",
+        "4": "O texto afirma que exige adaptação."
+      },
+      "pegadinha": "Não confunda \"por si só\" com \"sozinho, sem ajuda\".",
+      "fonte": "Interpretação de texto: sentido de expressões no contexto"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0024",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Depois de oito anos trabalhando no canil de um batalhão, o pastor-belga Trovão foi oficialmente aposentado na última sexta-feira. Com a idade, o faro continuava apurado, mas as articulações já não suportavam a rotina de buscas em terrenos irregulares.\n\nEm vez de seguir para um abrigo, Trovão foi adotado pelo próprio condutor, o soldado que o acompanhou durante quase toda a carreira. \"Ele passou anos cuidando da gente. Agora é a minha vez\", disse o policial.\n\nSegundo a veterinária do canil, a transição costuma ser mais tranquila quando o animal permanece com alguém que já conhece, pois a mudança de rotina, por si só, já exige adaptação.",
+    "enunciado": "No período \"o faro continuava apurado, mas as articulações já não suportavam a rotina\", a conjunção \"mas\" estabelece relação de",
+    "alternativas": [
+      "adição entre duas qualidades do cão.",
+      "causa, explicando por que o faro continuava bom.",
+      "oposição entre uma capacidade preservada e uma limitação física.",
+      "conclusão, indicando que o cão seria adotado.",
+      "tempo, marcando quando o cão se aposentou."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "\"Mas\" é conjunção adversativa.",
+        "Opõe o faro (ainda bom) às articulações (já fracas), explicando a aposentadoria."
+      ],
+      "porQueErradas": {
+        "0": "As ideias se opõem; não se somam.",
+        "1": "\"Mas\" não introduz causa.",
+        "3": "A adoção não é apresentada como conclusão dessa frase.",
+        "4": "\"Mas\" não expressa tempo."
+      },
+      "pegadinha": "Identifique o valor da conjunção pelas ideias que ela liga: positivo x negativo.",
+      "fonte": "Gramática: conjunções coordenativas adversativas"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0025",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Depois de oito anos trabalhando no canil de um batalhão, o pastor-belga Trovão foi oficialmente aposentado na última sexta-feira. Com a idade, o faro continuava apurado, mas as articulações já não suportavam a rotina de buscas em terrenos irregulares.\n\nEm vez de seguir para um abrigo, Trovão foi adotado pelo próprio condutor, o soldado que o acompanhou durante quase toda a carreira. \"Ele passou anos cuidando da gente. Agora é a minha vez\", disse o policial.\n\nSegundo a veterinária do canil, a transição costuma ser mais tranquila quando o animal permanece com alguém que já conhece, pois a mudança de rotina, por si só, já exige adaptação.",
+    "enunciado": "Com base no texto, é correto afirmar que",
+    "alternativas": [
+      "Trovão foi encaminhado a um abrigo após a aposentadoria.",
+      "o soldado conheceu Trovão apenas no dia da aposentadoria.",
+      "a veterinária desaconselhou a adoção pelo condutor.",
+      "a permanência de Trovão com o condutor tende a facilitar a adaptação do cão.",
+      "o cão trabalhou no batalhão por apenas oito meses."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "A veterinária afirma que a transição é mais tranquila com alguém conhecido.",
+        "Trovão ficou com o condutor que o acompanhou durante quase toda a carreira; logo, a adaptação tende a ser mais fácil."
+      ],
+      "porQueErradas": {
+        "0": "O texto diz \"em vez de seguir para um abrigo\".",
+        "1": "Ele acompanhou o cão durante quase toda a carreira.",
+        "2": "Ela afirma que ficar com alguém conhecido torna a transição mais tranquila.",
+        "4": "Foram oito anos."
+      },
+      "pegadinha": "Atenção a detalhes numéricos (anos x meses) e a expressões como \"em vez de\".",
+      "fonte": "Interpretação de texto: compreensão global e inferência"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0026",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "No balcão de achados e perdidos da rodoviária, a funcionária guarda de tudo: guarda-chuvas, carregadores, dentaduras, um violão sem cordas e até um vaso de samambaia. A maioria dos objetos nunca é procurada.\n\nEla tem uma teoria a respeito: as pessoas só voltam para buscar aquilo que não podem comprar de novo. Ninguém atravessa a cidade por um guarda-chuva de feira, mas ela já viu um senhor chorar ao reencontrar uma carteira velha, vazia de dinheiro e cheia de fotografias.\n\n\"O valor das coisas\", diz ela, \"quem decide é a saudade, não a etiqueta.\"",
+    "enunciado": "Segundo a teoria da funcionária, as pessoas voltam para buscar objetos que",
+    "alternativas": [
+      "são insubstituíveis por terem valor afetivo.",
+      "têm alto preço de mercado.",
+      "foram esquecidos há pouco tempo.",
+      "são úteis no dia a dia, como guarda-chuvas.",
+      "estão em bom estado de conservação."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "A teoria: só se busca o que não se pode comprar de novo.",
+        "O exemplo da carteira com fotografias mostra que o insubstituível é o que tem valor afetivo."
+      ],
+      "porQueErradas": {
+        "1": "Ela afirma que quem decide o valor é a saudade, não a etiqueta.",
+        "2": "O tempo do esquecimento não é critério na teoria.",
+        "3": "O texto diz que ninguém atravessa a cidade por um guarda-chuva.",
+        "4": "A carteira procurada era velha."
+      },
+      "pegadinha": "\"Não podem comprar de novo\" não quer dizer \"caro\", e sim \"insubstituível\".",
+      "fonte": "Interpretação de texto: compreensão global e inferência"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0027",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "No balcão de achados e perdidos da rodoviária, a funcionária guarda de tudo: guarda-chuvas, carregadores, dentaduras, um violão sem cordas e até um vaso de samambaia. A maioria dos objetos nunca é procurada.\n\nEla tem uma teoria a respeito: as pessoas só voltam para buscar aquilo que não podem comprar de novo. Ninguém atravessa a cidade por um guarda-chuva de feira, mas ela já viu um senhor chorar ao reencontrar uma carteira velha, vazia de dinheiro e cheia de fotografias.\n\n\"O valor das coisas\", diz ela, \"quem decide é a saudade, não a etiqueta.\"",
+    "enunciado": "Na descrição da carteira como \"vazia de dinheiro e cheia de fotografias\", o recurso empregado",
+    "alternativas": [
+      "repete palavras de mesmo sentido para reforçar a pobreza do senhor.",
+      "exagera o número de fotografias para criar humor.",
+      "contrapõe ideias opostas para destacar o valor afetivo do objeto.",
+      "atribui ações humanas à carteira.",
+      "imita o som de objetos caindo."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "\"Vazia\" x \"cheia\" formam uma antítese.",
+        "A oposição mostra que o objeto não valia em dinheiro, mas valia em lembranças."
+      ],
+      "porQueErradas": {
+        "0": "\"Vazia\" e \"cheia\" têm sentidos opostos.",
+        "1": "Não há exagero humorístico.",
+        "3": "Não há personificação.",
+        "4": "Não há onomatopeia."
+      },
+      "pegadinha": "Antítese é a oposição de palavras ou ideias; não confunda com personificação ou hipérbole.",
+      "fonte": "Estilística: antítese"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0028",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 1,
+    "texto": "No balcão de achados e perdidos da rodoviária, a funcionária guarda de tudo: guarda-chuvas, carregadores, dentaduras, um violão sem cordas e até um vaso de samambaia. A maioria dos objetos nunca é procurada.\n\nEla tem uma teoria a respeito: as pessoas só voltam para buscar aquilo que não podem comprar de novo. Ninguém atravessa a cidade por um guarda-chuva de feira, mas ela já viu um senhor chorar ao reencontrar uma carteira velha, vazia de dinheiro e cheia de fotografias.\n\n\"O valor das coisas\", diz ela, \"quem decide é a saudade, não a etiqueta.\"",
+    "enunciado": "Na frase \"quem decide é a saudade, não a etiqueta\", a palavra \"etiqueta\" refere-se",
+    "alternativas": [
+      "às boas maneiras à mesa.",
+      "ao nome do dono escrito no objeto.",
+      "ao preço, ao valor comercial do objeto.",
+      "à marca do fabricante, sem relação com o valor.",
+      "ao registro feito pela funcionária no balcão."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "A frase opõe saudade (valor afetivo) a etiqueta.",
+        "Logo, \"etiqueta\" representa o preço indicado no produto: o valor de mercado."
+      ],
+      "porQueErradas": {
+        "0": "Esse é outro sentido de \"etiqueta\", estranho ao contexto.",
+        "1": "O contraste é com saudade, isto é, com valor afetivo.",
+        "3": "No contexto, a etiqueta é associada ao valor das coisas.",
+        "4": "Não há menção a esse registro."
+      },
+      "pegadinha": "A palavra tem vários sentidos; o contexto (\"o valor das coisas\") define qual é o adequado.",
+      "fonte": "Semântica: polissemia e contexto"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0029",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "No balcão de achados e perdidos da rodoviária, a funcionária guarda de tudo: guarda-chuvas, carregadores, dentaduras, um violão sem cordas e até um vaso de samambaia. A maioria dos objetos nunca é procurada.\n\nEla tem uma teoria a respeito: as pessoas só voltam para buscar aquilo que não podem comprar de novo. Ninguém atravessa a cidade por um guarda-chuva de feira, mas ela já viu um senhor chorar ao reencontrar uma carteira velha, vazia de dinheiro e cheia de fotografias.\n\n\"O valor das coisas\", diz ela, \"quem decide é a saudade, não a etiqueta.\"",
+    "enunciado": "A enumeração do primeiro parágrafo (\"guarda-chuvas, carregadores, dentaduras, um violão sem cordas e até um vaso de samambaia\") serve para",
+    "alternativas": [
+      "provar que a rodoviária vende objetos usados.",
+      "mostrar a variedade e o caráter inusitado dos objetos esquecidos.",
+      "indicar os objetos mais procurados pelos donos.",
+      "criticar a funcionária pela desorganização do balcão.",
+      "listar apenas objetos de grande valor financeiro."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "A lista vai de itens comuns (guarda-chuvas) a estranhos (dentaduras, samambaia).",
+        "A palavra \"até\" reforça o inusitado do último item."
+      ],
+      "porQueErradas": {
+        "0": "Os objetos são esquecidos, não vendidos.",
+        "2": "A maioria nunca é procurada.",
+        "3": "Não há crítica à funcionária.",
+        "4": "São objetos comuns, alguns sem valor."
+      },
+      "pegadinha": "Observe o \"até\": ele marca o elemento mais surpreendente da série.",
+      "fonte": "Interpretação de texto: função da enumeração"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0030",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 1,
+    "texto": "No balcão de achados e perdidos da rodoviária, a funcionária guarda de tudo: guarda-chuvas, carregadores, dentaduras, um violão sem cordas e até um vaso de samambaia. A maioria dos objetos nunca é procurada.\n\nEla tem uma teoria a respeito: as pessoas só voltam para buscar aquilo que não podem comprar de novo. Ninguém atravessa a cidade por um guarda-chuva de feira, mas ela já viu um senhor chorar ao reencontrar uma carteira velha, vazia de dinheiro e cheia de fotografias.\n\n\"O valor das coisas\", diz ela, \"quem decide é a saudade, não a etiqueta.\"",
+    "enunciado": "Infere-se que o senhor chorou ao reencontrar a carteira porque",
+    "alternativas": [
+      "havia muito dinheiro dentro dela.",
+      "ela guardava fotografias com valor sentimental para ele.",
+      "ela era nova e cara.",
+      "a funcionária se recusou a devolvê-la.",
+      "ele havia atravessado a cidade por um guarda-chuva."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "A carteira era velha e sem dinheiro, mas cheia de fotografias.",
+        "O choro se explica pelo valor afetivo das lembranças."
+      ],
+      "porQueErradas": {
+        "0": "A carteira estava vazia de dinheiro.",
+        "2": "A carteira era velha.",
+        "3": "Nada indica recusa.",
+        "4": "O guarda-chuva é exemplo do que ninguém busca."
+      },
+      "pegadinha": "Elimine as alternativas que contrariam a descrição da carteira.",
+      "fonte": "Interpretação de texto: compreensão global e inferência"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0031",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 1,
+    "texto": "Os golpes aplicados por aplicativos de mensagem seguem, quase sempre, o mesmo roteiro. O criminoso se apresenta como parente ou conhecido, alega ter trocado de número e, pouco depois, relata uma urgência: uma conta que vence hoje, um conserto inesperado, uma dívida constrangedora. O pedido de transferência vem em seguida, acompanhado de um apelo para que ninguém mais seja avisado.\n\nEspecialistas em segurança digital recomendam uma regra simples: diante de qualquer pedido de dinheiro por mensagem, ligue para o número antigo da pessoa ou confirme a história por outro meio. A pressa, lembram eles, é a principal aliada do golpista; a desconfiança, a principal defesa da vítima.",
+    "enunciado": "A principal finalidade do texto é",
+    "alternativas": [
+      "narrar a história de uma vítima específica.",
+      "defender a proibição dos aplicativos de mensagem.",
+      "orientar o leitor a reconhecer e a evitar um tipo de golpe.",
+      "divulgar estatísticas sobre crimes digitais.",
+      "ensinar como fazer transferências com segurança."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O primeiro parágrafo descreve o roteiro do golpe.",
+        "O segundo traz a recomendação dos especialistas: confirmar antes de transferir.",
+        "Descrever e orientar: a finalidade é preventiva."
+      ],
+      "porQueErradas": {
+        "0": "O texto descreve um roteiro geral, sem vítima específica.",
+        "1": "Não há essa defesa.",
+        "3": "Não há números no texto.",
+        "4": "O foco é desconfiar de pedidos, não ensinar transferências."
+      },
+      "pegadinha": "Tema (golpe) não é o mesmo que finalidade (orientar o leitor).",
+      "fonte": "Interpretação de texto: finalidade e gênero textual"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0032",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Os golpes aplicados por aplicativos de mensagem seguem, quase sempre, o mesmo roteiro. O criminoso se apresenta como parente ou conhecido, alega ter trocado de número e, pouco depois, relata uma urgência: uma conta que vence hoje, um conserto inesperado, uma dívida constrangedora. O pedido de transferência vem em seguida, acompanhado de um apelo para que ninguém mais seja avisado.\n\nEspecialistas em segurança digital recomendam uma regra simples: diante de qualquer pedido de dinheiro por mensagem, ligue para o número antigo da pessoa ou confirme a história por outro meio. A pressa, lembram eles, é a principal aliada do golpista; a desconfiança, a principal defesa da vítima.",
+    "enunciado": "O apelo do golpista \"para que ninguém mais seja avisado\" tem o objetivo de",
+    "alternativas": [
+      "proteger a privacidade do parente verdadeiro.",
+      "impedir que a vítima confirme a história com outras pessoas.",
+      "acelerar a resposta do banco.",
+      "evitar que a polícia rastreie o número novo.",
+      "mostrar que a dívida é pequena."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "A defesa recomendada é confirmar a história por outro meio.",
+        "Ao pedir sigilo, o golpista bloqueia justamente essa confirmação."
+      ],
+      "porQueErradas": {
+        "0": "O golpista não tem interesse em proteger ninguém.",
+        "2": "O banco não é mencionado nesse trecho.",
+        "3": "O texto não fala em rastreamento.",
+        "4": "A dívida é chamada de constrangedora, não de pequena."
+      },
+      "pegadinha": "Relacione as duas partes do texto: a tática do golpista e a defesa recomendada.",
+      "fonte": "Interpretação de texto: compreensão global e inferência"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0033",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 1,
+    "texto": "Os golpes aplicados por aplicativos de mensagem seguem, quase sempre, o mesmo roteiro. O criminoso se apresenta como parente ou conhecido, alega ter trocado de número e, pouco depois, relata uma urgência: uma conta que vence hoje, um conserto inesperado, uma dívida constrangedora. O pedido de transferência vem em seguida, acompanhado de um apelo para que ninguém mais seja avisado.\n\nEspecialistas em segurança digital recomendam uma regra simples: diante de qualquer pedido de dinheiro por mensagem, ligue para o número antigo da pessoa ou confirme a história por outro meio. A pressa, lembram eles, é a principal aliada do golpista; a desconfiança, a principal defesa da vítima.",
+    "enunciado": "De acordo com os especialistas citados, diante de um pedido de dinheiro por mensagem, deve-se",
+    "alternativas": [
+      "transferir o valor rapidamente para evitar constrangimento.",
+      "responder apenas pelo número novo informado.",
+      "pedir que nenhum outro parente seja avisado.",
+      "ignorar todas as mensagens de parentes.",
+      "confirmar a história ligando para o número antigo ou usando outro meio."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "O segundo parágrafo traz a regra: ligar para o número antigo ou confirmar por outro meio."
+      ],
+      "porQueErradas": {
+        "0": "A pressa é apontada como aliada do golpista.",
+        "1": "O número novo é justamente o do golpista.",
+        "2": "Esse é o apelo do criminoso.",
+        "3": "A recomendação é confirmar, não ignorar tudo."
+      },
+      "pegadinha": "Alternativas que reproduzem a conduta do golpista aparecem como se fossem conselhos.",
+      "fonte": "Interpretação de texto: localização de informação explícita"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0034",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Os golpes aplicados por aplicativos de mensagem seguem, quase sempre, o mesmo roteiro. O criminoso se apresenta como parente ou conhecido, alega ter trocado de número e, pouco depois, relata uma urgência: uma conta que vence hoje, um conserto inesperado, uma dívida constrangedora. O pedido de transferência vem em seguida, acompanhado de um apelo para que ninguém mais seja avisado.\n\nEspecialistas em segurança digital recomendam uma regra simples: diante de qualquer pedido de dinheiro por mensagem, ligue para o número antigo da pessoa ou confirme a história por outro meio. A pressa, lembram eles, é a principal aliada do golpista; a desconfiança, a principal defesa da vítima.",
+    "enunciado": "A sequência \"uma conta que vence hoje, um conserto inesperado, uma dívida constrangedora\" tem a função de",
+    "alternativas": [
+      "listar as dívidas reais da vítima.",
+      "explicar como o golpista troca de número.",
+      "indicar as recomendações dos especialistas.",
+      "mostrar os prejuízos sofridos pelos bancos.",
+      "exemplificar as urgências que o golpista inventa."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Os dois-pontos depois de \"urgência\" anunciam exemplos.",
+        "Os três itens ilustram desculpas que o golpista usa."
+      ],
+      "porQueErradas": {
+        "0": "As urgências são alegadas pelo criminoso.",
+        "1": "A troca de número é mencionada antes.",
+        "2": "As recomendações estão no segundo parágrafo.",
+        "3": "Bancos não são citados."
+      },
+      "pegadinha": "Dois-pontos antes de uma lista costumam anunciar exemplos ou especificações do termo anterior.",
+      "fonte": "Interpretação de texto: enumeração e exemplificação"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0035",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 3,
+    "texto": "Os golpes aplicados por aplicativos de mensagem seguem, quase sempre, o mesmo roteiro. O criminoso se apresenta como parente ou conhecido, alega ter trocado de número e, pouco depois, relata uma urgência: uma conta que vence hoje, um conserto inesperado, uma dívida constrangedora. O pedido de transferência vem em seguida, acompanhado de um apelo para que ninguém mais seja avisado.\n\nEspecialistas em segurança digital recomendam uma regra simples: diante de qualquer pedido de dinheiro por mensagem, ligue para o número antigo da pessoa ou confirme a história por outro meio. A pressa, lembram eles, é a principal aliada do golpista; a desconfiança, a principal defesa da vítima.",
+    "enunciado": "A frase final, \"A pressa [...] é a principal aliada do golpista; a desconfiança, a principal defesa da vítima\", permite concluir que",
+    "alternativas": [
+      "a vítima deve responder rapidamente para não perder o contato.",
+      "desconfiar de todos os familiares é a solução definitiva.",
+      "o golpista também é vítima da própria pressa.",
+      "a desconfiança atrapalha a vítima, assim como a pressa.",
+      "agir com calma e verificar a informação reduz o risco de cair no golpe."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "A frase opõe pressa (ajuda o golpista) e desconfiança (protege a vítima).",
+        "Na segunda oração, a vírgula marca a omissão do verbo \"é\".",
+        "Conclusão: calma e verificação são a melhor defesa."
+      ],
+      "porQueErradas": {
+        "0": "Isso é agir com pressa, o que favorece o golpe.",
+        "1": "A desconfiança recomendada é diante de pedidos de dinheiro, não de todos.",
+        "2": "O texto não diz isso.",
+        "3": "Pressa e desconfiança são apresentadas como opostas."
+      },
+      "pegadinha": "Não generalize a desconfiança para todos os familiares; o texto a restringe ao pedido de dinheiro.",
+      "fonte": "Interpretação de texto: conclusão e paralelismo"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0036",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Minha avó nunca aprendeu a ler, mas sabia a previsão do tempo melhor que qualquer jornal. Olhava o céu no fim da tarde, cheirava o vento e sentenciava: \"Amanhã não seca roupa\". Errava pouco.\n\nNa adolescência, eu achava aquilo uma superstição simpática e confiava apenas no aplicativo do celular. Hoje, adulto, desconfio que ela lia o mundo de um jeito que eu desaprendi. Não era magia: eram décadas de atenção às mesmas nuvens, aos mesmos ventos, às mesmas plantas do quintal.\n\nO que eu chamava de crendice era, no fundo, uma forma de conhecimento que não cabia nos livros que ela não podia ler.",
+    "enunciado": "Ao longo do texto, a percepção do narrador sobre as previsões da avó",
+    "alternativas": [
+      "permanece a mesma: sempre as considerou superstição.",
+      "muda: passa a considerá-las magia.",
+      "muda: passa a vê-las como conhecimento construído por anos de observação.",
+      "permanece a mesma: sempre confiou mais nelas do que no aplicativo.",
+      "muda: passa a desprezá-las por serem imprecisas."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Na adolescência: \"superstição simpática\".",
+        "Hoje: \"forma de conhecimento\", fruto de \"décadas de atenção\"."
+      ],
+      "porQueErradas": {
+        "0": "Hoje ele as vê como forma de conhecimento.",
+        "1": "O texto diz \"Não era magia\".",
+        "3": "Na adolescência, confiava apenas no aplicativo.",
+        "4": "Ele reconhece que a avó errava pouco."
+      },
+      "pegadinha": "Marcadores de tempo (\"Na adolescência\", \"Hoje\") indicam a mudança de ponto de vista.",
+      "fonte": "Interpretação de texto: compreensão global e inferência"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0037",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Minha avó nunca aprendeu a ler, mas sabia a previsão do tempo melhor que qualquer jornal. Olhava o céu no fim da tarde, cheirava o vento e sentenciava: \"Amanhã não seca roupa\". Errava pouco.\n\nNa adolescência, eu achava aquilo uma superstição simpática e confiava apenas no aplicativo do celular. Hoje, adulto, desconfio que ela lia o mundo de um jeito que eu desaprendi. Não era magia: eram décadas de atenção às mesmas nuvens, aos mesmos ventos, às mesmas plantas do quintal.\n\nO que eu chamava de crendice era, no fundo, uma forma de conhecimento que não cabia nos livros que ela não podia ler.",
+    "enunciado": "Na frase \"ela lia o mundo de um jeito que eu desaprendi\", a expressão \"lia o mundo\" significa que a avó",
+    "alternativas": [
+      "lia jornais escondida da família.",
+      "viajava muito e conhecia vários países.",
+      "decifrava livros sobre o clima.",
+      "acompanhava o noticiário internacional.",
+      "interpretava os sinais da natureza."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "A avó não sabia ler textos escritos.",
+        "\"Ler o mundo\" é uso figurado: observar e interpretar nuvens, vento e plantas."
+      ],
+      "porQueErradas": {
+        "0": "Ela nunca aprendeu a ler.",
+        "1": "O texto fala do céu, do vento e do quintal.",
+        "2": "Ela não podia ler livros.",
+        "3": "Sem apoio no texto."
+      },
+      "pegadinha": "O texto joga com o sentido literal de \"ler\"; aqui o verbo é figurado.",
+      "fonte": "Semântica: sentido figurado no contexto"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0038",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 3,
+    "texto": "Minha avó nunca aprendeu a ler, mas sabia a previsão do tempo melhor que qualquer jornal. Olhava o céu no fim da tarde, cheirava o vento e sentenciava: \"Amanhã não seca roupa\". Errava pouco.\n\nNa adolescência, eu achava aquilo uma superstição simpática e confiava apenas no aplicativo do celular. Hoje, adulto, desconfio que ela lia o mundo de um jeito que eu desaprendi. Não era magia: eram décadas de atenção às mesmas nuvens, aos mesmos ventos, às mesmas plantas do quintal.\n\nO que eu chamava de crendice era, no fundo, uma forma de conhecimento que não cabia nos livros que ela não podia ler.",
+    "enunciado": "No trecho \"Não era magia: eram décadas de atenção às mesmas nuvens, aos mesmos ventos, às mesmas plantas do quintal\", os dois-pontos introduzem",
+    "alternativas": [
+      "uma citação da fala da avó.",
+      "uma conclusão contrária ao que foi dito antes.",
+      "uma pergunta retórica ao leitor.",
+      "uma ressalva sobre os erros da avó.",
+      "uma explicação sobre a origem do saber da avó."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Depois de negar que fosse magia, o narrador explica o que era de fato.",
+        "Os dois-pontos anunciam essa explicação: décadas de observação."
+      ],
+      "porQueErradas": {
+        "0": "Não há discurso direto após os dois-pontos.",
+        "1": "O trecho explica, não contradiz.",
+        "2": "Não há pergunta.",
+        "3": "Os erros não são tratados nesse trecho."
+      },
+      "pegadinha": "No texto há dois-pontos antes de fala (\"sentenciava:\"); este outro caso tem valor explicativo.",
+      "fonte": "Pontuação: valores dos dois-pontos"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0039",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 1,
+    "texto": "Minha avó nunca aprendeu a ler, mas sabia a previsão do tempo melhor que qualquer jornal. Olhava o céu no fim da tarde, cheirava o vento e sentenciava: \"Amanhã não seca roupa\". Errava pouco.\n\nNa adolescência, eu achava aquilo uma superstição simpática e confiava apenas no aplicativo do celular. Hoje, adulto, desconfio que ela lia o mundo de um jeito que eu desaprendi. Não era magia: eram décadas de atenção às mesmas nuvens, aos mesmos ventos, às mesmas plantas do quintal.\n\nO que eu chamava de crendice era, no fundo, uma forma de conhecimento que não cabia nos livros que ela não podia ler.",
+    "enunciado": "A frase \"Errava pouco\", no primeiro parágrafo, indica que as previsões da avó",
+    "alternativas": [
+      "nunca se confirmavam.",
+      "eram sempre exatas, sem nenhuma falha.",
+      "eram feitas apenas em dias de chuva.",
+      "costumavam se confirmar.",
+      "eram copiadas dos jornais."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "\"Errava pouco\" = acertava quase sempre.",
+        "Não significa infalibilidade: ainda havia erros, mas eram raros."
+      ],
+      "porQueErradas": {
+        "0": "\"Errava pouco\" significa acertava na maioria das vezes.",
+        "1": "\"Pouco\" admite algum erro.",
+        "2": "Sem apoio no texto.",
+        "4": "Ela não sabia ler."
+      },
+      "pegadinha": "Cuidado com o extremo: \"errava pouco\" não é \"nunca errava\".",
+      "fonte": "Interpretação de texto: compreensão global e inferência"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0040",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 3,
+    "texto": "Minha avó nunca aprendeu a ler, mas sabia a previsão do tempo melhor que qualquer jornal. Olhava o céu no fim da tarde, cheirava o vento e sentenciava: \"Amanhã não seca roupa\". Errava pouco.\n\nNa adolescência, eu achava aquilo uma superstição simpática e confiava apenas no aplicativo do celular. Hoje, adulto, desconfio que ela lia o mundo de um jeito que eu desaprendi. Não era magia: eram décadas de atenção às mesmas nuvens, aos mesmos ventos, às mesmas plantas do quintal.\n\nO que eu chamava de crendice era, no fundo, uma forma de conhecimento que não cabia nos livros que ela não podia ler.",
+    "enunciado": "A relação entre \"nunca aprendeu a ler\" e \"lia o mundo\" contribui para a ideia central do texto de que",
+    "alternativas": [
+      "a alfabetização é dispensável para todas as pessoas.",
+      "a avó mentia sobre não saber ler.",
+      "existem formas de conhecimento que não dependem da escrita.",
+      "os aplicativos de celular são sempre mais precisos que a observação.",
+      "o conhecimento da avó era apenas crendice."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "A aparente contradição (não ler x ler o mundo) é um paradoxo.",
+        "Ele destaca que a avó tinha um saber prático, construído pela observação, fora dos livros."
+      ],
+      "porQueErradas": {
+        "0": "O texto não desvaloriza a alfabetização; valoriza outro saber.",
+        "1": "Não há sugestão de mentira.",
+        "3": "O texto relativiza essa confiança.",
+        "4": "O narrador conclui que não era crendice."
+      },
+      "pegadinha": "Valorizar um saber não é desvalorizar outro; evite alternativas radicais.",
+      "fonte": "Interpretação de texto: tese e recursos expressivos (paradoxo)"
+    },
+    "origem": "gerada"
+  }
+]

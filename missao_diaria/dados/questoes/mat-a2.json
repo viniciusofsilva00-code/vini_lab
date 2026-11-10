@@ -1,0 +1,620 @@
+[
+  {
+    "id": "mat-0021",
+    "materia": "matematica",
+    "assunto": "Mínimo múltiplo comum",
+    "dificuldade": 3,
+    "enunciado": "O soldado A entra de serviço a cada 4 dias, e o soldado B, a cada 6 dias. Numa segunda-feira, os dois estavam de serviço juntos. Eles estarão juntos novamente, pela primeira vez, em um(a)",
+    "alternativas": [
+      "quinta-feira.",
+      "sexta-feira.",
+      "domingo.",
+      "sábado.",
+      "segunda-feira."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "mmc(4, 6) = 12 dias.",
+        "12 = 7 + 5: uma semana completa e mais 5 dias.",
+        "Segunda + 5 dias = sábado."
+      ],
+      "porQueErradas": {
+        "0": "Usa 24 dias (produto 4 × 6), que não é o mínimo.",
+        "1": "Conta 11 dias em vez de 12.",
+        "2": "Conta 13 dias em vez de 12.",
+        "4": "Supõe que o encontro ocorre após semanas inteiras."
+      },
+      "pegadinha": "Depois de achar o mmc, divida por 7 e use o resto para avançar os dias da semana.",
+      "fonte": "Mínimo múltiplo comum: problemas de periodicidade"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0022",
+    "materia": "matematica",
+    "assunto": "Mínimo múltiplo comum",
+    "dificuldade": 3,
+    "enunciado": "Ao organizar os cadetes de uma escola em filas de 6, de 8 ou de 10, sempre sobram 2 cadetes. Sabendo que há mais de 2 cadetes, o menor número possível de cadetes é",
+    "alternativas": [
+      "120.",
+      "118.",
+      "242.",
+      "122.",
+      "482."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "mmc(6, 8, 10) = 2³·3·5 = 120.",
+        "O número deixa resto 2 nas três divisões: 120 + 2 = 122.",
+        "Conferência: 122 = 6·20 + 2 = 8·15 + 2 = 10·12 + 2."
+      ],
+      "porQueErradas": {
+        "0": "Esquece de somar a sobra de 2 cadetes.",
+        "1": "Subtrai a sobra em vez de somá-la.",
+        "2": "Usa o dobro do mmc; 122 já atende à condição.",
+        "4": "Usa o produto 6·8·10 = 480 em vez do mmc."
+      },
+      "pegadinha": "\"Sempre sobram 2\" significa mmc + 2; não basta parar no mmc.",
+      "fonte": "Mínimo múltiplo comum e restos"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0023",
+    "materia": "matematica",
+    "assunto": "Mínimo múltiplo comum",
+    "dificuldade": 2,
+    "enunciado": "Na sinalização de uma viatura, uma luz pisca a cada 4 segundos e outra a cada 6 segundos. Elas piscaram juntas em determinado instante. Nos 60 segundos seguintes, sem contar esse instante inicial, quantas vezes piscarão juntas?",
+    "alternativas": [
+      "4",
+      "6",
+      "10",
+      "2",
+      "5"
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "mmc(4, 6) = 12 s.",
+        "Encontros em 12, 24, 36, 48 e 60 s.",
+        "Total: 60 ÷ 12 = 5 vezes."
+      ],
+      "porQueErradas": {
+        "0": "Não conta o encontro exatamente no 60º segundo.",
+        "1": "Conta também o instante inicial, excluído pelo enunciado.",
+        "2": "Divide 60 pelo menor intervalo comum errado (6 s).",
+        "3": "Usa 24 s (produto 4 × 6) como intervalo."
+      },
+      "pegadinha": "Atenção ao que o enunciado inclui ou exclui: o instante inicial não conta, o 60º segundo conta.",
+      "fonte": "Mínimo múltiplo comum: problemas de periodicidade"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0024",
+    "materia": "matematica",
+    "assunto": "Mínimo múltiplo comum",
+    "dificuldade": 2,
+    "enunciado": "Para um evento, serão comprados copos em pacotes de 15 unidades e pratos em pacotes de 20 unidades, de modo que a quantidade de copos seja igual à de pratos. O menor número total de pacotes (copos mais pratos) a ser comprado é",
+    "alternativas": [
+      "60.",
+      "35.",
+      "12.",
+      "7.",
+      "5."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "mmc(15, 20) = 60 itens de cada tipo.",
+        "Copos: 60 ÷ 15 = 4 pacotes.",
+        "Pratos: 60 ÷ 20 = 3 pacotes.",
+        "Total: 4 + 3 = 7 pacotes."
+      ],
+      "porQueErradas": {
+        "0": "É a quantidade de copos (ou de pratos), não de pacotes.",
+        "1": "Soma o conteúdo de um pacote de cada tipo.",
+        "2": "Erra a contagem dos pacotes de 60 itens.",
+        "4": "Usa o mdc de 15 e 20."
+      },
+      "pegadinha": "O mmc dá a quantidade de itens; a pergunta é sobre pacotes, que exige mais uma divisão.",
+      "fonte": "Mínimo múltiplo comum: situações-problema"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0025",
+    "materia": "matematica",
+    "assunto": "Mínimo múltiplo comum",
+    "dificuldade": 1,
+    "enunciado": "Sabendo que o máximo divisor comum de 18 e 24 é 6, o mínimo múltiplo comum desses números é",
+    "alternativas": [
+      "432.",
+      "144.",
+      "36.",
+      "6.",
+      "72."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Para dois números: mmc · mdc = produto.",
+        "mmc = (18 × 24) ÷ 6 = 432 ÷ 6 = 72."
+      ],
+      "porQueErradas": {
+        "0": "É o produto 18 × 24, sem dividir pelo mdc.",
+        "1": "É múltiplo comum, mas não o mínimo.",
+        "2": "Não é múltiplo de 24.",
+        "3": "É o mdc, não o mmc."
+      },
+      "pegadinha": "A relação mmc × mdc = produto vale para dois números. Não a use com três ou mais.",
+      "fonte": "Relação entre mmc e mdc"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0026",
+    "materia": "matematica",
+    "assunto": "Mínimo múltiplo comum",
+    "dificuldade": 2,
+    "enunciado": "Em um turno de 24 horas, um policial passou 1/6 do tempo dirigindo, 1/4 em atendimentos e 1/3 em patrulha a pé. A fração do turno que restou para as demais atividades é",
+    "alternativas": [
+      "3/4.",
+      "1/4.",
+      "10/13.",
+      "1/3.",
+      "1/6."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "mmc(6, 4, 3) = 12.",
+        "1/6 = 2/12; 1/4 = 3/12; 1/3 = 4/12.",
+        "Soma: 9/12 = 3/4.",
+        "Resta: 1 − 3/4 = 1/4 (6 horas)."
+      ],
+      "porQueErradas": {
+        "0": "É a fração já utilizada, não a que restou.",
+        "2": "Soma numeradores e denominadores (3/13) e subtrai de 1.",
+        "3": "Erra a soma das frações.",
+        "4": "Erra a soma das frações."
+      },
+      "pegadinha": "Some frações pelo mmc dos denominadores e lembre-se de que a pergunta é o que sobra.",
+      "fonte": "Mínimo múltiplo comum na adição de frações"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0027",
+    "materia": "matematica",
+    "assunto": "Razão e proporção",
+    "dificuldade": 1,
+    "enunciado": "Em um concurso com 1.200 inscritos, 150 foram aprovados. A razão entre o número de aprovados e o de inscritos é",
+    "alternativas": [
+      "1/8.",
+      "8.",
+      "1/7.",
+      "7.",
+      "1/12."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Razão = aprovados ÷ inscritos = 150/1.200.",
+        "Simplificando por 150: 1/8."
+      ],
+      "porQueErradas": {
+        "1": "Inverte a razão (inscritos para aprovados).",
+        "2": "Compara aprovados com não aprovados (150/1.050).",
+        "3": "Compara não aprovados com aprovados.",
+        "4": "Erra a simplificação de 150/1.200."
+      },
+      "pegadinha": "A ordem importa: \"entre A e B\" é A/B.",
+      "fonte": "Razão entre grandezas"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0028",
+    "materia": "matematica",
+    "assunto": "Razão e proporção",
+    "dificuldade": 2,
+    "enunciado": "Em um mapa na escala 1:50.000, a distância entre duas bases policiais é de 6 cm. A distância real é de",
+    "alternativas": [
+      "30 km.",
+      "300 m.",
+      "300 km.",
+      "8,3 km.",
+      "3 km."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Escala 1:50.000 → 1 cm no mapa = 50.000 cm reais.",
+        "6 × 50.000 = 300.000 cm.",
+        "300.000 cm = 3.000 m = 3 km."
+      ],
+      "porQueErradas": {
+        "0": "Erra a conversão em uma casa decimal.",
+        "1": "Erra a conversão em uma casa decimal.",
+        "2": "Trata 300.000 cm como 300.000 m.",
+        "3": "Divide 50.000 por 6 em vez de multiplicar."
+      },
+      "pegadinha": "A conta da escala é simples; o erro costuma estar na conversão de centímetros para quilômetros (÷ 100.000).",
+      "fonte": "Escala (razão entre comprimentos)"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0029",
+    "materia": "matematica",
+    "assunto": "Razão e proporção",
+    "dificuldade": 2,
+    "enunciado": "Um prêmio de R$ 4.500,00 será dividido entre três equipes em partes diretamente proporcionais a 2, 3 e 4. A maior parte será de",
+    "alternativas": [
+      "R$ 1.500,00.",
+      "R$ 1.000,00.",
+      "R$ 2.000,00.",
+      "R$ 1.800,00.",
+      "R$ 2.250,00."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Soma das partes: 2 + 3 + 4 = 9.",
+        "Valor de cada parte: 4.500 ÷ 9 = 500.",
+        "Maior parte: 4 × 500 = 2.000."
+      ],
+      "porQueErradas": {
+        "0": "Divide igualmente entre as três equipes.",
+        "1": "É a menor parte.",
+        "3": "Usa 4/10 do prêmio; a soma das partes é 9.",
+        "4": "Considera metade do prêmio."
+      },
+      "pegadinha": "Divida pelo total de partes (9), não pela quantidade de equipes (3).",
+      "fonte": "Divisão em partes diretamente proporcionais"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0030",
+    "materia": "matematica",
+    "assunto": "Razão e proporção",
+    "dificuldade": 1,
+    "enunciado": "Na proporção x/12 = 15/20, o valor de x é",
+    "alternativas": [
+      "9.",
+      "16.",
+      "7.",
+      "15.",
+      "10."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Produto dos extremos = produto dos meios: 20x = 12 × 15.",
+        "20x = 180 → x = 9."
+      ],
+      "porQueErradas": {
+        "1": "Inverte a proporção: 20 × 12 ÷ 15.",
+        "2": "Faz 12 + 15 − 20, sem usar o produto dos meios e extremos.",
+        "3": "Copia o numerador da outra razão.",
+        "4": "Erra a divisão: 180 ÷ 20 = 9."
+      },
+      "pegadinha": "Proporção se resolve multiplicando em cruz; somar ou subtrair termos não vale.",
+      "fonte": "Propriedade fundamental das proporções"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0031",
+    "materia": "matematica",
+    "assunto": "Razão e proporção",
+    "dificuldade": 2,
+    "enunciado": "Uma viatura percorreu 180 km em 2 h 30 min. A velocidade média, em km/h, foi de",
+    "alternativas": [
+      "90.",
+      "72.",
+      "60.",
+      "80.",
+      "450."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "2 h 30 min = 2,5 h.",
+        "Velocidade média = 180 ÷ 2,5 = 72 km/h."
+      ],
+      "porQueErradas": {
+        "0": "Considera apenas 2 horas.",
+        "2": "Considera 3 horas.",
+        "3": "Trata 30 min como 0,25 h (180 ÷ 2,25).",
+        "4": "Multiplica em vez de dividir (180 × 2,5)."
+      },
+      "pegadinha": "30 minutos são 0,5 hora, e não 0,30 nem 0,25. Converta o tempo antes de dividir.",
+      "fonte": "Razão entre grandezas de espécies diferentes (velocidade média)"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0032",
+    "materia": "matematica",
+    "assunto": "Razão e proporção",
+    "dificuldade": 2,
+    "enunciado": "Em uma turma de 64 alunos, a razão entre o número de homens e o de mulheres é 5:3. O número de mulheres é",
+    "alternativas": [
+      "40.",
+      "24.",
+      "38.",
+      "21.",
+      "12."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Soma das partes: 5 + 3 = 8.",
+        "Cada parte: 64 ÷ 8 = 8.",
+        "Mulheres: 3 × 8 = 24 (homens: 40)."
+      ],
+      "porQueErradas": {
+        "0": "É o número de homens.",
+        "2": "Erra a divisão do total pela soma das partes.",
+        "3": "Divide 64 por 3 e arredonda.",
+        "4": "Divide o total por 5 e usa a parte errada."
+      },
+      "pegadinha": "Confira qual grandeza a pergunta pede; a banca sempre coloca a outra parte entre as alternativas.",
+      "fonte": "Razão e divisão proporcional"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0033",
+    "materia": "matematica",
+    "assunto": "Razão e proporção",
+    "dificuldade": 3,
+    "enunciado": "A razão entre dois números positivos é 3/7, e a diferença entre o maior e o menor é 36. A soma desses números é",
+    "alternativas": [
+      "63.",
+      "27.",
+      "90.",
+      "84.",
+      "120."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Números: 3k e 7k.",
+        "7k − 3k = 4k = 36 → k = 9.",
+        "Números: 27 e 63.",
+        "Soma: 27 + 63 = 90."
+      ],
+      "porQueErradas": {
+        "0": "É apenas o maior número.",
+        "1": "É apenas o menor número.",
+        "3": "Calcula 36 × 7 ÷ 3, sem montar a proporção corretamente.",
+        "4": "Calcula 36 × 10 ÷ 3."
+      },
+      "pegadinha": "A diferença corresponde a 7 − 3 = 4 partes, não a 3 nem a 7.",
+      "fonte": "Proporção com soma e diferença"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0034",
+    "materia": "matematica",
+    "assunto": "Razão e proporção",
+    "dificuldade": 1,
+    "enunciado": "Uma cidade tem 84.000 habitantes e conta com 210 policiais militares. A razão entre o número de habitantes e o de policiais indica quantos habitantes há por policial. Esse número é",
+    "alternativas": [
+      "40.",
+      "4.000.",
+      "0,0025.",
+      "400.",
+      "420."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Habitantes por policial = 84.000 ÷ 210.",
+        "84.000 ÷ 210 = 8.400 ÷ 21 = 400."
+      ],
+      "porQueErradas": {
+        "0": "Erra uma casa decimal na divisão.",
+        "1": "Erra uma casa decimal na divisão.",
+        "2": "Inverte a razão (policiais por habitante).",
+        "4": "Arredonda 210 para 200 antes de dividir."
+      },
+      "pegadinha": "\"Habitantes por policial\" coloca habitantes no numerador.",
+      "fonte": "Razão entre grandezas"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0035",
+    "materia": "matematica",
+    "assunto": "Razão e proporção",
+    "dificuldade": 2,
+    "enunciado": "Uma tinta é preparada misturando tinta azul e tinta branca na razão de 2 para 5, nessa ordem. Há 6 litros de azul e 20 litros de branca. Para usar toda a tinta branca mantendo a razão, quantos litros de azul faltarão?",
+    "alternativas": [
+      "0 litro",
+      "4 litros",
+      "2 litros",
+      "8 litros",
+      "14 litros"
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Azul/branca = 2/5 → azul = 20 × 2 ÷ 5 = 8 L.",
+        "Há 6 L; faltam 8 − 6 = 2 L."
+      ],
+      "porQueErradas": {
+        "0": "Não verifica a quantidade necessária de azul.",
+        "1": "Erra a conta da proporção.",
+        "3": "É o total de azul necessário, não o que falta.",
+        "4": "Faz 20 − 6, sem usar a razão."
+      },
+      "pegadinha": "Calcule o necessário e só então subtraia o que já existe.",
+      "fonte": "Proporção"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0036",
+    "materia": "matematica",
+    "assunto": "Porcentagem",
+    "dificuldade": 1,
+    "enunciado": "Um colete custa R$ 1.250,00 e foi vendido com desconto de 12%. O preço com desconto foi de",
+    "alternativas": [
+      "R$ 1.238,00.",
+      "R$ 150,00.",
+      "R$ 1.400,00.",
+      "R$ 1.138,00.",
+      "R$ 1.100,00."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "12% de 1.250 = 0,12 × 1.250 = 150.",
+        "1.250 − 150 = 1.100.",
+        "Ou direto: 1.250 × 0,88 = 1.100."
+      ],
+      "porQueErradas": {
+        "0": "Desconta R$ 12,00 em vez de 12%.",
+        "1": "É o valor do desconto.",
+        "2": "Soma os 12% em vez de descontar.",
+        "3": "Erra o cálculo de 12% de 1.250."
+      },
+      "pegadinha": "Desconto de 12% é multiplicar por 0,88; a banca põe o valor do desconto como alternativa.",
+      "fonte": "Porcentagem: desconto"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0037",
+    "materia": "matematica",
+    "assunto": "Porcentagem",
+    "dificuldade": 2,
+    "enunciado": "O preço de um uniforme teve dois aumentos sucessivos: 10% e, depois, 20%. O aumento total foi de",
+    "alternativas": [
+      "30%.",
+      "32%.",
+      "2%.",
+      "132%.",
+      "21%."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Fatores: 1,10 e 1,20.",
+        "1,10 × 1,20 = 1,32.",
+        "Aumento total: 32%.",
+        "Exemplo: 100 → 110 → 132."
+      ],
+      "porQueErradas": {
+        "0": "Soma as taxas; o segundo aumento incide sobre o valor já aumentado.",
+        "2": "Multiplica as taxas (0,1 × 0,2).",
+        "3": "Confunde o fator 1,32 com a taxa de aumento.",
+        "4": "Aplica 10% duas vezes."
+      },
+      "pegadinha": "Porcentagens sucessivas não se somam; multiplicam-se os fatores.",
+      "fonte": "Porcentagem: aumentos sucessivos"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0038",
+    "materia": "matematica",
+    "assunto": "Porcentagem",
+    "dificuldade": 3,
+    "enunciado": "Um produto custava R$ 80,00. Seu preço foi aumentado em 25% e, em seguida, o novo preço sofreu desconto de 20%. O preço final é",
+    "alternativas": [
+      "R$ 80,00.",
+      "R$ 84,00.",
+      "R$ 76,00.",
+      "R$ 64,00.",
+      "R$ 100,00."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Aumento: 80 × 1,25 = 100.",
+        "Desconto: 100 × 0,80 = 80.",
+        "Fatores: 1,25 × 0,80 = 1, preço volta ao inicial."
+      ],
+      "porQueErradas": {
+        "1": "Calcula 25% − 20% = 5% de aumento.",
+        "2": "Calcula 5% de desconto.",
+        "3": "Aplica só o desconto de 20% sobre R$ 80,00.",
+        "4": "Aplica só o aumento."
+      },
+      "pegadinha": "Os 20% de desconto incidem sobre R$ 100,00, não sobre R$ 80,00. Taxas não se compensam por subtração.",
+      "fonte": "Porcentagem: aumento e desconto sucessivos"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0039",
+    "materia": "matematica",
+    "assunto": "Porcentagem",
+    "dificuldade": 1,
+    "enunciado": "O valor de 18% de 350 é",
+    "alternativas": [
+      "63.",
+      "6,3.",
+      "630.",
+      "68.",
+      "19,44."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "18% = 0,18.",
+        "0,18 × 350 = 63.",
+        "Conferência: 10% = 35; 8% = 28; 35 + 28 = 63."
+      ],
+      "porQueErradas": {
+        "1": "Erra uma casa decimal.",
+        "2": "Erra uma casa decimal.",
+        "3": "Erra a multiplicação 0,18 × 350.",
+        "4": "Calcula 350 ÷ 18."
+      },
+      "pegadinha": "Decomponha a taxa (10% + 8%) para conferir sem calculadora.",
+      "fonte": "Porcentagem de um número"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0040",
+    "materia": "matematica",
+    "assunto": "Porcentagem",
+    "dificuldade": 2,
+    "enunciado": "O número de ocorrências mensais em um bairro caiu de 240 para 204. A redução percentual foi de",
+    "alternativas": [
+      "36%.",
+      "cerca de 17,6%.",
+      "15%.",
+      "85%.",
+      "18%."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Redução: 240 − 204 = 36.",
+        "Base: valor inicial, 240.",
+        "36 ÷ 240 = 0,15 = 15%."
+      ],
+      "porQueErradas": {
+        "0": "Toma a diferença absoluta (36) como porcentagem.",
+        "1": "Divide a diferença pelo valor final (36 ÷ 204).",
+        "3": "É a porcentagem que restou, não a redução.",
+        "4": "Erra a divisão 36 ÷ 240."
+      },
+      "pegadinha": "Variação percentual usa sempre o valor inicial como base.",
+      "fonte": "Porcentagem: variação percentual"
+    },
+    "origem": "gerada"
+  }
+]

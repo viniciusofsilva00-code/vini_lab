@@ -1,0 +1,605 @@
+[
+  {
+    "id": "por-0041",
+    "materia": "portugues",
+    "assunto": "Sinônimos e antônimos",
+    "dificuldade": 1,
+    "enunciado": "Na frase \"O comandante mostrou-se irredutível quanto ao horário de saída da tropa\", o termo \"irredutível\" pode ser substituído, sem alteração de sentido, por",
+    "alternativas": [
+      "indeciso.",
+      "tolerante.",
+      "ausente.",
+      "apressado.",
+      "inflexível."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Irredutível: que não se reduz, que não cede.",
+        "Sinônimo adequado: inflexível."
+      ],
+      "porQueErradas": {
+        "0": "Indeciso é quem hesita; irredutível é quem não cede.",
+        "1": "Tolerante tem sentido quase oposto.",
+        "2": "Não tem relação com o sentido de irredutível.",
+        "3": "Não tem relação com o sentido de irredutível."
+      },
+      "pegadinha": "\"Tolerante\" e \"indeciso\" aparecem por serem do mesmo campo (atitude), mas com sentido oposto.",
+      "fonte": "Semântica: sinonímia e antonímia"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0042",
+    "materia": "portugues",
+    "assunto": "Sinônimos e antônimos",
+    "dificuldade": 1,
+    "enunciado": "Na frase \"A testemunha deu um depoimento conciso\", a palavra \"conciso\" significa",
+    "alternativas": [
+      "confuso e contraditório.",
+      "breve e objetivo.",
+      "longo e detalhado.",
+      "emocionado.",
+      "falso."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Conciso: expresso em poucas palavras, sem rodeios.",
+        "Equivale a breve, sucinto, objetivo."
+      ],
+      "porQueErradas": {
+        "0": "Conciso não indica confusão.",
+        "2": "É o oposto de conciso.",
+        "3": "Não se refere a emoção.",
+        "4": "Não se refere à veracidade."
+      },
+      "pegadinha": "\"Longo e detalhado\" é o antônimo, colocado para quem confunde o sentido.",
+      "fonte": "Semântica: sinonímia e antonímia"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0043",
+    "materia": "portugues",
+    "assunto": "Sinônimos e antônimos",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa que apresenta um antônimo de \"efêmero\" em \"O sucesso daquela campanha foi efêmero\".",
+    "alternativas": [
+      "passageiro.",
+      "duradouro.",
+      "fugaz.",
+      "momentâneo.",
+      "breve."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Efêmero: que dura pouco.",
+        "O antônimo é o que dura muito: duradouro."
+      ],
+      "porQueErradas": {
+        "0": "É sinônimo de efêmero.",
+        "2": "É sinônimo de efêmero.",
+        "3": "É sinônimo de efêmero.",
+        "4": "É sinônimo de efêmero."
+      },
+      "pegadinha": "O enunciado pede antônimo; quatro alternativas trazem sinônimos para quem lê rápido.",
+      "fonte": "Semântica: sinonímia e antonímia"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0044",
+    "materia": "portugues",
+    "assunto": "Sinônimos e antônimos",
+    "dificuldade": 2,
+    "enunciado": "Em \"A nova medida visa coibir abusos nas abordagens\", o verbo \"coibir\" tem sentido equivalente a",
+    "alternativas": [
+      "estimular.",
+      "permitir.",
+      "investigar.",
+      "registrar.",
+      "reprimir."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Coibir: impedir, refrear, reprimir.",
+        "A medida busca conter os abusos."
+      ],
+      "porQueErradas": {
+        "0": "É o oposto de coibir.",
+        "1": "Coibir é impedir, não permitir.",
+        "2": "Investigar é apurar, não impedir.",
+        "3": "Registrar é anotar, não impedir."
+      },
+      "pegadinha": "\"Investigar\" e \"registrar\" são ações ligadas ao tema, mas não equivalem a coibir.",
+      "fonte": "Semântica: sinonímia e antonímia"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0045",
+    "materia": "portugues",
+    "assunto": "Sinônimos e antônimos",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa que apresenta um antônimo de \"prolixo\".",
+    "alternativas": [
+      "verboso.",
+      "extenso.",
+      "redundante.",
+      "sucinto.",
+      "minucioso."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Prolixo: que usa palavras demais, que se alonga.",
+        "O oposto é sucinto: breve, resumido."
+      ],
+      "porQueErradas": {
+        "0": "É sinônimo de prolixo.",
+        "1": "Aproxima-se do sentido de prolixo.",
+        "2": "Quem é prolixo costuma ser redundante; não é antônimo.",
+        "4": "Minucioso é detalhista, próximo de prolixo, e não seu oposto."
+      },
+      "pegadinha": "Antônimo é o sentido oposto; termos vizinhos (verboso, extenso) são armadilhas.",
+      "fonte": "Semântica: sinonímia e antonímia"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0046",
+    "materia": "portugues",
+    "assunto": "Sinônimos e antônimos",
+    "dificuldade": 3,
+    "enunciado": "Na frase \"Após analisar o recurso, o juiz ratificou a decisão anterior\", o verbo \"ratificou\" significa",
+    "alternativas": [
+      "confirmou.",
+      "corrigiu.",
+      "anulou.",
+      "adiou.",
+      "suspendeu."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Ratificar: confirmar, validar.",
+        "Retificar (com \"e\"): corrigir.",
+        "No contexto, o juiz manteve a decisão: confirmou."
+      ],
+      "porQueErradas": {
+        "1": "Corrigir corresponde a \"retificar\", palavra parecida.",
+        "2": "Anular é o contrário de confirmar.",
+        "3": "Não tem relação com ratificar.",
+        "4": "Suspender é interromper, não confirmar."
+      },
+      "pegadinha": "Parônimos ratificar/retificar são clássicos de prova; memorize: RAtificar = reAfirmar.",
+      "fonte": "Semântica: sinonímia e paronímia"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0047",
+    "materia": "portugues",
+    "assunto": "Sinônimos e antônimos",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que as palavras são antônimas.",
+    "alternativas": [
+      "célere – rápido",
+      "árduo – difícil",
+      "íntegro – honesto",
+      "ileso – incólume",
+      "escasso – abundante"
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Escasso: que existe em pequena quantidade.",
+        "Abundante: que existe em grande quantidade.",
+        "Logo, são antônimas; os demais pares são sinônimos."
+      ],
+      "porQueErradas": {
+        "0": "São sinônimas.",
+        "1": "São sinônimas.",
+        "2": "São sinônimas.",
+        "3": "São sinônimas: ambas significam sem ferimento."
+      },
+      "pegadinha": "Palavras pouco usuais (incólume, célere) assustam, mas aqui formam pares de sinônimos.",
+      "fonte": "Semântica: sinonímia e antonímia"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0048",
+    "materia": "portugues",
+    "assunto": "Sinônimos e antônimos",
+    "dificuldade": 2,
+    "enunciado": "Na frase \"O suspeito deixou o local de modo furtivo\", a palavra \"furtivo\" significa",
+    "alternativas": [
+      "de forma violenta.",
+      "de maneira ostensiva, chamando atenção.",
+      "com grande pressa.",
+      "às escondidas, disfarçadamente.",
+      "de modo desastrado."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Furtivo: feito às ocultas, para não ser notado.",
+        "O suspeito saiu sem chamar atenção."
+      ],
+      "porQueErradas": {
+        "0": "Furtivo não implica violência.",
+        "1": "É o oposto de furtivo.",
+        "2": "Furtivo refere-se a disfarce, não a velocidade.",
+        "4": "Não tem relação com furtivo."
+      },
+      "pegadinha": "A semelhança com \"furto\" pode levar à ideia de crime ou violência; o sentido é de ocultação.",
+      "fonte": "Semântica: sinonímia e antonímia"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0049",
+    "materia": "portugues",
+    "assunto": "Sinônimos e antônimos",
+    "dificuldade": 1,
+    "enunciado": "Em \"Com o temporal, a população ficou apreensiva\", a palavra \"apreensiva\" pode ser substituída por",
+    "alternativas": [
+      "aliviada.",
+      "preocupada.",
+      "revoltada.",
+      "indiferente.",
+      "eufórica."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Apreensivo: inquieto, preocupado com algo que pode acontecer.",
+        "Diante do temporal, a população ficou preocupada."
+      ],
+      "porQueErradas": {
+        "0": "É o oposto de apreensiva.",
+        "2": "Revolta não equivale a apreensão.",
+        "3": "Indiferente é quem não se preocupa.",
+        "4": "Euforia é alegria intensa."
+      },
+      "pegadinha": "Não confunda \"apreensiva\" com \"apreensão\" de objetos pela polícia; aqui o sentido é de preocupação.",
+      "fonte": "Semântica: sinonímia e antonímia"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0050",
+    "materia": "portugues",
+    "assunto": "Sinônimos e antônimos",
+    "dificuldade": 3,
+    "enunciado": "Na frase \"Os moradores foram retirados diante do risco iminente de desabamento\", o termo \"iminente\" significa",
+    "alternativas": [
+      "ilustre, de destaque.",
+      "remoto, pouco provável.",
+      "já ocorrido.",
+      "prestes a acontecer.",
+      "insignificante."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Iminente: que está para acontecer em breve.",
+        "Eminente: ilustre, elevado.",
+        "No contexto, o desabamento podia ocorrer a qualquer momento."
+      ],
+      "porQueErradas": {
+        "0": "Esse é o sentido de \"eminente\", parônimo.",
+        "1": "Sentido oposto ao de iminente.",
+        "2": "Iminente refere-se ao que está para ocorrer.",
+        "4": "O risco é grave a ponto de exigir retirada."
+      },
+      "pegadinha": "Parônimos iminente/eminente: o contexto (retirada dos moradores) indica urgência.",
+      "fonte": "Semântica: sinonímia e paronímia"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0051",
+    "materia": "portugues",
+    "assunto": "Sentido próprio e figurado",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que há palavra empregada em sentido figurado.",
+    "alternativas": [
+      "A joalheria expôs um anel de ouro na vitrine.",
+      "O médico examinou o coração do paciente.",
+      "A chuva molhou as roupas no varal.",
+      "O novo sargento tem um coração de ouro.",
+      "O pedreiro quebrou a parede da cozinha."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "\"Coração de ouro\" não se refere a um órgão feito de metal.",
+        "Significa pessoa bondosa, generosa: sentido figurado."
+      ],
+      "porQueErradas": {
+        "0": "\"Ouro\" é o metal: sentido próprio.",
+        "1": "\"Coração\" é o órgão: sentido próprio.",
+        "2": "Todas as palavras estão em sentido próprio.",
+        "4": "Todas as palavras estão em sentido próprio."
+      },
+      "pegadinha": "As alternativas repetem \"ouro\" e \"coração\" em sentido literal para confundir.",
+      "fonte": "Semântica: denotação (sentido próprio) e conotação (sentido figurado)"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0052",
+    "materia": "portugues",
+    "assunto": "Sentido próprio e figurado",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que o verbo foi empregado em sentido próprio.",
+    "alternativas": [
+      "Ela freou a ansiedade antes de falar.",
+      "O silêncio pesou na sala de reunião.",
+      "Ele engoliu o orgulho e pediu desculpas.",
+      "O motorista freou o carro bruscamente.",
+      "A notícia caiu como uma bomba na corporação."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Sentido próprio é o literal, o do dicionário.",
+        "Frear o carro é acionar o freio do veículo: sentido próprio."
+      ],
+      "porQueErradas": {
+        "0": "Frear a ansiedade é controlá-la: sentido figurado.",
+        "1": "Silêncio não tem peso físico: sentido figurado.",
+        "2": "Engolir o orgulho é contê-lo: sentido figurado.",
+        "4": "A notícia não cai fisicamente: sentido figurado."
+      },
+      "pegadinha": "O mesmo verbo (frear) aparece nas duas acepções; verifique o complemento.",
+      "fonte": "Semântica: denotação (sentido próprio) e conotação (sentido figurado)"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0053",
+    "materia": "portugues",
+    "assunto": "Sentido próprio e figurado",
+    "dificuldade": 2,
+    "enunciado": "Na frase \"A cidade dormia quando a patrulha passou pela avenida\", o verbo \"dormia\" foi empregado em sentido figurado e indica que a cidade",
+    "alternativas": [
+      "estava em festa.",
+      "tinha todos os moradores doentes.",
+      "estava silenciosa, com pouco movimento.",
+      "havia sido abandonada pelos moradores.",
+      "estava sem energia elétrica."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Cidade não dorme literalmente: há personificação.",
+        "A ideia é de calma, silêncio, ruas vazias."
+      ],
+      "porQueErradas": {
+        "0": "Sentido contrário ao sugerido.",
+        "1": "Não há relação com doença.",
+        "3": "Dormir sugere repouso, não abandono.",
+        "4": "O verbo não indica falta de energia."
+      },
+      "pegadinha": "Interpretar \"dormia\" como abandono exagera o sentido; o verbo sugere repouso temporário.",
+      "fonte": "Semântica: denotação (sentido próprio) e conotação (sentido figurado)"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0054",
+    "materia": "portugues",
+    "assunto": "Sentido próprio e figurado",
+    "dificuldade": 2,
+    "enunciado": "Na frase \"Depois de dois anos de prejuízo, a loja quebrou\", o verbo \"quebrar\" tem sentido",
+    "alternativas": [
+      "próprio, indicando que o prédio da loja desabou.",
+      "próprio, indicando que a vitrine se partiu.",
+      "figurado, equivalente a \"mudou de endereço\".",
+      "figurado, equivalente a \"faliu\".",
+      "figurado, equivalente a \"aumentou as vendas\"."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "\"Dois anos de prejuízo\" é a pista do contexto.",
+        "Quebrar, aqui, significa ir à falência: sentido figurado."
+      ],
+      "porQueErradas": {
+        "0": "O contexto de prejuízo indica falência, não dano físico.",
+        "1": "Não há menção a vitrine.",
+        "2": "Quebrar não significa mudar de endereço.",
+        "4": "Sentido oposto ao do contexto."
+      },
+      "pegadinha": "A expressão \"de prejuízo\" decide o sentido; sem contexto, o leitor tende ao literal.",
+      "fonte": "Semântica: denotação (sentido próprio) e conotação (sentido figurado)"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0055",
+    "materia": "portugues",
+    "assunto": "Sentido próprio e figurado",
+    "dificuldade": 1,
+    "enunciado": "A expressão destacada em \"Aquele vizinho barulhento virou uma pedra no meu sapato\" significa",
+    "alternativas": [
+      "um objeto perdido.",
+      "uma ajuda inesperada.",
+      "um incômodo persistente.",
+      "uma pessoa muito calada.",
+      "um motivo de orgulho."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Pedra no sapato incomoda a cada passo.",
+        "Em sentido figurado: algo ou alguém que causa incômodo constante."
+      ],
+      "porQueErradas": {
+        "0": "Leitura literal, sem sentido no contexto.",
+        "1": "Sentido oposto.",
+        "3": "O vizinho é barulhento.",
+        "4": "A expressão é negativa."
+      },
+      "pegadinha": "Expressões idiomáticas não se interpretam palavra por palavra.",
+      "fonte": "Semântica: expressões idiomáticas e sentido figurado"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0056",
+    "materia": "portugues",
+    "assunto": "Sentido próprio e figurado",
+    "dificuldade": 2,
+    "enunciado": "Em \"A notícia do corte de folgas foi um banho de água fria na equipe\", a expressão \"banho de água fria\" indica",
+    "alternativas": [
+      "desânimo provocado por uma decepção.",
+      "alívio diante do calor.",
+      "entusiasmo com a novidade.",
+      "limpeza das instalações.",
+      "indiferença total da equipe."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Corte de folgas é notícia ruim.",
+        "\"Banho de água fria\" é a quebra súbita do ânimo."
+      ],
+      "porQueErradas": {
+        "1": "Leitura literal inadequada ao contexto.",
+        "2": "Sentido oposto ao da expressão.",
+        "3": "Leitura literal inadequada.",
+        "4": "A expressão indica desânimo, não indiferença."
+      },
+      "pegadinha": "Não confunda desânimo (reação) com indiferença (ausência de reação).",
+      "fonte": "Semântica: expressões idiomáticas e sentido figurado"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0057",
+    "materia": "portugues",
+    "assunto": "Sentido próprio e figurado",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a palavra \"doce\" está empregada em sentido próprio.",
+    "alternativas": [
+      "Ela tem uma voz doce ao telefone.",
+      "Guardo uma doce lembrança da infância.",
+      "O sargento lançou um olhar doce ao filho.",
+      "Meu avô é um doce de pessoa.",
+      "O bolo de aniversário ficou doce demais."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Sentido próprio de \"doce\": sabor açucarado.",
+        "Só o bolo pode, literalmente, ter sabor doce."
+      ],
+      "porQueErradas": {
+        "0": "Voz não tem sabor: sentido figurado (suave).",
+        "1": "Lembrança não tem sabor: sentido figurado (agradável).",
+        "2": "Olhar não tem sabor: sentido figurado (terno).",
+        "3": "Sentido figurado: pessoa amável."
+      },
+      "pegadinha": "Em sinestesias (\"voz doce\"), um sentido é atribuído a outro: é uso figurado.",
+      "fonte": "Semântica: denotação (sentido próprio) e conotação (sentido figurado)"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0058",
+    "materia": "portugues",
+    "assunto": "Sentido próprio e figurado",
+    "dificuldade": 2,
+    "enunciado": "Na frase \"Os olhos do vigia varriam a praça em busca de algo suspeito\", o verbo \"varriam\" significa",
+    "alternativas": [
+      "limpavam o chão com vassoura.",
+      "afastavam as pessoas da praça.",
+      "percorriam atentamente com o olhar.",
+      "fechavam-se de cansaço.",
+      "evitavam olhar para a praça."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Olhos não varrem literalmente.",
+        "O verbo, em sentido figurado, indica examinar todo o espaço, de um lado a outro."
+      ],
+      "porQueErradas": {
+        "0": "Sentido próprio, impossível para \"olhos\".",
+        "1": "Não há ação de afastar.",
+        "3": "Sentido sem apoio no contexto.",
+        "4": "Sentido oposto."
+      },
+      "pegadinha": "Pense no movimento de varrer (cobrir toda a área) para chegar ao sentido figurado.",
+      "fonte": "Semântica: denotação (sentido próprio) e conotação (sentido figurado)"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0059",
+    "materia": "portugues",
+    "assunto": "Sentido próprio e figurado",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que o verbo \"voar\" foi empregado em sentido figurado.",
+    "alternativas": [
+      "O avião voa a dez mil metros de altitude.",
+      "O pássaro voou do galho para o telhado.",
+      "O helicóptero voou sobre o rio.",
+      "O tempo voa quando estamos ocupados.",
+      "O balão voou acima das árvores."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O tempo não se desloca pelo ar.",
+        "\"Voar\" indica que o tempo passa depressa: sentido figurado."
+      ],
+      "porQueErradas": {
+        "0": "Sentido próprio: deslocar-se pelo ar.",
+        "1": "Sentido próprio.",
+        "2": "Sentido próprio.",
+        "4": "Sentido próprio."
+      },
+      "pegadinha": "Verifique se o sujeito pode, de fato, realizar a ação literalmente.",
+      "fonte": "Semântica: denotação (sentido próprio) e conotação (sentido figurado)"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0060",
+    "materia": "portugues",
+    "assunto": "Sentido próprio e figurado",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que a expressão, embora figurada na origem, tornou-se o nome usual de algo por falta de um termo próprio.",
+    "alternativas": [
+      "O pé da mesa estava solto.",
+      "Ele tem um coração de pedra.",
+      "Um mar de gente ocupou a avenida.",
+      "O prefeito recebeu uma chuva de críticas.",
+      "A empresa gastou rios de dinheiro."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Catacrese é a metáfora já incorporada ao uso, empregada por falta de palavra específica.",
+        "\"Pé da mesa\" é o nome comum dessa parte do móvel; ninguém percebe ali uma imagem."
+      ],
+      "porQueErradas": {
+        "1": "Metáfora expressiva; existe forma literal de dizer (insensível).",
+        "2": "Hipérbole/metáfora expressiva, não nome usual de algo.",
+        "3": "Metáfora expressiva de intensidade.",
+        "4": "Hipérbole expressiva."
+      },
+      "pegadinha": "Todas as alternativas são figuradas; a diferença é que só a catacrese perdeu o caráter expressivo.",
+      "fonte": "Estilística: catacrese"
+    },
+    "origem": "gerada"
+  }
+]
