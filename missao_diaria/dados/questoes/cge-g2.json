@@ -1,0 +1,622 @@
+[
+  {
+    "id": "cge-0081",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Natureza (relevo, hidrografia, clima, vegetação)",
+    "dificuldade": 2,
+    "enunciado": "Na classificação do relevo brasileiro proposta por Jurandyr Ross, as depressões são formas de relevo",
+    "alternativas": [
+      "elevadas e planas, onde predomina a sedimentação.",
+      "de altitudes sempre abaixo do nível do mar.",
+      "formadas por vulcões em atividade.",
+      "constituídas por dobramentos modernos, como os Andes.",
+      "rebaixadas em relação às áreas vizinhas, formadas principalmente por processos erosivos."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Ross classificou o relevo em planaltos, planícies e depressões.",
+        "Depressão é área mais baixa que o entorno, desgastada pela erosão.",
+        "Planície é área plana onde predomina a deposição de sedimentos."
+      ],
+      "porQueErradas": {
+        "0": "Isso não define depressão; áreas planas de sedimentação são planícies.",
+        "1": "No Brasil, as depressões estão acima do nível do mar; são relativas ao entorno.",
+        "2": "Não há vulcões ativos no território brasileiro.",
+        "3": "O Brasil não possui dobramentos modernos."
+      },
+      "pegadinha": "Depressão no Brasil é relativa (mais baixa que o entorno), não absoluta (abaixo do nível do mar).",
+      "fonte": "Jurandyr Ross, classificação do relevo brasileiro (planaltos, planícies e depressões)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0082",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Natureza (relevo, hidrografia, clima, vegetação)",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa que indica corretamente uma característica da Bacia Amazônica.",
+    "alternativas": [
+      "É uma bacia de pequena extensão, restrita ao estado do Amazonas.",
+      "É a maior bacia hidrográfica do mundo em área e em volume de água.",
+      "Seus rios principais secam totalmente durante o inverno.",
+      "É a bacia com o maior número de hidrelétricas do país.",
+      "Seu rio principal nasce no Planalto Central brasileiro."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "A Bacia Amazônica ocupa grande parte do norte da América do Sul.",
+        "O rio Amazonas nasce nos Andes peruanos e recebe muitos afluentes.",
+        "É a maior bacia do planeta em área e em vazão."
+      ],
+      "porQueErradas": {
+        "0": "Ela abrange vários estados brasileiros e outros países sul-americanos.",
+        "2": "O rio Amazonas é perene, com grande volume durante todo o ano.",
+        "3": "Esse destaque pertence à Bacia do Paraná.",
+        "4": "O rio Amazonas nasce na Cordilheira dos Andes, no Peru."
+      },
+      "pegadinha": "A Bacia do Paraná é a que mais aproveita o potencial hidrelétrico; não troque as duas.",
+      "fonte": "Hidrografia do Brasil: Bacia Amazônica (ANA/IBGE)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0083",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Natureza (relevo, hidrografia, clima, vegetação)",
+    "dificuldade": 2,
+    "enunciado": "Conhecido como 'rio da integração nacional', esse rio nasce na Serra da Canastra, em Minas Gerais, atravessa o semiárido nordestino e deságua no oceano Atlântico, na divisa entre Alagoas e Sergipe. Trata-se do rio",
+    "alternativas": [
+      "São Francisco.",
+      "Tietê.",
+      "Paraná.",
+      "Tocantins.",
+      "Parnaíba."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O São Francisco liga o Sudeste ao Nordeste, por isso é o 'rio da integração nacional'.",
+        "Nasce na Serra da Canastra (MG).",
+        "Deságua no Atlântico entre Alagoas e Sergipe."
+      ],
+      "porQueErradas": {
+        "1": "O Tietê nasce em São Paulo e corre para o interior, até o rio Paraná.",
+        "2": "O Paraná deságua no estuário do Prata, fora do Brasil.",
+        "3": "O Tocantins deságua próximo à foz do Amazonas, no Pará.",
+        "4": "O Parnaíba divide o Piauí e o Maranhão e deságua em delta."
+      },
+      "pegadinha": "O São Francisco é perene mesmo atravessando o semiárido; a banca pode dizer que ele seca.",
+      "fonte": "Hidrografia do Brasil: Bacia do São Francisco."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0084",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Natureza (relevo, hidrografia, clima, vegetação)",
+    "dificuldade": 1,
+    "enunciado": "O clima do Sertão nordestino, caracterizado por temperaturas elevadas o ano todo e chuvas escassas e irregulares, é classificado como",
+    "alternativas": [
+      "equatorial.",
+      "subtropical.",
+      "tropical de altitude.",
+      "temperado.",
+      "semiárido."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "O Sertão recebe poucas chuvas, concentradas em poucos meses.",
+        "As temperaturas são altas durante todo o ano.",
+        "Esse é o clima semiárido, ao qual se associa a Caatinga."
+      ],
+      "porQueErradas": {
+        "0": "O equatorial é quente e muito úmido, típico da Amazônia.",
+        "1": "O subtropical predomina no Sul, com estações definidas e geadas.",
+        "2": "Ocorre em áreas elevadas do Sudeste, com temperaturas mais amenas.",
+        "3": "O clima temperado não é típico do território brasileiro."
+      },
+      "pegadinha": "Semiárido não é deserto: há chuvas, mas escassas e irregulares.",
+      "fonte": "Climatologia do Brasil: clima semiárido."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0085",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Natureza (relevo, hidrografia, clima, vegetação)",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa que descreve corretamente o clima subtropical no Brasil.",
+    "alternativas": [
+      "Predomina na Amazônia, com temperaturas altas e chuvas o ano inteiro.",
+      "Predomina na Região Sul, ao sul do Trópico de Capricórnio, apresenta estações do ano bem definidas e invernos que podem ter geadas.",
+      "Predomina no Sertão nordestino, com chuvas escassas.",
+      "Apresenta temperaturas elevadas durante todo o ano, sem inverno.",
+      "É o clima mais seco do país, com vegetação de Caatinga."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "O Trópico de Capricórnio passa pelo norte do Paraná e pela cidade de São Paulo.",
+        "Ao sul dele domina o clima subtropical.",
+        "As quatro estações são bem marcadas e o inverno pode ter geadas e até neve em pontos elevados."
+      ],
+      "porQueErradas": {
+        "0": "Essa descrição é do clima equatorial.",
+        "2": "Essa descrição é do clima semiárido.",
+        "3": "No subtropical, o inverno é frio.",
+        "4": "A Caatinga está ligada ao semiárido."
+      },
+      "pegadinha": "Não confunda o Sul (subtropical) com o Sudeste de altitude (tropical de altitude).",
+      "fonte": "Climatologia do Brasil: clima subtropical."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0086",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Natureza (relevo, hidrografia, clima, vegetação)",
+    "dificuldade": 1,
+    "enunciado": "O bioma brasileiro que ocupava originalmente grande parte da faixa litorânea, onde hoje se concentram as maiores cidades do país, e que se tornou um dos mais devastados, é",
+    "alternativas": [
+      "a Caatinga.",
+      "o Pantanal.",
+      "a Mata Atlântica.",
+      "o Pampa.",
+      "a Amazônia."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "A colonização começou pelo litoral, área da Mata Atlântica.",
+        "Ciclos econômicos (pau-brasil, cana, café) e a urbanização devastaram o bioma.",
+        "Hoje resta pequena parte da cobertura original."
+      ],
+      "porQueErradas": {
+        "0": "A Caatinga ocupa principalmente o interior do Nordeste.",
+        "1": "O Pantanal fica no interior, em Mato Grosso e Mato Grosso do Sul.",
+        "3": "No Brasil, o Pampa se restringe à metade sul do Rio Grande do Sul.",
+        "4": "A Amazônia fica no Norte e não ocupa a faixa litorânea do Sudeste e do Nordeste."
+      },
+      "pegadinha": "A Amazônia é o bioma mais citado no noticiário de desmatamento, mas a Mata Atlântica é a mais devastada proporcionalmente.",
+      "fonte": "Biomas brasileiros (IBGE): Mata Atlântica."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0087",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Natureza (relevo, hidrografia, clima, vegetação)",
+    "dificuldade": 2,
+    "enunciado": "Vegetação com árvores de troncos retorcidos e casca grossa, arbustos e gramíneas, típica do Planalto Central e conhecida como 'berço das águas' por abrigar nascentes de importantes bacias hidrográficas. Essa descrição corresponde",
+    "alternativas": [
+      "à Mata de Araucárias.",
+      "à Floresta Amazônica.",
+      "aos Mangues.",
+      "à Mata dos Cocais.",
+      "ao Cerrado."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "O Cerrado é uma savana tropical do Brasil Central.",
+        "Troncos retorcidos e casca grossa são adaptações a solos ácidos e ao fogo.",
+        "Nascentes de bacias como a do São Francisco e a do Paraná estão nele."
+      ],
+      "porQueErradas": {
+        "0": "A Mata de Araucárias tem pinheiros e está no Sul, em clima subtropical.",
+        "1": "A Amazônia é floresta densa e úmida, sem troncos retorcidos típicos.",
+        "2": "Os mangues ficam no litoral, em áreas de água salobra.",
+        "3": "A Mata dos Cocais é marcada por palmeiras como babaçu e carnaúba."
+      },
+      "pegadinha": "'Berço das águas' é expressão que a banca associa ao Cerrado; não confunda com a Amazônia, que tem mais água, mas não as nascentes centrais.",
+      "fonte": "Biomas brasileiros (IBGE): Cerrado."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0088",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Natureza (relevo, hidrografia, clima, vegetação)",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa correta sobre o Pantanal.",
+    "alternativas": [
+      "É um planalto elevado e seco, localizado no Nordeste.",
+      "É coberto por floresta de araucárias.",
+      "Faz parte da Bacia Amazônica e fica no Pará.",
+      "É uma das maiores planícies alagáveis do mundo, localizada em Mato Grosso e Mato Grosso do Sul, na Bacia do Paraguai.",
+      "Não sofre inundações, pois chove pouco na região."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O Pantanal é uma planície no Centro-Oeste.",
+        "Na época das chuvas, os rios transbordam e alagam grandes áreas.",
+        "Ele faz parte da Bacia do rio Paraguai."
+      ],
+      "porQueErradas": {
+        "0": "O Pantanal é uma planície baixa e periodicamente inundada.",
+        "1": "A Mata de Araucárias é típica do Sul.",
+        "2": "O Pantanal pertence à Bacia do Paraguai.",
+        "4": "As cheias periódicas são a principal característica do bioma."
+      },
+      "pegadinha": "Não confunda a Bacia do Paraguai (Pantanal) com a do Paraná (hidrelétricas).",
+      "fonte": "Biomas brasileiros (IBGE): Pantanal."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0089",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Natureza (relevo, hidrografia, clima, vegetação)",
+    "dificuldade": 3,
+    "enunciado": "No inverno, a chegada de uma massa de ar fria pode provocar queda brusca de temperatura até mesmo no sul da Amazônia, fenômeno conhecido como friagem. A massa de ar responsável é a",
+    "alternativas": [
+      "Massa Equatorial Continental (mEc).",
+      "Massa Polar Atlântica (mPa).",
+      "Massa Tropical Atlântica (mTa).",
+      "Massa Equatorial Atlântica (mEa).",
+      "Massa Tropical Continental (mTc)."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "A mPa se forma no sul do continente, em latitudes altas.",
+        "No inverno ela avança mais para o norte.",
+        "Pode alcançar Rondônia, Acre e o sul do Amazonas, causando a friagem."
+      ],
+      "porQueErradas": {
+        "0": "A mEc é quente e úmida, origina-se na própria Amazônia.",
+        "2": "A mTa é quente e úmida, atua no litoral leste.",
+        "3": "A mEa é quente e úmida, atua no litoral norte e nordeste.",
+        "4": "A mTc é quente e seca, de atuação restrita ao interior do continente."
+      },
+      "pegadinha": "Somente uma das massas listadas é fria (polar); as outras são quentes. Use a palavra 'polar' como pista.",
+      "fonte": "Climatologia do Brasil: massas de ar."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0090",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: Natureza (relevo, hidrografia, clima, vegetação)",
+    "dificuldade": 3,
+    "enunciado": "O ponto mais alto do território brasileiro está localizado",
+    "alternativas": [
+      "no Pico da Neblina, na Serra do Imeri, no estado do Amazonas, na fronteira com a Venezuela.",
+      "no Pico da Bandeira, na Serra do Caparaó, entre Minas Gerais e Espírito Santo.",
+      "no Pico do Jaraguá, na cidade de São Paulo.",
+      "na Serra do Mar, no litoral do Rio de Janeiro.",
+      "na Chapada Diamantina, na Bahia."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Os pontos mais altos do Brasil ficam no extremo norte, no Planalto das Guianas.",
+        "O Pico da Neblina, na Serra do Imeri (AM), é o ponto culminante.",
+        "O Pico da Bandeira, no Sudeste, já foi considerado o mais alto antes de medições mais precisas."
+      ],
+      "porQueErradas": {
+        "1": "O Pico da Bandeira é um dos mais altos, mas não o mais alto.",
+        "2": "O Jaraguá é o ponto mais alto da capital paulista, de altitude modesta.",
+        "3": "A Serra do Mar não abriga o ponto culminante do país.",
+        "4": "A Chapada Diamantina não tem o ponto mais alto do Brasil."
+      },
+      "pegadinha": "O Pico da Bandeira é o distrator clássico, por ser o mais alto do Sudeste e de fácil acesso.",
+      "fonte": "IBGE: pontos culminantes do Brasil."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0091",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: População",
+    "dificuldade": 2,
+    "enunciado": "Nas últimas décadas, o Brasil vive a chamada transição demográfica. Assinale a alternativa que descreve esse processo.",
+    "alternativas": [
+      "Aumento contínuo da taxa de natalidade e redução da expectativa de vida.",
+      "Crescimento acelerado da população jovem e diminuição do número de idosos.",
+      "Elevação da mortalidade infantil por causa da urbanização.",
+      "Estabilidade completa das taxas de natalidade desde o período colonial.",
+      "Queda das taxas de natalidade e de mortalidade, com aumento da expectativa de vida e envelhecimento da população."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Primeiro cai a mortalidade, com avanços da medicina e do saneamento.",
+        "Depois cai a natalidade, com urbanização, inserção feminina no trabalho e métodos contraceptivos.",
+        "O resultado é uma população que cresce menos e envelhece."
+      ],
+      "porQueErradas": {
+        "0": "Ocorre o contrário: a natalidade cai e a expectativa de vida sobe.",
+        "1": "A proporção de idosos aumenta.",
+        "2": "A mortalidade infantil caiu, com melhorias em saneamento e saúde.",
+        "3": "As taxas mudaram muito ao longo do tempo."
+      },
+      "pegadinha": "Queda da natalidade não significa queda imediata da população; o crescimento apenas fica mais lento.",
+      "fonte": "Demografia (IBGE): transição demográfica brasileira."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0092",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: População",
+    "dificuldade": 2,
+    "enunciado": "Comparando pirâmides etárias do Brasil de diferentes décadas, observa-se uma mudança de formato. Assinale a alternativa que indica corretamente essa tendência.",
+    "alternativas": [
+      "A base vem se alargando, indicando aumento da natalidade.",
+      "O topo vem se estreitando, indicando redução da expectativa de vida.",
+      "A pirâmide mantém o mesmo formato triangular de base larga.",
+      "A base vem se estreitando e o topo vem se alargando, indicando menos nascimentos e mais idosos.",
+      "O meio da pirâmide desapareceu, indicando ausência de adultos."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "A base representa crianças; o topo, idosos.",
+        "Com menos filhos por mulher, a base se estreita.",
+        "Com maior longevidade, o topo se alarga."
+      ],
+      "porQueErradas": {
+        "0": "A natalidade está em queda, por isso a base se estreita.",
+        "1": "A expectativa de vida aumentou, alargando o topo.",
+        "2": "O formato mudou com a transição demográfica.",
+        "4": "A população adulta, ao contrário, ganhou peso relativo."
+      },
+      "pegadinha": "Leia a pirâmide de baixo para cima: base = jovens, topo = idosos. A banca inverte essas posições.",
+      "fonte": "IBGE: estrutura etária da população brasileira."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0093",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: População",
+    "dificuldade": 2,
+    "enunciado": "Os censos do IBGE mostram que a população brasileira se tornou majoritariamente urbana a partir de qual década, como resultado do intenso êxodo rural?",
+    "alternativas": [
+      "Década de 1900, logo após a abolição da escravatura.",
+      "Década de 1970 (Censo de 1970).",
+      "Década de 1930, com o início da Era Vargas.",
+      "Década de 2010, com o crescimento do agronegócio.",
+      "A população brasileira ainda é majoritariamente rural."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "A industrialização a partir de 1930-1950 atraiu migrantes do campo.",
+        "A mecanização agrícola e a concentração de terras expulsaram trabalhadores rurais.",
+        "O Censo de 1970 registrou, pela primeira vez, maioria urbana."
+      ],
+      "porQueErradas": {
+        "0": "Nesse período o Brasil ainda era predominantemente rural.",
+        "2": "Em 1940 a população rural ainda era ampla maioria.",
+        "3": "A população já era majoritariamente urbana muito antes.",
+        "4": "Hoje a grande maioria vive em áreas urbanas."
+      },
+      "pegadinha": "A Era Vargas iniciou a industrialização, mas a virada urbana só aparece no Censo de 1970.",
+      "fonte": "IBGE, Censos Demográficos (série histórica de população urbana e rural)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0094",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: População",
+    "dificuldade": 1,
+    "enunciado": "Durante boa parte do século XX, o principal fluxo migratório interno do Brasil foi o deslocamento de",
+    "alternativas": [
+      "paulistas em direção ao semiárido nordestino.",
+      "gaúchos em direção ao litoral do Nordeste.",
+      "nordestinos em direção ao Sudeste, principalmente para São Paulo e Rio de Janeiro.",
+      "moradores das capitais para o campo.",
+      "cariocas em direção à Região Sul."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Secas, concentração de terras e falta de emprego empurravam a população do Nordeste.",
+        "A industrialização do Sudeste atraía trabalhadores.",
+        "São Paulo foi o principal destino desses migrantes."
+      ],
+      "porQueErradas": {
+        "0": "O sentido do fluxo era o inverso.",
+        "1": "Gaúchos migraram sobretudo para o Centro-Oeste e o Norte, não para o litoral nordestino.",
+        "3": "Predominou o êxodo rural, do campo para a cidade.",
+        "4": "Esse não foi o principal fluxo migratório do período."
+      },
+      "pegadinha": "Nas últimas décadas cresceu a migração de retorno ao Nordeste; mas a pergunta trata da maior parte do século XX.",
+      "fonte": "IBGE: migrações internas no Brasil."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0095",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: População",
+    "dificuldade": 2,
+    "enunciado": "Um município tem 250.000 habitantes e área de 500 km². Sua densidade demográfica é de",
+    "alternativas": [
+      "50 hab./km².",
+      "2.000 hab./km².",
+      "0,002 hab./km².",
+      "125.000.000 hab./km².",
+      "500 hab./km²."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Densidade demográfica = população ÷ área.",
+        "250.000 ÷ 500 = 500.",
+        "Densidade = 500 habitantes por km²."
+      ],
+      "porQueErradas": {
+        "0": "Erro de casa decimal: 250.000 ÷ 500 = 500, não 50.",
+        "1": "Resultado de cálculo incorreto; a divisão correta dá 500.",
+        "2": "Dividiu a área pela população, invertendo a fórmula.",
+        "3": "Multiplicou população por área em vez de dividir."
+      },
+      "pegadinha": "A fórmula é população dividida por área; inverter a divisão é o erro mais cobrado.",
+      "fonte": "Demografia: densidade demográfica (hab./km²)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0096",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: População",
+    "dificuldade": 2,
+    "enunciado": "Diz-se que o Brasil é um país populoso, mas pouco povoado. Essa afirmação significa que o país",
+    "alternativas": [
+      "possui grande população absoluta, mas baixa densidade demográfica média, devido à sua grande extensão territorial.",
+      "possui pequena população absoluta e alta densidade demográfica.",
+      "tem a maior densidade demográfica do mundo.",
+      "tem população distribuída de forma igual por todo o território.",
+      "não possui áreas urbanas densamente ocupadas."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Populoso refere-se à população absoluta (número total de habitantes).",
+        "Povoado refere-se à população relativa (densidade).",
+        "O Brasil tem muitos habitantes, mas um território muito extenso."
+      ],
+      "porQueErradas": {
+        "1": "O Brasil tem população absoluta grande.",
+        "2": "A densidade média brasileira é baixa em comparação com muitos países.",
+        "3": "A população se concentra no litoral e no Sudeste.",
+        "4": "Há metrópoles com densidades muito elevadas."
+      },
+      "pegadinha": "Não confunda população absoluta (total) com relativa (por km²).",
+      "fonte": "Demografia: população absoluta e população relativa."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0097",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: População",
+    "dificuldade": 1,
+    "enunciado": "Segundo os censos do IBGE, a região brasileira mais populosa e a região com menor densidade demográfica são, respectivamente,",
+    "alternativas": [
+      "Nordeste e Sul.",
+      "Sul e Centro-Oeste.",
+      "Centro-Oeste e Sudeste.",
+      "Sudeste e Norte.",
+      "Norte e Nordeste."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O Sudeste concentra a maior população do país.",
+        "O Norte, de enorme área e população relativamente pequena, tem a menor densidade.",
+        "Isso se repete em todos os censos recentes."
+      ],
+      "porQueErradas": {
+        "0": "O Nordeste é a segunda mais populosa e o Sul não tem a menor densidade.",
+        "1": "O Sul não é a mais populosa.",
+        "2": "O Sudeste tem a maior densidade, não a menor.",
+        "4": "O Norte tem a menor densidade, não a maior população."
+      },
+      "pegadinha": "O Centro-Oeste também tem baixa densidade, mas a menor é a do Norte.",
+      "fonte": "IBGE, Censo Demográfico: população e densidade por região."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0098",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: População",
+    "dificuldade": 2,
+    "enunciado": "Em determinado ano, um país registrou taxa de natalidade de 14 por mil e taxa de mortalidade de 7 por mil, sem considerar migrações. O crescimento vegetativo desse país foi de",
+    "alternativas": [
+      "21 por mil, ou 2,1%.",
+      "2 por mil, ou 0,2%.",
+      "7 por mil, ou 0,7%.",
+      "7%.",
+      "-7 por mil, ou -0,7%."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Crescimento vegetativo = natalidade - mortalidade.",
+        "14 - 7 = 7 por mil.",
+        "7 por mil = 7 ÷ 1.000 = 0,007 = 0,7%."
+      ],
+      "porQueErradas": {
+        "0": "Somou as taxas, mas o crescimento vegetativo é a diferença.",
+        "1": "Dividiu as taxas em vez de subtrair.",
+        "3": "Erro na conversão: 7 por mil equivalem a 0,7%, não a 7%.",
+        "4": "Subtraiu na ordem inversa (mortalidade menos natalidade)."
+      },
+      "pegadinha": "Por mil (‰) não é por cento (%): divida por 10 para converter de ‰ para %.",
+      "fonte": "Demografia: crescimento vegetativo (natural)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0099",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: População",
+    "dificuldade": 3,
+    "enunciado": "A taxa de fecundidade é o número médio de filhos por mulher. Considera-se que, para a população se manter estável a longo prazo sem migrações, essa taxa deve ficar em torno de 2,1. Sobre o Brasil, é correto afirmar que",
+    "alternativas": [
+      "sua taxa de fecundidade aumentou desde a década de 1960 e hoje é a maior do mundo.",
+      "sua taxa de fecundidade se manteve igual desde o período colonial.",
+      "sua taxa de fecundidade está muito acima de 2,1, o que acelera o crescimento populacional.",
+      "sua taxa de fecundidade caiu bastante desde a década de 1960 e hoje está abaixo do nível de reposição.",
+      "a taxa de fecundidade não interfere no crescimento populacional."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Nos anos 1960, as brasileiras tinham, em média, mais de seis filhos.",
+        "Urbanização, escolarização e contracepção reduziram esse número.",
+        "Hoje a média está abaixo de 2,1, nível de reposição."
+      ],
+      "porQueErradas": {
+        "0": "A fecundidade brasileira caiu fortemente.",
+        "1": "Houve grande redução nas últimas décadas.",
+        "2": "Ela está abaixo de 2,1.",
+        "4": "Ela é um dos fatores principais do crescimento."
+      },
+      "pegadinha": "Fecundidade abaixo da reposição não faz a população cair de imediato, por causa da inércia demográfica.",
+      "fonte": "IBGE: taxa de fecundidade total (série histórica)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0100",
+    "materia": "conhecimentos_gerais",
+    "assunto": "Geografia do Brasil: População",
+    "dificuldade": 2,
+    "enunciado": "A partir do final do século XIX, a imigração europeia para o estado de São Paulo foi estimulada principalmente para",
+    "alternativas": [
+      "povoar a região amazônica e explorar a borracha.",
+      "trabalhar na mineração de ouro em Minas Gerais.",
+      "ocupar cargos na administração pública federal.",
+      "suprir a demanda de mão de obra nas lavouras de café, especialmente após o fim da escravidão.",
+      "formar exércitos para a Guerra do Paraguai."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "A cafeicultura paulista crescia e precisava de trabalhadores.",
+        "Com o fim do tráfico e depois da escravidão (1888), buscou-se mão de obra livre.",
+        "Italianos, espanhóis e portugueses vieram em grande número; os japoneses chegaram a partir de 1908."
+      ],
+      "porQueErradas": {
+        "0": "O ciclo da borracha atraiu sobretudo migrantes nordestinos.",
+        "1": "A mineração do ouro foi um ciclo do século XVIII.",
+        "2": "Essa não foi a motivação da política imigratória.",
+        "4": "A guerra terminou em 1870 e não foi a causa do fluxo imigratório."
+      },
+      "pegadinha": "A borracha (Amazônia) usou principalmente migrantes nordestinos, não imigrantes europeus.",
+      "fonte": "História e Geografia da população: imigração no Brasil."
+    },
+    "origem": "gerada"
+  }
+]

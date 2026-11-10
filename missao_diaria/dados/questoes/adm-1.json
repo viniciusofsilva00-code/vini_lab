@@ -1,0 +1,615 @@
+[
+  {
+    "id": "adm-0001",
+    "materia": "administracao_publica",
+    "assunto": "CF: Direitos e deveres individuais e coletivos (art. 5º)",
+    "dificuldade": 1,
+    "enunciado": "De acordo com a Constituição Federal, a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador. Assinale a alternativa que apresenta corretamente uma das exceções previstas no art. 5º, XI.",
+    "alternativas": [
+      "A qualquer hora do dia ou da noite, por determinação judicial.",
+      "Durante a noite, por determinação da autoridade policial competente.",
+      "Durante o dia, por determinação judicial.",
+      "Em caso de desastre, somente durante o dia.",
+      "Durante o dia, por determinação judicial ou administrativa."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O art. 5º, XI, lista as exceções: flagrante delito, desastre, prestar socorro e, durante o dia, determinação judicial.",
+        "Flagrante, desastre e socorro autorizam a entrada a qualquer hora.",
+        "Apenas a determinação judicial está limitada ao período do dia."
+      ],
+      "porQueErradas": {
+        "0": "A entrada por determinação judicial só é permitida durante o dia.",
+        "1": "A Constituição não autoriza ingresso por ordem de autoridade policial; a ordem deve ser judicial e cumprida durante o dia.",
+        "3": "Em caso de desastre o ingresso é permitido a qualquer hora, sem a restrição do período diurno.",
+        "4": "Somente a determinação judicial autoriza o ingresso; ordem administrativa não basta."
+      },
+      "pegadinha": "A banca troca 'durante o dia' por 'a qualquer hora' ou acrescenta 'ordem administrativa/policial'. Grave: só a ordem judicial tem horário, e só ela vem do juiz.",
+      "fonte": "CF/88, art. 5º, inciso XI"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0002",
+    "materia": "administracao_publica",
+    "assunto": "CF: Direitos políticos (arts. 14 a 16)",
+    "dificuldade": 1,
+    "enunciado": "Nos termos do art. 14, § 1º, da Constituição Federal, o alistamento eleitoral e o voto são facultativos para",
+    "alternativas": [
+      "os maiores de sessenta e cinco anos.",
+      "os conscritos, durante o período do serviço militar obrigatório.",
+      "os maiores de setenta anos.",
+      "os maiores de dezoito e menores de vinte e um anos.",
+      "os estrangeiros residentes no País há mais de quinze anos."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Voto obrigatório: maiores de dezoito anos.",
+        "Voto facultativo: analfabetos, maiores de setenta anos e maiores de dezesseis e menores de dezoito anos.",
+        "Inalistáveis: estrangeiros e, durante o serviço militar obrigatório, os conscritos."
+      ],
+      "porQueErradas": {
+        "0": "A idade que torna o voto facultativo é setenta anos, não sessenta e cinco.",
+        "1": "Os conscritos, nesse período, não podem alistar-se como eleitores (art. 14, § 2º); não se trata de voto facultativo.",
+        "3": "Para os maiores de dezoito anos o voto é obrigatório; facultativo é para os maiores de dezesseis e menores de dezoito.",
+        "4": "Os estrangeiros não podem alistar-se como eleitores (art. 14, § 2º)."
+      },
+      "pegadinha": "Não confunda facultativo com proibido: conscritos e estrangeiros não votam; idosos acima de setenta votam se quiserem.",
+      "fonte": "CF/88, art. 14, § 1º, inciso II, e § 2º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0003",
+    "materia": "administracao_publica",
+    "assunto": "CF: Administração Pública, disposições gerais (arts. 37 e 38)",
+    "dificuldade": 1,
+    "enunciado": "Segundo o art. 37, III, da Constituição Federal, o prazo de validade do concurso público será de",
+    "alternativas": [
+      "dois anos, improrrogável.",
+      "até dois anos, prorrogável uma vez, por igual período.",
+      "até quatro anos, prorrogável uma vez, por até dois anos.",
+      "até dois anos, prorrogável sucessivas vezes, por igual período.",
+      "até um ano, prorrogável uma vez, por igual período."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "O inciso III fixa: validade de até dois anos.",
+        "Admite-se uma única prorrogação.",
+        "A prorrogação é por igual período ao inicialmente fixado."
+      ],
+      "porQueErradas": {
+        "0": "O prazo é de até dois anos e admite uma prorrogação.",
+        "2": "O limite inicial é de até dois anos, e a prorrogação é por igual período.",
+        "3": "A prorrogação é permitida uma única vez.",
+        "4": "O prazo constitucional é de até dois anos, não de um ano."
+      },
+      "pegadinha": "Atenção às palavras 'até', 'uma vez' e 'igual período'. A banca costuma trocar por 'sucessivas vezes' ou mudar o número de anos.",
+      "fonte": "CF/88, art. 37, inciso III"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0004",
+    "materia": "administracao_publica",
+    "assunto": "CF: Militares dos Estados (art. 42)",
+    "dificuldade": 1,
+    "enunciado": "De acordo com o art. 42 da Constituição Federal, os membros das Polícias Militares e dos Corpos de Bombeiros Militares",
+    "alternativas": [
+      "são militares da União, cedidos aos Estados para a preservação da ordem pública.",
+      "são militares dos Estados, do Distrito Federal e dos Territórios, integrantes de instituições organizadas com base na hierarquia e disciplina.",
+      "são servidores públicos civis submetidos a regime jurídico especial.",
+      "integram instituições organizadas com base na disciplina e na eficiência.",
+      "integram instituições organizadas com base na hierarquia e na legalidade."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "O caput do art. 42 trata dos militares estaduais.",
+        "As instituições são organizadas com base na hierarquia e disciplina.",
+        "Seus membros são militares dos Estados, do Distrito Federal e dos Territórios."
+      ],
+      "porQueErradas": {
+        "0": "O art. 42 os define como militares dos Estados, do Distrito Federal e dos Territórios, não da União.",
+        "2": "A Constituição os classifica como militares, e não como servidores civis.",
+        "3": "Os pilares citados pelo art. 42 são hierarquia e disciplina.",
+        "4": "A Constituição menciona hierarquia e disciplina; a legalidade não é citada nesse dispositivo."
+      },
+      "pegadinha": "Os distratores trocam 'disciplina' por outro princípio ou dizem que os PMs são militares da União. Memorize o binômio hierarquia e disciplina.",
+      "fonte": "CF/88, art. 42, caput"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0005",
+    "materia": "administracao_publica",
+    "assunto": "CF: Segurança Pública (art. 144)",
+    "dificuldade": 1,
+    "enunciado": "Conforme o art. 144, § 5º, da Constituição Federal, às polícias militares cabem",
+    "alternativas": [
+      "as funções de polícia judiciária e a apuração de infrações penais, exceto as militares.",
+      "o patrulhamento ostensivo das rodovias federais.",
+      "a segurança dos estabelecimentos penais.",
+      "as funções de polícia marítima, aeroportuária e de fronteiras.",
+      "a polícia ostensiva e a preservação da ordem pública."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "O § 5º do art. 144 define a missão das polícias militares.",
+        "Cabem a elas a polícia ostensiva e a preservação da ordem pública.",
+        "Aos corpos de bombeiros militares cabe, além do previsto em lei, a execução de atividades de defesa civil."
+      ],
+      "porQueErradas": {
+        "0": "Essa é a atribuição das polícias civis (art. 144, § 4º).",
+        "1": "Essa é a atribuição da polícia rodoviária federal (art. 144, § 2º).",
+        "2": "Essa é a atribuição das polícias penais (art. 144, § 5º-A).",
+        "3": "Essa é uma das atribuições da polícia federal (art. 144, § 1º, III)."
+      },
+      "pegadinha": "A banca mistura as atribuições dos órgãos do art. 144. Associe: PM = ostensiva e ordem pública; PC = polícia judiciária; PP = estabelecimentos penais.",
+      "fonte": "CF/88, art. 144, § 5º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0006",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Poder Executivo",
+    "dificuldade": 1,
+    "enunciado": "Segundo a Constituição do Estado de São Paulo, em caso de impedimento do Governador e do Vice-Governador, ou vacância dos respectivos cargos, serão sucessivamente chamados ao exercício da Governança",
+    "alternativas": [
+      "o Presidente da Assembleia Legislativa e o Presidente do Tribunal de Justiça.",
+      "o Presidente do Tribunal de Justiça e o Presidente da Assembleia Legislativa.",
+      "o Presidente da Assembleia Legislativa e o Procurador-Geral de Justiça.",
+      "o Secretário de Governo e o Presidente da Assembleia Legislativa.",
+      "o Presidente do Tribunal de Contas do Estado e o Presidente do Tribunal de Justiça."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O art. 38 trata do Vice-Governador, que substitui e sucede o Governador.",
+        "Faltando ambos, o art. 40 chama, sucessivamente, o Presidente da Assembleia Legislativa e depois o Presidente do Tribunal de Justiça."
+      ],
+      "porQueErradas": {
+        "1": "A ordem está invertida: primeiro é chamado o Presidente da Assembleia Legislativa.",
+        "2": "O segundo na linha é o Presidente do Tribunal de Justiça, não o Procurador-Geral de Justiça.",
+        "3": "Secretários de Estado não integram a linha de substituição do Governador.",
+        "4": "O Presidente do Tribunal de Contas não é chamado ao exercício da Governança."
+      },
+      "pegadinha": "A pegadinha é a ordem. Pense em 'Legislativo antes do Judiciário', como ocorre na esfera federal (Câmara, Senado e depois STF).",
+      "fonte": "CE-SP, art. 40"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0007",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Justiça Militar do Estado",
+    "dificuldade": 1,
+    "enunciado": "De acordo com a Constituição do Estado de São Paulo, a Justiça Militar do Estado será constituída",
+    "alternativas": [
+      "em primeiro grau, pelos juízes de Direito e pelos Conselhos de Justiça e, em segundo grau, pelo Tribunal de Justiça Militar.",
+      "em primeiro grau, pelo Tribunal de Justiça Militar e, em segundo grau, pelo Superior Tribunal Militar.",
+      "em primeiro grau, apenas pelos Conselhos de Justiça e, em segundo grau, pelo Tribunal de Justiça do Estado.",
+      "em primeiro grau, pelos juízes de Direito e, em segundo grau, pelo Superior Tribunal Militar.",
+      "em primeiro grau, pelos juízes de Direito e pelos Conselhos de Justiça e, em segundo grau, pelo Tribunal de Justiça do Estado."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O art. 79-A da CE-SP define a estrutura da Justiça Militar estadual.",
+        "Primeiro grau: juízes de Direito e Conselhos de Justiça.",
+        "Segundo grau: Tribunal de Justiça Militar."
+      ],
+      "porQueErradas": {
+        "1": "O Tribunal de Justiça Militar é o órgão de segundo grau; o Superior Tribunal Militar pertence à Justiça Militar da União.",
+        "2": "O primeiro grau inclui também os juízes de Direito, e o segundo grau é o Tribunal de Justiça Militar.",
+        "3": "Faltam os Conselhos de Justiça no primeiro grau, e o segundo grau é o Tribunal de Justiça Militar.",
+        "4": "Em São Paulo, o segundo grau da Justiça Militar é o Tribunal de Justiça Militar, e não o Tribunal de Justiça."
+      },
+      "pegadinha": "São Paulo é um dos Estados que têm Tribunal de Justiça Militar próprio; por isso a banca tenta trocá-lo pelo Tribunal de Justiça ou pelo STM.",
+      "fonte": "CE-SP, art. 79-A"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0008",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Administração Pública e servidores",
+    "dificuldade": 2,
+    "enunciado": "Além dos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência, o art. 111 da Constituição do Estado de São Paulo determina que a administração pública estadual obedeça, expressamente, aos princípios de",
+    "alternativas": [
+      "proporcionalidade, segurança jurídica, finalidade e economicidade.",
+      "razoabilidade, celeridade, continuidade e autotutela.",
+      "motivação, hierarquia, disciplina e eficácia.",
+      "razoabilidade, finalidade, motivação e interesse público.",
+      "supremacia do interesse privado, finalidade e motivação."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O art. 111 da CE-SP lista: legalidade, impessoalidade, moralidade, publicidade, razoabilidade, finalidade, motivação, interesse público e eficiência.",
+        "Os quatro que não aparecem no caput do art. 37 da CF são razoabilidade, finalidade, motivação e interesse público."
+      ],
+      "porQueErradas": {
+        "0": "Proporcionalidade, segurança jurídica e economicidade não constam do art. 111 da CE-SP.",
+        "1": "Celeridade, continuidade e autotutela não estão expressos no art. 111.",
+        "2": "Hierarquia e disciplina são bases das instituições militares, e eficácia não é princípio listado no art. 111.",
+        "4": "O art. 111 fala em interesse público; não existe princípio de supremacia do interesse privado."
+      },
+      "pegadinha": "A CE-SP é mais extensa que a CF. A banca mistura princípios doutrinários (proporcionalidade, autotutela) que não estão escritos no art. 111.",
+      "fonte": "CE-SP, art. 111"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0009",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Segurança Pública e Polícia Militar",
+    "dificuldade": 1,
+    "enunciado": "Nos termos do art. 139, § 3º, da Constituição do Estado de São Paulo, a Polícia Militar, integrada pelo Corpo de Bombeiros, é",
+    "alternativas": [
+      "força auxiliar, reserva do Exército.",
+      "força auxiliar, reserva da Polícia Federal.",
+      "órgão independente do Corpo de Bombeiros, que é reserva da Marinha.",
+      "força principal, subordinada ao Comandante do Exército.",
+      "força auxiliar, reserva da Aeronáutica."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O art. 139, § 3º, da CE-SP diz que a Polícia Militar, integrada pelo Corpo de Bombeiros, é força auxiliar, reserva do Exército.",
+        "A mesma ideia aparece no art. 144, § 6º, da CF."
+      ],
+      "porQueErradas": {
+        "1": "A Polícia Militar é reserva do Exército, não da Polícia Federal.",
+        "2": "Em São Paulo, o Corpo de Bombeiros integra a Polícia Militar, e a reserva é do Exército.",
+        "3": "A Polícia Militar é força auxiliar e se subordina ao Governador do Estado (art. 139, § 1º).",
+        "4": "O texto constitucional menciona apenas o Exército."
+      },
+      "pegadinha": "Em São Paulo o Corpo de Bombeiros integra a PM. A banca tenta separá-los ou trocar o Exército por outra Força.",
+      "fonte": "CE-SP, art. 139, § 3º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0010",
+    "materia": "administracao_publica",
+    "assunto": "Lei 12.527/11 (Acesso à Informação) e Decreto 68.155/23",
+    "dificuldade": 1,
+    "enunciado": "De acordo com a Lei nº 12.527/2011, não sendo possível conceder o acesso imediato à informação, o órgão ou entidade que receber o pedido deverá adotar as providências cabíveis em prazo não superior a",
+    "alternativas": [
+      "10 dias, prorrogável por mais 5 dias, mediante justificativa expressa.",
+      "30 dias, improrrogável.",
+      "20 dias, prorrogável por igual período, independentemente de justificativa.",
+      "15 dias úteis, prorrogável uma única vez por mais 15 dias.",
+      "20 dias, prorrogável por mais 10 dias, mediante justificativa expressa, da qual será cientificado o requerente."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Regra: acesso imediato à informação disponível (art. 11, caput).",
+        "Não sendo possível, o órgão tem até 20 dias para responder (art. 11, § 1º).",
+        "Esse prazo pode ser prorrogado por mais 10 dias, com justificativa expressa e ciência do requerente (art. 11, § 2º)."
+      ],
+      "porQueErradas": {
+        "0": "Esses números (10 e 5 dias) são os prazos de recurso e de manifestação da autoridade superior (art. 15).",
+        "1": "O prazo é de 20 dias e admite prorrogação de 10 dias.",
+        "2": "A prorrogação é de 10 dias e exige justificativa expressa.",
+        "3": "A LAI não fixa 15 dias; o prazo é de 20 dias, prorrogável por 10."
+      },
+      "pegadinha": "Não confunda os prazos: 20 + 10 para responder ao pedido; 10 para recorrer; 5 para a autoridade decidir o recurso.",
+      "fonte": "Lei 12.527/11, art. 11, §§ 1º e 2º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0011",
+    "materia": "administracao_publica",
+    "assunto": "CF: Direitos e deveres individuais e coletivos (art. 5º)",
+    "dificuldade": 2,
+    "enunciado": "Nos termos do art. 5º da Constituição Federal, constitui crime inafiançável e imprescritível",
+    "alternativas": [
+      "a prática da tortura.",
+      "a prática do racismo.",
+      "o tráfico ilícito de entorpecentes e drogas afins.",
+      "o terrorismo.",
+      "o crime definido como hediondo."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Inciso XLII: racismo é crime inafiançável e imprescritível, sujeito à pena de reclusão.",
+        "Inciso XLIV: a ação de grupos armados contra a ordem constitucional e o Estado Democrático também é inafiançável e imprescritível.",
+        "Inciso XLIII: tortura, tráfico, terrorismo e hediondos são inafiançáveis e insuscetíveis de graça ou anistia."
+      ],
+      "porQueErradas": {
+        "0": "A tortura é inafiançável e insuscetível de graça ou anistia (inciso XLIII), mas a Constituição não a declara imprescritível.",
+        "2": "O tráfico está no inciso XLIII: inafiançável e insuscetível de graça ou anistia, não imprescritível.",
+        "3": "O terrorismo também está no inciso XLIII, que não fala em imprescritibilidade.",
+        "4": "Os hediondos estão no inciso XLIII: inafiançáveis e insuscetíveis de graça ou anistia, sem previsão de imprescritibilidade."
+      },
+      "pegadinha": "Macete: imprescritíveis são só o racismo e a ação de grupos armados (RAÇÃO). Os do inciso XLIII (3TH) são insuscetíveis de graça ou anistia.",
+      "fonte": "CF/88, art. 5º, incisos XLII, XLIII e XLIV"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0012",
+    "materia": "administracao_publica",
+    "assunto": "CF: Direitos políticos (arts. 14 a 16)",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa que apresenta corretamente uma das idades mínimas exigidas como condição de elegibilidade pelo art. 14, § 3º, VI, da Constituição Federal.",
+    "alternativas": [
+      "Trinta e cinco anos para Deputado Federal.",
+      "Vinte e um anos para Senador.",
+      "Trinta anos para Governador e Vice-Governador de Estado.",
+      "Dezoito anos para Prefeito.",
+      "Trinta anos para Vice-Presidente da República."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "35 anos: Presidente, Vice-Presidente e Senador.",
+        "30 anos: Governador e Vice-Governador.",
+        "21 anos: Deputados (federal, estadual ou distrital), Prefeito, Vice-Prefeito e juiz de paz.",
+        "18 anos: Vereador."
+      ],
+      "porQueErradas": {
+        "0": "Para Deputado Federal a idade mínima é de vinte e um anos; trinta e cinco anos é para Presidente, Vice-Presidente e Senador.",
+        "1": "Para Senador exige-se trinta e cinco anos.",
+        "3": "Para Prefeito a idade mínima é de vinte e um anos; dezoito anos é para Vereador.",
+        "4": "Para Vice-Presidente da República exige-se trinta e cinco anos."
+      },
+      "pegadinha": "O Senador costuma ser deslocado para 21 ou 30 anos. Lembre: Senador fica junto com Presidente (35).",
+      "fonte": "CF/88, art. 14, § 3º, inciso VI"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0013",
+    "materia": "administracao_publica",
+    "assunto": "CF: Administração Pública, disposições gerais (arts. 37 e 38)",
+    "dificuldade": 2,
+    "enunciado": "Não é princípio expresso no caput do art. 37 da Constituição Federal:",
+    "alternativas": [
+      "legalidade.",
+      "impessoalidade.",
+      "moralidade.",
+      "eficiência.",
+      "razoabilidade."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "O caput do art. 37 traz cinco princípios: legalidade, impessoalidade, moralidade, publicidade e eficiência (LIMPE).",
+        "A razoabilidade não está nesse caput; ela aparece expressamente no art. 111 da Constituição Paulista."
+      ],
+      "porQueErradas": {
+        "0": "A legalidade está expressa no caput do art. 37.",
+        "1": "A impessoalidade está expressa no caput do art. 37.",
+        "2": "A moralidade está expressa no caput do art. 37.",
+        "3": "A eficiência foi incluída no caput do art. 37 pela Emenda Constitucional nº 19/1998."
+      },
+      "pegadinha": "Quem estuda as duas Constituições confunde as listas. Na CF, só o LIMPE; na CE-SP, há também razoabilidade, finalidade, motivação e interesse público.",
+      "fonte": "CF/88, art. 37, caput"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0014",
+    "materia": "administracao_publica",
+    "assunto": "CF: Militares dos Estados (art. 42)",
+    "dificuldade": 1,
+    "enunciado": "Conforme o art. 42, § 1º, da Constituição Federal, as patentes dos oficiais das Polícias Militares e dos Corpos de Bombeiros Militares são conferidas",
+    "alternativas": [
+      "pelos respectivos Governadores.",
+      "pelo Presidente da República.",
+      "pelo Comandante do Exército.",
+      "pelo Comandante-Geral da respectiva Polícia Militar.",
+      "pela Assembleia Legislativa, mediante proposta do Governador."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O § 1º do art. 42 manda aplicar aos militares estaduais algumas regras do art. 142.",
+        "Ao final, determina que as patentes dos oficiais sejam conferidas pelos respectivos Governadores."
+      ],
+      "porQueErradas": {
+        "1": "O Presidente confere as patentes dos oficiais das Forças Armadas (art. 142, § 3º, I), não as dos militares estaduais.",
+        "2": "O Comandante do Exército não confere patentes aos oficiais das corporações estaduais.",
+        "3": "A Constituição atribui essa competência ao Governador, não ao Comandante-Geral.",
+        "4": "Não há participação do Legislativo: as patentes são conferidas pelos Governadores."
+      },
+      "pegadinha": "A banca troca o Governador pelo Presidente da República, que é quem confere as patentes nas Forças Armadas.",
+      "fonte": "CF/88, art. 42, § 1º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0015",
+    "materia": "administracao_publica",
+    "assunto": "CF: Segurança Pública (art. 144)",
+    "dificuldade": 1,
+    "enunciado": "Nos termos do art. 144, § 6º, da Constituição Federal, as polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército, subordinam-se, juntamente com as polícias civis e as polícias penais estaduais e distrital,",
+    "alternativas": [
+      "ao Comandante do Exército.",
+      "ao Ministro da Justiça e Segurança Pública.",
+      "ao Presidente da República.",
+      "aos Governadores dos Estados, do Distrito Federal e dos Territórios.",
+      "aos Secretários Estaduais de Segurança Pública, independentemente do Governador."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O § 6º do art. 144 diz que PM e bombeiros militares são forças auxiliares e reserva do Exército.",
+        "Junto com polícias civis e penais estaduais e distrital, subordinam-se aos Governadores."
+      ],
+      "porQueErradas": {
+        "0": "Ser reserva do Exército não significa subordinação a ele; a subordinação é aos Governadores.",
+        "1": "A Constituição não subordina as polícias estaduais a Ministro de Estado.",
+        "2": "As polícias estaduais subordinam-se aos Governadores.",
+        "4": "O texto constitucional fala em subordinação aos Governadores."
+      },
+      "pegadinha": "Não confunda 'reserva do Exército' com 'subordinação ao Exército'. A chefia é do Governador.",
+      "fonte": "CF/88, art. 144, § 6º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0016",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Poder Executivo",
+    "dificuldade": 1,
+    "enunciado": "De acordo com a Constituição do Estado de São Paulo, o Governador e o Vice-Governador não poderão, sem licença da Assembleia Legislativa, ausentar-se do Estado por período superior a",
+    "alternativas": [
+      "dez dias, sob pena de perda do cargo.",
+      "trinta dias, sob pena de perda do cargo.",
+      "quinze dias, sob pena de multa aplicada pelo Tribunal de Contas.",
+      "quinze dias, sob pena de perda do cargo.",
+      "quinze dias, sem licença do Tribunal de Justiça, sob pena de perda do cargo."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O art. 44 exige licença da Assembleia Legislativa para ausência do Estado superior a quinze dias.",
+        "A sanção é a perda do cargo.",
+        "O pedido de licença deve ser motivado, com razões da viagem, roteiro e previsão de gastos (parágrafo único)."
+      ],
+      "porQueErradas": {
+        "0": "O prazo previsto no art. 44 é de quinze dias.",
+        "1": "O prazo é de quinze dias, e não de trinta.",
+        "2": "A sanção prevista é a perda do cargo, não multa.",
+        "4": "A licença deve ser concedida pela Assembleia Legislativa, não pelo Tribunal de Justiça."
+      },
+      "pegadinha": "Na CF, o Presidente precisa de licença do Congresso para se ausentar do País por mais de quinze dias; a CE-SP repete o número. A banca troca o prazo ou o órgão que concede a licença.",
+      "fonte": "CE-SP, art. 44"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0017",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Justiça Militar do Estado",
+    "dificuldade": 2,
+    "enunciado": "Segundo a Constituição do Estado de São Paulo, o Tribunal de Justiça Militar do Estado, com jurisdição em todo o território estadual e sede na Capital, compõe-se de",
+    "alternativas": [
+      "sete juízes, divididos em duas câmaras, sendo quatro civis e três militares Coronéis da ativa.",
+      "cinco juízes, em câmara única, sendo três militares e dois civis.",
+      "sete juízes, divididos em duas câmaras, sendo quatro militares Coronéis da ativa da Polícia Militar e três civis.",
+      "sete juízes, divididos em duas câmaras, sendo quatro militares Coronéis da reserva e três civis.",
+      "nove juízes, divididos em três câmaras, sendo cinco militares e quatro civis."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O art. 80 da CE-SP fixa sete juízes, divididos em duas câmaras.",
+        "Quatro são militares (Coronéis da ativa da Polícia Militar) e três são civis."
+      ],
+      "porQueErradas": {
+        "0": "A proporção está invertida: são quatro militares e três civis.",
+        "1": "O tribunal tem sete juízes, divididos em duas câmaras.",
+        "3": "Os juízes militares são Coronéis da ativa, não da reserva.",
+        "4": "A composição é de sete juízes em duas câmaras."
+      },
+      "pegadinha": "Os militares são maioria (4 x 3) e são Coronéis da ativa. A banca inverte a proporção ou troca 'ativa' por 'reserva'.",
+      "fonte": "CE-SP, art. 80"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0018",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Administração Pública e servidores",
+    "dificuldade": 2,
+    "enunciado": "Conforme o art. 114 da Constituição do Estado de São Paulo, a administração é obrigada a fornecer a qualquer cidadão, para a defesa de seus direitos e esclarecimentos de situações de seu interesse pessoal, certidão de atos, contratos, decisões ou pareceres no prazo máximo de",
+    "alternativas": [
+      "cinco dias úteis.",
+      "dez dias úteis.",
+      "quinze dias corridos.",
+      "vinte dias, prorrogáveis por mais dez.",
+      "trinta dias."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "O art. 114 da CE-SP obriga a administração a fornecer certidões ao cidadão.",
+        "O prazo máximo é de dez dias úteis.",
+        "Quem negar ou retardar a expedição responde por isso; no mesmo prazo devem ser atendidas as requisições judiciais, se outro não for fixado pelo juiz."
+      ],
+      "porQueErradas": {
+        "0": "O prazo previsto no art. 114 é de dez dias úteis.",
+        "2": "O prazo é de dez dias, contados em dias úteis.",
+        "3": "Esse é o prazo da Lei de Acesso à Informação para pedidos de informação (art. 11), não o da certidão do art. 114 da CE-SP.",
+        "4": "O prazo máximo é de dez dias úteis."
+      },
+      "pegadinha": "A banca mistura o prazo da certidão (10 dias úteis, CE-SP) com o da LAI (20 + 10 dias).",
+      "fonte": "CE-SP, art. 114"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0019",
+    "materia": "administracao_publica",
+    "assunto": "CE-SP: Segurança Pública e Polícia Militar",
+    "dificuldade": 2,
+    "enunciado": "Nos termos do art. 139, § 2º, da Constituição do Estado de São Paulo, com a redação dada pela Emenda Constitucional nº 51/2022, a polícia do Estado é integrada pela",
+    "alternativas": [
+      "Polícia Civil, Polícia Militar e Corpo de Bombeiros, apenas.",
+      "Polícia Civil, Polícia Militar, Corpo de Bombeiros e Guarda Civil Metropolitana.",
+      "Polícia Militar e Polícia Rodoviária Federal.",
+      "Polícia Civil, Polícia Penal, Polícia Militar e Corpo de Bombeiros.",
+      "Polícia Civil, Polícia Penal e Polícia Federal."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O art. 139, § 1º, diz que o Estado mantém a Segurança Pública por meio de sua polícia, subordinada ao Governador.",
+        "O § 2º, com a redação da EC nº 51/2022, lista: Polícia Civil, Polícia Penal, Polícia Militar e Corpo de Bombeiros."
+      ],
+      "porQueErradas": {
+        "0": "Essa era a redação anterior; a EC nº 51/2022 incluiu a Polícia Penal.",
+        "1": "As guardas municipais não integram a polícia do Estado.",
+        "2": "A Polícia Rodoviária Federal é órgão da União, não do Estado.",
+        "4": "A Polícia Federal é órgão da União, e a alternativa omite a Polícia Militar e o Corpo de Bombeiros."
+      },
+      "pegadinha": "A pegadinha é a redação antiga, sem a Polícia Penal. Fique atento às mudanças recentes.",
+      "fonte": "CE-SP, art. 139, § 2º"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "adm-0020",
+    "materia": "administracao_publica",
+    "assunto": "Lei 12.527/11 (Acesso à Informação) e Decreto 68.155/23",
+    "dificuldade": 1,
+    "enunciado": "Segundo a Lei nº 12.527/2011, os prazos máximos de restrição de acesso à informação classificada, contados a partir da data de sua produção, são:",
+    "alternativas": [
+      "ultrassecreta: 50 anos; secreta: 25 anos; reservada: 10 anos.",
+      "ultrassecreta: 25 anos; secreta: 10 anos; reservada: 5 anos.",
+      "ultrassecreta: 15 anos; secreta: 10 anos; reservada: 5 anos.",
+      "ultrassecreta: 25 anos; secreta: 15 anos; reservada: 5 anos.",
+      "ultrassecreta: 100 anos; secreta: 25 anos; reservada: 15 anos."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O art. 24, § 1º, da LAI fixa os prazos máximos: 25 anos (ultrassecreta), 15 anos (secreta) e 5 anos (reservada).",
+        "Os prazos contam a partir da data de produção da informação.",
+        "O Decreto estadual 68.155/2023 repete esses prazos máximos no art. 29."
+      ],
+      "porQueErradas": {
+        "0": "Os prazos estão aumentados; os corretos são 25, 15 e 5 anos.",
+        "1": "O prazo da informação secreta é de 15 anos.",
+        "2": "O prazo da ultrassecreta é de 25 anos, e o da secreta, de 15.",
+        "4": "Cem anos é o prazo máximo de restrição das informações pessoais (art. 31), não da ultrassecreta."
+      },
+      "pegadinha": "Macete 25-15-5. Não confunda com os 100 anos das informações pessoais relativas à intimidade, vida privada, honra e imagem.",
+      "fonte": "Lei 12.527/11, art. 24, § 1º; Decreto 68.155/23, art. 29"
+    },
+    "origem": "gerada"
+  }
+]

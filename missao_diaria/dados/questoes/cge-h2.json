@@ -1,0 +1,614 @@
+[
+  {
+    "id": "cge-0021",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Guerra Fria",
+    "dificuldade": 2,
+    "enunciado": "A Crise dos Mísseis, em outubro de 1962, foi um dos momentos de maior tensão da Guerra Fria. Ela teve origem",
+    "alternativas": [
+      "na instalação de mísseis nucleares soviéticos em Cuba, a poucos quilômetros do território norte-americano.",
+      "na instalação de mísseis norte-americanos em Berlim Oriental.",
+      "na invasão soviética do Afeganistão.",
+      "no lançamento do satélite Sputnik sobre Cuba.",
+      "na tentativa cubana de invadir a Flórida com apoio chinês."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Após a Revolução Cubana (1959) e a fracassada invasão da Baía dos Porcos (1961), a URSS instalou mísseis em Cuba.",
+        "Os EUA descobriram as bases e impuseram um bloqueio naval à ilha.",
+        "O acordo: a URSS retirou os mísseis e os EUA se comprometeram a não invadir Cuba (e retiraram, discretamente, mísseis da Turquia)."
+      ],
+      "porQueErradas": {
+        "1": "Berlim Oriental estava sob controle socialista.",
+        "2": "A invasão do Afeganistão ocorreu em 1979.",
+        "3": "O Sputnik foi lançado em 1957 e não tem relação com Cuba.",
+        "4": "Não houve tentativa cubana de invadir os EUA."
+      },
+      "pegadinha": "A crise foi resolvida pela negociação, sem confronto direto, como em toda a Guerra Fria entre as superpotências.",
+      "fonte": "Crise dos Mísseis de Cuba, outubro de 1962."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0022",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Guerra Fria",
+    "dificuldade": 2,
+    "enunciado": "A Guerra da Coreia (1950–1953) terminou com",
+    "alternativas": [
+      "a reunificação da Coreia sob governo comunista.",
+      "um armistício que manteve a península dividida, aproximadamente na altura do paralelo 38.",
+      "a reunificação da Coreia sob governo capitalista apoiado pelos EUA.",
+      "a anexação da Coreia do Sul pelo Japão.",
+      "a vitória da França, que retomou a península como colônia."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Em 1950 a Coreia do Norte, socialista, invadiu a Coreia do Sul.",
+        "EUA (sob bandeira da ONU) apoiaram o Sul; China e URSS apoiaram o Norte.",
+        "O armistício de 1953 encerrou os combates, mas não houve tratado de paz."
+      ],
+      "porQueErradas": {
+        "0": "A reunificação comunista aconteceu no Vietnã, em 1975, não na Coreia.",
+        "2": "A península continua dividida até hoje.",
+        "3": "O domínio japonês terminou em 1945.",
+        "4": "A Coreia nunca foi colônia francesa."
+      },
+      "pegadinha": "Não houve vencedor nem tratado de paz: as duas Coreias seguem divididas.",
+      "fonte": "Armistício de Panmunjom, 27/07/1953."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0023",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Guerra Fria",
+    "dificuldade": 2,
+    "enunciado": "As reformas conduzidas por Mikhail Gorbachev na União Soviética, a partir de 1985, ficaram conhecidas como",
+    "alternativas": [
+      "Nova Política Econômica (NEP) e coletivização forçada.",
+      "Grande Salto Adiante e Revolução Cultural.",
+      "perestroika (reestruturação econômica) e glasnost (transparência política).",
+      "Plano Marshall e Doutrina Truman.",
+      "macarthismo e détente."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Gorbachev assumiu em 1985 com a economia soviética estagnada.",
+        "A perestroika buscou reestruturar a economia; a glasnost ampliou a liberdade de expressão.",
+        "As reformas não salvaram o regime: a URSS foi dissolvida em dezembro de 1991."
+      ],
+      "porQueErradas": {
+        "0": "A NEP é de Lênin (1921) e a coletivização, de Stálin.",
+        "1": "São políticas de Mao Tsé-tung na China.",
+        "3": "São políticas dos EUA de 1947.",
+        "4": "Macarthismo foi a perseguição anticomunista nos EUA; détente, a distensão dos anos 1970."
+      },
+      "pegadinha": "Perestroika é econômica; glasnost é política. A banca troca as definições.",
+      "fonte": "Governo Gorbachev (1985–1991)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0024",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Guerra Fria",
+    "dificuldade": 2,
+    "enunciado": "No contexto da corrida espacial, a União Soviética lançou, em 1957, o primeiro satélite artificial da história, chamado",
+    "alternativas": [
+      "Apollo 11.",
+      "Hubble.",
+      "Vostok 1.",
+      "Challenger.",
+      "Sputnik 1."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Em outubro de 1957, a URSS colocou o Sputnik 1 em órbita.",
+        "Os EUA reagiram criando a NASA (1958); a disputa culminou na chegada à Lua em 1969."
+      ],
+      "porQueErradas": {
+        "0": "A Apollo 11 foi a missão norte-americana que levou o homem à Lua em 1969.",
+        "1": "O Hubble é um telescópio espacial lançado pelos EUA em 1990.",
+        "2": "A Vostok 1 levou Yuri Gagarin, primeiro homem no espaço, em 1961.",
+        "3": "O Challenger foi um ônibus espacial norte-americano."
+      },
+      "pegadinha": "Vostok 1 também é soviética, mas é o primeiro voo tripulado (1961), não o primeiro satélite.",
+      "fonte": "Lançamento do Sputnik 1, 04/10/1957."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0025",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Globalização e neoliberalismo",
+    "dificuldade": 1,
+    "enunciado": "O neoliberalismo, aplicado a partir dos anos 1980 por governos como os de Margaret Thatcher (Reino Unido) e Ronald Reagan (EUA), defende",
+    "alternativas": [
+      "privatizações, redução do papel do Estado na economia e abertura dos mercados.",
+      "a estatização de bancos e indústrias estratégicas.",
+      "a economia planificada por planos quinquenais.",
+      "a ampliação do Estado de bem-estar social com aumento dos gastos públicos.",
+      "o protecionismo com altas tarifas de importação."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "A crise dos anos 1970 enfraqueceu o modelo de Estado de bem-estar social.",
+        "Thatcher (a partir de 1979) e Reagan (a partir de 1981) privatizaram, cortaram gastos e reduziram regulações."
+      ],
+      "porQueErradas": {
+        "1": "Estatizar é o oposto do que propõe o neoliberalismo.",
+        "2": "Planos quinquenais são típicos da economia socialista.",
+        "3": "Isso se aproxima do keynesianismo, criticado pelos neoliberais.",
+        "4": "O neoliberalismo defende a abertura comercial."
+      },
+      "pegadinha": "Neoliberalismo não é ausência total de Estado, mas Estado reduzido e mercado mais livre.",
+      "fonte": "Governos Thatcher (1979–1990) e Reagan (1981–1989)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0026",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Globalização e neoliberalismo",
+    "dificuldade": 3,
+    "enunciado": "O conjunto de recomendações formulado em 1989, em Washington, por economistas e instituições como o FMI e o Banco Mundial para países latino-americanos ficou conhecido como",
+    "alternativas": [
+      "Consenso de Washington, que defendia disciplina fiscal, privatizações e abertura comercial.",
+      "Plano Marshall, que financiava a reconstrução da América Latina.",
+      "Doutrina Monroe, que propunha “a América para os americanos”.",
+      "Aliança para o Progresso, programa de ajuda lançado por Kennedy.",
+      "Acordo de Bretton Woods, que criou o padrão-ouro."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Em 1989, o economista John Williamson resumiu as recomendações de Washington para a América Latina em crise.",
+        "Entre elas: ajuste fiscal, abertura comercial, privatizações e desregulamentação.",
+        "Essas ideias orientaram reformas dos anos 1990, inclusive no Brasil."
+      ],
+      "porQueErradas": {
+        "1": "O Plano Marshall (1947) destinava-se à Europa.",
+        "2": "A Doutrina Monroe é de 1823.",
+        "3": "A Aliança para o Progresso é dos anos 1960.",
+        "4": "Bretton Woods é de 1944 e criou o FMI e o Banco Mundial."
+      },
+      "pegadinha": "Datas próximas confundem: Bretton Woods (1944) criou as instituições; o Consenso (1989) traz a receita neoliberal.",
+      "fonte": "Consenso de Washington, 1989."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0027",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Globalização e neoliberalismo",
+    "dificuldade": 2,
+    "enunciado": "A Organização Mundial do Comércio (OMC), que regula o comércio internacional e arbitra disputas entre países, foi criada em 1995, substituindo o",
+    "alternativas": [
+      "FMI (Fundo Monetário Internacional).",
+      "Pacto de Varsóvia.",
+      "GATT (Acordo Geral de Tarifas e Comércio).",
+      "Comecon.",
+      "Mercosul."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O GATT, de 1947, regulava tarifas comerciais.",
+        "A Rodada Uruguai terminou no Acordo de Marrakesh (1994), que criou a OMC, em funcionamento desde 1º/01/1995."
+      ],
+      "porQueErradas": {
+        "0": "O FMI continua existindo e trata de questões financeiras.",
+        "1": "O Pacto de Varsóvia era uma aliança militar socialista, dissolvida em 1991.",
+        "3": "O Comecon era o bloco econômico socialista, extinto em 1991.",
+        "4": "O Mercosul é um bloco regional que continua existindo."
+      },
+      "pegadinha": "A OMC sucede o GATT; FMI e Banco Mundial são instituições distintas que seguem existindo.",
+      "fonte": "Acordo de Marrakesh (1994); OMC em vigor desde 01/01/1995."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0028",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Globalização e neoliberalismo",
+    "dificuldade": 3,
+    "enunciado": "O tratado que criou a União Europeia, em 1992, e previu a adoção de uma moeda única foi o Tratado de",
+    "alternativas": [
+      "Roma.",
+      "Maastricht.",
+      "Versalhes.",
+      "Assunção.",
+      "Lisboa."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "O Tratado de Maastricht foi assinado em fevereiro de 1992 e entrou em vigor em 1993.",
+        "Criou a União Europeia e definiu a união monetária: o euro surgiu em 1999 e passou a circular em cédulas e moedas em 2002."
+      ],
+      "porQueErradas": {
+        "0": "O Tratado de Roma (1957) criou a Comunidade Econômica Europeia.",
+        "2": "Versalhes (1919) encerrou a Primeira Guerra.",
+        "3": "O Tratado de Assunção (1991) criou o Mercosul.",
+        "4": "O Tratado de Lisboa (2007) reformou o funcionamento da União Europeia, já existente."
+      },
+      "pegadinha": "Roma (1957) é a origem da integração; Maastricht (1992) cria a UE.",
+      "fonte": "Tratado de Maastricht, 07/02/1992."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0029",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Globalização e neoliberalismo",
+    "dificuldade": 1,
+    "enunciado": "O Mercado Comum do Sul (Mercosul) foi criado pelo Tratado de Assunção, em 1991, por",
+    "alternativas": [
+      "Brasil, Chile, Bolívia e Peru.",
+      "Estados Unidos, Canadá e México.",
+      "Argentina, Chile, Venezuela e Uruguai.",
+      "Brasil, Rússia, Índia e China.",
+      "Brasil, Argentina, Paraguai e Uruguai."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "O Tratado de Assunção foi assinado em março de 1991.",
+        "Fundadores: Brasil, Argentina, Paraguai e Uruguai."
+      ],
+      "porQueErradas": {
+        "0": "Chile, Bolívia e Peru não estão entre os fundadores.",
+        "1": "Esses países formaram o Nafta.",
+        "2": "Chile e Venezuela não foram fundadores; a Venezuela aderiu depois e acabou suspensa.",
+        "3": "Esses países formam o grupo conhecido como BRIC."
+      },
+      "pegadinha": "Não confunda membros fundadores com países associados ou que aderiram depois.",
+      "fonte": "Tratado de Assunção, 26/03/1991."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0030",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Globalização e neoliberalismo",
+    "dificuldade": 2,
+    "enunciado": "A crise financeira mundial de 2008, que expôs os riscos da desregulamentação dos mercados, teve como marco",
+    "alternativas": [
+      "a quebra da Bolsa de Nova York, que inaugurou a Grande Depressão.",
+      "o primeiro choque do petróleo, provocado pela OPEP.",
+      "a moratória da dívida externa brasileira.",
+      "a falência do banco de investimentos Lehman Brothers, nos EUA, ligada às hipotecas de alto risco (subprime).",
+      "o atentado às Torres Gêmeas, em Nova York."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Bancos norte-americanos concederam muitos empréstimos imobiliários a clientes de alto risco.",
+        "Com a inadimplência, títulos ligados a essas hipotecas perderam valor.",
+        "Em setembro de 2008 o Lehman Brothers faliu, e a crise se espalhou pelo mundo globalizado."
+      ],
+      "porQueErradas": {
+        "0": "Essa quebra ocorreu em 1929.",
+        "1": "O primeiro choque do petróleo é de 1973.",
+        "2": "A moratória brasileira ocorreu em 1987, no governo Sarney.",
+        "4": "O atentado é de 2001 e não originou a crise de 2008."
+      },
+      "pegadinha": "Não confunda a crise de 2008 (subprime) com a de 1929 (Grande Depressão).",
+      "fonte": "Falência do Lehman Brothers, 15/09/2008."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0031",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História Geral: Globalização e neoliberalismo",
+    "dificuldade": 3,
+    "enunciado": "No Brasil, a adoção de políticas de inspiração neoliberal na década de 1990 incluiu",
+    "alternativas": [
+      "a criação da Petrobras e da Companhia Siderúrgica Nacional.",
+      "a estatização dos bancos privados e o congelamento de preços do Plano Cruzado.",
+      "a abertura comercial iniciada no governo Collor e a privatização de estatais como a Vale do Rio Doce e o sistema Telebrás no governo FHC.",
+      "o fechamento do país às importações para proteger a indústria nacional.",
+      "a criação da Consolidação das Leis do Trabalho."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O governo Collor (1990–1992) reduziu tarifas de importação e criou o Programa Nacional de Desestatização.",
+        "No governo Fernando Henrique Cardoso, a Vale foi privatizada em 1997 e o sistema Telebrás em 1998."
+      ],
+      "porQueErradas": {
+        "0": "Petrobras e CSN são estatais criadas na Era Vargas.",
+        "1": "O Plano Cruzado é de 1986, e não houve estatização dos bancos.",
+        "3": "Ocorreu o contrário: redução de tarifas e abertura.",
+        "4": "A CLT é de 1943, no Estado Novo."
+      },
+      "pegadinha": "Estatização e protecionismo são o oposto da agenda neoliberal.",
+      "fonte": "Programa Nacional de Desestatização (Lei nº 8.031/1990)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0032",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Revolução de 1930 e Era Vargas",
+    "dificuldade": 1,
+    "enunciado": "A Revolução de 1930, que levou Getúlio Vargas ao poder, teve entre suas causas",
+    "alternativas": [
+      "a abolição da escravidão, que desagradou os cafeicultores.",
+      "a ruptura da política do café com leite, quando o presidente Washington Luís indicou o paulista Júlio Prestes à sucessão.",
+      "a renúncia de Jânio Quadros.",
+      "a vitória de Vargas nas eleições diretas de 1930.",
+      "a crise do petróleo de 1973."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Pela alternância café com leite, seria a vez de Minas Gerais indicar o candidato.",
+        "Washington Luís, paulista, apoiou outro paulista, Júlio Prestes; Minas, Rio Grande do Sul e Paraíba formaram a Aliança Liberal com Vargas.",
+        "Prestes venceu; após o assassinato de João Pessoa (julho de 1930), o movimento armado depôs Washington Luís, e Vargas assumiu em novembro."
+      ],
+      "porQueErradas": {
+        "0": "A abolição ocorreu em 1888, no Império.",
+        "2": "Jânio renunciou em 1961.",
+        "3": "Vargas perdeu a eleição de 1930 para Júlio Prestes.",
+        "4": "A crise do petróleo ocorreu décadas depois."
+      },
+      "pegadinha": "Vargas não venceu a eleição: chegou ao poder por um movimento armado.",
+      "fonte": "Revolução de 1930 (outubro–novembro de 1930)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0033",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Revolução de 1930 e Era Vargas",
+    "dificuldade": 1,
+    "enunciado": "A Revolução Constitucionalista de 1932, iniciada em 9 de julho em São Paulo, tinha como principal reivindicação",
+    "alternativas": [
+      "a volta da monarquia ao Brasil.",
+      "a implantação de um regime comunista.",
+      "a convocação de uma Assembleia Constituinte e o fim do governo provisório de Vargas.",
+      "a permanência de Vargas no poder por tempo indeterminado.",
+      "a independência imediata de São Paulo em relação ao Brasil."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Desde 1930 Vargas governava sem Constituição e nomeava interventores nos estados.",
+        "Em 9 de julho de 1932, São Paulo pegou em armas exigindo uma Constituição.",
+        "Derrotado militarmente em outubro, o movimento ainda assim pressionou pela Constituinte de 1933 e pela Constituição de 1934."
+      ],
+      "porQueErradas": {
+        "0": "O movimento não era monarquista.",
+        "1": "O movimento foi liderado por elites e setores médios paulistas, não por comunistas.",
+        "3": "O movimento se opunha a Vargas.",
+        "4": "Havia vozes separatistas, mas a bandeira central era a constitucionalização."
+      },
+      "pegadinha": "Derrota militar, mas vitória política: a Constituição veio em 1934.",
+      "fonte": "Revolução Constitucionalista, 09/07 a 02/10/1932."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0034",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Revolução de 1930 e Era Vargas",
+    "dificuldade": 2,
+    "enunciado": "Em 1935, militantes ligados à Aliança Nacional Libertadora (ANL) e ao Partido Comunista, com Luís Carlos Prestes à frente, promoveram contra Vargas um levante armado conhecido como",
+    "alternativas": [
+      "Intentona Comunista.",
+      "Intentona Integralista.",
+      "Revolta da Chibata.",
+      "Coluna Prestes.",
+      "Revolta da Vacina."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "A ANL, frente de esquerda, foi posta na ilegalidade em julho de 1935.",
+        "Em novembro de 1935 ocorreram levantes em quartéis de Natal, Recife e Rio de Janeiro, rapidamente derrotados.",
+        "O episódio serviu para Vargas ampliar a repressão e preparar o caminho do Estado Novo."
+      ],
+      "porQueErradas": {
+        "1": "A Intentona Integralista foi o ataque dos integralistas ao Palácio Guanabara, em 1938.",
+        "2": "A Revolta da Chibata foi um levante de marinheiros em 1910.",
+        "3": "A Coluna Prestes foi uma marcha tenentista de 1925 a 1927.",
+        "4": "A Revolta da Vacina ocorreu no Rio de Janeiro em 1904."
+      },
+      "pegadinha": "Prestes aparece na Coluna Prestes (1925–1927) e na Intentona (1935); a banca explora essa confusão.",
+      "fonte": "Intentona Comunista, novembro de 1935."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0035",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Revolução de 1930 e Era Vargas",
+    "dificuldade": 2,
+    "enunciado": "O golpe de 10 de novembro de 1937, que instituiu o Estado Novo, foi justificado pelo governo com base",
+    "alternativas": [
+      "na carta-testamento, em que Vargas denunciava inimigos do país.",
+      "no Plano Cohen, documento forjado que denunciava uma suposta conspiração comunista.",
+      "no AI-5, que permitia fechar o Congresso.",
+      "na Intentona Integralista, ocorrida meses antes do golpe.",
+      "no Manifesto dos Mineiros, que pedia a redemocratização."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Em setembro de 1937 o governo divulgou o Plano Cohen, um falso plano comunista de tomada do poder.",
+        "Com o pretexto da ameaça, Vargas fechou o Congresso em 10/11/1937 e outorgou nova Constituição.",
+        "As eleições presidenciais previstas para 1938 foram canceladas."
+      ],
+      "porQueErradas": {
+        "0": "A carta-testamento é de 1954.",
+        "2": "O AI-5 é de 1968, no regime militar.",
+        "3": "A Intentona Integralista ocorreu depois, em 1938.",
+        "4": "O Manifesto dos Mineiros é de 1943 e se opunha ao Estado Novo."
+      },
+      "pegadinha": "O Plano Cohen era falso; foi usado como pretexto para o golpe.",
+      "fonte": "Golpe do Estado Novo, 10/11/1937."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0036",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Revolução de 1930 e Era Vargas",
+    "dificuldade": 1,
+    "enunciado": "A Consolidação das Leis do Trabalho (CLT), que reuniu a legislação trabalhista brasileira, foi aprovada em",
+    "alternativas": [
+      "1988, junto com a Constituição Cidadã.",
+      "1964, logo após o golpe militar.",
+      "1943, durante o Estado Novo.",
+      "1930, no primeiro dia do governo provisório.",
+      "1954, após o suicídio de Vargas."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "A CLT foi aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943.",
+        "Reuniu leis sobre jornada, férias, salário mínimo e Justiça do Trabalho, marcas do trabalhismo varguista."
+      ],
+      "porQueErradas": {
+        "0": "A CF/88 ampliou direitos, mas a CLT é bem anterior.",
+        "1": "A CLT é do período Vargas.",
+        "3": "Em 1930 foi criado o Ministério do Trabalho, não a CLT.",
+        "4": "A CLT foi aprovada pelo próprio Vargas, em 1943."
+      },
+      "pegadinha": "O Ministério do Trabalho (1930) e o salário mínimo (1940) vieram antes; a CLT os consolidou em 1943.",
+      "fonte": "Decreto-Lei nº 5.452, de 01/05/1943."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0037",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Revolução de 1930 e Era Vargas",
+    "dificuldade": 3,
+    "enunciado": "A política econômica da Era Vargas incentivou a industrialização de base. Um exemplo disso foi a criação",
+    "alternativas": [
+      "da Companhia Siderúrgica Nacional (CSN), em Volta Redonda, com financiamento norte-americano.",
+      "da Embraer, fabricante de aviões, em 1941.",
+      "da Zona Franca de Manaus.",
+      "da usina hidrelétrica de Itaipu.",
+      "da Vale do Rio Doce como empresa privada."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "A CSN foi criada em 1941 e começou a produzir em 1946.",
+        "O financiamento dos EUA fez parte da negociação que aproximou o Brasil dos Aliados na Segunda Guerra.",
+        "Outras estatais da época: Vale do Rio Doce (1942) e, no segundo governo, Petrobras (1953)."
+      ],
+      "porQueErradas": {
+        "1": "A Embraer foi criada em 1969, no regime militar.",
+        "2": "A Zona Franca de Manaus, como hoje é conhecida, é de 1967.",
+        "3": "Itaipu foi construída nos anos 1970 e 1980, no regime militar.",
+        "4": "A Vale foi criada em 1942 como estatal; só foi privatizada em 1997."
+      },
+      "pegadinha": "Vargas usou a rivalidade entre EUA e Alemanha para obter recursos para a siderurgia.",
+      "fonte": "Criação da CSN, 1941 (Volta Redonda-RJ)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0038",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Revolução de 1930 e Era Vargas",
+    "dificuldade": 2,
+    "enunciado": "Durante o Estado Novo, o órgão responsável pela censura aos meios de comunicação e pela propaganda do governo era o",
+    "alternativas": [
+      "Serviço Nacional de Informações (SNI).",
+      "DOI-CODI.",
+      "Departamento de Imprensa e Propaganda (DIP).",
+      "Departamento Administrativo do Serviço Público (DASP).",
+      "Conselho Nacional do Petróleo."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O DIP foi criado em dezembro de 1939.",
+        "Controlava jornais e rádios, censurava e produzia propaganda, como o programa “Hora do Brasil”, e o culto à figura de Vargas."
+      ],
+      "porQueErradas": {
+        "0": "O SNI foi criado em 1964, no regime militar.",
+        "1": "O DOI-CODI foi órgão de repressão do regime militar.",
+        "3": "O DASP cuidava da organização da administração pública, não da propaganda.",
+        "4": "O CNP tratava da política do petróleo."
+      },
+      "pegadinha": "SNI e DOI-CODI são órgãos do regime militar, não do Estado Novo.",
+      "fonte": "DIP, Decreto-Lei nº 1.915, de 27/12/1939."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0039",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Revolução de 1930 e Era Vargas",
+    "dificuldade": 2,
+    "enunciado": "Sobre o segundo governo de Getúlio Vargas (1951–1954), é correto afirmar que",
+    "alternativas": [
+      "Vargas foi escolhido pelo Congresso de forma indireta e governou até 1960.",
+      "foi nesse período que se instituiu o Estado Novo.",
+      "Vargas foi deposto por militares e exilou-se no Uruguai.",
+      "o governo privatizou a exploração do petróleo, com o lema “o petróleo é nosso”.",
+      "Vargas voltou ao poder pelo voto direto, criou a Petrobras em 1953 e suicidou-se em agosto de 1954, em meio a grave crise política."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Vargas venceu a eleição direta de 1950 com discurso nacionalista.",
+        "Em 1953, a Lei nº 2.004 criou a Petrobras e o monopólio estatal do petróleo.",
+        "Após o atentado da rua Tonelero contra Carlos Lacerda e a pressão militar, Vargas suicidou-se em 24/08/1954, deixando a carta-testamento."
+      ],
+      "porQueErradas": {
+        "0": "Vargas foi eleito diretamente em 1950 e morreu em 1954.",
+        "1": "O Estado Novo durou de 1937 a 1945.",
+        "2": "O exílio no Uruguai foi o destino de João Goulart, em 1964.",
+        "3": "O lema defendia o monopólio estatal, criado com a Petrobras."
+      },
+      "pegadinha": "Vargas foi deposto em 1945 (fim do Estado Novo), mas em 1954 não foi deposto: suicidou-se.",
+      "fonte": "Lei nº 2.004/1953; carta-testamento de 24/08/1954."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "cge-0040",
+    "materia": "conhecimentos_gerais",
+    "assunto": "História do Brasil: Constituições Republicanas",
+    "dificuldade": 2,
+    "enunciado": "A primeira Constituição republicana do Brasil, de 1891, estabeleceu",
+    "alternativas": [
+      "o voto secreto e o voto feminino.",
+      "o presidencialismo, o federalismo e a separação entre Igreja e Estado.",
+      "o Poder Moderador, exercido pelo presidente.",
+      "o parlamentarismo e o voto obrigatório para analfabetos.",
+      "a criação da Justiça do Trabalho."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Promulgada em 24/02/1891, inspirou-se na Constituição dos EUA.",
+        "Adotou presidencialismo, federalismo (antigas províncias viraram estados) e Estado laico.",
+        "O voto era aberto (“a descoberto”), e analfabetos, mendigos e praças de pré não votavam."
+      ],
+      "porQueErradas": {
+        "0": "O voto secreto e o feminino só entraram na Constituição de 1934.",
+        "2": "O Poder Moderador existia na Constituição imperial de 1824 e foi extinto.",
+        "3": "O regime era presidencialista, e os analfabetos não votavam.",
+        "4": "A Justiça do Trabalho foi prevista em 1934."
+      },
+      "pegadinha": "O voto aberto da Primeira República facilitava o voto de cabresto dos coronéis.",
+      "fonte": "Constituição de 24/02/1891."
+    },
+    "origem": "gerada"
+  }
+]

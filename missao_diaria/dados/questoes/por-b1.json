@@ -1,0 +1,624 @@
+[
+  {
+    "id": "por-0081",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que a concordância verbal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Fazem dois anos que o quartel foi reformado.",
+      "Houveram muitas ocorrências durante o feriado.",
+      "Faz dois anos que o batalhão não recebe novas viaturas.",
+      "Devem haver vagas suficientes para todos os aprovados.",
+      "Existe, na região central, muitos pontos de alagamento."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Identifique se o verbo é pessoal (tem sujeito) ou impessoal (sem sujeito).",
+        "Fazer (tempo decorrido) e haver (existir) são impessoais e ficam na 3ª pessoa do singular.",
+        "Em “Faz dois anos”, o verbo está corretamente no singular."
+      ],
+      "porQueErradas": {
+        "0": "O verbo fazer indicando tempo decorrido é impessoal: “Faz dois anos”.",
+        "1": "Haver no sentido de existir é impessoal: “Houve muitas ocorrências”.",
+        "3": "Com haver impessoal, o auxiliar também fica no singular: “Deve haver”.",
+        "4": "Existir é pessoal e concorda com o sujeito “muitos pontos”: “Existem”."
+      },
+      "pegadinha": "A banca coloca um substantivo no plural ao lado de fazer/haver para induzir o plural, mas esses verbos não têm sujeito.",
+      "fonte": "Concordância verbal: verbos impessoais (haver = existir; fazer = tempo decorrido)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0082",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que a concordância nominal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "É proibido entrada de pessoas estranhas ao serviço.",
+      "É proibida entrada de visitantes após as 22 horas.",
+      "Seguem anexo as cópias dos documentos.",
+      "Elas mesmo organizaram a escala de serviço.",
+      "As policiais ficaram meias cansadas após o plantão."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Expressões como “é proibido”, “é necessário”, “é bom” ficam invariáveis se o substantivo não tiver determinante.",
+        "Em “É proibido entrada”, não há artigo antes de “entrada”, logo o masculino singular está correto.",
+        "Se houvesse artigo, a concordância seria obrigatória: “É proibida a entrada”."
+      ],
+      "porQueErradas": {
+        "1": "Sem artigo antes do substantivo, a expressão fica invariável: “É proibido entrada”.",
+        "2": "Anexo é adjetivo e concorda com o substantivo: “Seguem anexas as cópias”.",
+        "3": "Mesmo, com valor de próprio, concorda com o pronome: “Elas mesmas”.",
+        "4": "Meio, com sentido de “um pouco”, é advérbio e não varia: “meio cansadas”."
+      },
+      "pegadinha": "A presença ou a ausência do artigo muda a concordância: “É proibido entrada” e “É proibida a entrada” estão corretas; “É proibida entrada”, não.",
+      "fonte": "Concordância nominal: expressões “é proibido”, “é necessário”, “é bom”."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0083",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa que completa, correta e respectivamente, as lacunas da frase: “Mais de um candidato ____ atrasado ao exame, e cerca de trinta policiais ____ da operação.”",
+    "alternativas": [
+      "chegaram … participou",
+      "chegaram … participaram",
+      "chegou … participou",
+      "chegará … participou",
+      "chegou … participaram"
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Com “mais de um”, o verbo concorda com o numeral “um”: fica no singular (salvo ideia de reciprocidade).",
+        "Com “cerca de”, o verbo concorda com o substantivo que segue o numeral: “trinta policiais participaram”.",
+        "Logo: “chegou” e “participaram”."
+      ],
+      "porQueErradas": {
+        "0": "“Mais de um” pede verbo no singular, e “cerca de trinta policiais” pede plural; a alternativa inverte as duas regras.",
+        "1": "O primeiro verbo deveria ficar no singular, concordando com o numeral “um” de “mais de um”.",
+        "2": "O núcleo do sujeito “policiais” está no plural; o verbo deve ser “participaram”.",
+        "3": "Além de mudar o tempo verbal sem motivo, “participou” não concorda com “trinta policiais”."
+      },
+      "pegadinha": "A ideia de quantidade de “mais de um” sugere plural, mas a norma manda concordar com “um”.",
+      "fonte": "Concordância verbal com as expressões “mais de um” e “cerca de”."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0084",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a concordância verbal está correta.",
+    "alternativas": [
+      "Foi apreendido, durante a abordagem, duas armas e uma faca.",
+      "Compareceram à cerimônia o comandante e os familiares dos formandos.",
+      "Os Estados Unidos anunciou novo acordo comercial.",
+      "Falta ainda dez dias para a formatura da turma.",
+      "Sobrou, depois da distribuição, muitos coletes."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Localize o sujeito, mesmo quando ele vem depois do verbo.",
+        "Em “Compareceram … o comandante e os familiares”, o sujeito composto posposto admite o plural.",
+        "Nas demais, o verbo ficou no singular apesar do sujeito no plural."
+      ],
+      "porQueErradas": {
+        "0": "O sujeito composto “duas armas e uma faca” exige plural: “Foram apreendidas”.",
+        "2": "Nome próprio no plural precedido de artigo no plural leva o verbo ao plural: “anunciaram”.",
+        "3": "O sujeito é “dez dias”, posposto: “Faltam ainda dez dias”.",
+        "4": "O sujeito “muitos coletes” está no plural: “Sobraram”."
+      },
+      "pegadinha": "Quando o sujeito vem depois do verbo, o candidato tende a deixar o verbo no singular. Pergunte “o que/quem faltam, sobraram, foram apreendidos?”.",
+      "fonte": "Concordância verbal: sujeito posposto e sujeito composto."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0085",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a palavra em destaque, indicada entre aspas, está flexionada de acordo com a norma-padrão.",
+    "alternativas": [
+      "Havia “bastante” policiais no evento.",
+      "Ela ficou “meia” preocupada com a notícia.",
+      "Os documentos estão “em anexos”.",
+      "Os relatórios seguem “anexos” ao processo.",
+      "As testemunhas “mesmo” confirmaram a versão."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Anexo é adjetivo e concorda com o substantivo a que se refere.",
+        "“Os relatórios seguem anexos” está correto (masculino plural).",
+        "Bastante e mesmo variam quando acompanham substantivo; meio, como advérbio, não varia."
+      ],
+      "porQueErradas": {
+        "0": "Bastante, antes de substantivo, é pronome indefinido e concorda com ele: “bastantes policiais”.",
+        "1": "Meio, com sentido de “um pouco”, é advérbio e invariável: “meio preocupada”.",
+        "2": "A locução “em anexo” é invariável.",
+        "4": "Mesmo, equivalente a “próprias”, concorda: “As testemunhas mesmas”."
+      },
+      "pegadinha": "A banca mistura palavras que variam (anexo, bastante, mesmo) com as que não variam (meio advérbio, a locução “em anexo”).",
+      "fonte": "Concordância nominal: anexo, bastante, meio, mesmo."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0086",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa que completa, correta e respectivamente, as lacunas: “____ muitas reclamações sobre o barulho, e ____ três semanas que o problema persiste.”",
+    "alternativas": [
+      "Houveram … fazem",
+      "Houve … fazem",
+      "Houveram … faz",
+      "Houve … faz",
+      "Ouve … faz"
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Haver com sentido de existir/ocorrer não tem sujeito: fica no singular.",
+        "Fazer indicando tempo decorrido também é impessoal.",
+        "Resposta: “Houve … faz”."
+      ],
+      "porQueErradas": {
+        "0": "Haver (existir) e fazer (tempo decorrido) são impessoais; não vão ao plural.",
+        "1": "Fazer, indicando tempo decorrido, é impessoal: “faz três semanas”.",
+        "2": "Haver, com sentido de existir, é impessoal: “Houve muitas reclamações”.",
+        "4": "“Ouve” é forma do verbo ouvir, não de haver."
+      },
+      "pegadinha": "Os substantivos no plural (reclamações, semanas) parecem sujeitos, mas são objetos de verbos impessoais.",
+      "fonte": "Concordância verbal: verbos impessoais haver e fazer."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0087",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a concordância verbal está correta.",
+    "alternativas": [
+      "Fomos nós que redigiram o boletim de ocorrência.",
+      "Fomos nós que redigimos o boletim de ocorrência.",
+      "Foi eu que redigi o boletim de ocorrência.",
+      "Fui eu que redigiu o boletim de ocorrência.",
+      "Seremos nós que redigirão o boletim de ocorrência."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Na construção “ser + pronome + que”, o verbo depois do “que” concorda com o pronome.",
+        "“Fomos nós que redigimos”: ser e redigir estão na 1ª pessoa do plural.",
+        "Lembre: com “quem” admite-se também a 3ª pessoa do singular, mas com “que” não."
+      ],
+      "porQueErradas": {
+        "0": "Com o relativo “que”, o verbo concorda com o antecedente “nós”: “redigimos”.",
+        "2": "O verbo ser concorda com o pronome pessoal: “Fui eu”.",
+        "3": "Com “que”, o verbo concorda com “eu”: “redigi”.",
+        "4": "O verbo deve concordar com “nós”: “redigiremos”."
+      },
+      "pegadinha": "A banca troca a pessoa do segundo verbo (redigiram, redigiu) para parecer natural na fala.",
+      "fonte": "Concordância verbal com o pronome relativo “que”."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0088",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a concordância verbal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Alugam-se salas para cursos preparatórios.",
+      "Precisam-se de voluntários para a campanha.",
+      "Aluga-se apartamentos no centro da cidade.",
+      "Fez-se, durante a semana, várias blitze.",
+      "Ouviu-se, na rua, disparos e gritos."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Com verbo transitivo direto + se, há voz passiva sintética: o termo seguinte é sujeito e o verbo concorda com ele.",
+        "“Alugam-se salas” = “Salas são alugadas”.",
+        "Com verbo transitivo indireto (precisar de), o verbo fica no singular."
+      ],
+      "porQueErradas": {
+        "1": "Com verbo transitivo indireto, o “se” é índice de indeterminação do sujeito e o verbo fica no singular: “Precisa-se de”.",
+        "2": "Na voz passiva sintética, o verbo concorda com o sujeito “apartamentos”: “Alugam-se”.",
+        "3": "O sujeito paciente “várias blitze” está no plural: “Fizeram-se”.",
+        "4": "O sujeito paciente composto exige plural: “Ouviram-se disparos e gritos”."
+      },
+      "pegadinha": "A banca usa o mesmo “se” com verbos de regências diferentes. Teste a transformação em voz passiva analítica: se der certo, o verbo concorda.",
+      "fonte": "Concordância verbal: pronome “se” apassivador e índice de indeterminação do sujeito."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0089",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que a concordância verbal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Devem haver, no novo sistema, recursos de rastreamento.",
+      "Deve existir, no novo sistema, recursos de rastreamento.",
+      "Vão fazer cinco anos que a base foi inaugurada.",
+      "Costumam haver filas nos postos de atendimento.",
+      "Deve haver, no novo sistema, recursos de rastreamento."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Em locução verbal, o auxiliar herda o comportamento do verbo principal.",
+        "Haver (existir) e fazer (tempo) são impessoais: o auxiliar fica no singular.",
+        "Existir é pessoal: o auxiliar concorda com o sujeito (“Devem existir recursos”)."
+      ],
+      "porQueErradas": {
+        "0": "Haver (existir) é impessoal e transmite essa impessoalidade ao auxiliar: “Deve haver”.",
+        "1": "Existir é pessoal; o sujeito “recursos” exige o auxiliar no plural: “Devem existir”.",
+        "2": "Fazer (tempo) é impessoal, e o auxiliar fica no singular: “Vai fazer cinco anos”.",
+        "3": "Com haver impessoal, o auxiliar fica no singular: “Costuma haver filas”."
+      },
+      "pegadinha": "Haver e existir têm o mesmo sentido, mas concordam de modo oposto: haver é impessoal, existir tem sujeito.",
+      "fonte": "Concordância verbal: locuções com verbos impessoais."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0090",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 1,
+    "enunciado": "Uma soldado, ao agradecer a ajuda de um colega, deve dizer, de acordo com a norma-padrão:",
+    "alternativas": [
+      "Muito obrigado pela ajuda.",
+      "Muita obrigada pela ajuda.",
+      "Muito obrigada pela ajuda.",
+      "Muito obrigadas pela ajuda.",
+      "Muito obrigados pela ajuda."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "“Obrigado” é adjetivo e concorda em gênero e número com quem agradece.",
+        "Uma mulher sozinha diz “obrigada”.",
+        "“Muito”, que intensifica o adjetivo, é advérbio invariável."
+      ],
+      "porQueErradas": {
+        "0": "Obrigado concorda com quem fala; a falante é mulher: “obrigada”.",
+        "1": "“Muito” é advérbio que intensifica o adjetivo e não varia.",
+        "3": "Só uma pessoa agradece; o adjetivo fica no singular.",
+        "4": "O adjetivo deve estar no feminino singular, concordando com a falante."
+      },
+      "pegadinha": "Muitas pessoas acham que “obrigado” é fórmula fixa. Não é: varia conforme quem fala.",
+      "fonte": "Concordância nominal: adjetivo “obrigado”."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0091",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a concordância verbal está correta.",
+    "alternativas": [
+      "O pelotão marchou pela avenida principal.",
+      "Cada um dos soldados receberam um colete novo.",
+      "Qual de nós iremos ao curso de aperfeiçoamento?",
+      "Nenhum dos policiais foram punidos pelo incidente.",
+      "A tropa avançaram em direção ao morro."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Identifique o núcleo do sujeito, e não o termo que vem depois de “de”.",
+        "“Pelotão” é coletivo singular; o verbo fica no singular.",
+        "“Cada um”, “qual (de nós)” e “nenhum” também são núcleos no singular."
+      ],
+      "porQueErradas": {
+        "1": "O núcleo do sujeito é “cada um”: o verbo fica no singular (“recebeu”).",
+        "2": "Com o interrogativo “qual” no singular, o verbo fica na 3ª pessoa do singular: “irá”.",
+        "3": "O núcleo “nenhum” está no singular: “Nenhum dos policiais foi punido”.",
+        "4": "“Tropa” é substantivo coletivo no singular, sem especificador: “A tropa avançou”."
+      },
+      "pegadinha": "A banca coloca um substantivo no plural logo antes do verbo (soldados, policiais) para atrair a concordância errada.",
+      "fonte": "Concordância verbal: coletivos e pronomes indefinidos/interrogativos no singular."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0092",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que a concordância do verbo ser está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Era duas horas da tarde quando a viatura chegou.",
+      "Dez reais são pouco para esse serviço.",
+      "Daqui até o quartel são três quilômetros.",
+      "Já é meio-dia e meio.",
+      "Hoje são dia 20 de abril."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Indicando distância e horas, o verbo ser concorda com o numeral: “são três quilômetros”.",
+        "Com quantidade + pouco/muito, ser fica no singular.",
+        "Com “dia” explícito, o verbo fica no singular."
+      ],
+      "porQueErradas": {
+        "0": "Indicando horas, o verbo ser concorda com o numeral: “Eram duas horas”.",
+        "1": "Com expressões de quantidade seguidas de “pouco”, “muito”, “suficiente”, o verbo ser fica no singular: “Dez reais é pouco”.",
+        "3": "Meia se refere a “hora”: “meio-dia e meia”.",
+        "4": "Com a palavra “dia” expressa, o verbo concorda com ela: “Hoje é dia 20”."
+      },
+      "pegadinha": "O verbo ser é exceção: pode concordar com o predicativo, e não com o sujeito. Por isso, decore os casos de horas, datas, distâncias e quantidades.",
+      "fonte": "Concordância verbal: verbo ser (horas, datas, distâncias, quantidades)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0093",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a concordância nominal está correta.",
+    "alternativas": [
+      "É necessário a colaboração de todos os moradores.",
+      "Foram feitas menas exigências neste concurso.",
+      "Estavam presente na reunião todos os oficiais.",
+      "A presença dos responsáveis é necessária durante a matrícula.",
+      "Elas próprio fizeram o pedido ao comandante."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O adjetivo concorda em gênero e número com o substantivo a que se refere.",
+        "“A presença” é feminino singular, com artigo: “necessária”.",
+        "Menos é sempre invariável."
+      ],
+      "porQueErradas": {
+        "0": "Com artigo antes de “colaboração”, o adjetivo concorda: “É necessária a colaboração”.",
+        "1": "“Menos” é palavra invariável; não existe “menas”.",
+        "2": "O adjetivo concorda com “todos os oficiais”: “presentes”.",
+        "4": "“Próprio” concorda com o pronome: “Elas próprias”."
+      },
+      "pegadinha": "A banca usa “é necessário” com substantivo determinado por artigo, caso em que a concordância é obrigatória.",
+      "fonte": "Concordância nominal: adjetivo e predicativo; palavra invariável “menos”."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0094",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Em um ofício dirigido a uma autoridade, assinale a frase em que o pronome de tratamento está usado de acordo com a norma-padrão.",
+    "alternativas": [
+      "Vossa Senhoria deveis comparecer ao gabinete às 9 horas.",
+      "Vossa Excelência estais convocado para a cerimônia.",
+      "Vossas Senhorias deve comparecer ao gabinete.",
+      "Vossa Excelência trouxe vossos documentos?",
+      "Vossa Senhoria deve comparecer ao gabinete às 9 horas."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Embora comecem por “Vossa”, os pronomes de tratamento levam verbo e possessivos para a 3ª pessoa.",
+        "Singular: “Vossa Senhoria deve”; plural: “Vossas Senhorias devem”.",
+        "Possessivo: “seu”, “sua”, nunca “vosso”."
+      ],
+      "porQueErradas": {
+        "0": "Pronomes de tratamento levam o verbo à 3ª pessoa: “deve”.",
+        "1": "O verbo deve ficar na 3ª pessoa do singular: “está convocado”.",
+        "2": "No plural, o verbo vai para a 3ª pessoa do plural: “devem”.",
+        "3": "Os possessivos referentes a pronomes de tratamento são da 3ª pessoa: “seus documentos”."
+      },
+      "pegadinha": "A palavra “Vossa” leva o candidato a usar a 2ª pessoa do plural (deveis, vossos), o que está errado.",
+      "fonte": "Concordância com pronomes de tratamento (Manual de Redação da Presidência da República)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0095",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que a concordância verbal com sujeito composto de pessoas gramaticais diferentes está correta.",
+    "alternativas": [
+      "Eu e o sargento farão a ronda noturna.",
+      "Eu e o sargento faremos a ronda noturna.",
+      "Eu e tu farão a ronda noturna.",
+      "Você e eu farão a ronda noturna.",
+      "Ele e eu fará a ronda noturna."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Com sujeito composto de pessoas diferentes, a 1ª pessoa prevalece sobre a 2ª e a 3ª.",
+        "Eu + ele = nós: “faremos”.",
+        "Sem a 1ª pessoa, a 2ª prevalece sobre a 3ª (tu e ele fareis), admitindo-se também a 3ª do plural."
+      ],
+      "porQueErradas": {
+        "0": "Se um dos núcleos é “eu”, o verbo vai para a 1ª pessoa do plural: “faremos”.",
+        "2": "Com “eu” no sujeito, prevalece a 1ª pessoa: “faremos”.",
+        "3": "A 1ª pessoa (eu) prevalece: “faremos”.",
+        "4": "Sujeito composto anteposto exige plural, e a 1ª pessoa prevalece: “faremos”."
+      },
+      "pegadinha": "A banca muda a ordem dos núcleos (você e eu, ele e eu) para disfarçar a presença do “eu”.",
+      "fonte": "Concordância verbal: sujeito composto de pessoas gramaticais diferentes."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0096",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa que completa corretamente a lacuna: “____ ao batalhão, na manhã de ontem, os novos equipamentos de proteção.”",
+    "alternativas": [
+      "Chegou",
+      "Chega",
+      "Chegará",
+      "Chegou-se",
+      "Chegaram"
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Pergunte ao verbo: o que chegou? Resposta: “os novos equipamentos de proteção”.",
+        "O sujeito está no plural e posposto ao verbo.",
+        "Logo, “Chegaram”."
+      ],
+      "porQueErradas": {
+        "0": "O sujeito “os novos equipamentos de proteção” está no plural.",
+        "1": "Além de não concordar com o sujeito plural, o presente não combina com “ontem”.",
+        "2": "O futuro não combina com “ontem”, e o verbo deveria estar no plural.",
+        "3": "Não há indeterminação do sujeito; o sujeito é “os novos equipamentos”."
+      },
+      "pegadinha": "O sujeito vem no fim da frase, separado do verbo por adjuntos, para induzir o singular.",
+      "fonte": "Concordância verbal: sujeito posposto."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0097",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a reescrita da frase “Existem muitas dúvidas sobre o edital” mantém a correção gramatical.",
+    "alternativas": [
+      "Hão muitas dúvidas sobre o edital.",
+      "Há muitas dúvidas sobre o edital.",
+      "Houveram muitas dúvidas sobre o edital.",
+      "Existe muitas dúvidas sobre o edital.",
+      "Devem haver muitas dúvidas sobre o edital."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Ao trocar existir por haver, o sujeito “muitas dúvidas” passa a ser objeto direto.",
+        "Haver impessoal fica na 3ª pessoa do singular: “Há”.",
+        "O tempo presente foi mantido, preservando o sentido."
+      ],
+      "porQueErradas": {
+        "0": "Haver (existir) é impessoal; não vai ao plural.",
+        "2": "Haver impessoal fica no singular (e a troca de tempo verbal altera o sentido).",
+        "3": "Existir concorda com o sujeito “muitas dúvidas”: “Existem”.",
+        "4": "O auxiliar de haver impessoal fica no singular: “Deve haver”."
+      },
+      "pegadinha": "Quem troca existir por haver costuma manter o plural do verbo original, o que é erro.",
+      "fonte": "Concordância verbal: haver × existir."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0098",
+    "materia": "portugues",
+    "assunto": "Concordância verbal e nominal",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que a concordância nominal está inteiramente correta.",
+    "alternativas": [
+      "Estamos quite com a tesouraria, e seguem anexas as declarações.",
+      "Estamos quites com a tesouraria, e segue anexo as declarações.",
+      "Estamos quites com a tesouraria, e seguem anexas as declarações.",
+      "Estamos quites com a tesouraria, e seguem anexo as declarações.",
+      "Estamos quite com a tesouraria, e segue anexas as declarações."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Quite e anexo são adjetivos: concordam com o termo a que se referem.",
+        "Nós estamos quites; as declarações seguem anexas.",
+        "Apenas a locução “em anexo” é invariável."
+      ],
+      "porQueErradas": {
+        "0": "Quite é adjetivo e concorda com o sujeito “nós”: “quites”.",
+        "1": "O sujeito “as declarações” pede “seguem anexas”.",
+        "3": "Sem a preposição “em”, anexo é adjetivo e concorda: “anexas”.",
+        "4": "“Quite” deveria ir ao plural, e “segue” deveria concordar com “as declarações”."
+      },
+      "pegadinha": "Por serem palavras de uso burocrático, quite e anexo parecem fixas, mas variam normalmente.",
+      "fonte": "Concordância nominal: adjetivos quite e anexo."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0099",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 1,
+    "texto": "Às seis da manhã, o soldado Ribeiro já conferia os pneus da viatura. Não por desconfiança do mecânico, mas por hábito: aprendeu, nos primeiros meses de serviço, que um detalhe esquecido na garagem pode virar um problema no meio da avenida. Os colegas riam da mania, até o dia em que um prego, encontrado antes da saída, poupou a equipe de uma parada forçada em plena perseguição. Desde então, ninguém mais ri; alguns até o imitam.",
+    "enunciado": "De acordo com o texto, o soldado Ribeiro confere os pneus da viatura porque",
+    "alternativas": [
+      "adquiriu o hábito ao perceber que falhas pequenas podem causar grandes problemas.",
+      "desconfia do trabalho do mecânico da garagem.",
+      "foi obrigado pelo comandante após uma perseguição.",
+      "quer ser imitado pelos colegas de equipe.",
+      "já havia sofrido uma parada forçada em perseguição."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Localize a justificativa no texto: “por hábito: aprendeu […] que um detalhe esquecido na garagem pode virar um problema”.",
+        "Um detalhe esquecido = falha pequena; problema no meio da avenida = grande problema.",
+        "A alternativa correta parafraseia esse trecho."
+      ],
+      "porQueErradas": {
+        "1": "O texto nega isso: “Não por desconfiança do mecânico”.",
+        "2": "O texto não menciona ordem de comandante; trata-se de hábito pessoal.",
+        "3": "A imitação é consequência posterior, não o motivo do hábito.",
+        "4": "Ao contrário: o prego encontrado antes da saída evitou a parada forçada."
+      },
+      "pegadinha": "Distratores aproveitam palavras do texto (mecânico, perseguição, imitam) em relações que o texto não estabelece.",
+      "fonte": "Leitura e interpretação: localização de informação explícita."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0100",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Às seis da manhã, o soldado Ribeiro já conferia os pneus da viatura. Não por desconfiança do mecânico, mas por hábito: aprendeu, nos primeiros meses de serviço, que um detalhe esquecido na garagem pode virar um problema no meio da avenida. Os colegas riam da mania, até o dia em que um prego, encontrado antes da saída, poupou a equipe de uma parada forçada em plena perseguição. Desde então, ninguém mais ri; alguns até o imitam.",
+    "enunciado": "A frase “Desde então, ninguém mais ri; alguns até o imitam.” indica que",
+    "alternativas": [
+      "os colegas passaram a desconfiar do mecânico.",
+      "Ribeiro abandonou o hábito por causa das risadas.",
+      "os colegas continuam achando a mania exagerada.",
+      "o episódio do prego mudou a forma como os colegas viam o hábito de Ribeiro.",
+      "a perseguição terminou com uma parada forçada."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "“Desde então” retoma o episódio do prego.",
+        "“Ninguém mais ri” indica fim do deboche; “até o imitam” indica aprovação.",
+        "Portanto, o episódio mudou a visão dos colegas."
+      ],
+      "porQueErradas": {
+        "0": "O texto não diz que os colegas mudaram de opinião sobre o mecânico.",
+        "1": "Ribeiro manteve o hábito; os colegas é que pararam de rir.",
+        "2": "“Ninguém mais ri” mostra o contrário: deixaram de achar exagero.",
+        "4": "O prego encontrado antes evitou a parada forçada."
+      },
+      "pegadinha": "O advérbio “até” reforça a mudança de atitude; quem ignora a retomada de “Desde então” perde a relação de causa.",
+      "fonte": "Leitura e interpretação: coesão referencial e inferência."
+    },
+    "origem": "gerada"
+  }
+]

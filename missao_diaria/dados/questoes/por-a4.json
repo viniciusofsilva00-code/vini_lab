@@ -1,0 +1,604 @@
+[
+  {
+    "id": "por-0061",
+    "materia": "portugues",
+    "assunto": "Pontuação",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa corretamente pontuada.",
+    "alternativas": [
+      "A equipe, atendeu três ocorrências ontem à noite.",
+      "Ontem à noite a equipe atendeu, três ocorrências no centro.",
+      "O comandante do batalhão, elogiou a equipe.",
+      "Os moradores do bairro reclamaram, da falta de iluminação.",
+      "Ontem à noite, a equipe atendeu três ocorrências no centro."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Não se separa sujeito de verbo nem verbo de complemento com vírgula.",
+        "O adjunto adverbial deslocado para o início (\"Ontem à noite\") pode ser isolado por vírgula."
+      ],
+      "porQueErradas": {
+        "0": "Vírgula indevida entre sujeito e verbo.",
+        "1": "Vírgula indevida entre verbo e objeto direto.",
+        "2": "Vírgula indevida entre sujeito e verbo.",
+        "3": "Vírgula indevida entre verbo e complemento."
+      },
+      "pegadinha": "Sujeito longo (\"O comandante do batalhão\") induz a pôr vírgula antes do verbo; é erro.",
+      "fonte": "Pontuação: emprego da vírgula (norma-padrão)"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0062",
+    "materia": "portugues",
+    "assunto": "Pontuação",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a vírgula isola um vocativo.",
+    "alternativas": [
+      "O soldado Lima, motorista da viatura, chegou cedo.",
+      "Na manhã de ontem, houve um acidente na rodovia.",
+      "Soldado, apresente o relatório até as dez horas.",
+      "Trouxe lanterna, colete e rádio.",
+      "A ponte, que foi reformada, reabriu ao trânsito."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Vocativo é o termo usado para chamar o interlocutor.",
+        "Em \"Soldado, apresente...\", alguém se dirige diretamente ao soldado."
+      ],
+      "porQueErradas": {
+        "0": "As vírgulas isolam um aposto.",
+        "1": "A vírgula isola adjunto adverbial deslocado.",
+        "3": "As vírgulas separam elementos de uma enumeração.",
+        "4": "As vírgulas isolam oração adjetiva explicativa."
+      },
+      "pegadinha": "Aposto também pode ser nome de pessoa; a diferença é que o vocativo é um chamamento.",
+      "fonte": "Pontuação: vírgula no vocativo"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0063",
+    "materia": "portugues",
+    "assunto": "Pontuação",
+    "dificuldade": 3,
+    "enunciado": "Compare: I. \"Os candidatos que faltaram à prova serão eliminados.\" II. \"Os candidatos, que faltaram à prova, serão eliminados.\" É correto afirmar que",
+    "alternativas": [
+      "em I, apenas os candidatos que faltaram serão eliminados; em II, entende-se que todos os candidatos faltaram.",
+      "as duas frases têm exatamente o mesmo sentido.",
+      "em I, todos os candidatos faltaram; em II, só parte deles.",
+      "a frase II está incorreta, pois não se usa vírgula antes de \"que\".",
+      "em II, as vírgulas indicam a omissão de um verbo."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Sem vírgulas, a oração adjetiva é restritiva: delimita um grupo.",
+        "Entre vírgulas, é explicativa: atribui a característica a todos os candidatos."
+      ],
+      "porQueErradas": {
+        "1": "A vírgula muda o tipo de oração e o sentido.",
+        "2": "Inverte o sentido das duas frases.",
+        "3": "A vírgula antes de \"que\" é correta na oração explicativa.",
+        "4": "As vírgulas isolam oração adjetiva explicativa, não marcam omissão."
+      },
+      "pegadinha": "A diferença entre restritiva e explicativa é de sentido, não só de forma.",
+      "fonte": "Pontuação: orações adjetivas restritivas e explicativas"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0064",
+    "materia": "portugues",
+    "assunto": "Pontuação",
+    "dificuldade": 2,
+    "enunciado": "Na frase \"O motorista viu o sinal vermelho, mas não conseguiu frear a tempo\", a vírgula foi empregada para",
+    "alternativas": [
+      "isolar um vocativo.",
+      "separar uma oração coordenada adversativa.",
+      "isolar um aposto.",
+      "separar o sujeito do verbo.",
+      "indicar a omissão de um verbo."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "\"Mas não conseguiu frear a tempo\" é oração coordenada introduzida por conjunção adversativa.",
+        "A norma recomenda vírgula antes de orações adversativas."
+      ],
+      "porQueErradas": {
+        "0": "Não há chamamento na frase.",
+        "2": "Não há aposto.",
+        "3": "Separar sujeito e verbo seria erro.",
+        "4": "Nenhum verbo foi omitido."
+      },
+      "pegadinha": "Identifique primeiro a conjunção: \"mas\" indica oposição.",
+      "fonte": "Pontuação: vírgula entre orações coordenadas"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0065",
+    "materia": "portugues",
+    "assunto": "Pontuação",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que os dois-pontos foram empregados para introduzir uma enumeração.",
+    "alternativas": [
+      "O kit de primeiros socorros continha três itens: gaze, esparadrapo e luvas.",
+      "Não saímos de casa: chovia muito.",
+      "O sargento ordenou: \"Todos a postos!\"",
+      "Uma coisa era certa: ninguém dormiria aquela noite.",
+      "Ela respondeu: \"Já estou indo\"."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Dois-pontos podem anunciar enumeração, citação, explicação ou esclarecimento.",
+        "Só no kit aparece uma lista de itens."
+      ],
+      "porQueErradas": {
+        "1": "Os dois-pontos introduzem explicação.",
+        "2": "Os dois-pontos introduzem citação (fala).",
+        "3": "Os dois-pontos introduzem esclarecimento.",
+        "4": "Os dois-pontos introduzem citação (fala)."
+      },
+      "pegadinha": "Todas as frases estão corretas; a questão pede a função específica.",
+      "fonte": "Pontuação: emprego dos dois-pontos"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0066",
+    "materia": "portugues",
+    "assunto": "Pontuação",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa corretamente pontuada.",
+    "alternativas": [
+      "No primeiro turno, ficaram três soldados, no segundo; dois, no terceiro; apenas um.",
+      "No primeiro turno; ficaram três soldados; no segundo dois; no terceiro apenas, um.",
+      "No primeiro, turno ficaram três soldados; no segundo, dois; no terceiro, apenas um.",
+      "No primeiro turno, ficaram três soldados; no segundo, dois; no terceiro, apenas um.",
+      "No primeiro turno, ficaram, três soldados; no segundo, dois; no terceiro, apenas um."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O ponto e vírgula separa as partes de uma série que já têm vírgulas internas.",
+        "Em \"no segundo, dois\", a vírgula marca a omissão do verbo \"ficaram\" (zeugma)."
+      ],
+      "porQueErradas": {
+        "0": "O ponto e vírgula foi deslocado, separando termos que deveriam ficar juntos.",
+        "1": "Ponto e vírgula indevido após o adjunto e vírgula entre \"apenas\" e \"um\".",
+        "2": "A vírgula separa \"primeiro\" de \"turno\", que formam uma só expressão.",
+        "4": "Vírgula indevida entre o verbo e o sujeito posposto."
+      },
+      "pegadinha": "A vírgula que marca omissão de verbo é correta; a que separa verbo de sujeito, não.",
+      "fonte": "Pontuação: ponto e vírgula e vírgula indicando elipse do verbo"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0067",
+    "materia": "portugues",
+    "assunto": "Pontuação",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que a vírgula foi empregada de forma incorreta.",
+    "alternativas": [
+      "Na praça, os moradores plantaram árvores.",
+      "Os moradores, satisfeitos, aprovaram a reforma.",
+      "Maria, a praça ficou linda!",
+      "A maioria dos moradores, aprovou a reforma da praça.",
+      "A praça ganhou bancos, brinquedos e uma pista de caminhada."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "\"A maioria dos moradores\" é o sujeito de \"aprovou\".",
+        "Não se separa o sujeito do verbo por vírgula."
+      ],
+      "porQueErradas": {
+        "0": "Vírgula correta após adjunto adverbial deslocado.",
+        "1": "Vírgulas corretas isolando termo intercalado.",
+        "2": "Vírgula correta isolando vocativo.",
+        "4": "Vírgula correta em enumeração."
+      },
+      "pegadinha": "O enunciado pede a INCORRETA; leia com atenção.",
+      "fonte": "Pontuação: emprego da vírgula (norma-padrão)"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0068",
+    "materia": "portugues",
+    "assunto": "Pontuação",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que as aspas indicam ironia.",
+    "alternativas": [
+      "O \"pontual\" colega chegou duas horas atrasado.",
+      "O comandante disse: \"A missão foi cumprida\".",
+      "A palavra \"viatura\" tem quatro sílabas.",
+      "A reunião foi feita por \"chat\" interno.",
+      "Li o conto \"A espera\" no plantão."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Chegar duas horas atrasado contradiz a ideia de pontualidade.",
+        "As aspas indicam que \"pontual\" foi usado com sentido contrário: ironia."
+      ],
+      "porQueErradas": {
+        "1": "Aspas marcam citação direta.",
+        "2": "Aspas marcam a palavra tomada como objeto de análise.",
+        "3": "Aspas destacam palavra estrangeira.",
+        "4": "Aspas marcam título de obra."
+      },
+      "pegadinha": "Aspas têm várias funções; a ironia aparece quando o contexto desmente a palavra destacada.",
+      "fonte": "Pontuação: emprego das aspas"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0069",
+    "materia": "portugues",
+    "assunto": "Pontuação",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa corretamente pontuada.",
+    "alternativas": [
+      "Os agentes chegaram cedo; a vítima, porém, já havia sido socorrida.",
+      "Os agentes chegaram cedo a vítima porém, já havia sido socorrida.",
+      "Os agentes chegaram cedo; a vítima porém já, havia sido socorrida.",
+      "Os agentes, chegaram cedo; a vítima, porém, já havia sido socorrida.",
+      "Os agentes chegaram, cedo; a vítima porém já havia sido socorrida."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Conjunção adversativa deslocada para o meio da oração fica entre vírgulas.",
+        "O ponto e vírgula separa as duas orações coordenadas."
+      ],
+      "porQueErradas": {
+        "1": "Falta pontuação entre as orações e \"porém\" deveria estar entre vírgulas.",
+        "2": "Vírgula indevida entre \"já\" e a locução verbal.",
+        "3": "Vírgula indevida entre sujeito e verbo.",
+        "4": "Vírgula indevida antes de \"cedo\" e \"porém\" sem isolamento."
+      },
+      "pegadinha": "\"Porém\" intercalado exige vírgula antes e depois.",
+      "fonte": "Pontuação: conjunção intercalada e ponto e vírgula"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0070",
+    "materia": "portugues",
+    "assunto": "Pontuação",
+    "dificuldade": 2,
+    "enunciado": "Compare as frases: I. \"Não, quero ir à delegacia.\" II. \"Não quero ir à delegacia.\" É correto afirmar que",
+    "alternativas": [
+      "as duas frases negam a vontade de ir à delegacia.",
+      "em I, a pessoa recusa algo dito antes e afirma que quer ir; em II, nega que queira ir.",
+      "as duas frases afirmam a vontade de ir à delegacia.",
+      "a frase I está incorreta, pois não se usa vírgula após \"não\".",
+      "em I, a pessoa nega querer ir; em II, afirma que quer ir."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Em I, \"Não\" responde a algo anterior; depois vem a afirmação \"quero ir\".",
+        "Em II, \"não\" modifica \"quero\": negação da vontade."
+      ],
+      "porQueErradas": {
+        "0": "Em I, a vírgula separa o \"não\" da afirmação \"quero ir\".",
+        "2": "Em II, o \"não\" nega o verbo.",
+        "3": "A vírgula após \"não\" isolado é correta.",
+        "4": "Inverte os sentidos."
+      },
+      "pegadinha": "Uma vírgula pode inverter o sentido; leia cada frase em voz alta respeitando a pausa.",
+      "fonte": "Pontuação: vírgula e mudança de sentido"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0071",
+    "materia": "portugues",
+    "assunto": "Classes de palavras",
+    "dificuldade": 1,
+    "enunciado": "Na frase \"A equipe respondeu rapidamente ao chamado\", a palavra \"rapidamente\" é",
+    "alternativas": [
+      "adjetivo.",
+      "substantivo.",
+      "preposição.",
+      "pronome.",
+      "advérbio."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "\"Rapidamente\" indica o modo como a equipe respondeu.",
+        "Modifica o verbo: é advérbio de modo (adjetivo \"rápida\" + sufixo \"-mente\")."
+      ],
+      "porQueErradas": {
+        "0": "Adjetivo caracteriza substantivo; \"rapidamente\" modifica o verbo.",
+        "1": "Não nomeia ser algum.",
+        "2": "Não liga termos.",
+        "3": "Não substitui nem acompanha substantivo."
+      },
+      "pegadinha": "Palavras terminadas em \"-mente\" formadas de adjetivo costumam ser advérbios de modo.",
+      "fonte": "Morfologia: classes de palavras"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0072",
+    "materia": "portugues",
+    "assunto": "Classes de palavras",
+    "dificuldade": 3,
+    "enunciado": "Na frase \"O não do comandante surpreendeu a todos\", a palavra \"não\" pertence à classe dos",
+    "alternativas": [
+      "substantivos.",
+      "advérbios.",
+      "pronomes.",
+      "adjetivos.",
+      "artigos."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O artigo \"O\" antes de \"não\" o transforma em substantivo (derivação imprópria).",
+        "\"O não\" equivale a \"a negativa\", \"a recusa\"."
+      ],
+      "porQueErradas": {
+        "1": "Normalmente \"não\" é advérbio, mas aqui está substantivado.",
+        "2": "\"Não\" não é pronome.",
+        "3": "Não caracteriza um substantivo.",
+        "4": "O artigo é \"O\", que antecede \"não\"."
+      },
+      "pegadinha": "A classe depende do uso na frase; o artigo é a pista da substantivação.",
+      "fonte": "Morfologia: derivação imprópria (substantivação)"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0073",
+    "materia": "portugues",
+    "assunto": "Classes de palavras",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a palavra \"meio\" é advérbio.",
+    "alternativas": [
+      "Comprou meio quilo de café para o plantão.",
+      "A viatura parou no meio da praça.",
+      "A soldado chegou meio cansada da ronda.",
+      "Encontrou um meio de resolver o problema.",
+      "Bebeu meia garrafa de água."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Como advérbio, \"meio\" significa \"um pouco\" e modifica adjetivo.",
+        "Em \"meio cansada\", modifica o adjetivo \"cansada\" e fica invariável."
+      ],
+      "porQueErradas": {
+        "0": "\"Meio\" é numeral fracionário (metade de um quilo).",
+        "1": "\"Meio\" é substantivo (centro), antecedido de artigo.",
+        "3": "\"Meio\" é substantivo (modo, recurso).",
+        "4": "\"Meia\" é numeral fracionário e concorda com \"garrafa\"."
+      },
+      "pegadinha": "Advérbio não varia: diz-se \"meio cansada\", nunca \"meia cansada\".",
+      "fonte": "Morfologia: classes de palavras"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0074",
+    "materia": "portugues",
+    "assunto": "Classes de palavras",
+    "dificuldade": 2,
+    "enunciado": "Na frase \"Este é o policial cujo carro foi furtado\", a palavra \"cujo\" é",
+    "alternativas": [
+      "pronome relativo.",
+      "pronome demonstrativo.",
+      "conjunção integrante.",
+      "artigo definido.",
+      "advérbio de lugar."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "\"Cujo\" retoma \"policial\" e indica posse (o carro do policial).",
+        "É pronome relativo e concorda com o termo possuído (\"carro\")."
+      ],
+      "porQueErradas": {
+        "1": "Demonstrativos são este, esse, aquele etc.",
+        "2": "Conjunção integrante é \"que\" ou \"se\" introduzindo oração substantiva.",
+        "3": "Artigos são o, a, os, as.",
+        "4": "\"Cujo\" não indica lugar."
+      },
+      "pegadinha": "\"Cujo\" nunca é seguido de artigo: \"cujo carro\", e não \"cujo o carro\".",
+      "fonte": "Morfologia: pronomes relativos"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0075",
+    "materia": "portugues",
+    "assunto": "Classes de palavras",
+    "dificuldade": 1,
+    "enunciado": "Na frase \"Ufa! Terminamos o plantão sem nenhuma ocorrência grave\", a palavra \"Ufa\" é",
+    "alternativas": [
+      "advérbio de tempo.",
+      "substantivo próprio.",
+      "verbo no imperativo.",
+      "interjeição que exprime medo.",
+      "interjeição que exprime alívio."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Interjeição exprime emoção ou sensação de forma súbita.",
+        "Após o plantão tranquilo, \"Ufa!\" expressa alívio."
+      ],
+      "porQueErradas": {
+        "0": "Não indica tempo.",
+        "1": "Não nomeia ser algum.",
+        "2": "Não é forma verbal.",
+        "3": "É interjeição, mas exprime alívio, não medo."
+      },
+      "pegadinha": "Uma alternativa acerta a classe e erra o sentido; confira as duas partes.",
+      "fonte": "Morfologia: classes de palavras"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0076",
+    "materia": "portugues",
+    "assunto": "Classes de palavras",
+    "dificuldade": 2,
+    "enunciado": "Na frase \"Ontem, o soldado e o cabo patrulharam a avenida principal\", as palavras \"Ontem\", \"e\" e \"principal\" são, respectivamente,",
+    "alternativas": [
+      "advérbio, conjunção e adjetivo.",
+      "adjetivo, preposição e advérbio.",
+      "substantivo, conjunção e advérbio.",
+      "advérbio, preposição e substantivo.",
+      "pronome, conjunção e adjetivo."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "\"Ontem\": advérbio de tempo.",
+        "\"e\": conjunção coordenativa aditiva, liga \"o soldado\" e \"o cabo\".",
+        "\"principal\": adjetivo, caracteriza \"avenida\"."
+      ],
+      "porQueErradas": {
+        "1": "\"Ontem\" não é adjetivo, \"e\" não é preposição, \"principal\" não é advérbio.",
+        "2": "\"Ontem\" não é substantivo nesse uso, e \"principal\" é adjetivo.",
+        "3": "\"E\" é conjunção e \"principal\" é adjetivo.",
+        "4": "\"Ontem\" é advérbio, não pronome."
+      },
+      "pegadinha": "Em questões com sequência, basta um item errado para eliminar a alternativa.",
+      "fonte": "Morfologia: classes de palavras"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0077",
+    "materia": "portugues",
+    "assunto": "Classes de palavras",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que a palavra \"a\" é preposição.",
+    "alternativas": [
+      "O sargento referiu-se a uma testemunha no relatório.",
+      "A viatura estava limpa.",
+      "Eu a vi na praça ontem.",
+      "Encontrei a chave do armário.",
+      "Ninguém a conhece no bairro."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "\"Referir-se\" exige a preposição \"a\" (referir-se a algo).",
+        "Antes de \"uma\" (artigo indefinido) não pode haver outro artigo, então o \"a\" é preposição."
+      ],
+      "porQueErradas": {
+        "1": "\"A\" é artigo definido, acompanha \"viatura\".",
+        "2": "\"A\" é pronome oblíquo, objeto direto de \"vi\".",
+        "3": "\"A\" é artigo definido.",
+        "4": "\"A\" é pronome oblíquo, objeto de \"conhece\"."
+      },
+      "pegadinha": "Diante de artigo indefinido ou palavra masculina, \"a\" não é artigo feminino.",
+      "fonte": "Morfologia: artigo, pronome e preposição"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0078",
+    "materia": "portugues",
+    "assunto": "Classes de palavras",
+    "dificuldade": 2,
+    "enunciado": "Na frase \"O jovem soldado encontrou uma carteira velha na calçada molhada\", o número de adjetivos é",
+    "alternativas": [
+      "um.",
+      "dois.",
+      "três.",
+      "quatro.",
+      "cinco."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Adjetivos caracterizam substantivos.",
+        "\"jovem\" caracteriza \"soldado\"; \"velha\", \"carteira\"; \"molhada\", \"calçada\".",
+        "Total: três adjetivos."
+      ],
+      "porQueErradas": {
+        "0": "Há mais de um adjetivo: jovem, velha e molhada.",
+        "1": "Esquece-se de \"jovem\", que caracteriza \"soldado\".",
+        "3": "Não há quatro; \"soldado\", \"carteira\" e \"calçada\" são substantivos.",
+        "4": "Conta substantivos como adjetivos."
+      },
+      "pegadinha": "\"Jovem\" pode ser substantivo (\"o jovem chegou\"), mas aqui acompanha \"soldado\" e é adjetivo.",
+      "fonte": "Morfologia: classes de palavras"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0079",
+    "materia": "portugues",
+    "assunto": "Classes de palavras",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa que apresenta apenas substantivos abstratos.",
+    "alternativas": [
+      "viatura, coragem, rádio",
+      "coragem, saudade, justiça",
+      "colete, mesa, quartel",
+      "bondade, cadeira, medo",
+      "fé, apito, lanterna"
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Substantivo abstrato nomeia sentimento, qualidade, ação ou estado que depende de um ser.",
+        "Coragem, saudade e justiça são abstratos."
+      ],
+      "porQueErradas": {
+        "0": "\"Viatura\" e \"rádio\" são concretos.",
+        "2": "Todos são concretos.",
+        "3": "\"Cadeira\" é concreto.",
+        "4": "\"Apito\" e \"lanterna\" são concretos."
+      },
+      "pegadinha": "Basta um concreto na lista para eliminar a alternativa.",
+      "fonte": "Morfologia: substantivos concretos e abstratos"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0080",
+    "materia": "portugues",
+    "assunto": "Classes de palavras",
+    "dificuldade": 2,
+    "enunciado": "Na frase \"Embora estivesse cansado, o soldado concluiu a ronda\", a palavra \"Embora\" é",
+    "alternativas": [
+      "conjunção que expressa causa.",
+      "advérbio de tempo.",
+      "conjunção que expressa concessão.",
+      "preposição.",
+      "conjunção que expressa conclusão."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "\"Embora\" introduz um fato que poderia impedir a ação principal, mas não impede.",
+        "É conjunção subordinativa concessiva."
+      ],
+      "porQueErradas": {
+        "0": "O cansaço não causou a conclusão; foi um obstáculo vencido.",
+        "1": "\"Embora\" não indica tempo.",
+        "3": "Introduz oração com verbo no subjuntivo, papel de conjunção.",
+        "4": "Conclusivas são \"portanto\", \"logo\" etc."
+      },
+      "pegadinha": "Não confunda concessão (apesar de) com causa (porque).",
+      "fonte": "Morfologia: conjunções subordinativas concessivas"
+    },
+    "origem": "gerada"
+  }
+]

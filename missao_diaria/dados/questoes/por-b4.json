@@ -1,0 +1,624 @@
+[
+  {
+    "id": "por-0141",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que o acento indicativo de crase está empregado corretamente.",
+    "alternativas": [
+      "Entregamos o relatório à delegada responsável.",
+      "Ela começou à estudar para o concurso.",
+      "Fomos à pé até o batalhão.",
+      "Refiro-me à você, soldado.",
+      "O curso vai de segunda à sexta-feira."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Crase = preposição “a” + artigo “a”.",
+        "Entregar algo a alguém + a delegada = à delegada.",
+        "Antes de verbo, masculino e “você” não há artigo feminino."
+      ],
+      "porQueErradas": {
+        "1": "Não há crase antes de verbo.",
+        "2": "Não há crase antes de palavra masculina.",
+        "3": "Não há crase antes de pronome de tratamento como “você”.",
+        "4": "Se o “de” vem sem artigo, o “a” também vem sem: “de segunda a sexta”."
+      },
+      "pegadinha": "Na expressão “de … a”, a crase só aparece se houver artigo também no “de” (da segunda à sexta).",
+      "fonte": "Crase: casos proibidos e fusão de preposição com artigo."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0142",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa que completa, correta e respectivamente, as lacunas: “O soldado foi ____ farmácia e depois voltou ____ casa.”",
+    "alternativas": [
+      "a … à",
+      "à … à",
+      "a … a",
+      "à … a",
+      "há … a"
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Troque por masculino: “foi ao mercado” → “foi à farmácia”.",
+        "“Casa” como lar, sem especificação, não leva artigo: “voltou a casa”.",
+        "Resposta: “à … a”."
+      ],
+      "porQueErradas": {
+        "0": "Inverte as regras: farmácia aceita artigo; casa (lar), sem determinante, não.",
+        "1": "“Casa”, no sentido de lar e sem determinante, não leva crase.",
+        "2": "Ir a + a farmácia = à farmácia; falta o acento.",
+        "4": "“Há” é forma do verbo haver e não cabe na frase."
+      },
+      "pegadinha": "“Casa” com especificador leva crase (voltou à casa dos pais); sem especificador, não.",
+      "fonte": "Crase antes da palavra “casa”."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0143",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que o acento indicativo de crase está empregado corretamente.",
+    "alternativas": [
+      "O plantão começa as 19 horas e termina às 7 horas.",
+      "O expediente funciona desde às 8 horas.",
+      "O plantão começa às 19 horas e termina às 7 horas.",
+      "A viatura chegou a uma hora da madrugada.",
+      "A equipe estará lá daqui à duas horas."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Horas determinadas levam crase: às 19 horas, à uma hora.",
+        "Depois de outra preposição (desde, para, após), não há crase.",
+        "Tempo futuro decorrido (daqui a dois dias) não leva crase."
+      ],
+      "porQueErradas": {
+        "0": "Indicação de hora exata leva crase: “às 19 horas”.",
+        "1": "Após a preposição “desde”, não há crase: “desde as 8 horas”.",
+        "3": "Indicando hora, “à uma hora” leva crase.",
+        "4": "Para tempo futuro (daqui a), não há crase: “daqui a duas horas”."
+      },
+      "pegadinha": "“À uma hora” leva crase porque indica horário, embora “uma” pareça artigo indefinido.",
+      "fonte": "Crase na indicação de horas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0144",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que o acento indicativo de crase está correto.",
+    "alternativas": [
+      "Na próxima semana, o batalhão enviará uma equipe a Bahia e outra à Curitiba.",
+      "Na próxima semana, o batalhão enviará uma equipe à Bahia e outra à Curitiba.",
+      "Na próxima semana, o batalhão enviará uma equipe a Bahia e outra a Curitiba.",
+      "Na próxima semana, o batalhão enviará uma equipe à Portugal e outra a Curitiba.",
+      "Na próxima semana, o batalhão enviará uma equipe à Bahia e outra a Curitiba."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Use o macete: “vou a, volto da, crase há; vou a, volto de, crase para quê?”.",
+        "Volto da Bahia → vou à Bahia.",
+        "Volto de Curitiba → vou a Curitiba."
+      ],
+      "porQueErradas": {
+        "0": "Inverte as regras: Bahia aceita artigo; Curitiba, sem especificador, não.",
+        "1": "Curitiba não admite artigo: “vou a Curitiba, volto de Curitiba”.",
+        "2": "Bahia admite artigo: “volto da Bahia” → “vou à Bahia”.",
+        "3": "Portugal é nome masculino e sem artigo; não há crase."
+      },
+      "pegadinha": "Nomes de cidade normalmente não levam artigo, mas levam se tiverem especificador (à Curitiba dos anos 90).",
+      "fonte": "Crase antes de nomes de lugar."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0145",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que o acento indicativo de crase está empregado corretamente.",
+    "alternativas": [
+      "O restaurante serve filé a parmegiana as sextas-feiras.",
+      "O restaurante serve filé à parmegiana às sextas-feiras.",
+      "O restaurante serve filé à parmegiana as sextas-feiras.",
+      "O restaurante serve filé a parmegiana às sextas-feiras.",
+      "O restaurante serve filé à parmegiana à preços populares."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "“À parmegiana” = “à moda parmegiana”: a palavra “moda” está subentendida.",
+        "“Às sextas-feiras” é expressão adverbial de tempo com artigo.",
+        "Antes de palavra masculina, não há crase."
+      ],
+      "porQueErradas": {
+        "0": "“À moda de” (à parmegiana) e dias determinados (às sextas) levam crase.",
+        "2": "“Às sextas-feiras” é locução adverbial de tempo e leva crase.",
+        "3": "“À parmegiana” equivale a “à moda parmegiana” e leva crase.",
+        "4": "Não há crase antes de palavra masculina no plural (preços)."
+      },
+      "pegadinha": "A palavra “moda” fica oculta; quem não percebe isso deixa de colocar a crase.",
+      "fonte": "Crase na expressão “à moda de” e em locuções adverbiais."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0146",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que o emprego do acento indicativo de crase está correto.",
+    "alternativas": [
+      "O comandante fez referência aquele episódio da operação.",
+      "O comandante fez referência àquele episódio da operação.",
+      "O comandante fez referência à esse episódio da operação.",
+      "O comandante fez referência à este episódio da operação.",
+      "O comandante fez referência à um episódio da operação."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Referência rege a preposição “a”.",
+        "a + aquele = àquele (fusão com o “a” inicial do demonstrativo).",
+        "Esse, este e um não começam com “a”, logo não há fusão."
+      ],
+      "porQueErradas": {
+        "0": "Fazer referência a + aquele = àquele; falta o acento.",
+        "2": "“Esse” não começa com “a”; não há fusão.",
+        "3": "Não há crase antes de “este”.",
+        "4": "Não há crase antes de artigo indefinido masculino."
+      },
+      "pegadinha": "A crase com “aquele” ocorre mesmo antes de palavra masculina, porque a fusão é com o “a” do pronome.",
+      "fonte": "Crase com os pronomes demonstrativos aquele(s), aquela(s), aquilo."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0147",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que o acento indicativo de crase é FACULTATIVO.",
+    "alternativas": [
+      "Fui à feira com minha mãe no domingo.",
+      "O soldado chegou às 9 horas.",
+      "Não me referi a essas pessoas.",
+      "A mãe saiu à procura do filho desaparecido.",
+      "O soldado entregou o documento à sua superiora."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "A crase é facultativa antes de pronome possessivo feminino no singular, porque o artigo é opcional.",
+        "“entregou a sua superiora” e “entregou à sua superiora” estão corretas.",
+        "Também é facultativa antes de nome próprio feminino e depois de “até”."
+      ],
+      "porQueErradas": {
+        "0": "Obrigatório: ir a + a feira.",
+        "1": "Obrigatório: hora determinada.",
+        "2": "Proibido: não há crase antes de “essas”.",
+        "3": "Obrigatório: locução “à procura de”."
+      },
+      "pegadinha": "A banca mistura casos obrigatórios e proibidos; o possessivo é o caso clássico de crase facultativa.",
+      "fonte": "Crase facultativa: pronomes possessivos femininos."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0148",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa que completa, correta e respectivamente, as lacunas: “O suspeito passou ____ correr quando viu a viatura e foi detido ____ poucos metros dali.”",
+    "alternativas": [
+      "à … à",
+      "à … a",
+      "a … à",
+      "a … a",
+      "há … a"
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Antes de verbo no infinitivo, o “a” é só preposição.",
+        "“Poucos metros” é masculino; não admite artigo feminino.",
+        "A distância (a poucos metros) usa a preposição “a”, sem acento."
+      ],
+      "porQueErradas": {
+        "0": "Não há crase antes de verbo (correr) nem antes de palavra masculina plural (metros).",
+        "1": "Não há crase antes de verbo.",
+        "2": "Não há crase antes de “poucos metros”, expressão masculina.",
+        "4": "“Passou há correr” não faz sentido; o verbo haver não cabe aí."
+      },
+      "pegadinha": "O “a” de distância é confundido com o “há” de tempo decorrido. Distância: “a”; tempo passado: “há”.",
+      "fonte": "Crase: casos proibidos (verbo e masculino) e a × há."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0149",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que não há erro no uso do acento indicativo de crase.",
+    "alternativas": [
+      "O sargento não dá atenção à reclamações sem fundamento.",
+      "O curso é destinado à pessoas maiores de 18 anos.",
+      "O sargento não dá atenção a reclamações sem fundamento.",
+      "O tenente referiu-se à normas antigas.",
+      "O cabo fez críticas à umas decisões do comando."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Se o substantivo está no plural e o “a” no singular, não há artigo: é só preposição.",
+        "Com artigo, a forma seria “às reclamações”.",
+        "“a reclamações” (sentido genérico) está correto."
+      ],
+      "porQueErradas": {
+        "0": "“a” no singular diante de palavra no plural é só preposição; não há crase.",
+        "1": "Palavra no plural sem artigo plural: não há crase.",
+        "3": "Se houvesse artigo, seria “às normas”; com “a” singular, é só preposição.",
+        "4": "Não há crase antes de artigo indefinido."
+      },
+      "pegadinha": "“à” seguido de palavra no plural é sempre erro: ou é “a” (genérico) ou é “às” (determinado).",
+      "fonte": "Crase: “a” singular diante de palavra no plural."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0150",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que o uso do acento indicativo de crase está correto.",
+    "alternativas": [
+      "A patrulha ficou atenta à movimentação na praça.",
+      "À partir de hoje, a escala será alterada.",
+      "À meu ver, a operação foi bem-sucedida.",
+      "Começou à chover durante o patrulhamento.",
+      "Os dois ficaram frente à frente na audiência."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Atento rege “a”; movimentação é feminino e aceita artigo.",
+        "atento a + a movimentação = à movimentação.",
+        "Verbos, masculinos e palavras repetidas não levam crase."
+      ],
+      "porQueErradas": {
+        "1": "Não há crase antes de verbo (partir).",
+        "2": "Não há crase antes de palavra masculina (meu).",
+        "3": "Não há crase antes de verbo.",
+        "4": "Não há crase entre palavras repetidas: “frente a frente”."
+      },
+      "pegadinha": "“À partir de” é erro clássico em placas e avisos; partir é verbo.",
+      "fonte": "Crase: casos proibidos."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0151",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que o acento indicativo de crase está correto.",
+    "alternativas": [
+      "Depois de semanas embarcados, os marinheiros voltaram à terra; um deles foi direto à casa dos pais.",
+      "Depois de semanas embarcados, os marinheiros voltaram à terra; um deles foi direto a casa dos pais.",
+      "Depois de semanas embarcados, os marinheiros voltaram a terra; um deles foi direto a casa dos pais.",
+      "Depois de semanas embarcados, os marinheiros voltaram a terra; um deles foi direto à casa dos pais.",
+      "Depois de semanas embarcados, os marinheiros voltaram a terra; um deles foi direto à casa."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "“Terra” (chão firme, oposto a bordo) e “casa” (lar) não levam artigo quando sem determinante.",
+        "Com determinante, passam a admitir artigo: “à terra natal”, “à casa dos pais”.",
+        "Logo: “a terra” e “à casa dos pais”."
+      ],
+      "porQueErradas": {
+        "0": "“Terra”, como oposição a bordo e sem determinante, não leva artigo; não há crase.",
+        "1": "As duas regras estão invertidas.",
+        "2": "“Casa” com especificador (dos pais) aceita artigo: “à casa dos pais”.",
+        "4": "“Casa” como lar, sem especificador, não leva crase."
+      },
+      "pegadinha": "As palavras terra e casa mudam de regra quando ganham especificador; leia o que vem depois delas.",
+      "fonte": "Crase antes das palavras “terra” e “casa”."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0152",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que o acento indicativo de crase está empregado corretamente.",
+    "alternativas": [
+      "Às vezes, a equipe precisa sair às pressas durante a noite.",
+      "As vezes, a equipe precisa sair às pressas durante a noite.",
+      "Às vezes, a equipe precisa sair as pressas durante a noite.",
+      "As vezes, a equipe precisa sair as pressas durante a noite.",
+      "Às vezes, a equipe precisa sair às pressas durante à noite."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Locuções adverbiais femininas (às vezes, às pressas, à noite) levam crase.",
+        "“Durante” já é preposição; “a noite” ali é só artigo + substantivo.",
+        "Resposta: “Às vezes … às pressas … durante a noite”."
+      ],
+      "porQueErradas": {
+        "1": "A locução adverbial “às vezes” leva crase.",
+        "2": "A locução “às pressas” leva crase.",
+        "3": "As duas locuções adverbiais femininas exigem crase.",
+        "4": "Depois da preposição “durante”, não há crase."
+      },
+      "pegadinha": "“À noite” leva crase sozinha, mas não depois de outra preposição (durante a noite).",
+      "fonte": "Crase em locuções adverbiais femininas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0153",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que o uso do acento indicativo de crase está correto.",
+    "alternativas": [
+      "À cada dia, o recruta melhora seu desempenho no tiro.",
+      "A cada dia, o recruta melhora seu desempenho no tiro.",
+      "O sargento se dirigiu à uma colega da equipe.",
+      "Essa decisão cabe à Vossa Excelência.",
+      "Os soldados ficaram cara à cara com o suspeito."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Pronomes que não aceitam artigo (cada, uma, Vossa Excelência) não levam crase.",
+        "Palavras repetidas (cara a cara) também não.",
+        "Logo, “A cada dia” está correto."
+      ],
+      "porQueErradas": {
+        "0": "Não há crase antes de “cada”, pois não admite artigo.",
+        "2": "Não há crase antes de artigo indefinido (uma), quando não indica hora.",
+        "3": "Pronomes de tratamento não admitem artigo; não há crase.",
+        "4": "Não há crase entre palavras repetidas."
+      },
+      "pegadinha": "Nem toda palavra feminina leva crase; ela precisa admitir o artigo “a”.",
+      "fonte": "Crase: casos proibidos (cada, indefinidos, pronomes de tratamento, palavras repetidas)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0154",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa que completa, correta e respectivamente, as lacunas: “Encaminhe o ofício ____ diretora, ____ qual compete analisar ____ solicitação.”",
+    "alternativas": [
+      "a … a … à",
+      "à … a … a",
+      "à … à … a",
+      "a … à … à",
+      "à … à … à"
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Encaminhar algo a alguém: a + a diretora = à diretora.",
+        "Competir a alguém: a + a qual = à qual (“compete à diretora”).",
+        "Analisar algo: não há preposição, só artigo: “analisar a solicitação”."
+      ],
+      "porQueErradas": {
+        "0": "Encaminhar a + a diretora = à; competir a + a qual = à qual; analisar a solicitação não tem preposição.",
+        "1": "Competir rege “a” (compete a ela); “a qual” vira “à qual”.",
+        "3": "Falta crase em “à diretora”, e analisar é transitivo direto: “analisar a solicitação”.",
+        "4": "Analisar é transitivo direto; o “a” antes de solicitação é só artigo."
+      },
+      "pegadinha": "Com “a qual”, desfaça a oração (compete à diretora) para descobrir se há preposição.",
+      "fonte": "Crase com pronome relativo “a qual” e verbos transitivos diretos."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0155",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que o “a” destacado entre aspas deve receber o acento indicativo de crase.",
+    "alternativas": [
+      "Diga “a” ela que a reunião foi adiada.",
+      "O recruta começou “a” trabalhar cedo.",
+      "A loja vende uniformes “a” prazo.",
+      "O relatório foi escrito “a” lápis.",
+      "O comandante deu prioridade “a” segurança dos moradores."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Prioridade rege a preposição “a”.",
+        "Segurança é feminino e aceita artigo: a + a segurança = à segurança.",
+        "Faça o teste com masculino: “prioridade ao policiamento”."
+      ],
+      "porQueErradas": {
+        "0": "Não há crase antes de pronome pessoal (ela).",
+        "1": "Não há crase antes de verbo.",
+        "2": "Não há crase antes de palavra masculina (prazo).",
+        "3": "Não há crase antes de palavra masculina (lápis)."
+      },
+      "pegadinha": "Pronomes pessoais, verbos e palavras masculinas nunca levam crase.",
+      "fonte": "Crase: fusão da preposição exigida por nome com o artigo feminino."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0156",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que o acento indicativo de crase está empregado corretamente.",
+    "alternativas": [
+      "A ocorrência de hoje foi semelhante a que atendemos na semana passada.",
+      "Esta é a rua à que me referi ontem.",
+      "A ocorrência de hoje foi semelhante à que atendemos na semana passada.",
+      "Prefiro esta farda à aquela.",
+      "O soldado obedeceu à seus superiores."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Quando o “a” antes de “que” equivale a “aquela”, há crase: semelhante à (= àquela) que atendemos.",
+        "Teste com masculino: “o caso de hoje foi semelhante ao que atendemos”.",
+        "Se no masculino aparecer só “a que” (o bairro a que me referi), não há crase."
+      ],
+      "porQueErradas": {
+        "0": "“a que” equivale a “àquela que” (semelhante a + a ocorrência); exige crase.",
+        "1": "Aqui “que” é relativo sem artigo antes: referir-se a + que = “a que me referi”.",
+        "3": "a + aquela = àquela; não se escreve “à aquela”.",
+        "4": "Não há crase antes de palavra masculina plural."
+      },
+      "pegadinha": "O teste do masculino resolve: “ao que” indica crase; “a que” indica só preposição.",
+      "fonte": "Crase antes do pronome relativo “que” (a = aquela)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0157",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Substituindo-se “ao quartel” por “delegacia” na frase “O suspeito foi levado ao quartel”, obtém-se, de acordo com a norma-padrão:",
+    "alternativas": [
+      "O suspeito foi levado a delegacia.",
+      "O suspeito foi levado há delegacia.",
+      "O suspeito foi levado na delegacia.",
+      "O suspeito foi levado à uma delegacia.",
+      "O suspeito foi levado à delegacia."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "“ao quartel” = preposição “a” + artigo “o”.",
+        "No feminino: preposição “a” + artigo “a” = “à”.",
+        "Resultado: “levado à delegacia”."
+      ],
+      "porQueErradas": {
+        "0": "Levar a + a delegacia = à delegacia; falta o acento.",
+        "1": "“Há” é verbo haver e não cabe na frase.",
+        "2": "Levar, indicando destino, rege “a”, não “em”.",
+        "3": "Não há crase antes de artigo indefinido “uma”."
+      },
+      "pegadinha": "Sempre que “ao” vira feminino, há crase. É o teste inverso do masculino.",
+      "fonte": "Crase: substituição pelo masculino (ao → à)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0158",
+    "materia": "portugues",
+    "assunto": "Crase",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que o acento indicativo de crase está correto.",
+    "alternativas": [
+      "Devido à chuva forte, a operação foi adiada.",
+      "Devido a chuva forte, a operação foi adiada.",
+      "Devido à problemas técnicos, a operação foi adiada.",
+      "Devido à isso, a operação foi adiada.",
+      "Devido à fortes chuvas, a operação foi adiada."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "“Devido” rege a preposição “a”.",
+        "Chuva é feminino e está determinada: a + a chuva = à chuva.",
+        "Masculinos, “isso” e plural sem artigo não levam crase."
+      ],
+      "porQueErradas": {
+        "1": "Devido a + a chuva = devido à chuva; falta o acento.",
+        "2": "Não há crase antes de palavra masculina plural.",
+        "3": "Não há crase antes do pronome “isso”.",
+        "4": "Com palavra no plural, seria “às fortes chuvas” ou “a fortes chuvas”."
+      },
+      "pegadinha": "“Devido à” só aparece antes de palavra feminina singular com artigo; não é expressão fixa.",
+      "fonte": "Crase com a locução “devido a”."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0159",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 1,
+    "texto": "Muita gente acredita que disciplina é sinônimo de rigidez. Não é. Disciplina é a capacidade de fazer o que precisa ser feito mesmo quando a vontade é outra. Quem estuda trinta minutos por dia, todos os dias, costuma aprender mais do que quem passa um fim de semana inteiro debruçado sobre os livros e depois abandona a rotina. A constância, mais do que a intensidade, é o que transforma esforço em resultado.",
+    "enunciado": "Segundo o autor, o que mais contribui para transformar esforço em resultado é",
+    "alternativas": [
+      "a intensidade de longas sessões de estudo.",
+      "a rigidez no cumprimento de horários.",
+      "o estudo concentrado nos fins de semana.",
+      "a regularidade do estudo ao longo do tempo.",
+      "a vontade de estudar acima da obrigação."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Releia a última frase: “A constância, mais do que a intensidade, é o que transforma esforço em resultado”.",
+        "Constância = regularidade ao longo do tempo.",
+        "A alternativa correta é paráfrase dessa ideia."
+      ],
+      "porQueErradas": {
+        "0": "O autor afirma que a constância vale “mais do que a intensidade”.",
+        "1": "O texto diz que disciplina não é sinônimo de rigidez.",
+        "2": "O exemplo do fim de semana é apresentado como menos eficaz.",
+        "4": "Para o autor, disciplina é agir mesmo quando a vontade é outra."
+      },
+      "pegadinha": "A palavra “intensidade” aparece no texto, mas em posição de menor importância (“mais do que”).",
+      "fonte": "Leitura e interpretação: ideia principal e paráfrase."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0160",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Muita gente acredita que disciplina é sinônimo de rigidez. Não é. Disciplina é a capacidade de fazer o que precisa ser feito mesmo quando a vontade é outra. Quem estuda trinta minutos por dia, todos os dias, costuma aprender mais do que quem passa um fim de semana inteiro debruçado sobre os livros e depois abandona a rotina. A constância, mais do que a intensidade, é o que transforma esforço em resultado.",
+    "enunciado": "No texto, o autor",
+    "alternativas": [
+      "defende que disciplina e rigidez significam a mesma coisa.",
+      "contesta uma crença comum para apresentar outro conceito de disciplina.",
+      "afirma que estudar meia hora por dia é inútil.",
+      "condena o estudo nos fins de semana em qualquer situação.",
+      "sustenta que a vontade é indispensável para estudar."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "O texto começa com uma crença (“disciplina é sinônimo de rigidez”) e a nega (“Não é”).",
+        "Em seguida, redefine disciplina como fazer o necessário mesmo sem vontade.",
+        "Essa é a estratégia argumentativa do texto."
+      ],
+      "porQueErradas": {
+        "0": "Ele nega essa equivalência: “Não é”.",
+        "2": "O exemplo de trinta minutos diários é apresentado como eficaz.",
+        "3": "Ele critica estudar só no fim de semana e depois abandonar a rotina, não o estudo no fim de semana em si.",
+        "4": "Disciplina, para ele, é agir mesmo quando a vontade é outra."
+      },
+      "pegadinha": "Distratores generalizam (“em qualquer situação”) ou invertem a opinião do autor.",
+      "fonte": "Leitura e interpretação: estratégia argumentativa."
+    },
+    "origem": "gerada"
+  }
+]

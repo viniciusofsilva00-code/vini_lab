@@ -1,0 +1,518 @@
+[
+  {
+    "id": "mat-0081",
+    "materia": "matematica",
+    "assunto": "Equação do 1º grau",
+    "dificuldade": 1,
+    "enunciado": "A metade de um número, somada a 8, é igual a 20. Assinale a alternativa que apresenta esse número.",
+    "alternativas": ["6", "14", "24", "28", "56"],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Equação: x/2 + 8 = 20.",
+        "Subtraia 8: x/2 = 12.",
+        "Multiplique por 2: x = 24. Confira: 24 ÷ 2 + 8 = 12 + 8 = 20."
+      ],
+      "porQueErradas": {
+        "0": "6 é (20 − 8) ÷ 2: dividiu em vez de multiplicar no último passo.",
+        "1": "14 é (20 + 8) ÷ 2: somou o 8 e dividiu.",
+        "3": "28 é 20 + 8, sem considerar a metade.",
+        "4": "56 é (20 + 8) · 2: somou o 8 em vez de subtraí-lo."
+      },
+      "pegadinha": "Para desfazer \"a metade\", multiplica-se por 2, e só depois de retirar o 8.",
+      "fonte": "Equação do 1º grau: operações inversas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0082",
+    "materia": "matematica",
+    "assunto": "Equação do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "A idade de um sargento é igual ao dobro da idade de um soldado, menos 10 anos. A soma das idades dos dois é 62 anos. Assinale a alternativa que indica a idade do sargento.",
+    "alternativas": ["24 anos", "26 anos", "36 anos", "38 anos", "48 anos"],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Seja x a idade do soldado; o sargento tem 2x − 10.",
+        "Soma: x + 2x − 10 = 62, logo 3x = 72 e x = 24.",
+        "Sargento: 2 · 24 − 10 = 38 anos. Confira: 24 + 38 = 62."
+      ],
+      "porQueErradas": {
+        "0": "24 anos é a idade do soldado.",
+        "1": "26 é (62 − 10) ÷ 2, que ignora a relação de dobro.",
+        "2": "Se o sargento tivesse 36, o soldado teria 23 e a soma seria 59.",
+        "4": "48 é o dobro de 24, sem subtrair os 10 anos."
+      },
+      "pegadinha": "Resolvida a equação, x é a idade do soldado; ainda é preciso calcular a do sargento.",
+      "fonte": "Equação do 1º grau aplicada a idades."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0083",
+    "materia": "matematica",
+    "assunto": "Sistema de equações do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "Duas viaturas rodaram, juntas, 540 km em um dia. Uma delas rodou 120 km a mais que a outra. Assinale a alternativa que indica quantos quilômetros rodou a viatura que percorreu a menor distância.",
+    "alternativas": ["210 km", "220 km", "270 km", "330 km", "420 km"],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Sistema: x + y = 540 e x − y = 120.",
+        "Somando as equações: 2x = 660, logo x = 330.",
+        "y = 540 − 330 = 210 km."
+      ],
+      "porQueErradas": {
+        "1": "Com 220 km, a outra teria 340 km e o total seria 560 km.",
+        "2": "270 km é a metade de 540, sem considerar a diferença de 120 km.",
+        "3": "330 km é a distância da viatura que rodou mais.",
+        "4": "420 km é 540 − 120, que ainda precisaria ser dividido por 2."
+      },
+      "pegadinha": "Total menos diferença dá o dobro da menor parte: (540 − 120) ÷ 2 = 210.",
+      "fonte": "Sistema de equações do 1º grau: soma e diferença."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0084",
+    "materia": "matematica",
+    "assunto": "Sistema de equações do 1º grau",
+    "dificuldade": 2,
+    "enunciado": "Na papelaria, 3 canetas e 2 cadernos custam R$ 26,00, enquanto 1 caneta e 2 cadernos custam R$ 18,00. Assinale a alternativa que apresenta o preço de um caderno.",
+    "alternativas": ["R$ 4,00", "R$ 5,00", "R$ 6,00", "R$ 8,00", "R$ 7,00"],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Sistema: 3c + 2k = 26 e c + 2k = 18.",
+        "Subtraia a segunda da primeira: 2c = 8, logo c = 4 (caneta).",
+        "Na segunda equação: 4 + 2k = 18, então 2k = 14 e k = 7.",
+        "Confira: 3 · 4 + 2 · 7 = 12 + 14 = 26."
+      ],
+      "porQueErradas": {
+        "0": "R$ 4,00 é o preço da caneta.",
+        "1": "Com caderno a R$ 5,00, a caneta sairia a R$ 8,00 e a primeira compra daria R$ 34,00.",
+        "2": "Com caderno a R$ 6,00, a caneta sairia a R$ 6,00 e a primeira compra daria R$ 30,00.",
+        "3": "Com caderno a R$ 8,00, a caneta sairia a R$ 2,00 e a primeira compra daria R$ 22,00."
+      },
+      "pegadinha": "A subtração elimina os cadernos e revela primeiro o preço da caneta, que aparece como distrator.",
+      "fonte": "Sistema de equações do 1º grau: método da adição."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0085",
+    "materia": "matematica",
+    "assunto": "Sistema métrico (tempo, comprimento, superfície, capacidade)",
+    "dificuldade": 1,
+    "enunciado": "Uma jarra contém 2,5 litros de suco, que serão servidos em copos de 250 mL. Assinale a alternativa que indica quantos copos podem ser completamente cheios.",
+    "alternativas": ["4", "10", "25", "100", "1.000"],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Converta litros em mililitros: 1 L = 1.000 mL, logo 2,5 L = 2.500 mL.",
+        "Divida: 2.500 ÷ 250 = 10 copos."
+      ],
+      "porQueErradas": {
+        "0": "4 é o número de copos em 1 litro, não em 2,5 litros.",
+        "2": "25 corresponde a copos de 100 mL (2,5 ÷ 0,1), e não de 250 mL.",
+        "3": "100 considera 2,5 L como 25.000 mL.",
+        "4": "1.000 é o número de mililitros em um litro."
+      },
+      "pegadinha": "Coloque as duas medidas na mesma unidade antes de dividir.",
+      "fonte": "Sistema métrico: 1 L = 1.000 mL."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0086",
+    "materia": "matematica",
+    "assunto": "Sistema métrico (tempo, comprimento, superfície, capacidade)",
+    "dificuldade": 2,
+    "enunciado": "O circuito de uma patrulha a pé mede 1,2 km. Um policial deu 4 voltas completas e caminhou mais 600 m. Assinale a alternativa que indica a distância total percorrida.",
+    "alternativas": ["4,2 km", "4,86 km", "5,4 km", "6,0 km", "10,8 km"],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "4 voltas: 4 · 1,2 km = 4,8 km.",
+        "600 m = 0,6 km.",
+        "Total: 4,8 + 0,6 = 5,4 km."
+      ],
+      "porQueErradas": {
+        "0": "4,2 km corresponde a apenas 3 voltas mais 600 m.",
+        "1": "4,86 km trata 600 m como 0,06 km.",
+        "3": "6,0 km corresponde a 5 voltas completas.",
+        "4": "10,8 km trata 600 m como 6 km."
+      },
+      "pegadinha": "Para converter metros em quilômetros, divida por 1.000: 600 m = 0,6 km.",
+      "fonte": "Sistema métrico decimal: 1 km = 1.000 m."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0087",
+    "materia": "matematica",
+    "assunto": "Geometria (perímetro, área, volume, Pitágoras)",
+    "dificuldade": 2,
+    "enunciado": "O piso retangular de uma sala de 6 m por 4 m será coberto com placas quadradas de 40 cm de lado, sem sobras nem falta. Assinale a alternativa que indica o número de placas necessárias.",
+    "alternativas": ["150", "60", "15", "600", "1.500"],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Placas ao longo do comprimento: 6 m ÷ 0,4 m = 15.",
+        "Placas ao longo da largura: 4 m ÷ 0,4 m = 10.",
+        "Total: 15 · 10 = 150 placas. (Ou: 24 m² ÷ 0,16 m² = 150.)"
+      ],
+      "porQueErradas": {
+        "1": "60 divide a área (24 m²) pelo lado da placa (0,4 m), e não pela área dela.",
+        "2": "15 é só o número de placas em uma fileira do comprimento.",
+        "3": "600 divide 24 m² por 0,04 m², área errada da placa.",
+        "4": "1.500 é dez vezes o correto, erro na conversão de cm para m."
+      },
+      "pegadinha": "Divida área por área: a placa tem 0,4 · 0,4 = 0,16 m², não 0,4 m².",
+      "fonte": "Geometria plana: área do retângulo e do quadrado."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0088",
+    "materia": "matematica",
+    "assunto": "Tabelas e gráficos",
+    "dificuldade": 2,
+    "texto": "Um gráfico de barras mostra o número de autos de infração lavrados por uma equipe de trânsito em quatro meses: janeiro, 120; fevereiro, 100; março, 125; abril, 150.",
+    "enunciado": "De acordo com os dados, o aumento percentual do número de autos de março para abril foi de",
+    "alternativas": ["16,7%.", "20%.", "25%.", "30%.", "50%."],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Aumento absoluto: 150 − 125 = 25 autos.",
+        "Base de comparação: o valor inicial, março (125).",
+        "Percentual: 25 ÷ 125 = 0,2 = 20%."
+      ],
+      "porQueErradas": {
+        "0": "16,7% usa abril (150) como base, quando a base é o mês inicial.",
+        "2": "25% confunde o aumento absoluto (25 autos) com a porcentagem.",
+        "3": "30% toma como porcentagem a diferença entre abril e janeiro (30 autos).",
+        "4": "50% é o aumento de fevereiro para abril (de 100 para 150)."
+      },
+      "pegadinha": "Variação percentual sempre se calcula sobre o valor de partida (março).",
+      "fonte": "Porcentagem: variação percentual = (final − inicial) ÷ inicial."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0089",
+    "materia": "matematica",
+    "assunto": "Tabelas e gráficos",
+    "dificuldade": 1,
+    "texto": "A tabela mostra o efetivo de cada pelotão de uma companhia.\n\nPelotão | Efetivo\n1º | 32\n2º | 28\n3º | 35\n4º | 25",
+    "enunciado": "Segundo a tabela, a diferença entre o maior e o menor efetivo é de",
+    "alternativas": ["3 policiais.", "4 policiais.", "7 policiais.", "10 policiais.", "35 policiais."],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Maior efetivo: 3º pelotão, 35.",
+        "Menor efetivo: 4º pelotão, 25.",
+        "Diferença: 35 − 25 = 10 policiais."
+      ],
+      "porQueErradas": {
+        "0": "3 é a diferença entre o 3º e o 1º pelotão (35 − 32).",
+        "1": "4 é a diferença entre o 1º e o 2º pelotão (32 − 28).",
+        "2": "7 é a diferença entre o 1º e o 4º pelotão (32 − 25).",
+        "4": "35 é o maior efetivo, não a diferença."
+      },
+      "pegadinha": "Localize o maior e o menor valores da tabela inteira, e não apenas de linhas vizinhas.",
+      "fonte": "Leitura de tabelas: amplitude (maior − menor)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0090",
+    "materia": "matematica",
+    "assunto": "Tabelas e gráficos",
+    "dificuldade": 2,
+    "texto": "A tabela registra a quilometragem e o combustível gasto por cinco viaturas em uma semana.\n\nViatura | Distância (km) | Combustível (L)\nA | 360 | 30\nB | 420 | 42\nC | 300 | 20\nD | 480 | 40\nE | 270 | 30",
+    "enunciado": "Com base na tabela, a viatura de menor rendimento (menos quilômetros por litro) foi a",
+    "alternativas": ["A.", "B.", "C.", "D.", "E."],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Rendimento = distância ÷ combustível.",
+        "A: 360 ÷ 30 = 12; B: 420 ÷ 42 = 10; C: 300 ÷ 20 = 15; D: 480 ÷ 40 = 12; E: 270 ÷ 30 = 9 km/L.",
+        "O menor rendimento é o da viatura E, com 9 km/L."
+      ],
+      "porQueErradas": {
+        "0": "A faz 12 km/L, acima de E.",
+        "1": "B gastou mais litros (42), mas faz 10 km/L, acima de E.",
+        "2": "C tem o maior rendimento, 15 km/L.",
+        "3": "D percorreu a maior distância e faz 12 km/L."
+      },
+      "pegadinha": "Gastar mais litros não significa render menos: compare sempre a razão km/L.",
+      "fonte": "Razão entre grandezas e leitura de tabelas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0091",
+    "materia": "matematica",
+    "assunto": "Geometria (perímetro, área, volume, Pitágoras)",
+    "dificuldade": 3,
+    "enunciado": "Um terreno retangular tem comprimento igual ao triplo da largura e perímetro de 96 m. Assinale a alternativa que apresenta a área desse terreno.",
+    "alternativas": ["432 m²", "288 m²", "576 m²", "96 m²", "144 m²"],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Largura x, comprimento 3x. Perímetro: 2 · (3x + x) = 8x = 96, logo x = 12 m.",
+        "Comprimento: 3 · 12 = 36 m.",
+        "Área: 36 · 12 = 432 m²."
+      ],
+      "porQueErradas": {
+        "1": "288 m² usa comprimento de 24 m, o dobro da largura em vez do triplo.",
+        "2": "576 m² é 24², sem relação com as medidas do terreno.",
+        "3": "96 é o perímetro, em metros, e não a área.",
+        "4": "144 m² é 12², a área de um quadrado de lado igual à largura."
+      },
+      "pegadinha": "O perímetro soma os quatro lados: são dois comprimentos e duas larguras, 8x no total.",
+      "fonte": "Geometria plana: perímetro e área do retângulo."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0092",
+    "materia": "matematica",
+    "assunto": "Geometria (perímetro, área, volume, Pitágoras)",
+    "dificuldade": 1,
+    "enunciado": "Uma placa de sinalização tem forma de triângulo com base de 60 cm e altura de 40 cm. Assinale a alternativa que apresenta a área dessa placa.",
+    "alternativas": ["2.400 cm²", "1.200 cm²", "200 cm²", "100 cm²", "4.800 cm²"],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Área do triângulo = (base · altura) ÷ 2.",
+        "(60 · 40) ÷ 2 = 2.400 ÷ 2 = 1.200 cm²."
+      ],
+      "porQueErradas": {
+        "0": "2.400 cm² esquece de dividir por 2.",
+        "2": "200 é 2 · (60 + 40), soma de medidas, e não área.",
+        "3": "100 é 60 + 40, soma de medidas.",
+        "4": "4.800 cm² multiplica por 2 em vez de dividir."
+      },
+      "pegadinha": "O triângulo ocupa metade do retângulo de mesma base e altura: divida por 2.",
+      "fonte": "Geometria plana: área do triângulo (b · h ÷ 2)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0093",
+    "materia": "matematica",
+    "assunto": "Geometria (perímetro, área, volume, Pitágoras)",
+    "dificuldade": 3,
+    "enunciado": "Uma escada de 6,5 m está apoiada em um muro vertical, com o pé a 2,5 m da base do muro. Se o pé da escada for afastado mais 1,4 m do muro, quanto o topo da escada descerá?",
+    "alternativas": ["0,6 m", "1,2 m", "1,4 m", "0,8 m", "5,2 m"],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Altura inicial: h² = 6,5² − 2,5² = 42,25 − 6,25 = 36, logo h = 6 m.",
+        "Nova distância do pé: 2,5 + 1,4 = 3,9 m.",
+        "Nova altura: h² = 42,25 − 3,9² = 42,25 − 15,21 = 27,04, logo h = 5,2 m.",
+        "O topo desceu 6 − 5,2 = 0,8 m."
+      ],
+      "porQueErradas": {
+        "0": "0,6 m não resulta das contas; a nova altura seria 5,4 m.",
+        "1": "1,2 m daria nova altura de 4,8 m, incompatível com a escada de 6,5 m e base de 3,9 m.",
+        "2": "1,4 m supõe que o topo desce o mesmo que o pé se afasta, o que não ocorre.",
+        "4": "5,2 m é a nova altura do topo, e não quanto ele desceu."
+      },
+      "pegadinha": "O deslocamento do topo não é igual ao do pé: recalcule a altura com Pitágoras.",
+      "fonte": "Teorema de Pitágoras: a² = b² + c²."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0094",
+    "materia": "matematica",
+    "assunto": "Raciocínio lógico",
+    "dificuldade": 2,
+    "enunciado": "Considere a afirmação: \"Se chove, então a ronda é feita de viatura\". Assinale a alternativa logicamente equivalente a ela.",
+    "alternativas": [
+      "Se não chove, então a ronda não é feita de viatura.",
+      "Se a ronda é feita de viatura, então chove.",
+      "Chove e a ronda não é feita de viatura.",
+      "Não chove ou a ronda não é feita de viatura.",
+      "Se a ronda não é feita de viatura, então não chove."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "A condicional \"se p, então q\" equivale à contrapositiva \"se não q, então não p\".",
+        "p: chove; q: a ronda é feita de viatura.",
+        "Contrapositiva: \"Se a ronda não é feita de viatura, então não chove\"."
+      ],
+      "porQueErradas": {
+        "0": "Negar os dois lados sem invertê-los (inversa) não gera equivalência.",
+        "1": "Inverter a ordem sem negar (recíproca) não gera equivalência.",
+        "2": "\"Chove e a ronda não é feita de viatura\" é a negação da afirmação.",
+        "3": "A equivalência com \"ou\" seria \"não chove ou a ronda é feita de viatura\"; aqui o q foi negado."
+      },
+      "pegadinha": "Na contrapositiva é preciso inverter e negar as duas partes ao mesmo tempo.",
+      "fonte": "Lógica proposicional: p → q ≡ ~q → ~p ≡ ~p ∨ q."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0095",
+    "materia": "matematica",
+    "assunto": "Raciocínio lógico",
+    "dificuldade": 2,
+    "enunciado": "Hoje é terça-feira. Assinale a alternativa que indica o dia da semana daqui a 40 dias.",
+    "alternativas": ["Sexta-feira.", "Sábado.", "Domingo.", "Segunda-feira.", "Quinta-feira."],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "A semana se repete a cada 7 dias: 40 = 7 · 5 + 5.",
+        "Após 35 dias, é terça-feira novamente.",
+        "Faltam 5 dias: quarta, quinta, sexta, sábado, domingo."
+      ],
+      "porQueErradas": {
+        "0": "Sexta-feira corresponde a 3 dias além das semanas completas.",
+        "1": "Sábado corresponde a 4 dias além das semanas completas.",
+        "3": "Segunda-feira corresponde a 6 dias além das semanas completas.",
+        "4": "Quinta-feira corresponde a 2 dias além das semanas completas."
+      },
+      "pegadinha": "Use o resto da divisão por 7 e conte a partir do dia seguinte ao de hoje.",
+      "fonte": "Raciocínio lógico: periodicidade e resto da divisão."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0096",
+    "materia": "matematica",
+    "assunto": "Raciocínio lógico",
+    "dificuldade": 3,
+    "enunciado": "Em uma unidade com 40 policiais, 25 fazem curso de tiro, 18 fazem curso de primeiros socorros e 7 fazem os dois cursos. Assinale a alternativa que indica quantos policiais não fazem nenhum dos dois cursos.",
+    "alternativas": ["3", "7", "11", "36", "4"],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Quem faz pelo menos um curso: 25 + 18 − 7 = 36 (os 7 foram contados duas vezes).",
+        "Nenhum curso: 40 − 36 = 4 policiais.",
+        "Confira: só tiro 18, só socorros 11, ambos 7, nenhum 4; 18 + 11 + 7 + 4 = 40."
+      ],
+      "porQueErradas": {
+        "0": "3 vem de 25 + 18 = 43 e 43 − 40 = 3, sem descontar quem faz os dois cursos.",
+        "1": "7 é o número de policiais que fazem os dois cursos.",
+        "2": "11 é o número de policiais que fazem apenas primeiros socorros.",
+        "3": "36 é quem faz pelo menos um curso."
+      },
+      "pegadinha": "Quem faz os dois cursos aparece nas duas listas: subtraia a interseção uma vez.",
+      "fonte": "Teoria dos conjuntos: n(A ∪ B) = n(A) + n(B) − n(A ∩ B)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0097",
+    "materia": "matematica",
+    "assunto": "Situações-problema",
+    "dificuldade": 2,
+    "enunciado": "Uma viatura consome 1 litro de combustível a cada 10 km. O litro custa R$ 6,20. Assinale a alternativa que indica o gasto com combustível em um percurso de 350 km.",
+    "alternativas": ["R$ 186,00", "R$ 217,00", "R$ 2.170,00", "R$ 21,70", "R$ 56,45"],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Litros consumidos: 350 ÷ 10 = 35 L.",
+        "Custo: 35 · 6,20 = 217,00. (35 · 6 = 210 e 35 · 0,20 = 7.)"
+      ],
+      "porQueErradas": {
+        "0": "R$ 186,00 corresponde a 30 litros.",
+        "2": "R$ 2.170,00 é dez vezes o valor: usa 350 L em vez de 35 L.",
+        "3": "R$ 21,70 corresponde a 3,5 litros.",
+        "4": "R$ 56,45 vem de dividir 350 por 6,20, operação sem sentido no problema."
+      },
+      "pegadinha": "Primeiro descubra quantos litros foram usados; só depois multiplique pelo preço.",
+      "fonte": "Situações-problema com grandezas proporcionais."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0098",
+    "materia": "matematica",
+    "assunto": "Situações-problema",
+    "dificuldade": 2,
+    "enunciado": "Um policial trabalha na escala 12 × 36: 12 horas de serviço seguidas de 36 horas de folga. Se ele iniciou um plantão na segunda-feira às 7h, quando começará o plantão seguinte?",
+    "alternativas": [
+      "Terça-feira, às 7h.",
+      "Terça-feira, às 19h.",
+      "Quinta-feira, às 7h.",
+      "Quarta-feira, às 7h.",
+      "Quarta-feira, às 19h."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O ciclo completo é 12 h + 36 h = 48 h.",
+        "48 h = 2 dias exatos.",
+        "Segunda às 7h + 2 dias = quarta-feira às 7h."
+      ],
+      "porQueErradas": {
+        "0": "Terça às 7h soma apenas 24 horas.",
+        "1": "Terça às 19h soma 36 horas, esquecendo as 12 horas de serviço.",
+        "2": "Quinta às 7h soma 72 horas.",
+        "4": "Quarta às 19h soma 60 horas: conta as 12 h de serviço duas vezes."
+      },
+      "pegadinha": "A folga de 36 h começa ao fim do plantão (19h de segunda), e não no seu início.",
+      "fonte": "Sistema de medidas de tempo: 1 dia = 24 h."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0099",
+    "materia": "matematica",
+    "assunto": "Situações-problema",
+    "dificuldade": 2,
+    "enunciado": "Um candidato estuda uma apostila de 400 páginas. Nos primeiros 15 dias leu 18 páginas por dia; depois passou a ler 26 páginas por dia até terminar. Assinale a alternativa que indica em quantos dias, no total, ele concluiu a leitura.",
+    "alternativas": ["20", "19", "22", "23", "30"],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Primeira fase: 15 · 18 = 270 páginas.",
+        "Restam 400 − 270 = 130 páginas.",
+        "Segunda fase: 130 ÷ 26 = 5 dias.",
+        "Total: 15 + 5 = 20 dias."
+      ],
+      "porQueErradas": {
+        "1": "19 dias deixaria 26 páginas sem ler (15 + 4 dias = 374 páginas).",
+        "2": "22 vem de 400 ÷ 18 desprezando o resto, como se o ritmo não mudasse.",
+        "3": "23 seria o prazo se ele lesse sempre 18 páginas por dia.",
+        "4": "30 repete os 15 dias da primeira fase, sem calcular a segunda."
+      },
+      "pegadinha": "Quando o ritmo muda, divida o problema em fases e some os dias de cada uma.",
+      "fonte": "Situações-problema com operações fundamentais."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0100",
+    "materia": "matematica",
+    "assunto": "Equação do 1º grau",
+    "dificuldade": 3,
+    "enunciado": "Uma viatura percorreu 1/4 de um trajeto pela manhã e 1/3 do mesmo trajeto à tarde. Ainda faltam 25 km para completá-lo. Assinale a alternativa que indica o comprimento total do trajeto.",
+    "alternativas": ["40 km", "50 km", "60 km", "75 km", "100 km"],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Fração percorrida: 1/4 + 1/3 = 3/12 + 4/12 = 7/12.",
+        "Fração que falta: 1 − 7/12 = 5/12.",
+        "Equação: (5/12) · x = 25, logo x = 25 · 12 ÷ 5 = 60 km.",
+        "Confira: 15 km + 20 km + 25 km = 60 km."
+      ],
+      "porQueErradas": {
+        "0": "Com 40 km, faltariam 40 · 5/12 ≈ 16,7 km.",
+        "1": "Com 50 km, faltariam 50 · 5/12 ≈ 20,8 km.",
+        "3": "75 km resulta de considerar que 25 km são 1/3 do trajeto.",
+        "4": "100 km resulta de considerar que 25 km são 1/4 do trajeto."
+      },
+      "pegadinha": "As duas frações são do trajeto inteiro: some-as e veja qual fração resta.",
+      "fonte": "Equação do 1º grau com frações."
+    },
+    "origem": "gerada"
+  }
+]

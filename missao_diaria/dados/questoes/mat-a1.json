@@ -1,0 +1,627 @@
+[
+  {
+    "id": "mat-0001",
+    "materia": "matematica",
+    "assunto": "Números inteiros",
+    "dificuldade": 1,
+    "enunciado": "Às 6 h, um termômetro instalado no posto policial de uma cidade serrana marcava −4 °C. Até as 14 h, a temperatura subiu 11 °C e, à noite, caiu 9 °C. Assinale a alternativa que indica a temperatura registrada à noite.",
+    "alternativas": [
+      "−2 °C",
+      "2 °C",
+      "16 °C",
+      "−24 °C",
+      "−6 °C"
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Subida é soma; queda é subtração.",
+        "−4 + 11 = 7.",
+        "7 − 9 = −2 °C."
+      ],
+      "porQueErradas": {
+        "1": "Troca o sinal do resultado: 7 − 9 dá −2, não 2.",
+        "2": "Soma a queda de 9 °C em vez de subtraí-la.",
+        "3": "Trata a subida de 11 °C como queda.",
+        "4": "Inverte as operações: −4 − 11 + 9 = −6."
+      },
+      "pegadinha": "Ao passar de positivo para negativo, o candidato esquece o sinal. Faça a conta em etapas e confira o sinal no fim.",
+      "fonte": "Adição e subtração de números inteiros"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0002",
+    "materia": "matematica",
+    "assunto": "Números inteiros",
+    "dificuldade": 2,
+    "enunciado": "Em um treinamento de tiro, cada acerto vale +15 pontos e cada erro vale −8 pontos. Um soldado fez 20 disparos e acertou 13. Assinale a alternativa que apresenta a pontuação final dele.",
+    "alternativas": [
+      "251",
+      "195",
+      "139",
+      "91",
+      "300"
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Erros: 20 − 13 = 7.",
+        "Acertos: 13 × 15 = 195.",
+        "Erros: 7 × (−8) = −56.",
+        "Total: 195 − 56 = 139 pontos."
+      ],
+      "porQueErradas": {
+        "0": "Soma os pontos dos erros em vez de descontá-los: 195 + 56.",
+        "1": "Ignora os 7 erros, que valem −56 pontos.",
+        "3": "Usa 13 erros em vez de 7: 195 − 104.",
+        "4": "Considera os 20 disparos como acertos."
+      },
+      "pegadinha": "O enunciado dá o total de disparos, não o de erros. Calcule os erros (20 − 13) antes de multiplicar.",
+      "fonte": "Multiplicação e adição de números inteiros"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0003",
+    "materia": "matematica",
+    "assunto": "Números inteiros",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa que apresenta o valor da expressão (−3)² − 2 · (−5) + (−12) ÷ 4.",
+    "alternativas": [
+      "−2",
+      "−4",
+      "16",
+      "22",
+      "−16"
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "(−3)² = (−3)·(−3) = 9.",
+        "−2 · (−5) = +10, logo − 2 · (−5) contribui com +10.",
+        "(−12) ÷ 4 = −3.",
+        "9 + 10 − 3 = 16."
+      ],
+      "porQueErradas": {
+        "0": "Calcula (−3)² como −9; o expoente atinge o sinal porque ele está dentro dos parênteses.",
+        "1": "Erra o sinal de −2 · (−5), que é +10.",
+        "3": "Erra o sinal de (−12) ÷ 4, que é −3.",
+        "4": "Troca o sinal do resultado final."
+      },
+      "pegadinha": "(−3)² = 9, mas −3² = −9. Os parênteses mudam tudo; leia com atenção onde está o sinal.",
+      "fonte": "Potenciação e regra de sinais com números inteiros"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0004",
+    "materia": "matematica",
+    "assunto": "Números inteiros",
+    "dificuldade": 1,
+    "enunciado": "Em um prédio, o 3º subsolo é indicado no elevador por −3 e o térreo por 0. Um policial entrou no elevador no 3º subsolo, subiu 12 andares e, depois, desceu 5. Em que andar ele parou?",
+    "alternativas": [
+      "10º andar",
+      "4º andar",
+      "7º andar",
+      "−4 (4º subsolo)",
+      "20º andar"
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Partida: −3.",
+        "Sobe 12: −3 + 12 = 9.",
+        "Desce 5: 9 − 5 = 4."
+      ],
+      "porQueErradas": {
+        "0": "Parte do 3º andar positivo em vez do −3.",
+        "2": "Ignora o ponto de partida (−3).",
+        "3": "Troca o sinal do resultado.",
+        "4": "Soma todos os valores sem considerar os sinais."
+      },
+      "pegadinha": "O ponto de partida é negativo. Quem começa do zero ou do +3 erra a conta.",
+      "fonte": "Adição e subtração de números inteiros"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0005",
+    "materia": "matematica",
+    "assunto": "Números inteiros",
+    "dificuldade": 2,
+    "enunciado": "A conta de um cliente estava com saldo de −R$ 350,00. Ele depositou R$ 620,00 e, em seguida, pagou 3 boletos de R$ 95,00 cada. Assinale a alternativa que indica o saldo final.",
+    "alternativas": [
+      "R$ 15,00",
+      "R$ 555,00",
+      "−R$ 635,00",
+      "R$ 175,00",
+      "−R$ 15,00"
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "−350 + 620 = 270.",
+        "Boletos: 3 × 95 = 285.",
+        "270 − 285 = −15."
+      ],
+      "porQueErradas": {
+        "0": "Erra o sinal: 270 − 285 é negativo.",
+        "1": "Soma o valor dos boletos em vez de subtraí-lo.",
+        "2": "Desconsidera o depósito de R$ 620,00.",
+        "3": "Desconta apenas um boleto."
+      },
+      "pegadinha": "São 3 boletos, não 1; e o resultado fica negativo porque os pagamentos superam o saldo.",
+      "fonte": "Adição, subtração e multiplicação de números inteiros"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0006",
+    "materia": "matematica",
+    "assunto": "Números inteiros",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa que apresenta o valor do produto (−2) · (−3) · (−1) · 4 · (−5).",
+    "alternativas": [
+      "−120",
+      "120",
+      "24",
+      "−24",
+      "60"
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Conte os fatores negativos: −2, −3, −1, −5 → 4 fatores (par).",
+        "Quantidade par de negativos → produto positivo.",
+        "Módulos: 2 · 3 · 1 · 4 · 5 = 120."
+      ],
+      "porQueErradas": {
+        "0": "Erra a regra de sinais: há 4 fatores negativos (quantidade par), logo o produto é positivo.",
+        "2": "Esquece o fator (−5).",
+        "3": "Esquece o fator (−5) e erra o sinal.",
+        "4": "Erra a multiplicação dos módulos: 2·3·1·4·5 = 120."
+      },
+      "pegadinha": "Na multiplicação, o sinal depende da quantidade de fatores negativos: par dá positivo, ímpar dá negativo.",
+      "fonte": "Regra de sinais na multiplicação"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0007",
+    "materia": "matematica",
+    "assunto": "Números inteiros",
+    "dificuldade": 2,
+    "enunciado": "As temperaturas mínimas registradas em cinco dias foram: −3 °C, 2 °C, −7 °C, 0 °C e 5 °C. A diferença entre a maior e a menor temperatura foi de",
+    "alternativas": [
+      "−2 °C.",
+      "8 °C.",
+      "7 °C.",
+      "5 °C.",
+      "12 °C."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Maior: 5 °C. Menor: −7 °C.",
+        "Diferença: 5 − (−7) = 5 + 7 = 12 °C."
+      ],
+      "porQueErradas": {
+        "0": "Calcula 5 − 7, esquecendo que a menor temperatura é −7.",
+        "1": "Considera −3 como a menor temperatura.",
+        "2": "Usa só o módulo da menor temperatura.",
+        "3": "Indica apenas a maior temperatura."
+      },
+      "pegadinha": "Subtrair um número negativo equivale a somar o seu oposto: 5 − (−7) = 12.",
+      "fonte": "Subtração de números inteiros e comparação"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0008",
+    "materia": "matematica",
+    "assunto": "Números inteiros",
+    "dificuldade": 2,
+    "enunciado": "Um comandante precisa dividir 247 policiais em equipes de 9 integrantes. Para que todos fiquem em equipes completas, quantos policiais, no mínimo, ainda precisam ser convocados?",
+    "alternativas": [
+      "4",
+      "5",
+      "27",
+      "28",
+      "9"
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "247 ÷ 9 = 27, resto 4 (27 × 9 = 243).",
+        "Sobram 4 policiais sem equipe completa.",
+        "Faltam 9 − 4 = 5 para completar a 28ª equipe."
+      ],
+      "porQueErradas": {
+        "0": "É o resto da divisão (policiais que sobram), não o que falta.",
+        "2": "É o número de equipes completas já formadas.",
+        "3": "É o número de equipes após a convocação, não o de policiais.",
+        "4": "É o tamanho de uma equipe inteira."
+      },
+      "pegadinha": "A banca coloca o resto entre as alternativas. A pergunta é quanto falta, ou seja, 9 menos o resto.",
+      "fonte": "Divisão de números inteiros (quociente e resto)"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0009",
+    "materia": "matematica",
+    "assunto": "Números inteiros",
+    "dificuldade": 3,
+    "enunciado": "A soma de quatro números inteiros consecutivos é −58. O produto do maior pelo menor desses números é",
+    "alternativas": [
+      "−208.",
+      "210.",
+      "224.",
+      "195.",
+      "208."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Números: n, n+1, n+2, n+3.",
+        "4n + 6 = −58 → 4n = −64 → n = −16.",
+        "Números: −16, −15, −14, −13.",
+        "Maior · menor: (−13) · (−16) = 208."
+      ],
+      "porQueErradas": {
+        "0": "O produto de dois negativos é positivo.",
+        "1": "Multiplica os dois números do meio: (−15)·(−14).",
+        "2": "Multiplica −16 por −14, errando o maior número.",
+        "3": "Multiplica −15 por −13, errando o menor número."
+      },
+      "pegadinha": "Entre negativos, o maior é o mais próximo de zero (−13), não o de maior módulo.",
+      "fonte": "Números inteiros: ordem e regra de sinais"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0010",
+    "materia": "matematica",
+    "assunto": "Números racionais (frações e decimais)",
+    "dificuldade": 2,
+    "enunciado": "Uma viatura deve percorrer 48 km em uma ronda. Pela manhã, percorreu 3/4 do trajeto e, à tarde, 1/3 do que restava. Quantos quilômetros ainda faltam?",
+    "alternativas": [
+      "4 km",
+      "12 km",
+      "6 km",
+      "8 km",
+      "16 km"
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Manhã: 3/4 de 48 = 36 km.",
+        "Restante: 48 − 36 = 12 km.",
+        "Tarde: 1/3 de 12 = 4 km.",
+        "Faltam: 12 − 4 = 8 km."
+      ],
+      "porQueErradas": {
+        "0": "É o trecho percorrido à tarde, não o que falta.",
+        "1": "É o que restava após a manhã; falta descontar a tarde.",
+        "2": "Calcula metade do restante em vez de 1/3.",
+        "4": "Calcula 1/3 do total (48 km), e não do restante."
+      },
+      "pegadinha": "\"1/3 do que restava\" é sobre os 12 km, não sobre os 48 km.",
+      "fonte": "Fração de quantidade"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0011",
+    "materia": "matematica",
+    "assunto": "Números racionais (frações e decimais)",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa que apresenta o resultado de 2/5 + 1/4 − 3/10.",
+    "alternativas": [
+      "0",
+      "13/20",
+      "7/20",
+      "7/10",
+      "3/20"
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Denominador comum: mmc(5, 4, 10) = 20.",
+        "2/5 = 8/20; 1/4 = 5/20; 3/10 = 6/20.",
+        "8/20 + 5/20 − 6/20 = 7/20."
+      ],
+      "porQueErradas": {
+        "0": "Opera só os numeradores (2 + 1 − 3) sem igualar denominadores.",
+        "1": "Esquece de subtrair 3/10.",
+        "3": "Usa denominador comum 10, mas os numeradores de 20.",
+        "4": "Converte 2/5 em 4/20 em vez de 8/20."
+      },
+      "pegadinha": "Só se somam numeradores depois de igualar os denominadores.",
+      "fonte": "Adição e subtração de frações"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0012",
+    "materia": "matematica",
+    "assunto": "Números racionais (frações e decimais)",
+    "dificuldade": 1,
+    "enunciado": "O litro de combustível custa R$ 6,24. Ao abastecer uma viatura com 35 litros, o valor pago é",
+    "alternativas": [
+      "R$ 21,84.",
+      "R$ 2.184,00.",
+      "R$ 210,40.",
+      "R$ 218,40.",
+      "R$ 218,04."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "6 × 35 = 210.",
+        "0,24 × 35 = 8,40.",
+        "210 + 8,40 = 218,40."
+      ],
+      "porQueErradas": {
+        "0": "Erra a posição da vírgula (uma casa a menos).",
+        "1": "Erra a posição da vírgula (uma casa a mais).",
+        "2": "Erra a multiplicação: 6 × 35 = 210 e 0,24 × 35 = 8,40.",
+        "4": "Erra os centavos: 0,24 × 35 = 8,40."
+      },
+      "pegadinha": "Confira a ordem de grandeza: cerca de R$ 6 por litro × 35 litros dá pouco mais de R$ 200.",
+      "fonte": "Multiplicação de decimais"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0013",
+    "materia": "matematica",
+    "assunto": "Números racionais (frações e decimais)",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa que apresenta as frações 3/5, 5/8, 7/12 e 2/3 em ordem crescente.",
+    "alternativas": [
+      "3/5 < 5/8 < 7/12 < 2/3",
+      "2/3 < 3/5 < 5/8 < 7/12",
+      "7/12 < 5/8 < 3/5 < 2/3",
+      "7/12 < 3/5 < 5/8 < 2/3",
+      "3/5 < 7/12 < 2/3 < 5/8"
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Converta em decimais: 3/5 = 0,6; 5/8 = 0,625; 7/12 ≈ 0,583; 2/3 ≈ 0,667.",
+        "Ordem crescente: 0,583 < 0,6 < 0,625 < 0,667."
+      ],
+      "porQueErradas": {
+        "0": "Considera 7/12 maior por ter números maiores; 7/12 ≈ 0,583 é a menor.",
+        "1": "Ordena pelo denominador, o que não vale para frações.",
+        "2": "Inverte 3/5 (0,6) e 5/8 (0,625).",
+        "4": "Erra a posição de 7/12 e de 2/3."
+      },
+      "pegadinha": "Numerador e denominador maiores não significam fração maior. Compare em decimal ou com denominador comum.",
+      "fonte": "Comparação de frações"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0014",
+    "materia": "matematica",
+    "assunto": "Números racionais (frações e decimais)",
+    "dificuldade": 2,
+    "enunciado": "O valor da expressão 0,4 × 0,25 + 1,2 ÷ 0,3 é",
+    "alternativas": [
+      "0,5.",
+      "4,01.",
+      "40,1.",
+      "4,1.",
+      "0,41."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "0,4 × 0,25 = 0,1.",
+        "1,2 ÷ 0,3 = 12 ÷ 3 = 4.",
+        "0,1 + 4 = 4,1."
+      ],
+      "porQueErradas": {
+        "0": "Calcula 1,2 ÷ 0,3 como 0,4; o correto é 4.",
+        "1": "Calcula 0,4 × 0,25 como 0,01; o correto é 0,1.",
+        "2": "Calcula 1,2 ÷ 0,3 como 40.",
+        "4": "Erra as duas operações."
+      },
+      "pegadinha": "Na divisão por decimal, multiplique dividendo e divisor por 10 (12 ÷ 3) antes de dividir.",
+      "fonte": "Operações com decimais"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0015",
+    "materia": "matematica",
+    "assunto": "Números racionais (frações e decimais)",
+    "dificuldade": 2,
+    "enunciado": "Um batalhão tem 360 policiais. Deles, 2/9 estão de férias e 1/4 dos demais estão em curso de capacitação. Quantos policiais estão disponíveis para o serviço?",
+    "alternativas": [
+      "190",
+      "280",
+      "210",
+      "70",
+      "80"
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Férias: 2/9 de 360 = 80.",
+        "Demais: 360 − 80 = 280.",
+        "Curso: 1/4 de 280 = 70.",
+        "Disponíveis: 280 − 70 = 210."
+      ],
+      "porQueErradas": {
+        "0": "Calcula 1/4 dos 360, e não dos que restaram após as férias.",
+        "1": "Desconta apenas os que estão de férias.",
+        "3": "É o número de policiais em curso.",
+        "4": "É o número de policiais em férias."
+      },
+      "pegadinha": "\"1/4 dos demais\" incide sobre 280, não sobre 360.",
+      "fonte": "Fração de quantidade"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0016",
+    "materia": "matematica",
+    "assunto": "Números racionais (frações e decimais)",
+    "dificuldade": 3,
+    "enunciado": "A fração irredutível que gera a dízima periódica 0,363636... é",
+    "alternativas": [
+      "4/11.",
+      "9/25.",
+      "2/5.",
+      "3/11.",
+      "1/3."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Seja x = 0,3636... Então 100x = 36,3636...",
+        "100x − x = 36 → 99x = 36.",
+        "x = 36/99 = 4/11 (dividindo por 9)."
+      ],
+      "porQueErradas": {
+        "1": "Corresponde a 0,36, número decimal exato, não à dízima.",
+        "2": "Usa 36/90, regra de dízima composta, que não se aplica.",
+        "3": "Equivale a 0,2727...",
+        "4": "Equivale a 0,333..."
+      },
+      "pegadinha": "Período de dois algarismos logo após a vírgula: denominador 99, não 100.",
+      "fonte": "Fração geratriz de dízima periódica simples"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0017",
+    "materia": "matematica",
+    "assunto": "Números racionais (frações e decimais)",
+    "dificuldade": 2,
+    "enunciado": "Uma garrafa contém 3/4 de litro de água, que será totalmente distribuída em copos de 3/20 de litro. Quantos copos serão enchidos?",
+    "alternativas": [
+      "1/5",
+      "5",
+      "9/80",
+      "4",
+      "15"
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Quantidade de copos = (3/4) ÷ (3/20).",
+        "Mantém a primeira e multiplica pelo inverso da segunda: 3/4 × 20/3.",
+        "= 60/12 = 5 copos."
+      ],
+      "porQueErradas": {
+        "0": "Divide na ordem invertida: (3/20) ÷ (3/4).",
+        "2": "Multiplica as frações em vez de dividir.",
+        "3": "Erra a divisão: 3/4 × 20/3 = 5.",
+        "4": "Divide 3/4 por 1/20, esquecendo o numerador 3."
+      },
+      "pegadinha": "Dividir por uma fração é multiplicar pelo seu inverso, sempre da segunda fração.",
+      "fonte": "Divisão de frações"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0018",
+    "materia": "matematica",
+    "assunto": "Números racionais (frações e decimais)",
+    "dificuldade": 3,
+    "enunciado": "Um policial gastou 1/3 do salário com aluguel e 2/5 do restante com alimentação, sobrando R$ 1.800,00. O salário desse policial é",
+    "alternativas": [
+      "R$ 4.500,00.",
+      "R$ 6.750,00.",
+      "R$ 3.000,00.",
+      "R$ 2.700,00.",
+      "R$ 5.400,00."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Após o aluguel resta 2/3 do salário (S).",
+        "Alimentação: 2/5 de 2/3 S = 4/15 S.",
+        "Sobra: 2/3 S − 4/15 S = 10/15 S − 4/15 S = 6/15 S = 2/5 S.",
+        "2/5 S = 1.800 → S = 4.500.",
+        "Prova: 1.500 de aluguel; resta 3.000; 1.200 de alimentação; sobram 1.800."
+      ],
+      "porQueErradas": {
+        "1": "Soma 1/3 + 2/5 como frações do salário, mas 2/5 é do restante.",
+        "2": "Considera que R$ 1.800 são 3/5 do salário.",
+        "3": "Considera que R$ 1.800 são 2/3 do salário.",
+        "4": "Considera que R$ 1.800 são 1/3 do salário."
+      },
+      "pegadinha": "\"Do restante\" muda a base da segunda fração. Não some 1/3 com 2/5 diretamente.",
+      "fonte": "Fração de fração; problemas com frações"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0019",
+    "materia": "matematica",
+    "assunto": "Mínimo múltiplo comum",
+    "dificuldade": 2,
+    "enunciado": "Três viaturas passam pela base a cada 12, 18 e 30 minutos, respectivamente. Às 8 h, as três passaram juntas. Elas voltarão a passar juntas pela primeira vez às",
+    "alternativas": [
+      "11 h.",
+      "9 h.",
+      "8 h 36 min.",
+      "8 h 06 min.",
+      "9 h 30 min."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "12 = 2²·3; 18 = 2·3²; 30 = 2·3·5.",
+        "mmc = 2²·3²·5 = 180 min = 3 h.",
+        "8 h + 3 h = 11 h."
+      ],
+      "porQueErradas": {
+        "1": "Soma os intervalos (12 + 18 + 30 = 60 min).",
+        "2": "Considera só o mmc de 12 e 18 (36 min).",
+        "3": "Usa o mdc (6 min) em vez do mmc.",
+        "4": "Considera só o mmc de 18 e 30 (90 min)."
+      },
+      "pegadinha": "Encontro de eventos periódicos pede mmc de todos os intervalos, não a soma nem o mdc.",
+      "fonte": "Mínimo múltiplo comum: problemas de periodicidade"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "mat-0020",
+    "materia": "matematica",
+    "assunto": "Mínimo múltiplo comum",
+    "dificuldade": 1,
+    "enunciado": "O mínimo múltiplo comum de 8, 12 e 20 é",
+    "alternativas": [
+      "40.",
+      "60.",
+      "240.",
+      "1.920.",
+      "120."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "8 = 2³; 12 = 2²·3; 20 = 2²·5.",
+        "Fatores com maiores expoentes: 2³·3·5.",
+        "mmc = 8·3·5 = 120."
+      ],
+      "porQueErradas": {
+        "0": "É múltiplo de 8 e 20, mas não de 12.",
+        "1": "É múltiplo de 12 e 20, mas não de 8.",
+        "2": "É múltiplo comum, mas não o mínimo.",
+        "3": "É o produto dos três números."
+      },
+      "pegadinha": "O produto dos números é múltiplo comum, mas quase nunca o mínimo.",
+      "fonte": "Mínimo múltiplo comum por fatoração"
+    },
+    "origem": "gerada"
+  }
+]

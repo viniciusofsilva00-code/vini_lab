@@ -1,0 +1,624 @@
+[
+  {
+    "id": "por-0101",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que a regência verbal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Os recrutas assistiram o filme sobre a história da corporação.",
+      "Prefiro mais patrulhar a pé do que de carro.",
+      "O candidato aspirava o cargo de soldado.",
+      "Os recrutas assistiram ao filme sobre a história da corporação.",
+      "Obedeça o regulamento disciplinar."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Verifique a preposição exigida por cada verbo.",
+        "Assistir (ver), aspirar (desejar) e obedecer exigem a preposição “a”.",
+        "Só a primeira alternativa traz a preposição exigida."
+      ],
+      "porQueErradas": {
+        "0": "Assistir, no sentido de ver, é transitivo indireto: “assistiram ao filme”.",
+        "1": "Preferir rege a preposição “a” e não aceita “mais … do que”: “Prefiro patrulhar a pé a patrulhar de carro”.",
+        "2": "Aspirar, no sentido de desejar, é transitivo indireto: “aspirava ao cargo”.",
+        "4": "Obedecer é transitivo indireto: “Obedeça ao regulamento”."
+      },
+      "pegadinha": "Na fala, esses verbos aparecem sem preposição (“assisti o jogo”), mas a prova cobra a norma-padrão.",
+      "fonte": "Regência verbal: assistir, aspirar, obedecer, preferir."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0102",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa que completa, correta e respectivamente, as lacunas: “O soldado chegou ____ quartel cedo e informou ____ comandante ____ ocorrência.”",
+    "alternativas": [
+      "no … o … da",
+      "ao … o … da",
+      "ao … ao … da",
+      "em … ao … da",
+      "no … ao … a"
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Chegar, indicando destino, rege “a”: chegou ao quartel.",
+        "Informar é transitivo direto e indireto: informa-se alguém de algo ou algo a alguém.",
+        "“informou o comandante da ocorrência” segue a primeira construção."
+      ],
+      "porQueErradas": {
+        "0": "Na norma-padrão, chegar rege a preposição “a”: “chegou ao quartel”.",
+        "2": "Informar não admite dois complementos indiretos: “informou o comandante da ocorrência” ou “informou ao comandante a ocorrência”.",
+        "3": "Chegar exige “a”, e informar não aceita dois objetos indiretos.",
+        "4": "A segunda parte estaria correta (“informou ao comandante a ocorrência”), mas “chegou no” contraria a norma-padrão."
+      },
+      "pegadinha": "A banca oferece duas preposições para informar (“ao … da”), mas um dos complementos deve ser direto.",
+      "fonte": "Regência verbal: chegar e informar."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0103",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a regência verbal está correta.",
+    "alternativas": [
+      "O atraso na entrega dos documentos implicará a eliminação do candidato.",
+      "O atraso na entrega dos documentos implicará na eliminação do candidato.",
+      "Esqueci do horário da prova.",
+      "Simpatizei-me com o novo colega de turma.",
+      "Ela namora com um policial militar."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Implicar (acarretar) dispensa preposição.",
+        "Esquecer/lembrar só levam “de” quando pronominais.",
+        "Simpatizar não aceita pronome; namorar dispensa “com”."
+      ],
+      "porQueErradas": {
+        "1": "Implicar, no sentido de acarretar, é transitivo direto: “implicará a eliminação”.",
+        "2": "Esquecer sem pronome é transitivo direto: “Esqueci o horário” ou “Esqueci-me do horário”.",
+        "3": "Simpatizar não é pronominal: “Simpatizei com o novo colega”.",
+        "4": "Namorar é transitivo direto: “namora um policial”."
+      },
+      "pegadinha": "“Implicar em” é muito comum na fala e em textos jornalísticos, por isso parece correto.",
+      "fonte": "Regência verbal: implicar, esquecer, simpatizar, namorar."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0104",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que a regência nominal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "O sargento tem aversão com barulho no alojamento.",
+      "A decisão do juiz foi favorável para o réu.",
+      "O soldado mostrou-se apto ao serviço operacional.",
+      "O cidadão ficou alheio com a discussão.",
+      "O comandante é contrário com a nova medida."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Regência nominal é a relação entre um nome (substantivo, adjetivo) e seu complemento.",
+        "Apto rege “a” ou “para”: “apto ao serviço”.",
+        "Aversão, favorável, alheio e contrário regem a preposição “a”."
+      ],
+      "porQueErradas": {
+        "0": "Aversão rege “a” ou “por”: “aversão a barulho”.",
+        "1": "Favorável rege “a”: “favorável ao réu”.",
+        "3": "Alheio rege “a”: “alheio à discussão”.",
+        "4": "Contrário rege “a”: “contrário à nova medida”."
+      },
+      "pegadinha": "A banca troca a preposição por “com” ou “para”, que soam naturais na fala.",
+      "fonte": "Regência nominal: apto, aversão, favorável, alheio, contrário."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0105",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a regência está correta.",
+    "alternativas": [
+      "Este é o cargo que todos aspiram.",
+      "Esta é a viatura que precisamos.",
+      "Este é o livro que mais gosto.",
+      "Aquele é o bairro onde nos referimos.",
+      "Este é o cargo a que todos aspiram."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Com pronome relativo, a preposição exigida pelo verbo da oração adjetiva vem antes do relativo.",
+        "Quem aspira, aspira a algo: “o cargo a que todos aspiram”.",
+        "Faça o teste desfazendo a oração: “todos aspiram ao cargo”."
+      ],
+      "porQueErradas": {
+        "0": "Aspirar (desejar) exige “a”, que deve vir antes do relativo: “a que todos aspiram”.",
+        "1": "Precisar rege “de”: “a viatura de que precisamos”.",
+        "2": "Gostar rege “de”: “o livro de que mais gosto”.",
+        "3": "Referir-se rege “a”, e “onde” indica lugar físico: “o bairro a que nos referimos”."
+      },
+      "pegadinha": "A preposição “some” na fala diante do “que”; reconstrua a frase na ordem direta para encontrá-la.",
+      "fonte": "Regência verbal com pronome relativo."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0106",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a regência verbal está correta.",
+    "alternativas": [
+      "O comerciante pagou os funcionários o salário atrasado.",
+      "O delegado procedeu o interrogatório do suspeito.",
+      "Os alunos obedecem os instrutores da academia.",
+      "O policial avisou ao motorista de que a via estava interditada.",
+      "O comerciante pagou aos funcionários o salário atrasado."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Pagar e perdoar: a coisa é objeto direto; a pessoa, objeto indireto.",
+        "“pagou (a quem?) aos funcionários (o quê?) o salário”.",
+        "Proceder (realizar) e obedecer exigem “a”."
+      ],
+      "porQueErradas": {
+        "0": "Pagar tem a pessoa como objeto indireto: “pagou aos funcionários o salário”.",
+        "1": "Proceder, no sentido de realizar, rege “a”: “procedeu ao interrogatório”.",
+        "2": "Obedecer é transitivo indireto: “obedecem aos instrutores”.",
+        "3": "Avisar não admite dois objetos indiretos: “avisou o motorista de que” ou “avisou ao motorista que”."
+      },
+      "pegadinha": "Com dois complementos, a banca tira a preposição da pessoa ou coloca preposição nos dois.",
+      "fonte": "Regência verbal: pagar, proceder, obedecer, avisar."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0107",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que o verbo querer tem o sentido de “estimar, ter afeto”.",
+    "alternativas": [
+      "O soldado queria uma nova farda para a formatura.",
+      "Quero que você chegue cedo amanhã.",
+      "O velho sargento queria muito aos seus antigos soldados.",
+      "Ela quis saber o horário da prova.",
+      "Os moradores querem mais policiamento no bairro."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Querer muda de sentido conforme a regência.",
+        "Transitivo direto (querer algo) = desejar.",
+        "Transitivo indireto (querer a alguém) = estimar, ter afeto: “queria aos soldados”."
+      ],
+      "porQueErradas": {
+        "0": "Aqui querer é transitivo direto e significa desejar.",
+        "1": "Querer, com oração objetiva direta, significa desejar.",
+        "3": "Querer, como auxiliar, indica desejo, vontade.",
+        "4": "Transitivo direto, com sentido de desejar."
+      },
+      "pegadinha": "Todas as alternativas usam o mesmo verbo; só a preposição revela a mudança de sentido.",
+      "fonte": "Regência verbal: verbo querer (transitivo direto × transitivo indireto)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0108",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa que completa, correta e respectivamente, as lacunas: “Amanhã, os novos soldados irão ____ academia e, depois, ____ centro da cidade.”",
+    "alternativas": [
+      "na … no",
+      "à … ao",
+      "a … ao",
+      "à … no",
+      "na … ao"
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Verbos de movimento (ir, chegar, voltar) regem a preposição “a”.",
+        "a + a academia = à academia; a + o centro = ao centro.",
+        "Resposta: “à … ao”."
+      ],
+      "porQueErradas": {
+        "0": "Na norma-padrão, ir rege a preposição “a”, não “em”.",
+        "2": "Ir a + a academia = “à academia”; falta o acento indicativo de crase.",
+        "3": "O segundo complemento também exige “a”: “ao centro”.",
+        "4": "“Ir na academia” contraria a norma-padrão; o correto é “ir à academia”."
+      },
+      "pegadinha": "A forma “ir no / ir na” é comum na fala, mas a prova cobra a preposição “a”.",
+      "fonte": "Regência verbal: verbo ir (movimento)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0109",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que o verbo simpatizar está empregado de acordo com a norma-padrão.",
+    "alternativas": [
+      "Os moradores simpatizaram com o novo comandante da companhia.",
+      "Os moradores se simpatizaram com o novo comandante da companhia.",
+      "Os moradores simpatizaram o novo comandante da companhia.",
+      "Os moradores simpatizaram-se com o novo comandante da companhia.",
+      "Os moradores simpatizaram-se ao novo comandante da companhia."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Simpatizar e antipatizar são transitivos indiretos e regem “com”.",
+        "Não são pronominais: não se diz “simpatizar-se”.",
+        "Correto: “simpatizaram com o comandante”."
+      ],
+      "porQueErradas": {
+        "1": "Simpatizar não é pronominal; não se usa “se”.",
+        "2": "Simpatizar é transitivo indireto e rege “com”.",
+        "3": "Mesmo em ênclise, o pronome “se” continua indevido.",
+        "4": "Além do pronome indevido, a preposição correta é “com”."
+      },
+      "pegadinha": "Por analogia com “identificar-se com”, o candidato acrescenta o “se”, que é erro.",
+      "fonte": "Regência verbal: simpatizar e antipatizar."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0110",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa que completa corretamente a lacuna: “O soldado prefere trabalhar no turno da noite ____ trabalhar no turno da manhã.”",
+    "alternativas": [
+      "do que",
+      "que",
+      "mais do que",
+      "a",
+      "antes que"
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Preferir é transitivo direto e indireto: prefere-se uma coisa a outra.",
+        "O segundo termo vem introduzido pela preposição “a”.",
+        "Frase correta: “prefere trabalhar à noite a trabalhar de manhã”."
+      ],
+      "porQueErradas": {
+        "0": "Preferir não aceita a estrutura comparativa “do que”.",
+        "1": "Preferir rege a preposição “a”, não a conjunção “que”.",
+        "2": "Preferir já contém a ideia de “mais”; “preferir mais … do que” é redundante e incorreto.",
+        "4": "“Antes que” é locução temporal e não completa a regência de preferir."
+      },
+      "pegadinha": "A construção “prefiro … do que” é muito usada na fala e aparece sempre como distrator.",
+      "fonte": "Regência verbal: verbo preferir."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0111",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que o verbo aspirar está empregado corretamente nas duas ocorrências.",
+    "alternativas": [
+      "O soldado aspirou à fumaça do incêndio, mas continua aspirando ao posto de cabo.",
+      "O soldado aspirou a fumaça do incêndio, mas continua aspirando ao posto de cabo.",
+      "O soldado aspirou a fumaça do incêndio, mas continua aspirando o posto de cabo.",
+      "O soldado aspirou à fumaça do incêndio, mas continua aspirando o posto de cabo.",
+      "O soldado aspirou da fumaça do incêndio, mas continua aspirando ao posto de cabo."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Aspirar = inalar, sorver: transitivo direto (aspirar a fumaça; o “a” é só artigo).",
+        "Aspirar = desejar, pretender: transitivo indireto (aspirar ao posto).",
+        "Só a alternativa correta respeita as duas regências."
+      ],
+      "porQueErradas": {
+        "0": "No sentido de inalar, aspirar é transitivo direto: não há preposição, logo não há crase.",
+        "2": "No sentido de desejar, aspirar exige “a”: “aspirando ao posto”.",
+        "3": "As duas regências estão invertidas.",
+        "4": "Aspirar (inalar) é transitivo direto; não rege “de”."
+      },
+      "pegadinha": "Em “aspirou a fumaça”, o “a” é artigo; quem pensa que é preposição coloca crase indevida.",
+      "fonte": "Regência verbal: verbo aspirar (inalar × desejar)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0112",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que o pronome oblíquo está empregado de acordo com a regência do verbo.",
+    "alternativas": [
+      "O sargento deu a ordem, e os soldados obedeceram-no imediatamente.",
+      "Conheço o tenente e admiro-lhe muito.",
+      "Vi o acidente e assisti-lhe de perto.",
+      "O sargento deu a ordem, e os soldados obedeceram-lhe imediatamente.",
+      "Encontrei o cabo e cumprimentei-lhe pela promoção."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "“O, a, os, as” substituem objeto direto; “lhe, lhes” substituem objeto indireto de pessoa.",
+        "Obedecer a alguém → obedecer-lhe.",
+        "Assistir (ver), aspirar e visar não aceitam “lhe”; usa-se “a ele(a)”."
+      ],
+      "porQueErradas": {
+        "0": "Obedecer é transitivo indireto; o pronome adequado é “lhe”.",
+        "1": "Admirar é transitivo direto: “admiro-o”.",
+        "2": "Assistir (ver) não admite “lhe”; usa-se “assisti a ele”.",
+        "4": "Cumprimentar é transitivo direto: “cumprimentei-o”."
+      },
+      "pegadinha": "A banca usa “lhe” com verbos transitivos diretos (admirar, cumprimentar), engano comum por hipercorreção.",
+      "fonte": "Regência verbal e emprego dos pronomes oblíquos átonos."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0113",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que a regência verbal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Prefiro pizza do que lanche.",
+      "Assisti o jogo ontem à noite.",
+      "Cheguei no trabalho atrasado.",
+      "Lucas namora com Ana há dois anos.",
+      "Lucas namora Ana há dois anos."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Namorar é transitivo direto: dispensa a preposição “com”.",
+        "Preferir, assistir (ver) e chegar exigem a preposição “a”.",
+        "Apenas “Lucas namora Ana” segue a norma-padrão."
+      ],
+      "porQueErradas": {
+        "0": "Preferir rege “a”: “Prefiro pizza a lanche”.",
+        "1": "Assistir (ver) é transitivo indireto: “Assisti ao jogo”.",
+        "2": "Chegar (destino) rege “a”: “Cheguei ao trabalho”.",
+        "3": "Namorar é transitivo direto: “namora Ana”."
+      },
+      "pegadinha": "As formas erradas são as mais usadas no dia a dia, por isso parecem naturais.",
+      "fonte": "Regência verbal: namorar, preferir, assistir, chegar."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0114",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a regência nominal está correta.",
+    "alternativas": [
+      "Esta é a informação de que temos necessidade.",
+      "Esta é a informação que temos necessidade.",
+      "É um assunto que tenho interesse.",
+      "Essa é a medida que todos são favoráveis.",
+      "É a pessoa que tenho mais confiança."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "O nome da oração adjetiva (necessidade, interesse, favorável, confiança) também exige preposição.",
+        "A preposição vem antes do pronome relativo.",
+        "“ter necessidade de algo” → “de que temos necessidade”."
+      ],
+      "porQueErradas": {
+        "1": "Necessidade rege “de”: “temos necessidade da informação” → “de que temos necessidade”.",
+        "2": "Interesse rege “em” ou “por”: “assunto em que tenho interesse”.",
+        "3": "Favorável rege “a”: “a medida a que todos são favoráveis”.",
+        "4": "Confiança rege “em”: “a pessoa em quem tenho mais confiança”."
+      },
+      "pegadinha": "A banca omite a preposição que o substantivo ou o adjetivo exige, não o verbo; é preciso olhar o nome.",
+      "fonte": "Regência nominal com pronome relativo."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0115",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a regência verbal está correta.",
+    "alternativas": [
+      "Ele esqueceu do horário da escala.",
+      "Ele se esqueceu o horário da escala.",
+      "Ele se esqueceu do horário da escala.",
+      "Eu me lembro o nome do cabo.",
+      "Lembrei do compromisso com o tenente."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Esquecer e lembrar: sem pronome, transitivos diretos; com pronome, transitivos indiretos (de).",
+        "Esquecer algo / esquecer-se de algo.",
+        "“Ele se esqueceu do horário” segue a segunda construção."
+      ],
+      "porQueErradas": {
+        "0": "Sem pronome, esquecer é transitivo direto: “esqueceu o horário”.",
+        "1": "Pronominal, esquecer exige “de”: “esqueceu-se do horário”.",
+        "3": "Lembrar-se exige “de”: “Eu me lembro do nome”.",
+        "4": "Sem pronome, lembrar é transitivo direto: “Lembrei o compromisso” ou “Lembrei-me do compromisso”."
+      },
+      "pegadinha": "A regra é casada: pronome e preposição andam juntos. Se faltar um deles, há erro.",
+      "fonte": "Regência verbal: esquecer e lembrar."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0116",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que há ERRO de regência, de acordo com a norma-padrão.",
+    "alternativas": [
+      "Informamos aos candidatos de que a prova foi adiada.",
+      "Informamos os candidatos de que a prova foi adiada.",
+      "Informamos aos candidatos que a prova foi adiada.",
+      "Avisamos os moradores de que a rua seria interditada.",
+      "Certificamos o comandante de que tudo estava pronto."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Informar, avisar e certificar são transitivos diretos e indiretos.",
+        "Um complemento deve ser direto e o outro, indireto.",
+        "Em “informamos aos candidatos de que”, os dois complementos têm preposição: erro."
+      ],
+      "porQueErradas": {
+        "1": "Correta: a pessoa é objeto direto e a coisa, objeto indireto (de que).",
+        "2": "Correta: a pessoa é objeto indireto e a coisa, objeto direto (que).",
+        "3": "Correta: avisar alguém de algo.",
+        "4": "Correta: certificar alguém de algo."
+      },
+      "pegadinha": "As cinco frases são quase iguais; o erro está apenas no acúmulo de preposições (“aos … de que”).",
+      "fonte": "Regência verbal: informar, avisar, certificar."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0117",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que a regência está de acordo com a norma-padrão.",
+    "alternativas": [
+      "O soldado reside à Rua das Flores, no centro.",
+      "O imóvel está situado à Avenida Brasil.",
+      "O soldado reside na Rua das Flores, no centro.",
+      "Ela é residente à Praça da Sé.",
+      "O sargento mora à rua do quartel."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Verbos e nomes que indicam situação ou residência (morar, residir, situado, residente) regem “em”.",
+        "Logo, “reside na Rua das Flores”.",
+        "O uso de “à” nesses casos é comum em endereços, mas contraria a norma-padrão."
+      ],
+      "porQueErradas": {
+        "0": "Residir rege “em”: “reside na Rua das Flores”.",
+        "1": "Situado rege “em”: “situado na Avenida Brasil”.",
+        "3": "Residente rege “em”: “residente na Praça da Sé”.",
+        "4": "Morar rege “em”: “mora na rua do quartel”."
+      },
+      "pegadinha": "O “à” de endereços em formulários induz ao erro; a regência de morar e residir é “em”.",
+      "fonte": "Regência verbal e nominal: morar, residir, residente, situado."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0118",
+    "materia": "portugues",
+    "assunto": "Regência verbal e nominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que o verbo assistir está empregado de acordo com a norma-padrão, no sentido indicado entre parênteses.",
+    "alternativas": [
+      "Os soldados assistiram a cerimônia de formatura. (ver)",
+      "O direito à ampla defesa assiste o acusado. (caber)",
+      "Assistimos o desfile de Sete de Setembro. (ver)",
+      "A equipe de resgate assistiu os feridos no local do acidente. (prestar assistência)",
+      "Milhares de pessoas assistiram o show na praça. (ver)"
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Assistir muda de regência conforme o sentido.",
+        "Ver, presenciar e caber: transitivo indireto (assistir a).",
+        "Prestar assistência, ajudar: transitivo direto (assistir alguém)."
+      ],
+      "porQueErradas": {
+        "0": "No sentido de ver, assistir rege “a”: “assistiram à cerimônia”.",
+        "1": "No sentido de caber, assistir é transitivo indireto: “assiste ao acusado”.",
+        "2": "No sentido de ver, é transitivo indireto: “Assistimos ao desfile”.",
+        "4": "No sentido de ver, exige preposição: “assistiram ao show”."
+      },
+      "pegadinha": "Como “assistir a” é a regra mais cobrada, o candidato estranha a forma sem preposição, que é correta no sentido de ajudar.",
+      "fonte": "Regência verbal: verbo assistir (ver, caber, prestar assistência)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0119",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 1,
+    "texto": "Um levantamento feito pela prefeitura de uma cidade do interior paulista mostrou que a instalação de iluminação de LED em praças reduziu as reclamações de moradores sobre insegurança. Segundo os técnicos, porém, a luz sozinha não resolve o problema: praças bem iluminadas e vazias continuam a ser evitadas. O que faz diferença, dizem, é a combinação de iluminação com atividades culturais e esportivas que levem as pessoas a ocupar o espaço.",
+    "enunciado": "De acordo com o texto, os técnicos afirmam que",
+    "alternativas": [
+      "a iluminação de LED, sozinha, eliminou a insegurança nas praças.",
+      "a iluminação deve ser associada à ocupação do espaço pelas pessoas.",
+      "as praças iluminadas passaram a ser evitadas pelos moradores.",
+      "as reclamações aumentaram após a instalação das lâmpadas.",
+      "as atividades culturais dispensam investimento em iluminação."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Localize a fala dos técnicos: “O que faz diferença […] é a combinação de iluminação com atividades”.",
+        "Essas atividades levam “as pessoas a ocupar o espaço”.",
+        "A alternativa correta resume essa combinação."
+      ],
+      "porQueErradas": {
+        "0": "O texto diz o contrário: “a luz sozinha não resolve o problema”.",
+        "2": "O texto fala de praças “bem iluminadas e vazias”; a alternativa omite a condição “vazias”.",
+        "3": "O levantamento mostrou redução das reclamações.",
+        "4": "Os técnicos defendem a combinação das duas medidas, não a substituição."
+      },
+      "pegadinha": "Uma alternativa corta parte da informação (“e vazias”) e muda completamente o sentido.",
+      "fonte": "Leitura e interpretação: informação explícita e paráfrase."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0120",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Um levantamento feito pela prefeitura de uma cidade do interior paulista mostrou que a instalação de iluminação de LED em praças reduziu as reclamações de moradores sobre insegurança. Segundo os técnicos, porém, a luz sozinha não resolve o problema: praças bem iluminadas e vazias continuam a ser evitadas. O que faz diferença, dizem, é a combinação de iluminação com atividades culturais e esportivas que levem as pessoas a ocupar o espaço.",
+    "enunciado": "No trecho “Segundo os técnicos, porém, a luz sozinha não resolve o problema”, a palavra “porém” introduz",
+    "alternativas": [
+      "uma conclusão tirada do levantamento da prefeitura.",
+      "uma explicação para a redução das reclamações.",
+      "uma comparação entre praças iluminadas e escuras.",
+      "um argumento no mesmo sentido do anterior.",
+      "uma ressalva ao resultado positivo apresentado antes."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "“Porém” é conjunção adversativa: indica oposição ou ressalva.",
+        "Antes: a iluminação reduziu as reclamações (resultado positivo).",
+        "Depois: a luz sozinha não resolve (limitação desse resultado)."
+      ],
+      "porQueErradas": {
+        "0": "Conclusão seria marcada por “portanto”, “logo”; “porém” indica oposição.",
+        "1": "Explicação seria introduzida por “pois”, “porque”.",
+        "2": "“Porém” não estabelece comparação.",
+        "3": "Adição seria marcada por “além disso”, “também”; “porém” contrapõe."
+      },
+      "pegadinha": "O “porém” deslocado para o meio da oração, entre vírgulas, mantém o valor adversativo.",
+      "fonte": "Leitura e interpretação: conectivos e relações de sentido."
+    },
+    "origem": "gerada"
+  }
+]

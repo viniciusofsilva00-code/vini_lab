@@ -1,0 +1,624 @@
+[
+  {
+    "id": "por-0121",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que a colocação pronominal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Me disseram que a prova foi adiada.",
+      "Nunca disseram-me a verdade.",
+      "Ninguém avisou-nos da mudança.",
+      "Quem contou-lhe a novidade?",
+      "Não me disseram o horário da formatura."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Palavras atrativas (negativas, indefinidos, interrogativos, relativos, certos advérbios) exigem próclise.",
+        "“Não” é palavra negativa: “Não me disseram”.",
+        "Pronome átono não inicia frase."
+      ],
+      "porQueErradas": {
+        "0": "Não se inicia frase com pronome oblíquo átono: “Disseram-me”.",
+        "1": "Palavra negativa (nunca) atrai o pronome: “Nunca me disseram”.",
+        "2": "Pronome indefinido (ninguém) atrai o pronome: “Ninguém nos avisou”.",
+        "3": "Pronome interrogativo (quem) atrai o pronome: “Quem lhe contou”."
+      },
+      "pegadinha": "A ênclise parece mais “formal”, mas é errada quando há palavra atrativa.",
+      "fonte": "Colocação pronominal: próclise obrigatória e proibição de iniciar frase com pronome átono."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0122",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a colocação pronominal está correta.",
+    "alternativas": [
+      "Entregarei-lhe o relatório amanhã.",
+      "Lhe entregarei o relatório amanhã.",
+      "Entregar-lhe-ei o relatório amanhã.",
+      "Entregaria-lhe o relatório se pudesse.",
+      "Te entregarei o relatório amanhã."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Futuro do presente e futuro do pretérito não admitem ênclise.",
+        "Sem palavra atrativa e no início da frase, usa-se a mesóclise.",
+        "entregar + lhe + ei → entregar-lhe-ei."
+      ],
+      "porQueErradas": {
+        "0": "Não há ênclise com verbo no futuro do presente: usa-se a mesóclise.",
+        "1": "Não se inicia frase com pronome oblíquo átono.",
+        "3": "Não há ênclise com futuro do pretérito: “Entregar-lhe-ia”.",
+        "4": "Pronome átono não pode iniciar a frase: “Entregar-te-ei”."
+      },
+      "pegadinha": "A ênclise “entregarei-lhe” soa culta, mas é proibida com verbos no futuro.",
+      "fonte": "Colocação pronominal: mesóclise com futuro do presente e do pretérito."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0123",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a colocação pronominal está INCORRETA.",
+    "alternativas": [
+      "O sargento havia-se esquecido do compromisso.",
+      "O sargento havia esquecido-se do compromisso.",
+      "O sargento não se havia esquecido do compromisso.",
+      "Quando se lembrou do compromisso, o sargento já havia saído.",
+      "Lembre-se do compromisso, sargento."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Em locução com particípio, o pronome nunca fica depois do particípio.",
+        "Ele se liga ao auxiliar: “havia-se esquecido” ou, com atrativo, “não se havia esquecido”.",
+        "“havia esquecido-se” é erro."
+      ],
+      "porQueErradas": {
+        "0": "Correta: o pronome está em ênclise ao verbo auxiliar.",
+        "2": "Correta: a negação atrai o pronome para antes do auxiliar.",
+        "3": "Correta: a conjunção subordinativa “quando” atrai o pronome.",
+        "4": "Correta: ênclise com imperativo afirmativo no início da frase."
+      },
+      "pegadinha": "Com infinitivo e gerúndio a ênclise ao verbo principal é possível; com particípio, nunca.",
+      "fonte": "Colocação pronominal em locuções verbais com particípio."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0124",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que o pronome está colocado conforme a norma-padrão.",
+    "alternativas": [
+      "Me avisaram de que a reunião começaria às oito.",
+      "Te espero no portão do quartel.",
+      "Se ouviu um estrondo durante a madrugada.",
+      "Avisaram-me de que a reunião começaria às oito.",
+      "Nos chamaram para a operação de domingo."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "No início de frase, sem palavra atrativa, usa-se a ênclise.",
+        "“Avisaram-me” coloca o pronome depois do verbo.",
+        "As outras começam com pronome oblíquo átono."
+      ],
+      "porQueErradas": {
+        "0": "A norma-padrão não admite pronome átono no início da frase.",
+        "1": "Pronome átono no início de frase: “Espero-te”.",
+        "2": "Frase não começa com pronome átono: “Ouviu-se um estrondo”.",
+        "4": "Pronome átono no início de frase: “Chamaram-nos”."
+      },
+      "pegadinha": "A próclise inicial é a forma mais comum no português falado do Brasil, mas a norma-padrão a rejeita.",
+      "fonte": "Colocação pronominal: ênclise no início de frase."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0125",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a colocação pronominal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Embora se esforçasse, o candidato não terminou a prova a tempo.",
+      "Embora esforçasse-se, o candidato não terminou a prova a tempo.",
+      "Quando chamaram-no, ele já havia saído.",
+      "Se encontrarem-me, avisem o sargento.",
+      "Espero que digam-me a verdade."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Conjunções subordinativas (embora, quando, se, que, como, porque) são atrativas.",
+        "Com elas, o pronome vai para antes do verbo.",
+        "“Embora se esforçasse” respeita a regra."
+      ],
+      "porQueErradas": {
+        "1": "A conjunção subordinativa “embora” atrai o pronome: “Embora se esforçasse”.",
+        "2": "A conjunção “quando” exige próclise: “Quando o chamaram”.",
+        "3": "A conjunção condicional “se” atrai o pronome: “Se me encontrarem”.",
+        "4": "A conjunção integrante “que” exige próclise: “que me digam”."
+      },
+      "pegadinha": "Em “Se encontrarem-me”, o primeiro “se” é conjunção, não pronome; ela atrai o pronome “me”.",
+      "fonte": "Colocação pronominal: próclise com conjunções subordinativas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0126",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que a colocação pronominal está correta.",
+    "alternativas": [
+      "Ninguém lhe dirá o resultado antes da hora.",
+      "Ninguém dir-lhe-á o resultado antes da hora.",
+      "Ninguém dirá-lhe o resultado antes da hora.",
+      "Dirá-lhe o sargento o resultado antes da hora.",
+      "Lhe dirá o sargento o resultado antes da hora."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "A mesóclise só é usada no futuro quando não há palavra atrativa.",
+        "“Ninguém” é pronome indefinido e atrai o pronome.",
+        "Logo, a próclise é obrigatória: “Ninguém lhe dirá”."
+      ],
+      "porQueErradas": {
+        "1": "Havendo palavra atrativa (ninguém), a próclise prevalece sobre a mesóclise.",
+        "2": "Ênclise é proibida no futuro e também quando há palavra atrativa.",
+        "3": "Com futuro do presente no início da frase, usa-se a mesóclise: “Dir-lhe-á”.",
+        "4": "Pronome átono não inicia frase."
+      },
+      "pegadinha": "Quem decorou “futuro = mesóclise” esquece que a palavra atrativa tem prioridade.",
+      "fonte": "Colocação pronominal: próclise × mesóclise."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0127",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a colocação pronominal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Aqui trabalha-se com seriedade.",
+      "Sempre esqueço-me do código do rádio.",
+      "Talvez encontrem-se pistas no local.",
+      "Ontem, encontraram-se os documentos desaparecidos.",
+      "Já disse-lhe que não é permitido."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Advérbio colocado imediatamente antes do verbo atrai o pronome.",
+        "Se o advérbio estiver separado por vírgula, a atração se desfaz e usa-se a ênclise.",
+        "“Ontem, encontraram-se”: a vírgula justifica a ênclise."
+      ],
+      "porQueErradas": {
+        "0": "Advérbio sem vírgula atrai o pronome: “Aqui se trabalha”.",
+        "1": "O advérbio “sempre” atrai o pronome: “Sempre me esqueço”.",
+        "2": "O advérbio “talvez” atrai o pronome: “Talvez se encontrem”.",
+        "4": "O advérbio “já” atrai o pronome: “Já lhe disse”."
+      },
+      "pegadinha": "A vírgula depois do advérbio muda a regra; observe a pontuação antes de decidir.",
+      "fonte": "Colocação pronominal: advérbios como palavras atrativas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0128",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa em que a colocação pronominal está correta.",
+    "alternativas": [
+      "Este é o colega que ajudou-me no treinamento.",
+      "Este é o local onde encontraram-se as provas.",
+      "Este é o colega que me ajudou no treinamento.",
+      "Esta é a arma que entregaram-lhe no quartel.",
+      "São estes os fatos que relataram-nos ontem."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Pronomes relativos (que, onde, o qual, cujo) são palavras atrativas.",
+        "Com eles, a próclise é obrigatória.",
+        "“o colega que me ajudou”."
+      ],
+      "porQueErradas": {
+        "0": "O pronome relativo “que” atrai o pronome: “que me ajudou”.",
+        "1": "O relativo “onde” exige próclise: “onde se encontraram”.",
+        "3": "O relativo “que” atrai: “que lhe entregaram”.",
+        "4": "O relativo “que” atrai: “que nos relataram”."
+      },
+      "pegadinha": "O “que” relativo é atrativo; a ênclise depois dele é um dos erros mais cobrados.",
+      "fonte": "Colocação pronominal: próclise com pronomes relativos."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0129",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que a colocação pronominal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Em tratando-se de segurança, todo cuidado é pouco.",
+      "Em se tratando de segurança, todo cuidado é pouco.",
+      "Se tratando de segurança, todo cuidado é pouco.",
+      "Não tratando-se de segurança, o cuidado pode ser menor.",
+      "Me falando assim, você me ofende."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Com gerúndio, a regra geral é a ênclise (tratando-se).",
+        "Se o gerúndio vier precedido de “em” ou de palavra negativa, usa-se a próclise.",
+        "“Em se tratando” é a forma correta."
+      ],
+      "porQueErradas": {
+        "0": "Gerúndio precedido da preposição “em” exige próclise: “Em se tratando”.",
+        "2": "Pronome átono não inicia frase: “Tratando-se de segurança”.",
+        "3": "A negação atrai o pronome: “Não se tratando”.",
+        "4": "Pronome átono não inicia frase: “Falando-me assim”."
+      },
+      "pegadinha": "“Em tratando-se” parece mais elegante, mas a preposição “em” obriga a próclise.",
+      "fonte": "Colocação pronominal com gerúndio."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0130",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a colocação pronominal está correta.",
+    "alternativas": [
+      "O soldado não incomodou-o com perguntas.",
+      "Jamais incomodaria-o com isso.",
+      "Me incomoda o barulho da sirene.",
+      "Quem incomodou-o durante o plantão?",
+      "Saí cedo para não incomodá-lo."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Com infinitivo não flexionado precedido de preposição e negação, admitem-se próclise e ênclise.",
+        "“para não incomodá-lo” e “para não o incomodar” estão corretas.",
+        "Nas outras há palavra atrativa ignorada ou pronome no início da frase."
+      ],
+      "porQueErradas": {
+        "0": "A negação atrai o pronome: “não o incomodou”.",
+        "1": "Advérbio negativo exige próclise, e futuro do pretérito não admite ênclise: “Jamais o incomodaria”.",
+        "2": "Pronome átono não inicia frase: “Incomoda-me o barulho”.",
+        "3": "O interrogativo “quem” atrai o pronome: “Quem o incomodou”."
+      },
+      "pegadinha": "O “não” antes de infinitivo não obriga a próclise; já antes de verbo flexionado, obriga.",
+      "fonte": "Colocação pronominal com infinitivo."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0131",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 3,
+    "enunciado": "Substituindo-se “os documentos” por um pronome na frase “O soldado entregará os documentos ao sargento”, obtém-se, de acordo com a norma-padrão:",
+    "alternativas": [
+      "O soldado entregará-os ao sargento.",
+      "O soldado entregar-los-á ao sargento.",
+      "O soldado entregá-los-á ao sargento.",
+      "O soldado entregá-os-á ao sargento.",
+      "O soldado entregará-los ao sargento."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "“Os documentos” é objeto direto → pronome “os”.",
+        "No futuro do presente, sem atrativo, usa-se a mesóclise: entregar + os + á.",
+        "O “r” cai, o “a” recebe acento e o pronome vira “los”: entregá-los-á."
+      ],
+      "porQueErradas": {
+        "0": "Não há ênclise com futuro do presente.",
+        "1": "Na mesóclise, o “r” do infinitivo cai diante de “os”, que vira “los”: “entregá-los-á”.",
+        "3": "Com a queda do “r”, o pronome assume a forma “los”.",
+        "4": "Além da ênclise proibida no futuro, a forma “los” só ocorre após r, s ou z eliminados."
+      },
+      "pegadinha": "Além da posição, a banca cobra a forma do pronome (os → los) e a acentuação (entregá).",
+      "fonte": "Colocação pronominal: mesóclise e formas lo/la/los/las."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0132",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a colocação pronominal está INCORRETA.",
+    "alternativas": [
+      "Quero falar-lhe amanhã.",
+      "Quero-lhe falar amanhã.",
+      "Não quero falar-lhe amanhã.",
+      "Não lhe quero falar amanhã.",
+      "Lhe quero falar amanhã."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Em locução com infinitivo, o pronome pode ligar-se ao auxiliar ou ao principal.",
+        "Com palavra atrativa, pode ficar antes do auxiliar ou depois do infinitivo.",
+        "Em nenhum caso o pronome átono pode iniciar a frase: “Lhe quero falar” está errada."
+      ],
+      "porQueErradas": {
+        "0": "Correta: ênclise ao infinitivo na locução verbal.",
+        "1": "Correta: ênclise ao verbo auxiliar.",
+        "2": "Correta: o pronome ligado ao infinitivo não é atraído pela negação.",
+        "3": "Correta: próclise ao auxiliar, atraída pela negação."
+      },
+      "pegadinha": "As locuções com infinitivo aceitam várias posições; só a regra do início de frase continua valendo.",
+      "fonte": "Colocação pronominal em locuções verbais com infinitivo."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0133",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 1,
+    "enunciado": "Na norma-padrão, a ordem dada pelo instrutor ao recruta deve ser escrita assim:",
+    "alternativas": [
+      "Apresente-se ao oficial de dia imediatamente.",
+      "Se apresente ao oficial de dia imediatamente.",
+      "Não apresente-se ao oficial de dia sem a farda.",
+      "Me apresente o relatório imediatamente.",
+      "Te apresente ao oficial de dia imediatamente."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Imperativo afirmativo no início da frase: ênclise.",
+        "“Apresente-se” coloca o pronome depois do verbo.",
+        "No imperativo negativo, a próclise é obrigatória."
+      ],
+      "porQueErradas": {
+        "1": "Pronome átono não inicia frase; com imperativo afirmativo, usa-se a ênclise.",
+        "2": "No imperativo negativo, a negação atrai o pronome: “Não se apresente”.",
+        "3": "Pronome átono não inicia frase: “Apresente-me o relatório”.",
+        "4": "Além de iniciar a frase com pronome átono, “te” não combina com a 3ª pessoa de “apresente”."
+      },
+      "pegadinha": "Ordens no dia a dia começam com o pronome (“Se apresente!”), mas a norma-padrão exige a ênclise.",
+      "fonte": "Colocação pronominal: ênclise com imperativo afirmativo."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0134",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a colocação pronominal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Tudo resolveu-se depois da conversa com o comandante.",
+      "Tudo se resolveu depois da conversa com o comandante.",
+      "Alguém chamou-me pelo rádio.",
+      "Quanto custou-me essa farda!",
+      "Como sentiu-se após o treinamento?"
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Pronomes indefinidos (tudo, alguém, ninguém) e palavras interrogativas/exclamativas são atrativos.",
+        "Com eles, a próclise é obrigatória.",
+        "“Tudo se resolveu”."
+      ],
+      "porQueErradas": {
+        "0": "O pronome indefinido “tudo” atrai o pronome: “Tudo se resolveu”.",
+        "2": "O indefinido “alguém” é atrativo: “Alguém me chamou”.",
+        "3": "Frases exclamativas iniciadas por palavra exclamativa exigem próclise: “Quanto me custou”.",
+        "4": "O advérbio interrogativo “como” atrai o pronome: “Como se sentiu”."
+      },
+      "pegadinha": "“Tudo” funciona como sujeito, e o candidato pensa que sujeito não atrai. Indefinidos atraem.",
+      "fonte": "Colocação pronominal: próclise com indefinidos, interrogativos e exclamativos."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0135",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 3,
+    "enunciado": "Assinale a alternativa em que a colocação pronominal está correta.",
+    "alternativas": [
+      "Caso houvesse verba, faria-se a reforma do quartel.",
+      "Caso houvesse verba, far-se-ía a reforma do quartel.",
+      "Caso houvesse verba, fa-se-ria a reforma do quartel.",
+      "Caso houvesse verba, far-se-ia a reforma do quartel.",
+      "Caso houvesse verba, fazer-se-ia a reforma do quartel."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Futuro do pretérito sem palavra atrativa e após pausa: mesóclise.",
+        "O pronome entra entre o radical do futuro e a desinência: far + se + ia.",
+        "Verbos como fazer, dizer e trazer usam o radical reduzido: far-, dir-, trar-."
+      ],
+      "porQueErradas": {
+        "0": "O futuro do pretérito não admite ênclise.",
+        "1": "A terminação “ia” da mesóclise não recebe acento: “far-se-ia”.",
+        "2": "A mesóclise separa o radical do infinitivo (far-) da desinência (-ia), e não no meio da sílaba “ria”.",
+        "4": "O futuro de fazer se forma com o radical “far-”: faria → far-se-ia."
+      },
+      "pegadinha": "Verbos irregulares (fazer, dizer, trazer) formam a mesóclise com o radical reduzido, e não com o infinitivo completo.",
+      "fonte": "Colocação pronominal: mesóclise com futuro do pretérito."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0136",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a colocação pronominal está de acordo com a norma-padrão.",
+    "alternativas": [
+      "Deus proteja-o nesta missão!",
+      "Deus o proteja nesta missão!",
+      "Me proteja nesta missão, soldado!",
+      "Não proteja-o nesta missão.",
+      "Quem protegeu-o nesta missão?"
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Frases optativas, que exprimem desejo, exigem a próclise.",
+        "“Deus o proteja” = desejo de que Deus proteja.",
+        "O sujeito anteposto não impede a próclise nesse caso."
+      ],
+      "porQueErradas": {
+        "0": "Orações optativas (que exprimem desejo) exigem próclise: “Deus o proteja”.",
+        "2": "Pronome átono não inicia frase: “Proteja-me”.",
+        "3": "A negação atrai o pronome: “Não o proteja”.",
+        "4": "O interrogativo “quem” atrai: “Quem o protegeu”."
+      },
+      "pegadinha": "Como o verbo vem depois do sujeito sem palavra atrativa, o candidato pensa em ênclise; o valor de desejo exige próclise.",
+      "fonte": "Colocação pronominal: próclise em orações optativas."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0137",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa que substitui corretamente a expressão “o suspeito” por pronome em “Encontrei o suspeito na esquina”.",
+    "alternativas": [
+      "Encontrei-lhe na esquina.",
+      "Lhe encontrei na esquina.",
+      "O encontrei na esquina.",
+      "Encontrei-o na esquina.",
+      "Encontrei ele na esquina."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "“O suspeito” é objeto direto → pronome “o”.",
+        "A frase começa pelo verbo, sem palavra atrativa → ênclise.",
+        "Resultado: “Encontrei-o na esquina”."
+      ],
+      "porQueErradas": {
+        "0": "Encontrar é transitivo direto; o pronome adequado é “o”.",
+        "1": "Além do pronome inadequado, não se inicia frase com pronome átono.",
+        "2": "Pronome átono não inicia frase: “Encontrei-o”.",
+        "4": "“Ele” é pronome reto e não funciona como objeto direto na norma-padrão."
+      },
+      "pegadinha": "“Encontrei ele” é comum na fala, mas pronome reto não exerce função de objeto na norma-padrão.",
+      "fonte": "Colocação pronominal e emprego dos pronomes oblíquos."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0138",
+    "materia": "portugues",
+    "assunto": "Colocação pronominal",
+    "dificuldade": 2,
+    "enunciado": "Assinale a alternativa em que a colocação pronominal está correta.",
+    "alternativas": [
+      "Os candidatos que inscreveram-se após o prazo não poderão fazer a prova.",
+      "Os candidatos não inscreveram-se dentro do prazo.",
+      "Se inscreveram muitos candidatos após o prazo.",
+      "Ninguém inscreveu-se após o prazo.",
+      "Os candidatos que se inscreveram após o prazo não poderão fazer a prova."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Procure palavras atrativas antes do verbo: relativo, negação, indefinido.",
+        "Em “que se inscreveram”, o relativo exige próclise.",
+        "No início da frase, sem atrativo, usa-se ênclise."
+      ],
+      "porQueErradas": {
+        "0": "O relativo “que” atrai o pronome: “que se inscreveram”.",
+        "1": "A negação atrai o pronome: “não se inscreveram”.",
+        "2": "Pronome átono não inicia frase: “Inscreveram-se muitos candidatos”.",
+        "3": "O indefinido “ninguém” atrai: “Ninguém se inscreveu”."
+      },
+      "pegadinha": "A frase longa esconde o pronome relativo “que”, que é o que determina a próclise.",
+      "fonte": "Colocação pronominal: próclise com relativos, negação e indefinidos."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0139",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Tirinha descrita em texto. Primeiro quadro: um menino pergunta ao pai, que lê o jornal, por que os adultos sempre dizem que “no tempo deles era melhor”. Segundo quadro: o pai, sem tirar os olhos do jornal, responde que antigamente as pessoas se respeitavam mais. Terceiro quadro: o menino observa que o pai não olhou para ele uma única vez durante a conversa. O pai, sem graça, abaixa o jornal.",
+    "enunciado": "O humor da tirinha decorre",
+    "alternativas": [
+      "da recusa do menino em ler o jornal.",
+      "do fato de o pai concordar que hoje tudo é melhor.",
+      "da contradição entre o discurso do pai sobre respeito e a atitude dele com o filho.",
+      "da falta de resposta do pai à pergunta do menino.",
+      "da crítica do menino às notícias do jornal."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O pai afirma que antes as pessoas se respeitavam mais.",
+        "Ao mesmo tempo, ele não olha para o filho durante a conversa, o que é falta de atenção.",
+        "A quebra de expectativa entre o que diz e o que faz gera o humor."
+      ],
+      "porQueErradas": {
+        "0": "O menino não se recusa a ler; quem lê é o pai.",
+        "1": "O pai diz que antigamente as pessoas se respeitavam mais.",
+        "3": "O pai responde à pergunta; o problema é como ele responde.",
+        "4": "O menino critica a atitude do pai, não as notícias."
+      },
+      "pegadinha": "Em tirinhas, o humor costuma estar no último quadro, que revela a incoerência do personagem.",
+      "fonte": "Leitura e interpretação: humor, ironia e quebra de expectativa."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0140",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 1,
+    "texto": "Tirinha descrita em texto. Primeiro quadro: um menino pergunta ao pai, que lê o jornal, por que os adultos sempre dizem que “no tempo deles era melhor”. Segundo quadro: o pai, sem tirar os olhos do jornal, responde que antigamente as pessoas se respeitavam mais. Terceiro quadro: o menino observa que o pai não olhou para ele uma única vez durante a conversa. O pai, sem graça, abaixa o jornal.",
+    "enunciado": "No último quadro, o fato de o pai abaixar o jornal “sem graça” sugere que ele",
+    "alternativas": [
+      "percebeu que sua atitude contradizia o que havia dito.",
+      "ficou irritado com a pergunta do filho.",
+      "terminou de ler as notícias do dia.",
+      "não entendeu a observação do menino.",
+      "decidiu ignorar o filho a partir dali."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "“Sem graça” significa constrangido, envergonhado.",
+        "A vergonha vem da observação do menino, que revelou a incoerência do pai.",
+        "Abaixar o jornal indica que ele reconheceu a falha."
+      ],
+      "porQueErradas": {
+        "1": "“Sem graça” indica constrangimento, não irritação.",
+        "2": "Nada no texto indica que a leitura terminou; ele abaixa o jornal por causa da observação do filho.",
+        "3": "Ficar sem graça mostra que ele entendeu a crítica.",
+        "4": "Ao abaixar o jornal, ele faz o oposto: passa a dar atenção."
+      },
+      "pegadinha": "Expressões de sentimento (sem graça) precisam ser lidas no contexto; não confunda constrangimento com irritação.",
+      "fonte": "Leitura e interpretação: inferência a partir de expressão e gesto."
+    },
+    "origem": "gerada"
+  }
+]

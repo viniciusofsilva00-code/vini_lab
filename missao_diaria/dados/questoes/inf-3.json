@@ -1,0 +1,483 @@
+[
+  {
+    "id": "inf-0035",
+    "materia": "informatica",
+    "assunto": "Correio eletrônico",
+    "dificuldade": 1,
+    "enunciado": "Assinale a alternativa que apresenta um endereço de correio eletrônico em formato válido.",
+    "alternativas": [
+      "@soldado.silva.pm.sp.gov.br",
+      "soldado.silva.pm.sp.gov.br",
+      "soldado.silva@pm.sp.gov.br",
+      "soldado silva@pm.sp.gov.br",
+      "soldado.silva@@pm.sp.gov.br"
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O formato é usuário@domínio.",
+        "Deve haver um único @, sem espaços, com usuário antes e domínio depois."
+      ],
+      "porQueErradas": {
+        "0": "Falta o nome do usuário antes do @.",
+        "1": "Falta o símbolo @, que separa o usuário do domínio.",
+        "3": "Endereços de e-mail não admitem espaço.",
+        "4": "Há dois símbolos @; o endereço deve ter apenas um."
+      },
+      "pegadinha": "Verifique um a um: quantidade de @, espaços e presença do usuário e do domínio.",
+      "fonte": "Conceitos de correio eletrônico: formato de endereço."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0036",
+    "materia": "informatica",
+    "assunto": "Correio eletrônico",
+    "dificuldade": 2,
+    "enunciado": "Um policial recebe um e-mail que imita a identidade visual de um banco e pede que ele clique em um link para 'atualizar seus dados' e informar a senha. Essa prática é conhecida como",
+    "alternativas": [
+      "firewall.",
+      "spam.",
+      "cookie.",
+      "phishing.",
+      "backup."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Phishing é um golpe que imita uma instituição confiável.",
+        "O objetivo é levar a vítima a fornecer senhas ou dados pessoais."
+      ],
+      "porQueErradas": {
+        "0": "Firewall é um mecanismo de proteção que filtra conexões.",
+        "1": "Spam é mensagem não solicitada enviada em massa, não necessariamente para roubar dados.",
+        "2": "Cookie é um pequeno arquivo que sites gravam no navegador.",
+        "4": "Backup é cópia de segurança de dados."
+      },
+      "pegadinha": "Um phishing pode chegar como spam, mas o que o define é a fraude para obter dados.",
+      "fonte": "Cartilha de Segurança para Internet (CERT.br): golpes e phishing."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0037",
+    "materia": "informatica",
+    "assunto": "Correio eletrônico",
+    "dificuldade": 3,
+    "enunciado": "Um usuário configura a mesma conta de e-mail no computador e no celular e deseja que, ao ler ou mover uma mensagem em um dispositivo, a mudança apareça também no outro. O protocolo de recebimento mais adequado é",
+    "alternativas": [
+      "DNS.",
+      "IMAP.",
+      "FTP.",
+      "SMTP.",
+      "POP3."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "O IMAP mantém as mensagens e as pastas no servidor.",
+        "Cada dispositivo vê o mesmo estado (lidas, movidas, excluídas)."
+      ],
+      "porQueErradas": {
+        "0": "DNS traduz nomes de domínio em endereços IP.",
+        "2": "FTP é usado para transferência de arquivos.",
+        "3": "SMTP é usado para envio, não para leitura das mensagens.",
+        "4": "O POP3 baixa as mensagens para o dispositivo, sem sincronizar leitura e pastas."
+      },
+      "pegadinha": "POP3 e IMAP recebem mensagens, mas só o IMAP sincroniza entre dispositivos.",
+      "fonte": "Protocolos de correio eletrônico: POP3 e IMAP."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0038",
+    "materia": "informatica",
+    "assunto": "Internet",
+    "dificuldade": 1,
+    "enunciado": "Ao acessar um site, o navegador mostra o endereço iniciando com https:// e um ícone de cadeado. Isso indica que",
+    "alternativas": [
+      "o navegador está em modo de navegação anônima.",
+      "a página está sendo acessada sem conexão com a internet.",
+      "o site está livre de qualquer golpe ou vírus.",
+      "o site é oficial do governo.",
+      "a comunicação entre o navegador e o site é criptografada."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "HTTPS é o HTTP com camada de segurança (TLS).",
+        "Os dados trafegam criptografados entre o navegador e o servidor."
+      ],
+      "porQueErradas": {
+        "0": "O modo anônimo não tem relação com o protocolo HTTPS.",
+        "1": "HTTPS exige conexão; não é modo offline.",
+        "2": "HTTPS protege a conexão, mas um site fraudulento também pode usá-lo.",
+        "3": "Qualquer site pode usar HTTPS; isso não comprova que é oficial."
+      },
+      "pegadinha": "Cadeado não significa site honesto: significa apenas conexão cifrada.",
+      "fonte": "Cartilha de Segurança para Internet (CERT.br): conexões seguras."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0039",
+    "materia": "informatica",
+    "assunto": "Internet",
+    "dificuldade": 1,
+    "enunciado": "Nos navegadores Google Chrome e Microsoft Edge, o atalho Ctrl + T serve para",
+    "alternativas": [
+      "abrir uma nova guia.",
+      "fechar a guia atual.",
+      "adicionar a página aos favoritos.",
+      "abrir a lista de downloads.",
+      "abrir o histórico de navegação."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Ctrl + T (de 'tab') abre uma nova guia.",
+        "Ctrl + Shift + T reabre a última guia fechada."
+      ],
+      "porQueErradas": {
+        "1": "Fechar a guia é Ctrl + W.",
+        "2": "Favoritar é Ctrl + D.",
+        "3": "Downloads abre com Ctrl + J.",
+        "4": "O histórico abre com Ctrl + H."
+      },
+      "pegadinha": "No navegador, Ctrl + T não tem relação com o 'selecionar tudo' do Word em português.",
+      "fonte": "Atalhos de teclado do Google Chrome e do Microsoft Edge."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0040",
+    "materia": "informatica",
+    "assunto": "Internet",
+    "dificuldade": 2,
+    "enunciado": "No Google Chrome, o atalho para abrir uma janela de navegação anônima é",
+    "alternativas": [
+      "Ctrl + Shift + P",
+      "Ctrl + N",
+      "Ctrl + Shift + N",
+      "Ctrl + Shift + Delete",
+      "Ctrl + Shift + T"
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "No Chrome: Ctrl + Shift + N abre a janela anônima.",
+        "No Edge e no Firefox, a janela privada usa Ctrl + Shift + P."
+      ],
+      "porQueErradas": {
+        "0": "Ctrl + Shift + P abre janela privada no Firefox e InPrivate no Edge.",
+        "1": "Ctrl + N abre uma nova janela comum.",
+        "3": "Ctrl + Shift + Delete abre a limpeza de dados de navegação.",
+        "4": "Ctrl + Shift + T reabre a última guia fechada."
+      },
+      "pegadinha": "A banca troca os navegadores: N no Chrome, P no Edge e no Firefox.",
+      "fonte": "Atalhos de teclado do Google Chrome."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0041",
+    "materia": "informatica",
+    "assunto": "Internet",
+    "dificuldade": 2,
+    "enunciado": "Sobre a navegação anônima (privada) nos navegadores, é correto afirmar que",
+    "alternativas": [
+      "ela impede a instalação de vírus e o roubo de senhas.",
+      "o acesso fica invisível para o provedor de internet e para o empregador.",
+      "os arquivos baixados são apagados automaticamente ao fechar a janela.",
+      "os favoritos criados durante a sessão são descartados.",
+      "o histórico e os cookies da sessão não ficam guardados no computador após fechar a janela, mas o provedor e os sites ainda podem registrar o acesso."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "O modo anônimo evita guardar localmente histórico, cookies e dados de formulários.",
+        "Ele não oculta a navegação da rede, do provedor nem dos sites visitados."
+      ],
+      "porQueErradas": {
+        "0": "Navegação anônima não é antivírus nem proteção contra golpes.",
+        "1": "A rede e o provedor continuam vendo o tráfego.",
+        "2": "Downloads permanecem salvos no computador.",
+        "3": "Favoritos criados no modo anônimo são mantidos."
+      },
+      "pegadinha": "'Anônimo' engana: a privacidade é só em relação a quem usa o mesmo computador.",
+      "fonte": "Ajuda do Google Chrome: navegar com privacidade."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0042",
+    "materia": "informatica",
+    "assunto": "Internet",
+    "dificuldade": 2,
+    "enunciado": "Na pesquisa do Google, para encontrar páginas que contenham exatamente a sequência de palavras policiamento comunitário, deve-se digitar",
+    "alternativas": [
+      "site:policiamento comunitário",
+      "\"policiamento comunitário\"",
+      "policiamento + comunitário",
+      "policiamento -comunitário",
+      "policiamento OR comunitário"
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "As aspas buscam a expressão exata, na ordem digitada.",
+        "Sem aspas, as palavras podem aparecer separadas ou em outra ordem."
+      ],
+      "porQueErradas": {
+        "0": "O operador site: restringe a busca a um domínio.",
+        "2": "O sinal + não é o operador de expressão exata no Google.",
+        "3": "O sinal de menos exclui o termo 'comunitário' dos resultados.",
+        "4": "OR traz páginas com qualquer um dos termos."
+      },
+      "pegadinha": "O sinal de menos colado à palavra a exclui; não confunda com hífen da expressão.",
+      "fonte": "Ajuda da Pesquisa Google: operadores de pesquisa."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0043",
+    "materia": "informatica",
+    "assunto": "Internet",
+    "dificuldade": 3,
+    "enunciado": "Considere a URL https://www.exemplo.sp.gov.br/servicos/boletim.html. É correto afirmar que",
+    "alternativas": [
+      "'https' é o protocolo, 'www.exemplo.sp.gov.br' é o nome de domínio do servidor e '/servicos/boletim.html' é o caminho do recurso.",
+      "'/servicos' é o protocolo de segurança usado na conexão.",
+      "'www' é o protocolo e 'https' é o domínio.",
+      "'.br' indica que a página foi feita em linguagem HTML.",
+      "'boletim.html' é o domínio e 'gov.br' é o caminho."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "Protocolo: https.",
+        "Domínio (servidor): www.exemplo.sp.gov.br.",
+        "Caminho: /servicos/boletim.html, a pasta e o arquivo dentro do servidor."
+      ],
+      "porQueErradas": {
+        "1": "/servicos é uma pasta do caminho, não protocolo.",
+        "2": "https é o protocolo; www faz parte do nome do servidor.",
+        "3": ".br indica o país (Brasil); a extensão .html indica o tipo do arquivo.",
+        "4": "gov.br faz parte do domínio; boletim.html é o arquivo no caminho."
+      },
+      "pegadinha": "Leia a URL da esquerda para a direita: protocolo://domínio/caminho.",
+      "fonte": "Estrutura de URL (RFC 3986)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0044",
+    "materia": "informatica",
+    "assunto": "Internet",
+    "dificuldade": 3,
+    "enunciado": "O serviço da internet responsável por traduzir nomes de domínio, como www.exemplo.com.br, nos endereços IP dos servidores é o",
+    "alternativas": [
+      "HTTP.",
+      "SMTP.",
+      "DHCP.",
+      "DNS.",
+      "FTP."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Computadores se localizam por endereços IP.",
+        "O DNS funciona como uma lista que converte o nome digitado no IP correspondente."
+      ],
+      "porQueErradas": {
+        "0": "HTTP transfere páginas web, não resolve nomes.",
+        "1": "SMTP envia mensagens de e-mail.",
+        "2": "DHCP atribui endereços IP automaticamente aos dispositivos da rede.",
+        "4": "FTP transfere arquivos entre computadores."
+      },
+      "pegadinha": "DHCP também envolve IP, mas atribui endereços aos equipamentos; quem traduz nomes é o DNS.",
+      "fonte": "Conceitos de redes: Sistema de Nomes de Domínio (DNS)."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0045",
+    "materia": "informatica",
+    "assunto": "Google Workspace e Microsoft Teams",
+    "dificuldade": 1,
+    "enunciado": "No Google Documentos, as alterações feitas em um documento são",
+    "alternativas": [
+      "perdidas se o usuário não exportar o arquivo para o formato .docx.",
+      "salvas somente ao pressionar Ctrl + B.",
+      "salvas automaticamente no Google Drive.",
+      "guardadas apenas no disco rígido do computador.",
+      "salvas apenas quando o documento é compartilhado."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O Google Documentos funciona na nuvem.",
+        "Cada alteração é salva automaticamente no Drive, com histórico de versões."
+      ],
+      "porQueErradas": {
+        "0": "Não é preciso exportar; o arquivo fica no Drive.",
+        "1": "Ctrl + B é o salvar do Word em português; o Google Documentos salva sozinho.",
+        "3": "O arquivo fica na nuvem, no Google Drive.",
+        "4": "O salvamento automático independe de compartilhamento."
+      },
+      "pegadinha": "Não traga hábitos do Word: no Google Documentos não existe botão obrigatório de salvar.",
+      "fonte": "Central de Ajuda do Google Documentos."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0046",
+    "materia": "informatica",
+    "assunto": "Google Workspace e Microsoft Teams",
+    "dificuldade": 2,
+    "enunciado": "Ao compartilhar um arquivo do Google Drive, o proprietário pode escolher o nível de acesso das pessoas. O nível que permite ver e adicionar comentários, mas não alterar o conteúdo, é",
+    "alternativas": [
+      "Administrador.",
+      "Editor.",
+      "Proprietário.",
+      "Leitor.",
+      "Comentarista."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Níveis de compartilhamento: Leitor, Comentarista e Editor.",
+        "Comentarista vê e comenta, sem editar o texto."
+      ],
+      "porQueErradas": {
+        "0": "Administrador não é um nível de compartilhamento de arquivo no Drive.",
+        "1": "O Editor pode alterar o conteúdo.",
+        "2": "O Proprietário tem controle total, inclusive de exclusão.",
+        "3": "O Leitor apenas visualiza, sem comentar."
+      },
+      "pegadinha": "Leitor e Comentarista parecem iguais; a diferença é poder deixar comentários.",
+      "fonte": "Central de Ajuda do Google Drive: compartilhar arquivos."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0047",
+    "materia": "informatica",
+    "assunto": "Google Workspace e Microsoft Teams",
+    "dificuldade": 2,
+    "enunciado": "No Google Documentos, para consultar e restaurar uma versão anterior de um documento, o usuário deve acessar",
+    "alternativas": [
+      "Inserir > Comentário.",
+      "Ferramentas > Contagem de palavras.",
+      "a Lixeira do Google Drive.",
+      "Arquivo > Histórico de versões.",
+      "Editar > Desfazer, que restaura qualquer versão já salva."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O Google Documentos registra versões automaticamente.",
+        "Em Arquivo > Histórico de versões, é possível ver quem alterou e restaurar uma versão."
+      ],
+      "porQueErradas": {
+        "0": "Comentários anotam o texto, não restauram versões.",
+        "1": "Contagem de palavras apenas mostra números do texto.",
+        "2": "A Lixeira guarda arquivos excluídos, não versões de um arquivo existente.",
+        "4": "Desfazer reverte ações recentes da sessão, não versões antigas nomeadas."
+      },
+      "pegadinha": "Desfazer (Ctrl + Z) não substitui o histórico de versões, que guarda alterações de dias anteriores.",
+      "fonte": "Central de Ajuda do Google Documentos: histórico de versões."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0048",
+    "materia": "informatica",
+    "assunto": "Google Workspace e Microsoft Teams",
+    "dificuldade": 1,
+    "enunciado": "Na Google Workspace, o aplicativo usado para realizar videoconferências é o",
+    "alternativas": [
+      "Google Planilhas.",
+      "Google Meet.",
+      "Google Keep.",
+      "Google Agenda.",
+      "Google Formulários."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "O Google Meet realiza reuniões por vídeo.",
+        "Os convites podem ser criados pela Agenda, mas a reunião acontece no Meet."
+      ],
+      "porQueErradas": {
+        "0": "Planilhas é o editor de planilhas eletrônicas.",
+        "2": "Keep é o aplicativo de notas.",
+        "3": "Agenda organiza compromissos; pode agendar reuniões, mas a chamada ocorre no Meet.",
+        "4": "Formulários serve para criar questionários e coletar respostas."
+      },
+      "pegadinha": "A Agenda aparece como distrator porque gera o link da reunião; quem faz a videoconferência é o Meet.",
+      "fonte": "Central de Ajuda do Google Meet."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0049",
+    "materia": "informatica",
+    "assunto": "Google Workspace e Microsoft Teams",
+    "dificuldade": 2,
+    "enunciado": "No Microsoft Teams, as equipes são organizadas em canais. Ao criar uma nova equipe, o Teams cria automaticamente um canal chamado",
+    "alternativas": [
+      "Avisos.",
+      "Principal.",
+      "Geral.",
+      "Público.",
+      "Reuniões."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Toda equipe nasce com o canal Geral.",
+        "Outros canais (padrão, privados ou compartilhados) são criados conforme a necessidade."
+      ],
+      "porQueErradas": {
+        "0": "Canais de avisos podem ser criados, mas não são automáticos.",
+        "1": "Não existe canal padrão com esse nome.",
+        "3": "Público é um tipo de privacidade de equipe, não nome de canal.",
+        "4": "Reuniões são um recurso do Teams, não o canal padrão."
+      },
+      "pegadinha": "Não confunda o tipo de equipe (pública ou privada) com o nome do canal padrão.",
+      "fonte": "Suporte do Microsoft Teams: equipes e canais."
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "inf-0050",
+    "materia": "informatica",
+    "assunto": "Google Workspace e Microsoft Teams",
+    "dificuldade": 3,
+    "enunciado": "Em uma conversa de canal do Microsoft Teams, um policial deseja que um colega específico receba notificação sobre sua mensagem. O recurso adequado é",
+    "alternativas": [
+      "mencionar o colega digitando @ seguido do nome dele.",
+      "usar # seguido do nome do colega.",
+      "escrever o nome do colega entre aspas.",
+      "marcar a mensagem como Importante, sem citar o colega.",
+      "enviar a mensagem com o atalho Ctrl + Enter."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "No Teams, @menção chama a atenção de uma pessoa.",
+        "Digite @, escolha o nome na lista e envie: o colega recebe notificação."
+      ],
+      "porQueErradas": {
+        "1": "O símbolo # não é usado para mencionar pessoas no Teams.",
+        "2": "Aspas não geram notificação no Teams.",
+        "3": "Importante destaca a mensagem, mas não notifica alguém especificamente.",
+        "4": "O atalho apenas envia a mensagem, sem notificar uma pessoa específica."
+      },
+      "pegadinha": "Em redes sociais # marca assuntos; no Teams, pessoas são mencionadas com @.",
+      "fonte": "Suporte do Microsoft Teams: usar @menções."
+    },
+    "origem": "gerada"
+  }
+]

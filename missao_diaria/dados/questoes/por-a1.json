@@ -1,0 +1,628 @@
+[
+  {
+    "id": "por-0001",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Toda manhã, antes das sete, o cabo Ribeiro estaciona a viatura em frente à padaria da esquina. Não vai ali pelo café, que, segundo ele, é fraco demais; vai pelas conversas. O dono reclama da iluminação da praça, a professora aposentada conta que os meninos voltaram a jogar bola na quadra, o entregador avisa que um semáforo está piscando há dias. Ribeiro anota tudo num caderno de capa gasta.\n\nAlguns colegas acham graça: dizem que ele perde tempo com fofoca. Ele discorda. Para o cabo, a segurança de um bairro não se mede apenas pelo número de ocorrências atendidas, mas também pelas que deixam de acontecer porque alguém ouviu a tempo.\n\nNa semana passada, foi a dona da banca de jornal quem comentou, quase sem querer, que um carro estranho rondava a escola no horário da saída. Ribeiro repassou a informação, a ronda foi reforçada e o carro não voltou. Ninguém fez manchete com isso. Ribeiro também não esperava que fizessem.",
+    "enunciado": "De acordo com o texto, é correto afirmar que",
+    "alternativas": [
+      "o cabo Ribeiro frequenta a padaria principalmente por apreciar o café servido ali.",
+      "os colegas do cabo apoiam a rotina dele e a consideram essencial ao policiamento.",
+      "a segurança de um bairro, para o cabo, mede-se apenas pelas ocorrências atendidas.",
+      "o caso do carro perto da escola ganhou destaque na imprensa local.",
+      "o cabo Ribeiro valoriza as conversas com os moradores porque elas podem ajudar a evitar ocorrências."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "Identifique a ideia central: o cabo vai à padaria pelas conversas.",
+        "No segundo parágrafo, ele defende que a segurança também se mede pelas ocorrências que deixam de acontecer.",
+        "O episódio do carro confirma essa visão: uma informação ouvida a tempo evitou um problema."
+      ],
+      "porQueErradas": {
+        "0": "O texto diz o contrário: ele acha o café fraco e vai pelas conversas.",
+        "1": "Os colegas acham graça e dizem que ele perde tempo com fofoca.",
+        "2": "O cabo afirma justamente que a segurança não se mede apenas por isso.",
+        "3": "O texto afirma que ninguém fez manchete com o episódio."
+      },
+      "pegadinha": "As erradas invertem informações explícitas do texto (café, opinião dos colegas, manchete). Confira cada detalhe no texto antes de marcar.",
+      "fonte": "Interpretação de texto: compreensão global e inferência"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0002",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Toda manhã, antes das sete, o cabo Ribeiro estaciona a viatura em frente à padaria da esquina. Não vai ali pelo café, que, segundo ele, é fraco demais; vai pelas conversas. O dono reclama da iluminação da praça, a professora aposentada conta que os meninos voltaram a jogar bola na quadra, o entregador avisa que um semáforo está piscando há dias. Ribeiro anota tudo num caderno de capa gasta.\n\nAlguns colegas acham graça: dizem que ele perde tempo com fofoca. Ele discorda. Para o cabo, a segurança de um bairro não se mede apenas pelo número de ocorrências atendidas, mas também pelas que deixam de acontecer porque alguém ouviu a tempo.\n\nNa semana passada, foi a dona da banca de jornal quem comentou, quase sem querer, que um carro estranho rondava a escola no horário da saída. Ribeiro repassou a informação, a ronda foi reforçada e o carro não voltou. Ninguém fez manchete com isso. Ribeiro também não esperava que fizessem.",
+    "enunciado": "A partir das frases finais \"Ninguém fez manchete com isso. Ribeiro também não esperava que fizessem.\", infere-se que o cabo",
+    "alternativas": [
+      "não age em busca de reconhecimento público pelo seu trabalho.",
+      "ficou frustrado por não ter sido citado nos jornais.",
+      "considera a imprensa a principal aliada da polícia.",
+      "acredita que o episódio do carro foi irrelevante.",
+      "pretende divulgar o caso para ganhar prestígio."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "A primeira frase constata a falta de repercussão.",
+        "A segunda mostra que o cabo não esperava repercussão alguma.",
+        "Logo, sua motivação não é o reconhecimento, mas o resultado prático."
+      ],
+      "porQueErradas": {
+        "1": "O texto diz que ele não esperava manchete; não há sinal de frustração.",
+        "2": "Nada no texto trata a imprensa como aliada.",
+        "3": "Ele repassou a informação e a ronda foi reforçada; o episódio foi relevante para ele.",
+        "4": "Contradiz a ideia de que ele não esperava repercussão."
+      },
+      "pegadinha": "A banca oferece sentimentos que o texto não autoriza (frustração). Inferência precisa ter apoio no texto.",
+      "fonte": "Interpretação de texto: compreensão global e inferência"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0003",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 1,
+    "texto": "Toda manhã, antes das sete, o cabo Ribeiro estaciona a viatura em frente à padaria da esquina. Não vai ali pelo café, que, segundo ele, é fraco demais; vai pelas conversas. O dono reclama da iluminação da praça, a professora aposentada conta que os meninos voltaram a jogar bola na quadra, o entregador avisa que um semáforo está piscando há dias. Ribeiro anota tudo num caderno de capa gasta.\n\nAlguns colegas acham graça: dizem que ele perde tempo com fofoca. Ele discorda. Para o cabo, a segurança de um bairro não se mede apenas pelo número de ocorrências atendidas, mas também pelas que deixam de acontecer porque alguém ouviu a tempo.\n\nNa semana passada, foi a dona da banca de jornal quem comentou, quase sem querer, que um carro estranho rondava a escola no horário da saída. Ribeiro repassou a informação, a ronda foi reforçada e o carro não voltou. Ninguém fez manchete com isso. Ribeiro também não esperava que fizessem.",
+    "enunciado": "Segundo o texto, quem informou ao cabo sobre o carro estranho perto da escola foi",
+    "alternativas": [
+      "o dono da padaria.",
+      "a professora aposentada.",
+      "a dona da banca de jornal.",
+      "o entregador.",
+      "um colega de farda."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "Localize o terceiro parágrafo.",
+        "Lá está escrito: foi a dona da banca de jornal quem comentou sobre o carro."
+      ],
+      "porQueErradas": {
+        "0": "O dono da padaria reclamou da iluminação da praça.",
+        "1": "A professora falou dos meninos jogando bola na quadra.",
+        "3": "O entregador avisou sobre o semáforo piscando.",
+        "4": "Os colegas apenas zombam da rotina do cabo."
+      },
+      "pegadinha": "Várias pessoas são citadas no primeiro parágrafo; não confunda quem disse o quê.",
+      "fonte": "Interpretação de texto: localização de informação explícita"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0004",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Toda manhã, antes das sete, o cabo Ribeiro estaciona a viatura em frente à padaria da esquina. Não vai ali pelo café, que, segundo ele, é fraco demais; vai pelas conversas. O dono reclama da iluminação da praça, a professora aposentada conta que os meninos voltaram a jogar bola na quadra, o entregador avisa que um semáforo está piscando há dias. Ribeiro anota tudo num caderno de capa gasta.\n\nAlguns colegas acham graça: dizem que ele perde tempo com fofoca. Ele discorda. Para o cabo, a segurança de um bairro não se mede apenas pelo número de ocorrências atendidas, mas também pelas que deixam de acontecer porque alguém ouviu a tempo.\n\nNa semana passada, foi a dona da banca de jornal quem comentou, quase sem querer, que um carro estranho rondava a escola no horário da saída. Ribeiro repassou a informação, a ronda foi reforçada e o carro não voltou. Ninguém fez manchete com isso. Ribeiro também não esperava que fizessem.",
+    "enunciado": "No trecho \"foi a dona da banca de jornal quem comentou, quase sem querer, que um carro estranho rondava a escola\", a expressão \"quase sem querer\" indica que o comentário foi",
+    "alternativas": [
+      "feito sob pressão do cabo, que a interrogou.",
+      "feito de modo espontâneo, sem a intenção clara de fazer uma denúncia.",
+      "planejado com antecedência para alertar a polícia.",
+      "falso, já que ela não tinha certeza do que vira.",
+      "recusado pelo cabo por parecer fofoca."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "\"Sem querer\" significa sem intenção.",
+        "O advérbio \"quase\" atenua: houve pouca intenção, foi algo espontâneo.",
+        "Isso reforça a tese do texto: informações valiosas surgem em conversas casuais."
+      ],
+      "porQueErradas": {
+        "0": "Não há interrogatório; o comentário surgiu na conversa.",
+        "2": "\"Quase sem querer\" indica o oposto de planejamento.",
+        "3": "A expressão trata da intenção, não da veracidade.",
+        "4": "O cabo repassou a informação."
+      },
+      "pegadinha": "Não confunda falta de intenção com falta de verdade.",
+      "fonte": "Interpretação de texto: sentido de expressões no contexto"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0005",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 3,
+    "texto": "Toda manhã, antes das sete, o cabo Ribeiro estaciona a viatura em frente à padaria da esquina. Não vai ali pelo café, que, segundo ele, é fraco demais; vai pelas conversas. O dono reclama da iluminação da praça, a professora aposentada conta que os meninos voltaram a jogar bola na quadra, o entregador avisa que um semáforo está piscando há dias. Ribeiro anota tudo num caderno de capa gasta.\n\nAlguns colegas acham graça: dizem que ele perde tempo com fofoca. Ele discorda. Para o cabo, a segurança de um bairro não se mede apenas pelo número de ocorrências atendidas, mas também pelas que deixam de acontecer porque alguém ouviu a tempo.\n\nNa semana passada, foi a dona da banca de jornal quem comentou, quase sem querer, que um carro estranho rondava a escola no horário da saída. Ribeiro repassou a informação, a ronda foi reforçada e o carro não voltou. Ninguém fez manchete com isso. Ribeiro também não esperava que fizessem.",
+    "enunciado": "No período \"Não vai ali pelo café, que, segundo ele, é fraco demais; vai pelas conversas.\", o narrador",
+    "alternativas": [
+      "apresenta duas razões igualmente importantes para as visitas.",
+      "critica o cabo por perder tempo conversando.",
+      "sugere que o cabo deixará de ir à padaria por causa do café.",
+      "elogia a qualidade do café servido no local.",
+      "opõe um motivo aparente das visitas à padaria ao motivo real."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "A primeira parte nega um motivo esperado (\"Não vai ali pelo café\").",
+        "Após o ponto e vírgula, afirma-se o motivo verdadeiro (\"vai pelas conversas\").",
+        "Há, portanto, oposição entre a razão aparente e a razão real."
+      ],
+      "porQueErradas": {
+        "0": "O café é negado como motivo; não há duas razões equivalentes.",
+        "1": "A crítica é dos colegas, não do narrador nesse trecho.",
+        "2": "Nada indica que ele deixará de ir.",
+        "3": "O café é chamado de fraco demais."
+      },
+      "pegadinha": "A oração intercalada \"segundo ele, é fraco demais\" distrai; o foco é a oposição negação/afirmação.",
+      "fonte": "Interpretação de texto: relações de sentido entre orações"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0006",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Quando a prefeitura de uma cidade média decidiu transformar terrenos baldios em hortas comunitárias, a reação inicial foi de desconfiança. Moradores temiam que os espaços continuassem abandonados, agora com canteiros secos no lugar do mato.\n\nDois anos depois, o cenário é outro. Em boa parte dos terrenos, vizinhos se revezam na rega, dividem a colheita e organizam mutirões aos sábados. Os técnicos responsáveis pelo projeto admitem, porém, que nem todas as áreas deram certo: onde não havia uma associação de bairro ativa, as hortas foram, aos poucos, esquecidas.\n\nPara a engenheira agrônoma que coordena o programa, a lição é clara: a prefeitura pode ceder o terreno, as sementes e a orientação técnica, mas não pode fabricar o vínculo entre as pessoas. Esse vínculo, afirma ela, é a verdadeira raiz do projeto.",
+    "enunciado": "A ideia principal do texto é a de que",
+    "alternativas": [
+      "todas as hortas comunitárias da cidade fracassaram.",
+      "a prefeitura abandonou o projeto depois de dois anos.",
+      "os moradores receberam o projeto com entusiasmo desde o início.",
+      "o êxito das hortas dependeu, sobretudo, da organização e do vínculo entre os moradores.",
+      "o apoio técnico da prefeitura bastou para garantir o sucesso das hortas."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O texto mostra sucesso onde havia organização dos vizinhos e fracasso onde não havia associação ativa.",
+        "A fala final da engenheira resume: o vínculo entre as pessoas é a verdadeira raiz do projeto."
+      ],
+      "porQueErradas": {
+        "0": "Em boa parte dos terrenos o projeto deu certo.",
+        "1": "O programa continua coordenado por uma engenheira agrônoma.",
+        "2": "A reação inicial foi de desconfiança.",
+        "4": "A engenheira afirma que a prefeitura não pode fabricar o vínculo entre as pessoas."
+      },
+      "pegadinha": "A alternativa sobre o apoio técnico parece razoável, mas é exatamente o que o texto relativiza.",
+      "fonte": "Interpretação de texto: compreensão global e inferência"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0007",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 1,
+    "texto": "Quando a prefeitura de uma cidade média decidiu transformar terrenos baldios em hortas comunitárias, a reação inicial foi de desconfiança. Moradores temiam que os espaços continuassem abandonados, agora com canteiros secos no lugar do mato.\n\nDois anos depois, o cenário é outro. Em boa parte dos terrenos, vizinhos se revezam na rega, dividem a colheita e organizam mutirões aos sábados. Os técnicos responsáveis pelo projeto admitem, porém, que nem todas as áreas deram certo: onde não havia uma associação de bairro ativa, as hortas foram, aos poucos, esquecidas.\n\nPara a engenheira agrônoma que coordena o programa, a lição é clara: a prefeitura pode ceder o terreno, as sementes e a orientação técnica, mas não pode fabricar o vínculo entre as pessoas. Esse vínculo, afirma ela, é a verdadeira raiz do projeto.",
+    "enunciado": "No trecho \"Os técnicos responsáveis pelo projeto admitem, porém, que nem todas as áreas deram certo\", a palavra \"porém\" introduz",
+    "alternativas": [
+      "uma conclusão dos resultados positivos.",
+      "uma ressalva aos resultados positivos descritos antes.",
+      "uma explicação para o sucesso das hortas.",
+      "um exemplo que confirma o sucesso total do projeto.",
+      "uma condição para que o projeto continue."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "Antes, o texto fala do sucesso em boa parte dos terrenos.",
+        "\"Porém\" é conjunção adversativa: introduz uma ideia que se opõe, em parte, à anterior.",
+        "A oposição é uma ressalva: nem todas as áreas deram certo."
+      ],
+      "porQueErradas": {
+        "0": "\"Porém\" é adversativo, não conclusivo.",
+        "2": "O trecho trata de áreas que não deram certo.",
+        "3": "Ele mostra justamente que o sucesso não foi total.",
+        "4": "Não há ideia de condição."
+      },
+      "pegadinha": "Conjunção deslocada entre vírgulas continua com o mesmo valor: \"porém\" = mas.",
+      "fonte": "Gramática: conjunções coordenativas adversativas"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0008",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Quando a prefeitura de uma cidade média decidiu transformar terrenos baldios em hortas comunitárias, a reação inicial foi de desconfiança. Moradores temiam que os espaços continuassem abandonados, agora com canteiros secos no lugar do mato.\n\nDois anos depois, o cenário é outro. Em boa parte dos terrenos, vizinhos se revezam na rega, dividem a colheita e organizam mutirões aos sábados. Os técnicos responsáveis pelo projeto admitem, porém, que nem todas as áreas deram certo: onde não havia uma associação de bairro ativa, as hortas foram, aos poucos, esquecidas.\n\nPara a engenheira agrônoma que coordena o programa, a lição é clara: a prefeitura pode ceder o terreno, as sementes e a orientação técnica, mas não pode fabricar o vínculo entre as pessoas. Esse vínculo, afirma ela, é a verdadeira raiz do projeto.",
+    "enunciado": "Na frase \"Esse vínculo, afirma ela, é a verdadeira raiz do projeto\", a palavra \"raiz\" foi empregada com o sentido de",
+    "alternativas": [
+      "parte subterrânea das plantas cultivadas.",
+      "problema que precisa ser eliminado.",
+      "base, fundamento.",
+      "origem geográfica dos moradores.",
+      "etapa final do programa."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O texto fala de hortas, o que favorece o jogo com a palavra \"raiz\".",
+        "Aplicada ao vínculo entre as pessoas, \"raiz\" indica aquilo que sustenta o projeto: sua base."
+      ],
+      "porQueErradas": {
+        "0": "Esse é o sentido próprio; no trecho o sentido é figurado.",
+        "1": "O vínculo é visto como algo positivo.",
+        "3": "O texto não trata da origem dos moradores.",
+        "4": "Raiz remete ao que sustenta, não ao fim."
+      },
+      "pegadinha": "O contexto de hortas induz ao sentido literal; observe que o termo se refere ao vínculo, não às plantas.",
+      "fonte": "Semântica: sentido figurado no contexto"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0009",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Quando a prefeitura de uma cidade média decidiu transformar terrenos baldios em hortas comunitárias, a reação inicial foi de desconfiança. Moradores temiam que os espaços continuassem abandonados, agora com canteiros secos no lugar do mato.\n\nDois anos depois, o cenário é outro. Em boa parte dos terrenos, vizinhos se revezam na rega, dividem a colheita e organizam mutirões aos sábados. Os técnicos responsáveis pelo projeto admitem, porém, que nem todas as áreas deram certo: onde não havia uma associação de bairro ativa, as hortas foram, aos poucos, esquecidas.\n\nPara a engenheira agrônoma que coordena o programa, a lição é clara: a prefeitura pode ceder o terreno, as sementes e a orientação técnica, mas não pode fabricar o vínculo entre as pessoas. Esse vínculo, afirma ela, é a verdadeira raiz do projeto.",
+    "enunciado": "Infere-se do texto que, nas áreas onde não havia associação de bairro ativa,",
+    "alternativas": [
+      "a prefeitura não entregou sementes nem orientação técnica.",
+      "faltou envolvimento coletivo para manter as hortas funcionando.",
+      "as hortas produziram mais do que nas outras áreas.",
+      "os moradores impediram a instalação dos canteiros.",
+      "as hortas foram substituídas por construções."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "O texto liga o fracasso à ausência de associação de bairro ativa.",
+        "Somado à fala da engenheira sobre o vínculo, conclui-se que faltou organização dos moradores."
+      ],
+      "porQueErradas": {
+        "0": "O texto diz que a prefeitura pode ceder isso; não afirma que deixou de ceder.",
+        "2": "Essas hortas foram esquecidas.",
+        "3": "Não há menção a impedimento.",
+        "4": "O texto não menciona construções."
+      },
+      "pegadinha": "Não atribua ao poder público uma falha que o texto não menciona.",
+      "fonte": "Interpretação de texto: compreensão global e inferência"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0010",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 1,
+    "texto": "Quando a prefeitura de uma cidade média decidiu transformar terrenos baldios em hortas comunitárias, a reação inicial foi de desconfiança. Moradores temiam que os espaços continuassem abandonados, agora com canteiros secos no lugar do mato.\n\nDois anos depois, o cenário é outro. Em boa parte dos terrenos, vizinhos se revezam na rega, dividem a colheita e organizam mutirões aos sábados. Os técnicos responsáveis pelo projeto admitem, porém, que nem todas as áreas deram certo: onde não havia uma associação de bairro ativa, as hortas foram, aos poucos, esquecidas.\n\nPara a engenheira agrônoma que coordena o programa, a lição é clara: a prefeitura pode ceder o terreno, as sementes e a orientação técnica, mas não pode fabricar o vínculo entre as pessoas. Esse vínculo, afirma ela, é a verdadeira raiz do projeto.",
+    "enunciado": "Segundo o primeiro parágrafo, os moradores desconfiavam do projeto porque temiam que",
+    "alternativas": [
+      "as hortas atraíssem animais para o bairro.",
+      "a colheita fosse vendida pela prefeitura.",
+      "os mutirões ocupassem os fins de semana.",
+      "os terrenos continuassem abandonados, apenas com canteiros secos no lugar do mato.",
+      "as hortas aumentassem os impostos locais."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Releia o primeiro parágrafo.",
+        "O temor era de que os espaços continuassem abandonados, com canteiros secos no lugar do mato."
+      ],
+      "porQueErradas": {
+        "0": "O texto não fala em animais.",
+        "1": "Não há menção a venda.",
+        "2": "Os mutirões aparecem depois, como sinal de sucesso.",
+        "4": "Impostos não são citados."
+      },
+      "pegadinha": "Informações do segundo parágrafo (mutirões) aparecem como distrator.",
+      "fonte": "Interpretação de texto: localização de informação explícita"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0011",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 1,
+    "texto": "Tirinha em três quadros.\n1º quadro: um menino diz ao pai: \"Pai, a professora pediu uma redação sobre economia de água.\"\n2º quadro: o pai, sem tirar os olhos do celular, responde: \"Escreve que é para fechar a torneira enquanto escova os dentes.\"\n3º quadro: o menino aparece ao lado do pai, que lava o carro com a mangueira aberta, deixando a água escorrer pela calçada. O menino pensa: \"Vou precisar de mais exemplos... ou de outro pai.\"",
+    "enunciado": "O humor da tirinha decorre principalmente",
+    "alternativas": [
+      "da dificuldade do menino em escrever a redação.",
+      "da contradição entre o conselho dado pelo pai e a atitude dele.",
+      "da recusa do pai em ajudar o filho.",
+      "do erro da professora ao escolher o tema.",
+      "do fato de o menino desconhecer formas de economizar água."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "No 2º quadro, o pai recomenda economizar água.",
+        "No 3º, ele desperdiça água lavando o carro com a mangueira aberta.",
+        "A quebra de expectativa entre discurso e prática gera o humor."
+      ],
+      "porQueErradas": {
+        "0": "O menino não demonstra dificuldade de escrita.",
+        "2": "O pai responde e dá uma sugestão.",
+        "3": "O tema não é criticado.",
+        "4": "O foco não é a ignorância do menino, e sim a atitude do pai."
+      },
+      "pegadinha": "Em tirinhas, o humor costuma estar no último quadro; compare-o com o que foi dito antes.",
+      "fonte": "Interpretação de texto: humor e quebra de expectativa em tirinhas"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0012",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Tirinha em três quadros.\n1º quadro: um menino diz ao pai: \"Pai, a professora pediu uma redação sobre economia de água.\"\n2º quadro: o pai, sem tirar os olhos do celular, responde: \"Escreve que é para fechar a torneira enquanto escova os dentes.\"\n3º quadro: o menino aparece ao lado do pai, que lava o carro com a mangueira aberta, deixando a água escorrer pela calçada. O menino pensa: \"Vou precisar de mais exemplos... ou de outro pai.\"",
+    "enunciado": "A expressão \"sem tirar os olhos do celular\", no 2º quadro, sugere que o pai",
+    "alternativas": [
+      "está pesquisando o tema da redação para o filho.",
+      "está irritado com a pergunta do menino.",
+      "desconhece o assunto da redação.",
+      "dá pouca atenção ao pedido do filho.",
+      "se preocupa intensamente com a educação do menino."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "Responder sem olhar para o interlocutor indica desatenção.",
+        "Isso reforça a crítica da tirinha ao comportamento do pai."
+      ],
+      "porQueErradas": {
+        "0": "Nada indica pesquisa; a resposta é imediata e genérica.",
+        "1": "Não há indício de irritação.",
+        "2": "Ele sabe dar um exemplo, ainda que não o pratique.",
+        "4": "A atitude mostra o contrário: desatenção."
+      },
+      "pegadinha": "Não invente motivos (pesquisa, irritação) que a cena não mostra.",
+      "fonte": "Interpretação de texto: compreensão global e inferência"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0013",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Tirinha em três quadros.\n1º quadro: um menino diz ao pai: \"Pai, a professora pediu uma redação sobre economia de água.\"\n2º quadro: o pai, sem tirar os olhos do celular, responde: \"Escreve que é para fechar a torneira enquanto escova os dentes.\"\n3º quadro: o menino aparece ao lado do pai, que lava o carro com a mangueira aberta, deixando a água escorrer pela calçada. O menino pensa: \"Vou precisar de mais exemplos... ou de outro pai.\"",
+    "enunciado": "No pensamento do menino, \"Vou precisar de mais exemplos... ou de outro pai.\", as reticências",
+    "alternativas": [
+      "indicam que a frase foi interrompida e ficou sem sentido.",
+      "substituem uma enumeração de exemplos de economia de água.",
+      "marcam uma pausa que prepara uma conclusão irônica e inesperada.",
+      "assinalam uma pergunta dirigida ao pai.",
+      "mostram que o menino concorda com a atitude do pai."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "As reticências criam suspense antes do complemento.",
+        "O complemento \"ou de outro pai\" é inesperado e irônico, fechando a piada."
+      ],
+      "porQueErradas": {
+        "0": "A frase continua e se completa com sentido.",
+        "1": "Não há lista omitida; há pausa expressiva.",
+        "3": "É pensamento, não pergunta.",
+        "4": "A conclusão é crítica, não de concordância."
+      },
+      "pegadinha": "Reticências nem sempre indicam frase incompleta; aqui têm valor expressivo.",
+      "fonte": "Pontuação: valor expressivo das reticências"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0014",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 3,
+    "texto": "Tirinha em três quadros.\n1º quadro: um menino diz ao pai: \"Pai, a professora pediu uma redação sobre economia de água.\"\n2º quadro: o pai, sem tirar os olhos do celular, responde: \"Escreve que é para fechar a torneira enquanto escova os dentes.\"\n3º quadro: o menino aparece ao lado do pai, que lava o carro com a mangueira aberta, deixando a água escorrer pela calçada. O menino pensa: \"Vou precisar de mais exemplos... ou de outro pai.\"",
+    "enunciado": "Com a frase \"Vou precisar de mais exemplos\", o menino deixa implícito que",
+    "alternativas": [
+      "já tem material suficiente para escrever a redação.",
+      "vai pedir ajuda à professora para terminar o trabalho.",
+      "aprendeu com o pai a lavar o carro de modo econômico.",
+      "a cena observada contradiz o exemplo que recebeu e não serve para a redação.",
+      "considera a dica de fechar a torneira errada."
+    ],
+    "correta": 3,
+    "explicacao": {
+      "passos": [
+        "O exemplo do pai (fechar a torneira) é desmentido pela própria atitude dele.",
+        "Por isso o menino sente que precisa de outros exemplos: o que viu é de desperdício, não de economia."
+      ],
+      "porQueErradas": {
+        "0": "Ele diz que precisará de mais exemplos.",
+        "1": "A professora não volta a aparecer.",
+        "2": "A cena mostra desperdício.",
+        "4": "A dica está certa; o problema é o pai não a seguir."
+      },
+      "pegadinha": "A alternativa de que a dica está errada é tentadora, mas o texto não a invalida; invalida o comportamento.",
+      "fonte": "Interpretação de texto: implícitos e pressupostos"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0015",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Tirinha em três quadros.\n1º quadro: um menino diz ao pai: \"Pai, a professora pediu uma redação sobre economia de água.\"\n2º quadro: o pai, sem tirar os olhos do celular, responde: \"Escreve que é para fechar a torneira enquanto escova os dentes.\"\n3º quadro: o menino aparece ao lado do pai, que lava o carro com a mangueira aberta, deixando a água escorrer pela calçada. O menino pensa: \"Vou precisar de mais exemplos... ou de outro pai.\"",
+    "enunciado": "A expressão \"ou de outro pai\", no 3º quadro, produz efeito",
+    "alternativas": [
+      "de tristeza, pois o menino pretende sair de casa.",
+      "de elogio, pois reconhece o esforço do pai.",
+      "de dúvida, pois o menino não sabe quem é o pai.",
+      "de neutralidade, pois apenas descreve a cena.",
+      "humorístico, pois sugere, por exagero, a troca do pai por alguém que dê bom exemplo."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "A ideia de \"precisar de outro pai\" é um exagero.",
+        "O exagero, ligado à contradição do pai, gera humor e crítica."
+      ],
+      "porQueErradas": {
+        "0": "É uma brincadeira, não um plano real.",
+        "1": "Trata-se de uma crítica bem-humorada.",
+        "2": "Interpretação literal sem apoio no texto.",
+        "3": "A expressão é avaliativa e irônica."
+      },
+      "pegadinha": "Não leve ao pé da letra uma frase de efeito humorístico.",
+      "fonte": "Interpretação de texto: ironia e exagero"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0016",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Habituamo-nos a medir o dia pela quantidade de coisas resolvidas. Respondemos mensagens no elevador, ouvimos áudios acelerados, almoçamos diante da tela. A pressa, que já foi uma exceção reservada às emergências, virou estilo de vida.\n\nO curioso é que, apesar de tanta velocidade, a sensação de atraso nunca nos abandona: sempre há uma tarefa pendente, um aviso não lido, um compromisso que escapou. Talvez o problema não esteja no relógio, mas na expectativa de caber tudo nele.\n\nDesacelerar, nesse cenário, não significa preguiça nem descaso. Significa escolher, entre tantas demandas, aquelas que de fato merecem a nossa atenção inteira. Quem tenta fazer tudo ao mesmo tempo frequentemente acaba fazendo tudo pela metade.",
+    "enunciado": "O autor do texto defende que",
+    "alternativas": [
+      "a pressa deve ser eliminada até mesmo nas emergências.",
+      "desacelerar é sinal de preguiça e de descaso.",
+      "desacelerar é selecionar prioridades, o que evita fazer tudo de forma incompleta.",
+      "a tecnologia é a única culpada pela falta de tempo.",
+      "fazer várias coisas ao mesmo tempo aumenta a qualidade do trabalho."
+    ],
+    "correta": 2,
+    "explicacao": {
+      "passos": [
+        "O último parágrafo traz a tese: desacelerar é escolher as demandas que merecem atenção inteira.",
+        "A frase final mostra a consequência de não escolher: fazer tudo pela metade."
+      ],
+      "porQueErradas": {
+        "0": "O texto admite a pressa nas emergências; critica-a como estilo de vida.",
+        "1": "O texto nega isso expressamente.",
+        "3": "O autor aponta a expectativa de caber tudo no dia, não a tecnologia.",
+        "4": "O texto afirma o contrário: tudo sai pela metade."
+      },
+      "pegadinha": "Respostas com \"única\" e \"até mesmo\" generalizam além do que o texto diz.",
+      "fonte": "Interpretação de texto: tese e argumentação"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0017",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 3,
+    "texto": "Habituamo-nos a medir o dia pela quantidade de coisas resolvidas. Respondemos mensagens no elevador, ouvimos áudios acelerados, almoçamos diante da tela. A pressa, que já foi uma exceção reservada às emergências, virou estilo de vida.\n\nO curioso é que, apesar de tanta velocidade, a sensação de atraso nunca nos abandona: sempre há uma tarefa pendente, um aviso não lido, um compromisso que escapou. Talvez o problema não esteja no relógio, mas na expectativa de caber tudo nele.\n\nDesacelerar, nesse cenário, não significa preguiça nem descaso. Significa escolher, entre tantas demandas, aquelas que de fato merecem a nossa atenção inteira. Quem tenta fazer tudo ao mesmo tempo frequentemente acaba fazendo tudo pela metade.",
+    "enunciado": "No trecho \"Talvez o problema não esteja no relógio, mas na expectativa de caber tudo nele\", o autor sugere que",
+    "alternativas": [
+      "os relógios modernos são imprecisos.",
+      "a sensação de atraso vem mais do excesso de expectativas do que da falta de tempo.",
+      "o tempo disponível no dia é insuficiente para qualquer tarefa.",
+      "é preciso ter mais compromissos para não se sentir atrasado.",
+      "o problema está apenas nas tarefas pendentes do trabalho."
+    ],
+    "correta": 1,
+    "explicacao": {
+      "passos": [
+        "\"Relógio\" simboliza o tempo do dia.",
+        "A construção \"não... mas\" retira a culpa do tempo e a coloca na expectativa de fazer tudo."
+      ],
+      "porQueErradas": {
+        "0": "\"Relógio\" representa o tempo disponível; não se fala em imprecisão.",
+        "2": "O autor desloca o problema para a expectativa.",
+        "3": "Ideia oposta à do texto.",
+        "4": "O texto não restringe ao trabalho."
+      },
+      "pegadinha": "Não leia \"relógio\" literalmente: é metonímia do tempo disponível.",
+      "fonte": "Interpretação de texto: relações de sentido e linguagem figurada"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0018",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Habituamo-nos a medir o dia pela quantidade de coisas resolvidas. Respondemos mensagens no elevador, ouvimos áudios acelerados, almoçamos diante da tela. A pressa, que já foi uma exceção reservada às emergências, virou estilo de vida.\n\nO curioso é que, apesar de tanta velocidade, a sensação de atraso nunca nos abandona: sempre há uma tarefa pendente, um aviso não lido, um compromisso que escapou. Talvez o problema não esteja no relógio, mas na expectativa de caber tudo nele.\n\nDesacelerar, nesse cenário, não significa preguiça nem descaso. Significa escolher, entre tantas demandas, aquelas que de fato merecem a nossa atenção inteira. Quem tenta fazer tudo ao mesmo tempo frequentemente acaba fazendo tudo pela metade.",
+    "enunciado": "A expressão \"O curioso é que\", no início do segundo parágrafo, introduz",
+    "alternativas": [
+      "uma conclusão de que a pressa resolve a falta de tempo.",
+      "um exemplo de pessoa curiosa que faz muitas perguntas.",
+      "uma mudança de assunto para as emergências.",
+      "uma explicação científica sobre o uso do tempo.",
+      "uma situação contraditória: apesar da velocidade, persiste a sensação de atraso."
+    ],
+    "correta": 4,
+    "explicacao": {
+      "passos": [
+        "\"Curioso\", ali, quer dizer intrigante, surpreendente.",
+        "O que surpreende é o paradoxo: muita velocidade e, mesmo assim, sensação de atraso."
+      ],
+      "porQueErradas": {
+        "0": "O texto mostra que a pressa não resolve.",
+        "1": "\"Curioso\" significa estranho, intrigante.",
+        "2": "As emergências aparecem só no parágrafo anterior.",
+        "3": "Não há dado científico no texto."
+      },
+      "pegadinha": "A palavra \"curioso\" tem sentido de \"estranho\", e não de \"interessado em saber\".",
+      "fonte": "Interpretação de texto: articulação entre parágrafos"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0019",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 1,
+    "texto": "Habituamo-nos a medir o dia pela quantidade de coisas resolvidas. Respondemos mensagens no elevador, ouvimos áudios acelerados, almoçamos diante da tela. A pressa, que já foi uma exceção reservada às emergências, virou estilo de vida.\n\nO curioso é que, apesar de tanta velocidade, a sensação de atraso nunca nos abandona: sempre há uma tarefa pendente, um aviso não lido, um compromisso que escapou. Talvez o problema não esteja no relógio, mas na expectativa de caber tudo nele.\n\nDesacelerar, nesse cenário, não significa preguiça nem descaso. Significa escolher, entre tantas demandas, aquelas que de fato merecem a nossa atenção inteira. Quem tenta fazer tudo ao mesmo tempo frequentemente acaba fazendo tudo pela metade.",
+    "enunciado": "No trecho \"Talvez o problema não esteja no relógio\", a palavra \"Talvez\" indica que o autor",
+    "alternativas": [
+      "apresenta sua ideia como uma hipótese, e não como certeza absoluta.",
+      "nega totalmente a existência de um problema.",
+      "expressa certeza sobre a causa do problema.",
+      "indica o tempo em que o problema ocorreu.",
+      "exprime uma ordem dirigida ao leitor."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "\"Talvez\" é advérbio de dúvida.",
+        "O autor atenua a afirmação, apresentando-a como possibilidade."
+      ],
+      "porQueErradas": {
+        "1": "Ele admite o problema; discute sua causa.",
+        "2": "\"Talvez\" expressa dúvida, possibilidade.",
+        "3": "\"Talvez\" não é advérbio de tempo.",
+        "4": "Não há ordem na frase."
+      },
+      "pegadinha": "Advérbio de dúvida atenua; não transforma a frase em negação.",
+      "fonte": "Gramática: advérbios de dúvida e modalização"
+    },
+    "origem": "gerada"
+  },
+  {
+    "id": "por-0020",
+    "materia": "portugues",
+    "assunto": "Leitura e interpretação de textos",
+    "dificuldade": 2,
+    "texto": "Habituamo-nos a medir o dia pela quantidade de coisas resolvidas. Respondemos mensagens no elevador, ouvimos áudios acelerados, almoçamos diante da tela. A pressa, que já foi uma exceção reservada às emergências, virou estilo de vida.\n\nO curioso é que, apesar de tanta velocidade, a sensação de atraso nunca nos abandona: sempre há uma tarefa pendente, um aviso não lido, um compromisso que escapou. Talvez o problema não esteja no relógio, mas na expectativa de caber tudo nele.\n\nDesacelerar, nesse cenário, não significa preguiça nem descaso. Significa escolher, entre tantas demandas, aquelas que de fato merecem a nossa atenção inteira. Quem tenta fazer tudo ao mesmo tempo frequentemente acaba fazendo tudo pela metade.",
+    "enunciado": "O uso da 1ª pessoa do plural em \"Habituamo-nos\" e \"Respondemos\" tem o efeito de",
+    "alternativas": [
+      "incluir o autor e o leitor no comportamento que está sendo analisado.",
+      "indicar que o texto foi escrito por um grupo de pesquisadores.",
+      "excluir o autor da crítica feita no texto.",
+      "dar ao texto um tom de documento oficial.",
+      "dirigir uma ordem ao leitor."
+    ],
+    "correta": 0,
+    "explicacao": {
+      "passos": [
+        "A 1ª pessoa do plural inclui quem fala e quem lê.",
+        "Assim, o autor aproxima o leitor e admite participar do hábito criticado."
+      ],
+      "porQueErradas": {
+        "1": "É recurso de aproximação, não indicação de autoria coletiva.",
+        "2": "Ao usar \"nós\", o autor se inclui.",
+        "3": "O tom é reflexivo, próximo do leitor.",
+        "4": "Os verbos estão no presente do indicativo, não no imperativo."
+      },
+      "pegadinha": "Plural de modéstia ou de inclusão não significa vários autores.",
+      "fonte": "Interpretação de texto: efeitos de sentido das pessoas do discurso"
+    },
+    "origem": "gerada"
+  }
+]

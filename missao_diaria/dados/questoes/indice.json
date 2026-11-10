@@ -1,0 +1,27 @@
+{
+  "arquivos": [
+    "cge-g1.json",
+    "cge-g2.json",
+    "cge-g3.json",
+    "cge-h1.json",
+    "cge-h2.json",
+    "cge-h3.json",
+    "inf-1.json",
+    "inf-2.json",
+    "inf-3.json",
+    "mat-a1.json",
+    "mat-a2.json",
+    "mat-a3.json",
+    "mat-b1.json",
+    "mat-b2.json",
+    "mat-b3.json",
+    "por-a1.json",
+    "por-a2.json",
+    "por-a3.json",
+    "por-a4.json",
+    "por-b1.json",
+    "por-b2.json",
+    "por-b3.json",
+    "por-b4.json"
+  ]
+}
