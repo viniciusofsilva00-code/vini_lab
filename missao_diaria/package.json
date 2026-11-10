@@ -7,7 +7,10 @@
     "dev": "python3 -m http.server 8010 -d ..",
     "lint": "eslint .",
     "test": "vitest run tests/unit",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "indice": "node scripts/indice.mjs",
+    "pretest": "npm run indice",
+    "pretest:e2e": "npm run indice"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.10.0",

@@ -52,8 +52,8 @@ Questões de provas anteriores · ranking entre amigos · sincronização entre 
 - Cada etapa só está pronta com `npm run lint`, `npm test` e `npm run test:e2e` limpos e a passagem do `revisor`.
 
 ## Etapas
-- [ ] 1. **Esqueleto e tema militar:** pasta, `index.html`, tema oliva sobre o design system, navegação (Hoje · Revisão · Simulado · Painel · Ajustes), ferramentas de dev e entrada em `apps.json` como "em construção". Pronto: abre local e o axe passa limpo.
-- [ ] 2. **Edital e formato da questão:** matérias e pesos conferidos no edital PM-SP mais recente, formato do JSON, validador do banco e lote piloto de 20 questões. Pronto: validador verde e você aprova o estilo das questões.
+- [x] 1. **Esqueleto e tema militar:** pasta, `index.html`, tema oliva sobre o design system, navegação (Hoje · Revisão · Simulado · Painel · Ajustes), ferramentas de dev e entrada em `apps.json` como "em construção". Pronto: abre local e o axe passa limpo.
+- [x] 2. **Edital e formato da questão:** matérias e pesos conferidos no edital PM-SP mais recente, formato do JSON, validador do banco e lote piloto de 20 questões. Pronto: validador verde e você aprova o estilo das questões.
 - [ ] 3. **Motor local:** armazenamento versionado, perfil/meta e sorteio da missão (TDD). Pronto: testes de sorteio cobrindo meta, modo leve e pesos.
 - [ ] 4. **Tela da missão:** responder, correção imediata, explicação e resumo do dia. Pronto: e2e de uma missão completa.
 - [ ] 5. **Revisão espaçada** (TDD) e tela de revisão (erradas, acertadas opcional, filtro por matéria). Pronto: testes das caixas e e2e.
@@ -74,5 +74,5 @@ Questões de provas anteriores · ranking entre amigos · sincronização entre 
 - Banco começa com ~100 questões para validar com o amigo; a meta é ~500 (pedido do Vinicius).
 
 ## Dúvidas em aberto
-- Edital vigente: número de questões, alternativas por questão, matérias e duração da prova (conferir na etapa 2).
+- Resolvido na etapa 2 (edital DP-2/321/25): 60 questões, 5 alternativas, Português 20, Matemática 15, Conhecimentos Gerais 15, Informática 5, Adm. Pública 5; 5h com redação; mínimo 30. Atualidades fica fora do banco (depende de notícias recentes). Edital 2026 (DP-3/321/26) deve manter a estrutura: conferir quando sair o PDF.
 - Nome que aparece no app: "Missão Diária" (o id no vini_lab é `missao_diaria`).
