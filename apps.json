@@ -88,5 +88,14 @@
     "url": "https://entre-nos-plano.pages.dev/",
     "status": "online",
     "ordem": 10
+  },
+  {
+    "id": "edusia",
+    "nome": "edusia",
+    "glifo": "ED",
+    "descricao": "Plano do IA na Prática Online (Edusia): apresentação, plano completo e PDF.",
+    "url": "https://edusia-plano.pages.dev/",
+    "status": "online",
+    "ordem": 11
   }
 ]
