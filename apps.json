@@ -79,5 +79,14 @@
     "url": "https://viniciusofsilva00-code.github.io/vini_lab/missao_diaria/",
     "status": "online",
     "ordem": 9
+  },
+  {
+    "id": "entre_nos",
+    "nome": "entre_nos",
+    "glifo": "EN",
+    "descricao": "Plano de crescimento do Entre Nós: apresentação, plano completo e PDF.",
+    "url": "https://entre-nos-plano.pages.dev/",
+    "status": "online",
+    "ordem": 10
   }
 ]
